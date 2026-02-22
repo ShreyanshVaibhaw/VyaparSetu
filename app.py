@@ -159,8 +159,9 @@ def ensure_synthetic_data() -> None:
     script = root() / "scripts" / "generate_synthetic_data.py"
     try:
         subprocess.run([sys.executable, str(script)], check=True)
-    except Exception:
-        pass
+    except Exception as exc:
+        logger.warning("Synthetic data generation failed, continuing with available datasets: %s", exc)
+        audit_event("synthetic_data_generate", status="error", error=str(exc))
 
 
 @st.cache_resource
@@ -243,18 +244,18 @@ def home_metrics() -> dict[str, int]:
         mse = pd.read_csv(data_path("synthetic", "mse_profiles.csv"))
         out["mse"] = len(mse)
         out["states"] = int(mse["state"].nunique())
-    except Exception:
-        pass
+    except Exception as exc:
+        logger.warning("Failed to load synthetic MSE metrics: %s", exc)
     try:
         out["products"] = len(pd.read_csv(data_path("synthetic", "products.csv")))
-    except Exception:
-        pass
+    except Exception as exc:
+        logger.warning("Failed to load synthetic product metrics: %s", exc)
     try:
         snps = json.loads(data_path("snp_profiles", "snp_database.json").read_text(encoding="utf-8"))
         if isinstance(snps, list):
             out["snps"] = len(snps)
-    except Exception:
-        pass
+    except Exception as exc:
+        logger.warning("Failed to load SNP metrics: %s", exc)
     return out
 
 
@@ -437,7 +438,8 @@ def apply_styles() -> None:
 def system_status() -> tuple[bool, bool]:
     try:
         ollama = llm_client().health_check()
-    except Exception:
+    except Exception as exc:
+        logger.info("Ollama health check unavailable: %s", exc)
         ollama = False
     try:
         from sqlalchemy import create_engine
@@ -446,7 +448,8 @@ def system_status() -> tuple[bool, bool]:
         with engine.connect() as conn:
             conn.exec_driver_sql("SELECT 1")
         postgres = True
-    except Exception:
+    except Exception as exc:
+        logger.info("PostgreSQL health check unavailable: %s", exc)
         postgres = False
     return ollama, postgres
 
@@ -457,7 +460,23 @@ def sidebar() -> str:
         st.markdown(f"**{PROJECT_SANSKRIT}**")
         st.caption("ONDC onboarding suite")
         st.markdown("---")
+
+        lang_options = list(SUPPORTED_LANGUAGES.keys())
+        current_lang = st.session_state.get("language", lang_options[0] if lang_options else "en")
+        if current_lang not in lang_options and lang_options:
+            current_lang = lang_options[0]
+
         nav_lang = _nav_lang()
+        lang_label = "भाषा" if nav_lang == "hi" else "Language"
+        lang = st.selectbox(
+            lang_label,
+            lang_options,
+            index=lang_options.index(current_lang) if lang_options else 0,
+            format_func=lambda x: f"{SUPPORTED_LANGUAGES[x]} ({x})",
+        )
+        st.session_state["language"] = lang
+        nav_lang = _nav_lang()
+
         st.caption("नेविगेशन" if nav_lang == "hi" else "Navigation")
         page = st.radio(
             "Page",
@@ -475,15 +494,6 @@ def sidebar() -> str:
         mode = _runtime_mode(bool(ollama), bool(postgres))
         mode_color = "#138808" if mode == "FULL" else "#CA8A04" if mode == "PARTIAL" else "#EA580C"
         st.markdown(f"**Runtime Mode:** <span style='color:{mode_color}'>{mode}</span>", unsafe_allow_html=True)
-
-        lang_label = "भाषा" if nav_lang == "hi" else "Language"
-        lang = st.selectbox(
-            lang_label,
-            list(SUPPORTED_LANGUAGES.keys()),
-            index=list(SUPPORTED_LANGUAGES.keys()).index(st.session_state["language"]),
-            format_func=lambda x: f"{SUPPORTED_LANGUAGES[x]} ({x})",
-        )
-        st.session_state["language"] = lang
 
         st.caption(
             "Last registration: "
@@ -559,8 +569,13 @@ def _transcribe_audio(audio_obj: Any, language: str, bhashini: BhashiniClient) -
     data = _audio_bytes(audio_obj)
     if not data:
         return ""
-    result = bhashini.transcribe(data, language)
-    return str(result.text or "").strip()
+    try:
+        result = bhashini.transcribe(data, language)
+    except Exception as exc:
+        logger.warning("Voice transcription failed for language '%s': %s", language, exc)
+        audit_event("voice_transcription", status="error", language=language, error=str(exc))
+        return ""
+    return str(getattr(result, "text", "") or "").strip()
 
 
 def render_profile(profile: MSEProfile) -> None:
@@ -589,10 +604,19 @@ def _temp_file_path(suffix: str) -> str:
         return tmp.name
 
 
+def _safe_unlink(path: str | Path) -> None:
+    try:
+        Path(path).unlink(missing_ok=True)
+    except Exception as exc:
+        logger.warning("Failed to remove temporary file '%s': %s", path, exc)
+
+
 def _read_and_cleanup(path: str) -> bytes:
-    data = Path(path).read_bytes()
-    Path(path).unlink(missing_ok=True)
-    return data
+    file_path = Path(path)
+    try:
+        return file_path.read_bytes()
+    finally:
+        _safe_unlink(file_path)
 
 
 def registration_pdf_bytes(registration: Any) -> bytes:
@@ -637,7 +661,8 @@ def _load_json_if_exists(path: Path) -> dict[str, Any]:
     try:
         payload = json.loads(path.read_text(encoding="utf-8"))
         return payload if isinstance(payload, dict) else {}
-    except Exception:
+    except Exception as exc:
+        logger.warning("Failed to parse JSON file '%s': %s", path, exc)
         return {}
 
 
@@ -735,7 +760,10 @@ def fetch_profile(udyam_num: str, cert_file: Any, demo: str, stack: dict[str, An
 
     if cert_file is not None:
         cert_path = save_upload(cert_file)
-        info = ocr.extract_from_certificate(cert_path)
+        try:
+            info = ocr.extract_from_certificate(cert_path)
+        finally:
+            _safe_unlink(cert_path)
         if info.get("udyam_number"):
             return fetcher.fetch_by_udyam_number(str(info["udyam_number"])), "Fetched via OCR + Udyam"
         return None, "OCR could not extract a valid Udyam number"
@@ -943,12 +971,23 @@ def page_register() -> None:
             else:
                 image_paths: list[str] = []
                 for file in (imgs or [])[:5]:
+                    upload_path = ""
                     try:
-                        p = save_upload(file)
-                        if v["image"].validate_image(p)["valid"]:
-                            image_paths.append(v["image"].process_product_image(p))
-                    except Exception:
-                        pass
+                        upload_path = save_upload(file)
+                        validation = v["image"].validate_image(upload_path)
+                        if validation.get("valid"):
+                            image_paths.append(v["image"].process_product_image(upload_path))
+                        else:
+                            logger.info(
+                                "Skipped invalid image '%s': %s",
+                                getattr(file, "name", "upload"),
+                                ", ".join(validation.get("issues", [])),
+                            )
+                    except Exception as exc:
+                        logger.warning("Image processing failed for '%s': %s", getattr(file, "name", "upload"), exc)
+                    finally:
+                        if upload_path:
+                            _safe_unlink(upload_path)
 
                 req = ProductGenerationRequest(
                     mse_udyam=profile.udyam_number,
@@ -1409,7 +1448,11 @@ def page_prakriti() -> None:
     v = vastrasuchi_stack()
     enterprise = st.text_input("Enterprise name", value="Prakriti Demo Enterprise")
     desc = st.text_area("Describe your product")
-    lang = st.selectbox("Language", list(SUPPORTED_LANGUAGES.keys()), index=1)
+    lang_options = list(SUPPORTED_LANGUAGES.keys())
+    default_lang = st.session_state.get("language", lang_options[0] if lang_options else "en")
+    if default_lang not in lang_options and lang_options:
+        default_lang = lang_options[0]
+    lang = st.selectbox("Language", lang_options, index=lang_options.index(default_lang) if lang_options else 0)
     mic_audio = _audio_input_widget("Or speak product details", key="prakriti_mic_audio")
     pics = st.file_uploader("Upload photos", type=["png", "jpg", "jpeg", "webp"], accept_multiple_files=True)
 
@@ -1453,10 +1496,23 @@ def page_prakriti() -> None:
                 )
                 img_paths = []
                 for pic in (pics or [])[:5]:
+                    upload_path = ""
                     try:
-                        img_paths.append(save_upload(pic))
-                    except Exception:
-                        pass
+                        upload_path = save_upload(pic)
+                        validation = v["image"].validate_image(upload_path)
+                        if validation.get("valid"):
+                            img_paths.append(v["image"].process_product_image(upload_path))
+                        else:
+                            logger.info(
+                                "Quick catalog skipped invalid image '%s': %s",
+                                getattr(pic, "name", "upload"),
+                                ", ".join(validation.get("issues", [])),
+                            )
+                    except Exception as exc:
+                        logger.warning("Quick catalog image handling failed for '%s': %s", getattr(pic, "name", "upload"), exc)
+                    finally:
+                        if upload_path:
+                            _safe_unlink(upload_path)
                 req = ProductGenerationRequest(
                     mse_udyam=profile.udyam_number,
                     product_description_raw=final_desc,

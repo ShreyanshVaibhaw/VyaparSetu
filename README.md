@@ -85,6 +85,10 @@ GitHub Actions workflow runs:
 - `pytest -q -p no:cacheprovider`
 - `python -m compileall -q src tests app.py scripts config.py`
 
+Local verification:
+- `python -m pytest -q -p no:cacheprovider`
+- `python -m compileall -q src tests app.py scripts config.py`
+
 ## Validation Utilities
 - Reference data checks: `python scripts/validate_reference_data.py`
 - Narrated demo script: `python scripts/demo_video_script.py`

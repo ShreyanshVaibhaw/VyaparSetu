@@ -6,11 +6,15 @@ import re
 from typing import Any
 from uuid import uuid4
 
+from src.common.logger import get_logger
 from src.common.models import ConversationState
 from src.llm.prompt_templates import (
     CONVERSATIONAL_FORM_TEMPLATE,
     SYSTEM_PROMPT_VYAPARSETU,
 )
+
+
+logger = get_logger(__name__)
 
 
 class ConversationEngine:
@@ -96,7 +100,8 @@ class ConversationEngine:
                     registration = self.reg.auto_register(state.mse_udyam, language=state.language)
                     registration_id = registration.registration_id
                     status = registration.registration_status
-                except Exception:
+                except Exception as exc:
+                    logger.warning("Conversation auto-registration failed, continuing with draft status: %s", exc)
                     status = "Draft"
             state.collected_data["registration_id"] = registration_id
             state.collected_data["registration_status"] = status
@@ -137,7 +142,8 @@ class ConversationEngine:
         try:
             data = self.llm.generate_json(prompt=prompt, system=SYSTEM_PROMPT_VYAPARSETU)
             return data.get("extracted_fields", {}) if isinstance(data, dict) else {}
-        except Exception:
+        except Exception as exc:
+            logger.warning("Conversation field extraction fallback used: %s", exc)
             return {}
 
     def _merge_extracted(self, state: ConversationState, extracted: dict[str, Any]) -> None:

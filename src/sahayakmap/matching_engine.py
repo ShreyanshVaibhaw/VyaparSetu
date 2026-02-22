@@ -6,8 +6,12 @@ from datetime import datetime, timezone
 from typing import Any
 from uuid import uuid4
 
+from src.common.logger import get_logger
 from src.common.models import MSEProfile, SNPMatch, SNPProfile
 from src.llm.prompt_templates import SNP_EXPLANATION_TEMPLATE, SYSTEM_PROMPT_VYAPARSETU
+
+
+logger = get_logger(__name__)
 
 
 class SNPMatchingEngine:
@@ -144,8 +148,8 @@ class SNPMatchingEngine:
                 data.setdefault("pros", [])
                 data.setdefault("cons", [])
                 return data
-        except Exception:
-            pass
+        except Exception as exc:
+            logger.warning("SNP explanation LLM call failed, using deterministic fallback: %s", exc)
 
         return {
             "explanation": (

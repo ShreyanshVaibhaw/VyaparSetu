@@ -9,6 +9,10 @@ from typing import Any
 import requests
 
 from config import BHASHINI_API_URL, BHASHINI_INFERENCE_URL
+from src.common.logger import get_logger
+
+
+logger = get_logger(__name__)
 
 
 @dataclass
@@ -96,7 +100,8 @@ class BhashiniClient:
             if response.content:
                 return response.content
             return self.mock.text_to_speech(text, language)
-        except Exception:
+        except Exception as exc:
+            logger.warning("Bhashini TTS failed, using mock output: %s", exc)
             return self.mock.text_to_speech(text, language)
 
     def translate(self, text: str, source_lang: str, target_lang: str) -> str:
@@ -113,7 +118,8 @@ class BhashiniClient:
             if isinstance(translated, str) and translated:
                 return translated
             return text
-        except Exception:
+        except Exception as exc:
+            logger.warning("Bhashini translation failed, returning source text: %s", exc)
             return text
 
     # Backward-compatible alias used in earlier scaffold.

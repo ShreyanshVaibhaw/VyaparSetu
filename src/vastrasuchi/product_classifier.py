@@ -7,6 +7,11 @@ import re
 from pathlib import Path
 from typing import Any
 
+from src.common.logger import get_logger
+
+
+logger = get_logger(__name__)
+
 
 class ProductClassifier:
     """Classify product descriptions into ONDC taxonomy levels."""
@@ -101,8 +106,8 @@ class ProductClassifier:
                         path["alternatives"] = []
                     results.append(path)
                 return results
-        except Exception:
-            pass
+        except Exception as exc:
+            logger.warning("Batch product classification failed, falling back to per-item mode: %s", exc)
 
         return [self.classify(product, business_nic=business_nic) for product in products]
 
@@ -185,8 +190,8 @@ class ProductClassifier:
                     "l2": data.get("l2") or data.get("category_l2") or data.get("primary_category_l2"),
                     "l3": data.get("l3") or data.get("category_l3"),
                 }
-        except Exception:
-            pass
+        except Exception as exc:
+            logger.warning("LLM product classification fallback used: %s", exc)
         return {"l1": None, "l2": None, "l3": None}
 
     def _is_valid_path(self, l1: Any, l2: Any, l3: Any) -> bool:
