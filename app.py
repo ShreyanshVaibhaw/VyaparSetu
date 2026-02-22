@@ -6,6 +6,7 @@ import hashlib
 import hmac
 import json
 import os
+import re
 import subprocess
 import sys
 import tempfile
@@ -331,14 +332,67 @@ def apply_styles() -> None:
         """
         <style>
         @import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;600;700&family=Space+Grotesk:wght@400;600;700&display=swap');
+        :root {
+            --vs-navy: #0b1f44;
+            --vs-saffron: #f59e0b;
+            --vs-green: #138808;
+            --vs-muted: #51607a;
+            --vs-card: #ffffff;
+            --vs-border: #dde6f5;
+        }
         html, body, [class*="css"] {
             font-family: 'Hind', sans-serif;
-            background: radial-gradient(circle at 10% 10%, #fff8ed 0%, #f8fafc 40%, #eef5ff 100%);
-            color: #000080;
+            background: radial-gradient(circle at 8% 10%, #fff7ea 0%, #f7fafc 45%, #edf4ff 100%);
+            color: var(--vs-navy);
         }
-        h1,h2,h3,h4 { font-family: 'Space Grotesk', sans-serif; color: #000080; }
-        .card { background:#fff; border:1px solid #e8ecf7; border-left:6px solid #FF9933; border-radius:14px; padding:12px; box-shadow:0 10px 20px rgba(0,0,80,0.08); margin-bottom:8px; }
-        .chip { display:inline-block; border-radius:999px; padding:2px 10px; background:#eef6ff; border:1px solid #d8e8ff; margin:3px; }
+        h1,h2,h3,h4 {
+            font-family: 'Space Grotesk', sans-serif;
+            color: var(--vs-navy);
+            letter-spacing: 0.2px;
+        }
+        .stAppHeader {
+            background: linear-gradient(90deg, rgba(255,255,255,0.6), rgba(255,255,255,0.2));
+        }
+        .card {
+            background: var(--vs-card);
+            border: 1px solid var(--vs-border);
+            border-left: 6px solid var(--vs-saffron);
+            border-radius: 14px;
+            padding: 14px;
+            box-shadow: 0 8px 24px rgba(11, 31, 68, 0.08);
+            margin-bottom: 10px;
+        }
+        .voice-card {
+            background: linear-gradient(135deg, #fff8ee 0%, #ffffff 60%, #eaf7ff 100%);
+            border: 1px solid #f2dfc3;
+            border-left: 6px solid #fb923c;
+            border-radius: 14px;
+            padding: 14px;
+            margin-bottom: 12px;
+        }
+        .chip {
+            display:inline-block;
+            border-radius:999px;
+            padding:2px 10px;
+            background:#eef6ff;
+            border:1px solid #d8e8ff;
+            margin:3px;
+        }
+        .subtle {
+            color: var(--vs-muted);
+            font-size: 0.95rem;
+        }
+        [data-testid="stSidebar"] {
+            border-right: 1px solid #e4eaf6;
+            background: linear-gradient(180deg, #fefefe 0%, #f5f9ff 100%);
+        }
+        .stButton > button {
+            border-radius: 10px;
+            border: 1px solid #cfdcf0;
+        }
+        .stDownloadButton > button {
+            border-radius: 10px;
+        }
         </style>
         """,
         unsafe_allow_html=True,
@@ -426,6 +480,44 @@ def save_upload(uploaded_file: Any) -> str:
     with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as tmp:
         tmp.write(uploaded_file.getbuffer())
         return tmp.name
+
+
+def _audio_input_widget(label: str, key: str) -> Any:
+    if hasattr(st, "audio_input"):
+        return st.audio_input(label, key=key)
+    return st.file_uploader(f"{label} (Upload audio file)", type=["wav", "mp3", "m4a"], key=f"{key}_file")
+
+
+def _audio_bytes(audio_obj: Any) -> bytes:
+    if audio_obj is None:
+        return b""
+    if hasattr(audio_obj, "getvalue"):
+        data = audio_obj.getvalue()
+        return data if isinstance(data, (bytes, bytearray)) else b""
+    if isinstance(audio_obj, (bytes, bytearray)):
+        return bytes(audio_obj)
+    return b""
+
+
+def _extract_udyam_from_text(text: str) -> str | None:
+    match = re.search(r"UDYAM-[A-Z]{2}-[0-9]{2}-[0-9]{7}", text.upper())
+    return match.group(0) if match else None
+
+
+def _voice_product_hint(text: str, udyam: str | None = None) -> str:
+    cleaned = text.strip()
+    if udyam:
+        cleaned = cleaned.replace(udyam, " ")
+    cleaned = re.sub(r"\s+", " ", cleaned).strip(" ,.-")
+    return cleaned
+
+
+def _transcribe_audio(audio_obj: Any, language: str, bhashini: BhashiniClient) -> str:
+    data = _audio_bytes(audio_obj)
+    if not data:
+        return ""
+    result = bhashini.transcribe(data, language)
+    return str(result.text or "").strip()
 
 
 def render_profile(profile: MSEProfile) -> None:
@@ -620,7 +712,17 @@ def page_register() -> None:
     s = sahayakmap_stack()
 
     st.markdown("## Register & Onboard")
+    st.markdown("<p class='subtle'>Professional guided onboarding with voice-first automation for MSMEs.</p>", unsafe_allow_html=True)
     step_tracker(st.session_state["onboarding_step"])
+
+    st.markdown(
+        """
+        <div class='card' style='border-left-color:#2563eb;'>
+          <b>Quick Guide:</b> 1) Capture business profile 2) Generate ONDC catalog 3) Match best SNP 4) Submit package.
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
     st.markdown("### Step 1: Enter Udyam Number")
     c1, c2 = st.columns([2, 1])
@@ -631,6 +733,7 @@ def page_register() -> None:
         demo_pick = st.selectbox("Use Demo MSE", ["Select demo MSE"] + [f"{d['udyam_number']} | {d['enterprise_name']}" for d in demos[:20]])
     with c2:
         st.info(f"Language: {SUPPORTED_LANGUAGES.get(st.session_state['language'], 'English')}")
+        voice_onboard_audio = _audio_input_widget("Voice Onboarding (Speak Udyam + products)", key="voice_onboard_audio")
 
     if st.button("Fetch Details", type="primary", use_container_width=True):
         ok, wait_seconds = _throttle_action("fetch_details")
@@ -656,6 +759,67 @@ def page_register() -> None:
             except Exception as exc:
                 audit_event("onboarding_fetch_profile", status="error", error=str(exc))
                 st.error(f"Fetch failed: {exc}")
+
+    if st.button("Auto-Onboard from Voice", use_container_width=True):
+        ok, wait_seconds = _throttle_action("auto_voice_onboard", cooldown_seconds=2.0)
+        if not ok:
+            st.warning(f"Please wait {wait_seconds:.1f}s before retrying.")
+            return
+        transcript = _transcribe_audio(voice_onboard_audio, st.session_state["language"], u["bhashini"])
+        if not transcript:
+            st.error("No voice input detected. Please record and retry.")
+            return
+
+        with st.spinner("Processing your voice and preparing onboarding..."):
+            try:
+                detected_udyam = _extract_udyam_from_text(transcript)
+                if not detected_udyam:
+                    st.error("Could not detect Udyam number from voice. Please speak it clearly.")
+                    audit_event("voice_auto_onboard", status="failed", reason="udyam_not_detected")
+                    return
+
+                profile = u["fetcher"].fetch_by_udyam_number(detected_udyam)
+                st.session_state["mse_profile"] = profile
+                st.session_state["classification"] = u["classifier"].classify_hybrid(profile)
+                st.session_state["onboarding_step"] = 3
+
+                product_text = _voice_product_hint(transcript, detected_udyam)
+                if product_text:
+                    req = ProductGenerationRequest(
+                        mse_udyam=profile.udyam_number,
+                        product_description_raw=product_text,
+                        product_images=[],
+                        language=st.session_state["language"],
+                        category_hint=st.session_state["classification"]["primary_l1"],
+                    )
+                    item = v["generator"].generate_catalog_item(req, profile)
+                    st.session_state["catalog_items"] = [item]
+                    st.session_state["onboarding_step"] = 4
+
+                    matches = s["engine"].match(
+                        profile,
+                        [item.category_l1],
+                        tech_comfort="medium",
+                        transaction_type="B2C",
+                        top_k=3,
+                    )
+                    st.session_state["snp_matches"] = matches
+                    if matches:
+                        st.session_state["selected_snp"] = matches[0].snp_id
+                        st.session_state["onboarding_step"] = 5
+
+                st.success("Voice onboarding complete. Review details below.")
+                st.caption(f"Transcript: {transcript}")
+                audit_event(
+                    "voice_auto_onboard",
+                    status="success",
+                    udyam_masked=_mask_identifier(profile.udyam_number),
+                    auto_catalog=bool(st.session_state.get("catalog_items")),
+                    auto_matches=len(st.session_state.get("snp_matches", [])),
+                )
+            except Exception as exc:
+                audit_event("voice_auto_onboard", status="error", error=str(exc))
+                st.error(f"Voice auto-onboarding failed: {exc}")
 
     profile: MSEProfile | None = st.session_state["mse_profile"]
     if not profile:
@@ -701,7 +865,14 @@ def page_register() -> None:
     with t2:
         imgs = st.file_uploader("Upload photos (up to 5)", type=["png", "jpg", "jpeg", "webp"], accept_multiple_files=True)
     with t3:
-        audio = st.file_uploader("Upload audio", type=["wav", "mp3", "m4a"], help="Demo alternative to recorder")
+        st.markdown("<div class='voice-card'><b>Voice Input</b><br/>Speak naturally in your language. We will transcribe and generate catalog details.</div>", unsafe_allow_html=True)
+        mic_audio = _audio_input_widget("Record product details", key="catalog_mic_audio")
+        uploaded_audio = st.file_uploader(
+            "Or upload audio file",
+            type=["wav", "mp3", "m4a"],
+            help="Use this if microphone is unavailable.",
+            key="catalog_uploaded_audio",
+        )
     with t4:
         demo_prod = st.selectbox("Demo Product", [""] + DEMO_PRODUCTS)
 
@@ -712,9 +883,8 @@ def page_register() -> None:
             return
         t0 = time.perf_counter()
         try:
-            voice_text = ""
-            if audio is not None:
-                voice_text = u["bhashini"].transcribe(audio.getvalue(), st.session_state["language"]).text
+            voice_source = mic_audio if mic_audio is not None else uploaded_audio
+            voice_text = _transcribe_audio(voice_source, st.session_state["language"], u["bhashini"])
 
             text = raw.strip() or voice_text.strip() or demo_prod.strip()
             if not text:
@@ -1183,12 +1353,13 @@ def quick_preview(item: ONDCCatalogItem, formatter: ONDCFormatter) -> dict[str, 
 
 def page_prakriti() -> None:
     st.markdown("## Prakriti Assessment - Quick Catalog")
-    st.caption("Standalone quick catalog builder without full registration")
+    st.caption("Standalone quick catalog builder without full registration. Type or speak and generate.")
 
     v = vastrasuchi_stack()
     enterprise = st.text_input("Enterprise name", value="Prakriti Demo Enterprise")
     desc = st.text_area("Describe your product")
     lang = st.selectbox("Language", list(SUPPORTED_LANGUAGES.keys()), index=1)
+    mic_audio = _audio_input_widget("Or speak product details", key="prakriti_mic_audio")
     pics = st.file_uploader("Upload photos", type=["png", "jpg", "jpeg", "webp"], accept_multiple_files=True)
 
     if st.button("Generate Quick Catalog", type="primary"):
@@ -1196,7 +1367,9 @@ def page_prakriti() -> None:
         if not ok:
             st.warning(f"Please wait {wait_seconds:.1f}s before generating again.")
             return
-        if not desc.strip():
+        voice_text = _transcribe_audio(mic_audio, lang, udyambodh_stack()["bhashini"])
+        final_desc = desc.strip() or voice_text.strip()
+        if not final_desc:
             st.error("Please describe the product")
         else:
             try:
@@ -1225,7 +1398,7 @@ def page_prakriti() -> None:
                     social_category=None,
                     is_women_owned=False,
                     language_preference=lang,
-                    products_services=[desc[:40]],
+                    products_services=[final_desc[:40]],
                 )
                 img_paths = []
                 for pic in (pics or [])[:5]:
@@ -1235,7 +1408,7 @@ def page_prakriti() -> None:
                         pass
                 req = ProductGenerationRequest(
                     mse_udyam=profile.udyam_number,
-                    product_description_raw=desc,
+                    product_description_raw=final_desc,
                     product_images=img_paths,
                     language=lang,
                     category_hint=None,
@@ -1248,6 +1421,7 @@ def page_prakriti() -> None:
                     "quick_catalog_generate",
                     status="success",
                     enterprise=enterprise[:60],
+                    used_voice=bool(voice_text.strip()),
                     category_l1=item.category_l1,
                     hsn_code=item.hsn_code,
                 )
