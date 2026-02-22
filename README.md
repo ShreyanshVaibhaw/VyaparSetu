@@ -56,6 +56,7 @@ VyaparSetu is designed with privacy-by-default principles aligned with India’s
 - `FULL`: Docker + Ollama + PostgreSQL (best experience)
 - `PARTIAL`: Ollama only with SQLite/in-memory fallback behavior
 - `DEMO`: No external services; cached responses and synthetic data
+- Sidebar controls: language selection (`Hindi/English/...`) and UI theme (`Professional Light`, `Executive Dark`, `High Contrast`)
 
 ## Competition Readiness
 - New dashboard page: `Competition Readiness` in Streamlit for jury-facing scorecards.

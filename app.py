@@ -96,6 +96,56 @@ PAGE_LABELS = {
         "about": "परिचय",
     },
 }
+UI_THEMES: dict[str, dict[str, str]] = {
+    "Professional Light": {
+        "bg_main": "radial-gradient(circle at 8% 10%, #fff7ea 0%, #f7fafc 45%, #edf4ff 100%)",
+        "bg_sidebar": "linear-gradient(180deg, #fefefe 0%, #f5f9ff 100%)",
+        "text": "#0f172a",
+        "heading": "#0b1f44",
+        "muted": "#51607a",
+        "card_bg": "#ffffff",
+        "card_border": "#dde6f5",
+        "chip_bg": "#eef6ff",
+        "chip_border": "#d8e8ff",
+        "accent": "#f59e0b",
+        "accent_alt": "#fb923c",
+        "button_bg": "#ffffff",
+        "button_text": "#0b1f44",
+        "button_border": "#cfdcf0",
+    },
+    "Executive Dark": {
+        "bg_main": "radial-gradient(circle at 20% 10%, #0f172a 0%, #09101f 55%, #070d1a 100%)",
+        "bg_sidebar": "linear-gradient(180deg, #0f172a 0%, #111b2f 100%)",
+        "text": "#e5ecf8",
+        "heading": "#f8fbff",
+        "muted": "#9fb1d3",
+        "card_bg": "#16233b",
+        "card_border": "#2a3b5d",
+        "chip_bg": "#1f3253",
+        "chip_border": "#34507d",
+        "accent": "#f59e0b",
+        "accent_alt": "#60a5fa",
+        "button_bg": "#1f3253",
+        "button_text": "#f8fbff",
+        "button_border": "#34507d",
+    },
+    "High Contrast": {
+        "bg_main": "#ffffff",
+        "bg_sidebar": "#f3f4f6",
+        "text": "#111111",
+        "heading": "#000000",
+        "muted": "#374151",
+        "card_bg": "#ffffff",
+        "card_border": "#111111",
+        "chip_bg": "#ffffff",
+        "chip_border": "#111111",
+        "accent": "#111111",
+        "accent_alt": "#0f766e",
+        "button_bg": "#ffffff",
+        "button_text": "#111111",
+        "button_border": "#111111",
+    },
+}
 DEMO_PRODUCTS = [
     "aam ka achaar, ghar ka bana hua, 500 gram, desi ghee mein",
     "Pure silk Kanchipuram saree, 6.5 meter, with zari border",
@@ -113,6 +163,11 @@ def _page_label(page_key: str, lang: str | None = None) -> str:
     current_lang = lang or _nav_lang()
     labels = PAGE_LABELS.get(current_lang, PAGE_LABELS["en"])
     return labels.get(page_key, page_key)
+
+
+def _active_theme_name() -> str:
+    name = str(st.session_state.get("ui_theme", "Professional Light"))
+    return name if name in UI_THEMES else "Professional Light"
 
 
 def _env_int(name: str, default: int) -> int:
@@ -277,6 +332,8 @@ def init_state() -> None:
         "last_action_ts": {},
         "admin_fail_count": 0,
         "admin_lock_until": 0.0,
+        "ui_theme": "Professional Light",
+        "nav_page": "home",
     }
     for k, v in defaults.items():
         st.session_state.setdefault(k, v)
@@ -364,26 +421,42 @@ def _score_color(score: float) -> str:
 
 
 def apply_styles() -> None:
+    theme = UI_THEMES[_active_theme_name()]
     st.markdown(
-        """
+        f"""
         <style>
         @import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;600;700&family=Space+Grotesk:wght@400;600;700&display=swap');
         :root {
-            --vs-navy: #0b1f44;
-            --vs-saffron: #f59e0b;
+            --vs-text: {theme["text"]};
+            --vs-heading: {theme["heading"]};
+            --vs-muted: {theme["muted"]};
+            --vs-saffron: {theme["accent"]};
+            --vs-accent-alt: {theme["accent_alt"]};
             --vs-green: #138808;
-            --vs-muted: #51607a;
-            --vs-card: #ffffff;
-            --vs-border: #dde6f5;
+            --vs-card: {theme["card_bg"]};
+            --vs-border: {theme["card_border"]};
+            --vs-chip-bg: {theme["chip_bg"]};
+            --vs-chip-border: {theme["chip_border"]};
+            --vs-button-bg: {theme["button_bg"]};
+            --vs-button-text: {theme["button_text"]};
+            --vs-button-border: {theme["button_border"]};
+            --vs-bg-main: {theme["bg_main"]};
+            --vs-bg-sidebar: {theme["bg_sidebar"]};
         }
-        html, body, [class*="css"] {
+        html, body, .stApp, [data-testid="stAppViewContainer"] {
             font-family: 'Hind', sans-serif;
-            background: radial-gradient(circle at 8% 10%, #fff7ea 0%, #f7fafc 45%, #edf4ff 100%);
-            color: var(--vs-navy);
+            background: var(--vs-bg-main) !important;
+            color: var(--vs-text) !important;
+        }
+        [data-testid="stAppViewContainer"] > .main {
+            background: transparent !important;
+        }
+        [data-testid="stMarkdownContainer"], .stCaption, .stText, .stMetricLabel, .stMetricValue {
+            color: var(--vs-text) !important;
         }
         h1,h2,h3,h4 {
             font-family: 'Space Grotesk', sans-serif;
-            color: var(--vs-navy);
+            color: var(--vs-heading) !important;
             letter-spacing: 0.2px;
         }
         .stAppHeader {
@@ -398,36 +471,53 @@ def apply_styles() -> None:
             box-shadow: 0 8px 24px rgba(11, 31, 68, 0.08);
             margin-bottom: 10px;
         }
+        .card, .card * {
+            color: var(--vs-heading) !important;
+        }
         .voice-card {
-            background: linear-gradient(135deg, #fff8ee 0%, #ffffff 60%, #eaf7ff 100%);
-            border: 1px solid #f2dfc3;
-            border-left: 6px solid #fb923c;
+            background: linear-gradient(135deg, var(--vs-card) 0%, var(--vs-card) 70%, rgba(59, 130, 246, 0.08) 100%);
+            border: 1px solid var(--vs-border);
+            border-left: 6px solid var(--vs-accent-alt);
             border-radius: 14px;
             padding: 14px;
             margin-bottom: 12px;
+        }
+        .voice-card, .voice-card * {
+            color: var(--vs-heading) !important;
         }
         .chip {
             display:inline-block;
             border-radius:999px;
             padding:2px 10px;
-            background:#eef6ff;
-            border:1px solid #d8e8ff;
+            background:var(--vs-chip-bg);
+            border:1px solid var(--vs-chip-border);
             margin:3px;
+            color: var(--vs-heading) !important;
         }
         .subtle {
             color: var(--vs-muted);
             font-size: 0.95rem;
         }
         [data-testid="stSidebar"] {
-            border-right: 1px solid #e4eaf6;
-            background: linear-gradient(180deg, #fefefe 0%, #f5f9ff 100%);
+            border-right: 1px solid var(--vs-border);
+            background: var(--vs-bg-sidebar) !important;
+        }
+        [data-testid="stSidebar"] * {
+            color: var(--vs-heading);
         }
         .stButton > button {
             border-radius: 10px;
-            border: 1px solid #cfdcf0;
+            border: 1px solid var(--vs-button-border);
+            background: var(--vs-button-bg);
+            color: var(--vs-button-text);
         }
         .stDownloadButton > button {
             border-radius: 10px;
+            border: 1px solid var(--vs-button-border);
+            color: var(--vs-button-text);
+        }
+        [data-testid="stSelectbox"] label, [data-testid="stRadio"] label {
+            color: var(--vs-heading) !important;
         }
         </style>
         """,
@@ -462,20 +552,24 @@ def sidebar() -> str:
         st.markdown("---")
 
         lang_options = list(SUPPORTED_LANGUAGES.keys())
-        current_lang = st.session_state.get("language", lang_options[0] if lang_options else "en")
-        if current_lang not in lang_options and lang_options:
-            current_lang = lang_options[0]
+        if st.session_state.get("language") not in lang_options and lang_options:
+            st.session_state["language"] = lang_options[0]
 
         nav_lang = _nav_lang()
         lang_label = "भाषा" if nav_lang == "hi" else "Language"
         lang = st.selectbox(
             lang_label,
             lang_options,
-            index=lang_options.index(current_lang) if lang_options else 0,
+            key="language",
             format_func=lambda x: f"{SUPPORTED_LANGUAGES[x]} ({x})",
         )
-        st.session_state["language"] = lang
-        nav_lang = _nav_lang()
+        nav_lang = "hi" if lang == "hi" else "en"
+
+        theme_label = "थीम" if nav_lang == "hi" else "Theme"
+        theme_options = list(UI_THEMES.keys())
+        if st.session_state.get("ui_theme") not in theme_options:
+            st.session_state["ui_theme"] = "Professional Light"
+        st.selectbox(theme_label, theme_options, key="ui_theme")
 
         st.caption("नेविगेशन" if nav_lang == "hi" else "Navigation")
         page = st.radio(
@@ -483,6 +577,7 @@ def sidebar() -> str:
             PAGE_KEYS,
             format_func=lambda key: _page_label(key, nav_lang),
             label_visibility="collapsed",
+            key="nav_page",
         )
 
         ollama, postgres = system_status()
@@ -1693,10 +1788,10 @@ MSE Input (Udyam/Voice/Text)
 
 def main() -> None:
     st.set_page_config(page_title="VyaparSetu - व्यापारसेतु", page_icon="🏪", layout="wide")
-    apply_styles()
     init_state()
-
     page = sidebar()
+    apply_styles()
+
     try:
         if page == "home":
             page_home()
