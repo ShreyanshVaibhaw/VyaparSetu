@@ -1,0 +1,23 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local env / secrets
+.env
+*.env.local
+
+# Runtime artifacts
+outputs/
+*.db
+*.sqlite
+*.sqlite3
+
+# Local legacy folder from previous layout
+vyaparsetu/
+
+# Editor/system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

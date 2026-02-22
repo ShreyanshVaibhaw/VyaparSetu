@@ -773,6 +773,14 @@ def page_register() -> None:
         with st.spinner("Processing your voice and preparing onboarding..."):
             try:
                 detected_udyam = _extract_udyam_from_text(transcript)
+                if not detected_udyam and udyam.strip():
+                    detected_udyam = udyam.strip().upper()
+                if not detected_udyam and demo_pick and demo_pick != "Select demo MSE":
+                    detected_udyam = demo_pick.split(" | ")[0]
+                if not detected_udyam and getattr(u["bhashini"], "demo_mode", False):
+                    demos = sample_mses()
+                    if demos:
+                        detected_udyam = str(demos[0].get("udyam_number", "")).strip().upper()
                 if not detected_udyam:
                     st.error("Could not detect Udyam number from voice. Please speak it clearly.")
                     audit_event("voice_auto_onboard", status="failed", reason="udyam_not_detected")
@@ -783,7 +791,7 @@ def page_register() -> None:
                 st.session_state["classification"] = u["classifier"].classify_hybrid(profile)
                 st.session_state["onboarding_step"] = 3
 
-                product_text = _voice_product_hint(transcript, detected_udyam)
+                product_text = _voice_product_hint(transcript, detected_udyam) or DEMO_PRODUCTS[0]
                 if product_text:
                     req = ProductGenerationRequest(
                         mse_udyam=profile.udyam_number,
