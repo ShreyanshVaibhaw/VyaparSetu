@@ -1,0 +1,555 @@
+{
+  "categories": [
+    {
+      "l1": "Food & Beverage",
+      "l2_categories": [
+        {
+          "l2": "Packaged Foods",
+          "l3_categories": [
+            "Snacks & Namkeen",
+            "Pickles & Chutneys",
+            "Spices & Masala",
+            "Sweets & Mithai",
+            "Ready-to-Eat"
+          ]
+        },
+        {
+          "l2": "Fresh Foods",
+          "l3_categories": [
+            "Fruits",
+            "Vegetables",
+            "Dairy & Eggs",
+            "Meat & Poultry",
+            "Seafood"
+          ]
+        },
+        {
+          "l2": "Beverages",
+          "l3_categories": [
+            "Tea & Coffee",
+            "Juices",
+            "Health Drinks",
+            "Soft Drinks",
+            "Water"
+          ]
+        },
+        {
+          "l2": "Bakery & Confectionery",
+          "l3_categories": [
+            "Bread",
+            "Cookies",
+            "Cakes",
+            "Chocolate",
+            "Candies"
+          ]
+        },
+        {
+          "l2": "Regional Specialties",
+          "l3_categories": [
+            "Regional Specialties Item 1",
+            "Regional Specialties Item 2",
+            "Regional Specialties Item 3",
+            "Regional Specialties Item 4",
+            "Regional Specialties Item 5"
+          ]
+        }
+      ]
+    },
+    {
+      "l1": "Grocery",
+      "l2_categories": [
+        {
+          "l2": "Basics",
+          "l3_categories": [
+            "Rice",
+            "Dal & Pulses",
+            "Flour & Atta",
+            "Oil & Ghee",
+            "Sugar & Jaggery"
+          ]
+        },
+        {
+          "l2": "FMCG",
+          "l3_categories": [
+            "Personal Care",
+            "Hair Care",
+            "Oral Care",
+            "Household Cleaning",
+            "Laundry"
+          ]
+        },
+        {
+          "l2": "Puja Needs",
+          "l3_categories": [
+            "Agarbatti & Dhoop",
+            "Diyas & Candles",
+            "Camphor",
+            "Pooja Oils",
+            "Cotton Wicks"
+          ]
+        },
+        {
+          "l2": "Daily Essentials",
+          "l3_categories": [
+            "Tissues",
+            "Garbage Bags",
+            "Matches",
+            "Repellents",
+            "Foil & Wrap"
+          ]
+        },
+        {
+          "l2": "Bulk Supplies",
+          "l3_categories": [
+            "Bulk Supplies Item 1",
+            "Bulk Supplies Item 2",
+            "Bulk Supplies Item 3",
+            "Bulk Supplies Item 4",
+            "Bulk Supplies Item 5"
+          ]
+        }
+      ]
+    },
+    {
+      "l1": "Fashion",
+      "l2_categories": [
+        {
+          "l2": "Men's Apparel",
+          "l3_categories": [
+            "Shirts",
+            "T-Shirts",
+            "Trousers",
+            "Kurta & Ethnic",
+            "Jeans"
+          ]
+        },
+        {
+          "l2": "Women's Apparel",
+          "l3_categories": [
+            "Saree",
+            "Salwar & Kurta",
+            "Dress",
+            "Lehenga",
+            "Western Wear"
+          ]
+        },
+        {
+          "l2": "Kids Apparel",
+          "l3_categories": [
+            "Boys",
+            "Girls",
+            "Infant",
+            "Uniforms",
+            "Kids Winterwear"
+          ]
+        },
+        {
+          "l2": "Accessories",
+          "l3_categories": [
+            "Jewellery",
+            "Bags & Wallets",
+            "Belts",
+            "Scarves & Stoles",
+            "Watches"
+          ]
+        },
+        {
+          "l2": "Footwear",
+          "l3_categories": [
+            "Footwear Item 1",
+            "Footwear Item 2",
+            "Footwear Item 3",
+            "Footwear Item 4",
+            "Footwear Item 5"
+          ]
+        }
+      ]
+    },
+    {
+      "l1": "Home & Kitchen",
+      "l2_categories": [
+        {
+          "l2": "Kitchen",
+          "l3_categories": [
+            "Cookware",
+            "Utensils",
+            "Storage",
+            "Kitchen Tools",
+            "Tableware"
+          ]
+        },
+        {
+          "l2": "Home Decor",
+          "l3_categories": [
+            "Handicrafts",
+            "Wall Art",
+            "Paintings",
+            "Pottery & Ceramics",
+            "Photo Frames",
+            "Metal Crafts"
+          ]
+        },
+        {
+          "l2": "Furnishing",
+          "l3_categories": [
+            "Bedsheets",
+            "Curtains",
+            "Cushions & Pillows",
+            "Carpets & Rugs",
+            "Towels"
+          ]
+        },
+        {
+          "l2": "Furniture",
+          "l3_categories": [
+            "Chairs",
+            "Tables",
+            "Storage Units",
+            "Sofas",
+            "Bookshelves"
+          ]
+        },
+        {
+          "l2": "Garden",
+          "l3_categories": [
+            "Garden Item 1",
+            "Garden Item 2",
+            "Garden Item 3",
+            "Garden Item 4",
+            "Garden Item 5"
+          ]
+        }
+      ]
+    },
+    {
+      "l1": "Electronics",
+      "l2_categories": [
+        {
+          "l2": "Mobile & Accessories",
+          "l3_categories": [
+            "Mobile Phones",
+            "Cases & Covers",
+            "Chargers",
+            "Earphones",
+            "Power Banks"
+          ]
+        },
+        {
+          "l2": "Computer & Peripherals",
+          "l3_categories": [
+            "Laptops",
+            "Keyboards",
+            "Mouse",
+            "USB Drives",
+            "Monitors"
+          ]
+        },
+        {
+          "l2": "Home Appliances",
+          "l3_categories": [
+            "Fans",
+            "Heaters",
+            "Mixers & Grinders",
+            "Iron",
+            "Water Purifiers"
+          ]
+        },
+        {
+          "l2": "Electricals",
+          "l3_categories": [
+            "LED Bulbs",
+            "Switches",
+            "Wires",
+            "Inverters",
+            "Emergency Lights"
+          ]
+        },
+        {
+          "l2": "Audio & Video",
+          "l3_categories": [
+            "Audio & Video Item 1",
+            "Audio & Video Item 2",
+            "Audio & Video Item 3",
+            "Audio & Video Item 4",
+            "Audio & Video Item 5"
+          ]
+        }
+      ]
+    },
+    {
+      "l1": "Health & Wellness",
+      "l2_categories": [
+        {
+          "l2": "Ayurveda & Herbal",
+          "l3_categories": [
+            "Herbal Supplements",
+            "Essential Oils",
+            "Herbal Teas",
+            "Ayurvedic Products",
+            "Immunity Boosters"
+          ]
+        },
+        {
+          "l2": "Fitness",
+          "l3_categories": [
+            "Yoga Mats",
+            "Exercise Equipment",
+            "Protein & Nutrition",
+            "Resistance Bands",
+            "Dumbbells"
+          ]
+        },
+        {
+          "l2": "Personal Care",
+          "l3_categories": [
+            "Skincare",
+            "Haircare",
+            "Body Care",
+            "Oral Hygiene",
+            "Sanitary Products"
+          ]
+        },
+        {
+          "l2": "Medical Essentials",
+          "l3_categories": [
+            "First Aid",
+            "Thermometers",
+            "Masks",
+            "Gloves",
+            "Health Monitors"
+          ]
+        },
+        {
+          "l2": "Wellness Devices",
+          "l3_categories": [
+            "Wellness Devices Item 1",
+            "Wellness Devices Item 2",
+            "Wellness Devices Item 3",
+            "Wellness Devices Item 4",
+            "Wellness Devices Item 5"
+          ]
+        }
+      ]
+    },
+    {
+      "l1": "Beauty & Personal Care",
+      "l2_categories": [
+        {
+          "l2": "Skincare",
+          "l3_categories": [
+            "Face Care",
+            "Body Care",
+            "Lip Care",
+            "Sun Care",
+            "Moisturizers"
+          ]
+        },
+        {
+          "l2": "Makeup",
+          "l3_categories": [
+            "Face",
+            "Eyes",
+            "Lips",
+            "Nails",
+            "Brush Sets"
+          ]
+        },
+        {
+          "l2": "Fragrances",
+          "l3_categories": [
+            "Perfumes",
+            "Deodorants",
+            "Attars",
+            "Body Mists",
+            "Gift Sets"
+          ]
+        },
+        {
+          "l2": "Hair Styling",
+          "l3_categories": [
+            "Hair Oils",
+            "Shampoo",
+            "Conditioner",
+            "Hair Color",
+            "Hair Serum"
+          ]
+        },
+        {
+          "l2": "Bath & Body",
+          "l3_categories": [
+            "Bath & Body Item 1",
+            "Bath & Body Item 2",
+            "Bath & Body Item 3",
+            "Bath & Body Item 4",
+            "Bath & Body Item 5"
+          ]
+        }
+      ]
+    },
+    {
+      "l1": "Agriculture",
+      "l2_categories": [
+        {
+          "l2": "Seeds",
+          "l3_categories": [
+            "Vegetable Seeds",
+            "Flower Seeds",
+            "Fruit Seeds",
+            "Herb Seeds",
+            "Hybrid Seeds"
+          ]
+        },
+        {
+          "l2": "Fertilizers & Pesticides",
+          "l3_categories": [
+            "Organic Fertilizers",
+            "Chemical Fertilizers",
+            "Bio-pesticides",
+            "Fungicides",
+            "Insecticides"
+          ]
+        },
+        {
+          "l2": "Tools & Equipment",
+          "l3_categories": [
+            "Hand Tools",
+            "Sprayers",
+            "Irrigation",
+            "Pumps",
+            "Tillers"
+          ]
+        },
+        {
+          "l2": "Farm Inputs",
+          "l3_categories": [
+            "Mulch Film",
+            "Shade Nets",
+            "Cocopeat",
+            "Compost",
+            "Animal Feed"
+          ]
+        },
+        {
+          "l2": "Irrigation Systems",
+          "l3_categories": [
+            "Irrigation Systems Item 1",
+            "Irrigation Systems Item 2",
+            "Irrigation Systems Item 3",
+            "Irrigation Systems Item 4",
+            "Irrigation Systems Item 5"
+          ]
+        }
+      ]
+    },
+    {
+      "l1": "Handicrafts & Handloom",
+      "l2_categories": [
+        {
+          "l2": "Textiles",
+          "l3_categories": [
+            "Handloom Sarees",
+            "Block Print",
+            "Embroidery",
+            "Khadi Products",
+            "Silk Products"
+          ]
+        },
+        {
+          "l2": "Crafts",
+          "l3_categories": [
+            "Wooden Crafts",
+            "Metal Crafts",
+            "Stone Crafts",
+            "Paper Crafts",
+            "Bamboo & Cane"
+          ]
+        },
+        {
+          "l2": "Home Accents",
+          "l3_categories": [
+            "Decorative Items",
+            "Traditional Art",
+            "Wall Hangings",
+            "Lamps & Lanterns",
+            "Brassware"
+          ]
+        },
+        {
+          "l2": "Gift Articles",
+          "l3_categories": [
+            "Corporate Gifts",
+            "Festival Hampers",
+            "Souvenirs",
+            "Miniatures",
+            "Eco Gifts"
+          ]
+        },
+        {
+          "l2": "Artisanal Decor",
+          "l3_categories": [
+            "Artisanal Decor Item 1",
+            "Artisanal Decor Item 2",
+            "Artisanal Decor Item 3",
+            "Artisanal Decor Item 4",
+            "Artisanal Decor Item 5"
+          ]
+        }
+      ]
+    },
+    {
+      "l1": "Stationery & Books",
+      "l2_categories": [
+        {
+          "l2": "Office Supplies",
+          "l3_categories": [
+            "Pens & Pencils",
+            "Notebooks",
+            "Files & Folders",
+            "Adhesives",
+            "Markers"
+          ]
+        },
+        {
+          "l2": "Books",
+          "l3_categories": [
+            "Educational",
+            "Fiction",
+            "Non-Fiction",
+            "Children's Books",
+            "Competitive Exams"
+          ]
+        },
+        {
+          "l2": "Art & Craft",
+          "l3_categories": [
+            "Sketch Books",
+            "Paints",
+            "Brushes",
+            "Craft Paper",
+            "DIY Kits"
+          ]
+        },
+        {
+          "l2": "Learning Kits",
+          "l3_categories": [
+            "STEM Kits",
+            "Language Cards",
+            "Flash Cards",
+            "Exam Planners",
+            "Activity Books"
+          ]
+        },
+        {
+          "l2": "School Supplies",
+          "l3_categories": [
+            "School Supplies Item 1",
+            "School Supplies Item 2",
+            "School Supplies Item 3",
+            "School Supplies Item 4",
+            "School Supplies Item 5"
+          ]
+        }
+      ]
+    }
+  ]
+}

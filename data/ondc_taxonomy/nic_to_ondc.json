@@ -1,0 +1,431 @@
+[
+  {
+    "nic_2digit": "01",
+    "nic_description": "Crop and animal production",
+    "ondc_l1": [
+      "Agriculture"
+    ]
+  },
+  {
+    "nic_2digit": "02",
+    "nic_description": "Forestry and logging",
+    "ondc_l1": [
+      "Agriculture",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "nic_2digit": "03",
+    "nic_description": "Fishing and aquaculture",
+    "ondc_l1": [
+      "Food & Beverage"
+    ]
+  },
+  {
+    "nic_2digit": "10",
+    "nic_description": "Manufacture of food products",
+    "ondc_l1": [
+      "Food & Beverage",
+      "Grocery"
+    ]
+  },
+  {
+    "nic_2digit": "11",
+    "nic_description": "Manufacture of beverages",
+    "ondc_l1": [
+      "Food & Beverage"
+    ]
+  },
+  {
+    "nic_2digit": "12",
+    "nic_description": "Manufacture of tobacco products",
+    "ondc_l1": [
+      "Grocery"
+    ]
+  },
+  {
+    "nic_2digit": "13",
+    "nic_description": "Manufacture of textiles",
+    "ondc_l1": [
+      "Fashion",
+      "Handicrafts & Handloom"
+    ]
+  },
+  {
+    "nic_2digit": "14",
+    "nic_description": "Manufacture of wearing apparel",
+    "ondc_l1": [
+      "Fashion"
+    ]
+  },
+  {
+    "nic_2digit": "15",
+    "nic_description": "Manufacture of leather and related products",
+    "ondc_l1": [
+      "Fashion",
+      "Handicrafts & Handloom"
+    ]
+  },
+  {
+    "nic_2digit": "16",
+    "nic_description": "Manufacture of wood and products of wood and cork",
+    "ondc_l1": [
+      "Home & Kitchen",
+      "Handicrafts & Handloom"
+    ]
+  },
+  {
+    "nic_2digit": "17",
+    "nic_description": "Manufacture of paper and paper products",
+    "ondc_l1": [
+      "Stationery & Books"
+    ]
+  },
+  {
+    "nic_2digit": "18",
+    "nic_description": "Printing and reproduction of recorded media",
+    "ondc_l1": [
+      "Stationery & Books"
+    ]
+  },
+  {
+    "nic_2digit": "20",
+    "nic_description": "Manufacture of chemicals and chemical products",
+    "ondc_l1": [
+      "Health & Wellness",
+      "Agriculture"
+    ]
+  },
+  {
+    "nic_2digit": "21",
+    "nic_description": "Manufacture of pharmaceuticals, medicinal chemical and botanical products",
+    "ondc_l1": [
+      "Health & Wellness"
+    ]
+  },
+  {
+    "nic_2digit": "22",
+    "nic_description": "Manufacture of rubber and plastics products",
+    "ondc_l1": [
+      "Home & Kitchen",
+      "Electronics"
+    ]
+  },
+  {
+    "nic_2digit": "23",
+    "nic_description": "Manufacture of other non-metallic mineral products",
+    "ondc_l1": [
+      "Home & Kitchen",
+      "Handicrafts & Handloom"
+    ]
+  },
+  {
+    "nic_2digit": "24",
+    "nic_description": "Manufacture of basic metals",
+    "ondc_l1": [
+      "Home & Kitchen",
+      "Handicrafts & Handloom"
+    ]
+  },
+  {
+    "nic_2digit": "25",
+    "nic_description": "Manufacture of fabricated metal products",
+    "ondc_l1": [
+      "Home & Kitchen",
+      "Electronics"
+    ]
+  },
+  {
+    "nic_2digit": "26",
+    "nic_description": "Manufacture of computer, electronic and optical products",
+    "ondc_l1": [
+      "Electronics"
+    ]
+  },
+  {
+    "nic_2digit": "27",
+    "nic_description": "Manufacture of electrical equipment",
+    "ondc_l1": [
+      "Electronics"
+    ]
+  },
+  {
+    "nic_2digit": "28",
+    "nic_description": "Manufacture of machinery and equipment n.e.c.",
+    "ondc_l1": [
+      "Electronics",
+      "Agriculture"
+    ]
+  },
+  {
+    "nic_2digit": "31",
+    "nic_description": "Manufacture of furniture",
+    "ondc_l1": [
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "nic_2digit": "32",
+    "nic_description": "Other manufacturing",
+    "ondc_l1": [
+      "Handicrafts & Handloom",
+      "Stationery & Books"
+    ]
+  },
+  {
+    "nic_2digit": "33",
+    "nic_description": "Repair and installation of machinery and equipment",
+    "ondc_l1": [
+      "Services",
+      "Electronics"
+    ]
+  },
+  {
+    "nic_2digit": "41",
+    "nic_description": "Construction of buildings",
+    "ondc_l1": [
+      "Services",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "nic_2digit": "42",
+    "nic_description": "Civil engineering",
+    "ondc_l1": [
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "43",
+    "nic_description": "Specialized construction activities",
+    "ondc_l1": [
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "45",
+    "nic_description": "Wholesale and retail trade and repair of motor vehicles and motorcycles",
+    "ondc_l1": [
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "46",
+    "nic_description": "Wholesale trade, except of motor vehicles and motorcycles",
+    "ondc_l1": [
+      "Food & Beverage",
+      "Grocery",
+      "Fashion",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "nic_2digit": "47",
+    "nic_description": "Retail trade, except of motor vehicles and motorcycles",
+    "ondc_l1": [
+      "Food & Beverage",
+      "Grocery",
+      "Fashion",
+      "Home & Kitchen",
+      "Electronics"
+    ]
+  },
+  {
+    "nic_2digit": "49",
+    "nic_description": "Land transport and transport via pipelines",
+    "ondc_l1": [
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "52",
+    "nic_description": "Warehousing and support activities for transportation",
+    "ondc_l1": [
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "53",
+    "nic_description": "Postal and courier activities",
+    "ondc_l1": [
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "55",
+    "nic_description": "Accommodation",
+    "ondc_l1": [
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "56",
+    "nic_description": "Food and beverage service activities",
+    "ondc_l1": [
+      "Food & Beverage",
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "58",
+    "nic_description": "Publishing activities",
+    "ondc_l1": [
+      "Stationery & Books"
+    ]
+  },
+  {
+    "nic_2digit": "59",
+    "nic_description": "Motion picture, video and TV programme activities",
+    "ondc_l1": [
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "61",
+    "nic_description": "Telecommunications",
+    "ondc_l1": [
+      "Electronics",
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "62",
+    "nic_description": "Computer programming, consultancy and related activities",
+    "ondc_l1": [
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "63",
+    "nic_description": "Information service activities",
+    "ondc_l1": [
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "69",
+    "nic_description": "Legal and accounting activities",
+    "ondc_l1": [
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "70",
+    "nic_description": "Activities of head offices; management consultancy activities",
+    "ondc_l1": [
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "71",
+    "nic_description": "Architecture and engineering activities; technical testing and analysis",
+    "ondc_l1": [
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "73",
+    "nic_description": "Advertising and market research",
+    "ondc_l1": [
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "74",
+    "nic_description": "Other professional, scientific and technical activities",
+    "ondc_l1": [
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "75",
+    "nic_description": "Veterinary activities",
+    "ondc_l1": [
+      "Services",
+      "Agriculture"
+    ]
+  },
+  {
+    "nic_2digit": "77",
+    "nic_description": "Rental and leasing activities",
+    "ondc_l1": [
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "79",
+    "nic_description": "Travel agency and reservation activities",
+    "ondc_l1": [
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "81",
+    "nic_description": "Services to buildings and landscape activities",
+    "ondc_l1": [
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "82",
+    "nic_description": "Office administrative and business support activities",
+    "ondc_l1": [
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "85",
+    "nic_description": "Education",
+    "ondc_l1": [
+      "Services",
+      "Stationery & Books"
+    ]
+  },
+  {
+    "nic_2digit": "86",
+    "nic_description": "Human health activities",
+    "ondc_l1": [
+      "Services",
+      "Health & Wellness"
+    ]
+  },
+  {
+    "nic_2digit": "90",
+    "nic_description": "Creative, arts and entertainment activities",
+    "ondc_l1": [
+      "Services",
+      "Handicrafts & Handloom"
+    ]
+  },
+  {
+    "nic_2digit": "93",
+    "nic_description": "Sports activities and amusement and recreation activities",
+    "ondc_l1": [
+      "Services",
+      "Health & Wellness"
+    ]
+  },
+  {
+    "nic_2digit": "94",
+    "nic_description": "Activities of membership organizations",
+    "ondc_l1": [
+      "Services"
+    ]
+  },
+  {
+    "nic_2digit": "95",
+    "nic_description": "Repair of computers and personal and household goods",
+    "ondc_l1": [
+      "Services",
+      "Electronics"
+    ]
+  },
+  {
+    "nic_2digit": "96",
+    "nic_description": "Other personal service activities",
+    "ondc_l1": [
+      "Services",
+      "Beauty & Personal Care"
+    ]
+  }
+]

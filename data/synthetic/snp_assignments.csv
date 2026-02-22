@@ -1,0 +1,2200 @@
+mse_id,snp_id,state,category_l1,match_score,rank
+MSE00001,SNP017,Tamil Nadu,Food & Beverage,0.6885,1
+MSE00003,SNP007,Madhya Pradesh,Fashion,0.6848,1
+MSE00006,SNP006,Karnataka,Handicrafts & Handloom,0.7961,1
+MSE00007,SNP008,Maharashtra,Services,0.7518,1
+MSE00011,SNP007,Kerala,Home & Kitchen,0.7442,1
+MSE00014,SNP007,West Bengal,Home & Kitchen,0.6683,1
+MSE00016,SNP024,Rajasthan,Food & Beverage,0.7318,1
+MSE00017,SNP007,Gujarat,Beauty & Personal Care,0.7724,1
+MSE00019,SNP004,West Bengal,Agriculture,0.8894,1
+MSE00020,SNP024,Uttar Pradesh,Food & Beverage,0.8734,1
+MSE00021,SNP024,Rajasthan,Food & Beverage,0.8262,1
+MSE00022,SNP017,Tamil Nadu,Food & Beverage,0.7431,1
+MSE00029,SNP008,Haryana,Services,0.9175,1
+MSE00035,SNP002,Tamil Nadu,Electronics,0.9161,1
+MSE00040,SNP024,Uttar Pradesh,Food & Beverage,0.9393,1
+MSE00045,SNP024,Uttar Pradesh,Food & Beverage,0.798,1
+MSE00047,SNP024,Gujarat,Food & Beverage,0.847,1
+MSE00048,SNP006,Rajasthan,Handicrafts & Handloom,0.7212,1
+MSE00049,SNP007,Karnataka,Beauty & Personal Care,0.6829,1
+MSE00050,SNP007,Gujarat,Fashion,0.8413,1
+MSE00052,SNP017,Kerala,Food & Beverage,0.6883,1
+MSE00053,SNP006,Rajasthan,Handicrafts & Handloom,0.6222,1
+MSE00057,SNP006,West Bengal,Handicrafts & Handloom,0.859,1
+MSE00059,SNP024,West Bengal,Food & Beverage,0.7002,1
+MSE00060,SNP017,Tamil Nadu,Food & Beverage,0.7329,1
+MSE00063,SNP017,Tamil Nadu,Food & Beverage,0.6699,1
+MSE00067,SNP007,Rajasthan,Fashion,0.9236,1
+MSE00075,SNP007,Karnataka,Home & Kitchen,0.71,1
+MSE00076,SNP006,Kerala,Handicrafts & Handloom,0.6234,1
+MSE00077,SNP024,Haryana,Food & Beverage,0.8678,1
+MSE00078,SNP002,Kerala,Electronics,0.9155,1
+MSE00080,SNP012,Uttar Pradesh,Agriculture,0.7363,1
+MSE00081,SNP007,Karnataka,Fashion,0.8565,1
+MSE00082,SNP008,Tamil Nadu,Services,0.8849,1
+MSE00083,SNP007,Karnataka,Fashion,0.7105,1
+MSE00084,SNP017,Tamil Nadu,Food & Beverage,0.8251,1
+MSE00085,SNP007,Maharashtra,Home & Kitchen,0.7342,1
+MSE00088,SNP017,Karnataka,Food & Beverage,0.708,1
+MSE00090,SNP024,Uttar Pradesh,Food & Beverage,0.9187,1
+MSE00091,SNP008,Madhya Pradesh,Services,0.6771,1
+MSE00092,SNP007,Uttar Pradesh,Home & Kitchen,0.9302,1
+MSE00093,SNP008,Tamil Nadu,Services,0.7206,1
+MSE00094,SNP006,West Bengal,Handicrafts & Handloom,0.7774,1
+MSE00095,SNP007,Gujarat,Home & Kitchen,0.8679,1
+MSE00096,SNP006,Gujarat,Handicrafts & Handloom,0.7982,1
+MSE00097,SNP025,Maharashtra,Electronics,0.9304,1
+MSE00099,SNP024,Gujarat,Food & Beverage,0.839,1
+MSE00100,SNP020,Gujarat,Services,0.7094,1
+MSE00102,SNP002,Madhya Pradesh,Electronics,0.79,1
+MSE00111,SNP007,West Bengal,Home & Kitchen,0.6713,1
+MSE00113,SNP025,Karnataka,Electronics,0.6357,1
+MSE00116,SNP017,Kerala,Food & Beverage,0.6207,1
+MSE00117,SNP024,Rajasthan,Food & Beverage,0.8968,1
+MSE00123,SNP004,Karnataka,Agriculture,0.6577,1
+MSE00128,SNP006,Haryana,Handicrafts & Handloom,0.867,1
+MSE00134,SNP008,Haryana,Services,0.7191,1
+MSE00137,SNP007,Uttar Pradesh,Fashion,0.7721,1
+MSE00139,SNP006,West Bengal,Handicrafts & Handloom,0.7981,1
+MSE00140,SNP012,Uttar Pradesh,Agriculture,0.6457,1
+MSE00144,SNP002,Tamil Nadu,Electronics,0.833,1
+MSE00145,SNP007,Gujarat,Home & Kitchen,0.9318,1
+MSE00146,SNP024,Haryana,Food & Beverage,0.9208,1
+MSE00150,SNP007,West Bengal,Home & Kitchen,0.9182,1
+MSE00153,SNP006,Tamil Nadu,Handicrafts & Handloom,0.854,1
+MSE00154,SNP006,Tamil Nadu,Handicrafts & Handloom,0.8255,1
+MSE00155,SNP024,Madhya Pradesh,Food & Beverage,0.6559,1
+MSE00156,SNP002,Gujarat,Electronics,0.664,1
+MSE00160,SNP024,Haryana,Food & Beverage,0.6593,1
+MSE00161,SNP011,Madhya Pradesh,Agriculture,0.9052,1
+MSE00162,SNP020,Gujarat,Agriculture,0.848,1
+MSE00164,SNP024,West Bengal,Food & Beverage,0.6212,1
+MSE00167,SNP006,Maharashtra,Handicrafts & Handloom,0.9224,1
+MSE00174,SNP002,Rajasthan,Electronics,0.7173,1
+MSE00176,SNP017,Kerala,Food & Beverage,0.7205,1
+MSE00179,SNP024,Madhya Pradesh,Food & Beverage,0.9139,1
+MSE00180,SNP017,Kerala,Food & Beverage,0.6883,1
+MSE00182,SNP020,Rajasthan,Services,0.9242,1
+MSE00183,SNP024,West Bengal,Food & Beverage,0.7446,1
+MSE00185,SNP008,Madhya Pradesh,Services,0.9176,1
+MSE00189,SNP007,Karnataka,Fashion,0.7841,1
+MSE00200,SNP024,Madhya Pradesh,Food & Beverage,0.8813,1
+MSE00204,SNP007,Uttar Pradesh,Home & Kitchen,0.6784,1
+MSE00205,SNP007,West Bengal,Home & Kitchen,0.8429,1
+MSE00207,SNP008,Maharashtra,Services,0.6989,1
+MSE00216,SNP017,Tamil Nadu,Food & Beverage,0.8429,1
+MSE00217,SNP007,Gujarat,Home & Kitchen,0.9236,1
+MSE00218,SNP020,Gujarat,Services,0.8318,1
+MSE00220,SNP024,West Bengal,Food & Beverage,0.8601,1
+MSE00223,SNP017,Karnataka,Food & Beverage,0.7287,1
+MSE00224,SNP017,Kerala,Food & Beverage,0.8647,1
+MSE00225,SNP017,Tamil Nadu,Food & Beverage,0.7878,1
+MSE00226,SNP007,Rajasthan,Beauty & Personal Care,0.8774,1
+MSE00227,SNP007,Karnataka,Beauty & Personal Care,0.6627,1
+MSE00230,SNP004,Tamil Nadu,Agriculture,0.7718,1
+MSE00232,SNP002,Rajasthan,Electronics,0.8395,1
+MSE00234,SNP007,Karnataka,Home & Kitchen,0.8708,1
+MSE00235,SNP007,Haryana,Beauty & Personal Care,0.6279,1
+MSE00236,SNP020,Maharashtra,Agriculture,0.7061,1
+MSE00238,SNP007,Rajasthan,Beauty & Personal Care,0.8766,1
+MSE00240,SNP011,Rajasthan,Agriculture,0.7683,1
+MSE00241,SNP024,Uttar Pradesh,Food & Beverage,0.6736,1
+MSE00242,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.7762,1
+MSE00248,SNP007,Madhya Pradesh,Home & Kitchen,0.6811,1
+MSE00249,SNP006,Gujarat,Handicrafts & Handloom,0.8992,1
+MSE00254,SNP007,Tamil Nadu,Home & Kitchen,0.6533,1
+MSE00256,SNP007,Maharashtra,Home & Kitchen,0.7878,1
+MSE00263,SNP023,Karnataka,Services,0.6216,1
+MSE00264,SNP024,Uttar Pradesh,Food & Beverage,0.8012,1
+MSE00265,SNP011,Madhya Pradesh,Agriculture,0.9399,1
+MSE00266,SNP017,Kerala,Food & Beverage,0.7358,1
+MSE00267,SNP007,Tamil Nadu,Home & Kitchen,0.6551,1
+MSE00269,SNP007,Tamil Nadu,Beauty & Personal Care,0.8968,1
+MSE00270,SNP024,Madhya Pradesh,Food & Beverage,0.6251,1
+MSE00273,SNP007,Madhya Pradesh,Fashion,0.6662,1
+MSE00277,SNP007,Rajasthan,Fashion,0.8307,1
+MSE00282,SNP007,Madhya Pradesh,Home & Kitchen,0.7156,1
+MSE00283,SNP007,Karnataka,Beauty & Personal Care,0.659,1
+MSE00284,SNP004,Karnataka,Agriculture,0.7506,1
+MSE00285,SNP007,Tamil Nadu,Fashion,0.7981,1
+MSE00287,SNP006,Kerala,Handicrafts & Handloom,0.7171,1
+MSE00288,SNP006,Rajasthan,Handicrafts & Handloom,0.8445,1
+MSE00289,SNP024,Rajasthan,Food & Beverage,0.8861,1
+MSE00291,SNP007,Rajasthan,Fashion,0.7631,1
+MSE00292,SNP024,Maharashtra,Food & Beverage,0.9055,1
+MSE00297,SNP017,Karnataka,Food & Beverage,0.6434,1
+MSE00300,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.7298,1
+MSE00301,SNP007,Kerala,Fashion,0.8137,1
+MSE00304,SNP006,Gujarat,Handicrafts & Handloom,0.8389,1
+MSE00305,SNP024,Gujarat,Food & Beverage,0.8905,1
+MSE00307,SNP024,West Bengal,Food & Beverage,0.7049,1
+MSE00308,SNP007,Madhya Pradesh,Home & Kitchen,0.7307,1
+MSE00310,SNP007,Uttar Pradesh,Beauty & Personal Care,0.8438,1
+MSE00313,SNP024,Uttar Pradesh,Food & Beverage,0.846,1
+MSE00315,SNP007,Kerala,Beauty & Personal Care,0.6437,1
+MSE00316,SNP004,Kerala,Agriculture,0.9351,1
+MSE00318,SNP007,Maharashtra,Home & Kitchen,0.6399,1
+MSE00320,SNP007,Haryana,Home & Kitchen,0.8207,1
+MSE00323,SNP007,Rajasthan,Home & Kitchen,0.8833,1
+MSE00331,SNP004,West Bengal,Agriculture,0.6816,1
+MSE00332,SNP017,Karnataka,Food & Beverage,0.7751,1
+MSE00334,SNP007,Uttar Pradesh,Fashion,0.6828,1
+MSE00337,SNP007,Uttar Pradesh,Home & Kitchen,0.7592,1
+MSE00338,SNP002,Gujarat,Electronics,0.7922,1
+MSE00340,SNP007,Madhya Pradesh,Home & Kitchen,0.7321,1
+MSE00341,SNP007,Haryana,Home & Kitchen,0.7888,1
+MSE00344,SNP020,Gujarat,Services,0.8293,1
+MSE00348,SNP006,Gujarat,Handicrafts & Handloom,0.8647,1
+MSE00351,SNP006,Rajasthan,Handicrafts & Handloom,0.8618,1
+MSE00352,SNP007,Tamil Nadu,Home & Kitchen,0.709,1
+MSE00355,SNP007,Karnataka,Home & Kitchen,0.8332,1
+MSE00357,SNP004,West Bengal,Agriculture,0.8082,1
+MSE00361,SNP007,Uttar Pradesh,Home & Kitchen,0.6731,1
+MSE00363,SNP004,Tamil Nadu,Agriculture,0.8842,1
+MSE00364,SNP007,Karnataka,Fashion,0.7019,1
+MSE00367,SNP006,Kerala,Handicrafts & Handloom,0.723,1
+MSE00370,SNP007,Karnataka,Beauty & Personal Care,0.7013,1
+MSE00373,SNP004,Kerala,Agriculture,0.8362,1
+MSE00374,SNP024,Rajasthan,Food & Beverage,0.8825,1
+MSE00375,SNP006,Karnataka,Handicrafts & Handloom,0.9248,1
+MSE00379,SNP024,Rajasthan,Food & Beverage,0.8696,1
+MSE00382,SNP024,Madhya Pradesh,Food & Beverage,0.8223,1
+MSE00387,SNP017,Tamil Nadu,Food & Beverage,0.6921,1
+MSE00390,SNP007,Tamil Nadu,Home & Kitchen,0.623,1
+MSE00391,SNP007,Gujarat,Fashion,0.8598,1
+MSE00394,SNP024,Haryana,Food & Beverage,0.8556,1
+MSE00398,SNP004,Karnataka,Agriculture,0.8362,1
+MSE00403,SNP007,Rajasthan,Home & Kitchen,0.6407,1
+MSE00407,SNP006,Gujarat,Handicrafts & Handloom,0.7694,1
+MSE00408,SNP007,Kerala,Home & Kitchen,0.7495,1
+MSE00409,SNP004,Karnataka,Agriculture,0.7238,1
+MSE00412,SNP017,Tamil Nadu,Food & Beverage,0.8862,1
+MSE00414,SNP007,Madhya Pradesh,Home & Kitchen,0.6806,1
+MSE00416,SNP006,Gujarat,Handicrafts & Handloom,0.8341,1
+MSE00417,SNP007,Madhya Pradesh,Fashion,0.8822,1
+MSE00425,SNP024,Gujarat,Food & Beverage,0.7364,1
+MSE00426,SNP017,Tamil Nadu,Food & Beverage,0.8984,1
+MSE00428,SNP007,Uttar Pradesh,Fashion,0.7343,1
+MSE00429,SNP002,Gujarat,Electronics,0.8464,1
+MSE00431,SNP024,West Bengal,Food & Beverage,0.6238,1
+MSE00440,SNP007,Gujarat,Fashion,0.8507,1
+MSE00443,SNP004,Tamil Nadu,Agriculture,0.8417,1
+MSE00444,SNP024,Madhya Pradesh,Food & Beverage,0.919,1
+MSE00446,SNP008,Tamil Nadu,Services,0.7676,1
+MSE00448,SNP007,Karnataka,Fashion,0.6488,1
+MSE00451,SNP008,Haryana,Services,0.6356,1
+MSE00452,SNP024,Gujarat,Food & Beverage,0.9137,1
+MSE00453,SNP007,Madhya Pradesh,Fashion,0.9322,1
+MSE00454,SNP024,Madhya Pradesh,Food & Beverage,0.6372,1
+MSE00457,SNP006,Gujarat,Handicrafts & Handloom,0.8818,1
+MSE00459,SNP002,Rajasthan,Electronics,0.8682,1
+MSE00461,SNP025,Uttar Pradesh,Electronics,0.8974,1
+MSE00462,SNP006,Kerala,Handicrafts & Handloom,0.8879,1
+MSE00463,SNP024,Gujarat,Food & Beverage,0.685,1
+MSE00464,SNP020,Gujarat,Agriculture,0.7062,1
+MSE00465,SNP006,Karnataka,Handicrafts & Handloom,0.9068,1
+MSE00467,SNP023,Karnataka,Services,0.8773,1
+MSE00469,SNP024,West Bengal,Food & Beverage,0.8032,1
+MSE00473,SNP007,West Bengal,Beauty & Personal Care,0.6378,1
+MSE00474,SNP024,Uttar Pradesh,Food & Beverage,0.8966,1
+MSE00475,SNP012,Haryana,Agriculture,0.646,1
+MSE00477,SNP007,Karnataka,Home & Kitchen,0.9232,1
+MSE00484,SNP007,Karnataka,Home & Kitchen,0.8651,1
+MSE00487,SNP024,Haryana,Food & Beverage,0.9134,1
+MSE00489,SNP004,Karnataka,Agriculture,0.6925,1
+MSE00490,SNP007,West Bengal,Home & Kitchen,0.8458,1
+MSE00495,SNP017,Kerala,Food & Beverage,0.6459,1
+MSE00497,SNP008,West Bengal,Services,0.8007,1
+MSE00502,SNP006,Tamil Nadu,Handicrafts & Handloom,0.6366,1
+MSE00503,SNP024,Maharashtra,Food & Beverage,0.7957,1
+MSE00505,SNP007,Uttar Pradesh,Fashion,0.6239,1
+MSE00506,SNP007,Karnataka,Home & Kitchen,0.9361,1
+MSE00509,SNP024,Gujarat,Food & Beverage,0.7063,1
+MSE00510,SNP006,Rajasthan,Handicrafts & Handloom,0.8079,1
+MSE00511,SNP017,Tamil Nadu,Food & Beverage,0.7162,1
+MSE00515,SNP011,Rajasthan,Agriculture,0.6761,1
+MSE00516,SNP006,Haryana,Handicrafts & Handloom,0.8338,1
+MSE00523,SNP024,Madhya Pradesh,Food & Beverage,0.7061,1
+MSE00525,SNP007,Haryana,Fashion,0.7872,1
+MSE00527,SNP006,Tamil Nadu,Handicrafts & Handloom,0.8487,1
+MSE00528,SNP008,Haryana,Services,0.7233,1
+MSE00532,SNP020,Rajasthan,Services,0.9027,1
+MSE00537,SNP020,Rajasthan,Services,0.6405,1
+MSE00540,SNP020,Gujarat,Agriculture,0.8537,1
+MSE00543,SNP025,Karnataka,Electronics,0.9321,1
+MSE00545,SNP024,Maharashtra,Food & Beverage,0.6509,1
+MSE00549,SNP004,Karnataka,Agriculture,0.635,1
+MSE00552,SNP006,Karnataka,Handicrafts & Handloom,0.815,1
+MSE00555,SNP007,Karnataka,Home & Kitchen,0.6737,1
+MSE00558,SNP007,Maharashtra,Fashion,0.8739,1
+MSE00559,SNP007,West Bengal,Fashion,0.851,1
+MSE00564,SNP020,Gujarat,Services,0.6957,1
+MSE00565,SNP006,West Bengal,Handicrafts & Handloom,0.7729,1
+MSE00568,SNP024,Maharashtra,Food & Beverage,0.9089,1
+MSE00570,SNP007,Madhya Pradesh,Home & Kitchen,0.7869,1
+MSE00571,SNP008,West Bengal,Services,0.8551,1
+MSE00574,SNP007,Haryana,Beauty & Personal Care,0.8586,1
+MSE00575,SNP024,West Bengal,Food & Beverage,0.8616,1
+MSE00576,SNP024,Madhya Pradesh,Food & Beverage,0.9032,1
+MSE00577,SNP006,Kerala,Handicrafts & Handloom,0.648,1
+MSE00581,SNP024,Rajasthan,Food & Beverage,0.6298,1
+MSE00582,SNP006,Gujarat,Handicrafts & Handloom,0.8418,1
+MSE00589,SNP007,Rajasthan,Home & Kitchen,0.7659,1
+MSE00592,SNP024,Uttar Pradesh,Food & Beverage,0.8041,1
+MSE00593,SNP006,Rajasthan,Handicrafts & Handloom,0.8497,1
+MSE00594,SNP007,Uttar Pradesh,Home & Kitchen,0.6543,1
+MSE00595,SNP024,West Bengal,Food & Beverage,0.7713,1
+MSE00596,SNP004,West Bengal,Agriculture,0.872,1
+MSE00597,SNP024,Maharashtra,Food & Beverage,0.716,1
+MSE00601,SNP007,Tamil Nadu,Home & Kitchen,0.8336,1
+MSE00602,SNP007,Tamil Nadu,Fashion,0.8199,1
+MSE00604,SNP025,Maharashtra,Electronics,0.7705,1
+MSE00607,SNP007,Tamil Nadu,Fashion,0.7326,1
+MSE00609,SNP006,Gujarat,Handicrafts & Handloom,0.8089,1
+MSE00611,SNP002,Rajasthan,Electronics,0.6877,1
+MSE00612,SNP007,Uttar Pradesh,Home & Kitchen,0.6394,1
+MSE00614,SNP025,Uttar Pradesh,Electronics,0.6557,1
+MSE00616,SNP007,West Bengal,Home & Kitchen,0.688,1
+MSE00619,SNP006,Karnataka,Handicrafts & Handloom,0.6336,1
+MSE00622,SNP024,Uttar Pradesh,Food & Beverage,0.6966,1
+MSE00627,SNP020,Gujarat,Agriculture,0.8403,1
+MSE00629,SNP006,Rajasthan,Handicrafts & Handloom,0.7245,1
+MSE00631,SNP007,Gujarat,Fashion,0.6948,1
+MSE00632,SNP023,Karnataka,Services,0.7668,1
+MSE00634,SNP007,Karnataka,Fashion,0.9264,1
+MSE00637,SNP017,Kerala,Food & Beverage,0.6367,1
+MSE00640,SNP024,Uttar Pradesh,Food & Beverage,0.6651,1
+MSE00641,SNP024,Madhya Pradesh,Food & Beverage,0.9272,1
+MSE00642,SNP024,Maharashtra,Food & Beverage,0.7207,1
+MSE00643,SNP025,Uttar Pradesh,Electronics,0.8466,1
+MSE00645,SNP006,Tamil Nadu,Handicrafts & Handloom,0.694,1
+MSE00646,SNP017,Tamil Nadu,Food & Beverage,0.8667,1
+MSE00651,SNP004,Kerala,Agriculture,0.8829,1
+MSE00652,SNP007,Gujarat,Home & Kitchen,0.8571,1
+MSE00656,SNP023,Karnataka,Services,0.6614,1
+MSE00657,SNP007,Maharashtra,Fashion,0.8039,1
+MSE00661,SNP024,Gujarat,Food & Beverage,0.6817,1
+MSE00663,SNP006,Haryana,Handicrafts & Handloom,0.7751,1
+MSE00664,SNP017,Kerala,Food & Beverage,0.7063,1
+MSE00665,SNP017,Kerala,Food & Beverage,0.8382,1
+MSE00666,SNP006,Rajasthan,Handicrafts & Handloom,0.8396,1
+MSE00667,SNP024,Maharashtra,Food & Beverage,0.9212,1
+MSE00668,SNP007,Rajasthan,Home & Kitchen,0.8622,1
+MSE00677,SNP024,Maharashtra,Food & Beverage,0.6575,1
+MSE00678,SNP007,Gujarat,Fashion,0.6768,1
+MSE00685,SNP007,Madhya Pradesh,Home & Kitchen,0.8102,1
+MSE00687,SNP007,Madhya Pradesh,Fashion,0.9283,1
+MSE00688,SNP007,Tamil Nadu,Beauty & Personal Care,0.639,1
+MSE00693,SNP002,Rajasthan,Electronics,0.8384,1
+MSE00694,SNP008,Uttar Pradesh,Services,0.6654,1
+MSE00696,SNP006,Gujarat,Handicrafts & Handloom,0.7558,1
+MSE00701,SNP007,Haryana,Home & Kitchen,0.8715,1
+MSE00702,SNP012,Haryana,Agriculture,0.6645,1
+MSE00703,SNP007,Maharashtra,Fashion,0.7023,1
+MSE00704,SNP004,Karnataka,Agriculture,0.6209,1
+MSE00706,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.6662,1
+MSE00708,SNP006,Kerala,Handicrafts & Handloom,0.7784,1
+MSE00711,SNP008,Kerala,Services,0.6796,1
+MSE00715,SNP007,Maharashtra,Home & Kitchen,0.8428,1
+MSE00716,SNP002,Tamil Nadu,Electronics,0.6569,1
+MSE00718,SNP007,Haryana,Home & Kitchen,0.9302,1
+MSE00719,SNP006,Maharashtra,Handicrafts & Handloom,0.7151,1
+MSE00724,SNP024,Haryana,Food & Beverage,0.7466,1
+MSE00726,SNP017,Tamil Nadu,Food & Beverage,0.8956,1
+MSE00728,SNP008,Uttar Pradesh,Services,0.7611,1
+MSE00729,SNP024,Uttar Pradesh,Food & Beverage,0.849,1
+MSE00731,SNP017,Karnataka,Food & Beverage,0.6333,1
+MSE00732,SNP007,Haryana,Fashion,0.9217,1
+MSE00733,SNP007,Uttar Pradesh,Home & Kitchen,0.6891,1
+MSE00737,SNP008,Tamil Nadu,Services,0.7447,1
+MSE00738,SNP008,Madhya Pradesh,Services,0.7199,1
+MSE00739,SNP007,Karnataka,Fashion,0.8382,1
+MSE00740,SNP007,Maharashtra,Home & Kitchen,0.8534,1
+MSE00743,SNP008,Maharashtra,Services,0.8759,1
+MSE00745,SNP017,Kerala,Food & Beverage,0.8768,1
+MSE00748,SNP007,Karnataka,Home & Kitchen,0.6412,1
+MSE00751,SNP017,Karnataka,Food & Beverage,0.8187,1
+MSE00752,SNP007,Uttar Pradesh,Home & Kitchen,0.682,1
+MSE00755,SNP017,Tamil Nadu,Food & Beverage,0.7474,1
+MSE00758,SNP007,Uttar Pradesh,Home & Kitchen,0.8156,1
+MSE00763,SNP017,Kerala,Food & Beverage,0.9281,1
+MSE00766,SNP007,Rajasthan,Fashion,0.7767,1
+MSE00767,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.6635,1
+MSE00768,SNP007,Maharashtra,Fashion,0.9022,1
+MSE00771,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.8702,1
+MSE00773,SNP017,Tamil Nadu,Food & Beverage,0.8437,1
+MSE00775,SNP017,Tamil Nadu,Food & Beverage,0.8404,1
+MSE00777,SNP007,Maharashtra,Home & Kitchen,0.7358,1
+MSE00779,SNP007,Uttar Pradesh,Beauty & Personal Care,0.916,1
+MSE00781,SNP008,Maharashtra,Services,0.7585,1
+MSE00784,SNP020,Gujarat,Services,0.9006,1
+MSE00785,SNP007,Gujarat,Home & Kitchen,0.7913,1
+MSE00791,SNP024,West Bengal,Food & Beverage,0.8298,1
+MSE00793,SNP007,Tamil Nadu,Home & Kitchen,0.8704,1
+MSE00794,SNP007,Tamil Nadu,Home & Kitchen,0.9258,1
+MSE00795,SNP017,Tamil Nadu,Food & Beverage,0.9248,1
+MSE00796,SNP017,Karnataka,Food & Beverage,0.638,1
+MSE00797,SNP007,Kerala,Fashion,0.6428,1
+MSE00798,SNP007,Maharashtra,Home & Kitchen,0.849,1
+MSE00799,SNP008,West Bengal,Services,0.8152,1
+MSE00803,SNP004,Karnataka,Agriculture,0.8806,1
+MSE00805,SNP007,Rajasthan,Fashion,0.8917,1
+MSE00808,SNP008,Tamil Nadu,Services,0.9214,1
+MSE00810,SNP008,Uttar Pradesh,Services,0.7854,1
+MSE00811,SNP007,Rajasthan,Home & Kitchen,0.6895,1
+MSE00812,SNP007,Rajasthan,Home & Kitchen,0.6945,1
+MSE00814,SNP017,Kerala,Food & Beverage,0.633,1
+MSE00815,SNP007,Uttar Pradesh,Fashion,0.6518,1
+MSE00818,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.7509,1
+MSE00819,SNP017,Kerala,Food & Beverage,0.7239,1
+MSE00822,SNP024,Haryana,Food & Beverage,0.9129,1
+MSE00828,SNP020,Gujarat,Agriculture,0.7848,1
+MSE00829,SNP007,Maharashtra,Fashion,0.8013,1
+MSE00831,SNP007,Kerala,Home & Kitchen,0.885,1
+MSE00832,SNP024,Gujarat,Food & Beverage,0.9003,1
+MSE00834,SNP007,Gujarat,Beauty & Personal Care,0.8065,1
+MSE00835,SNP020,Gujarat,Agriculture,0.9234,1
+MSE00839,SNP007,Uttar Pradesh,Home & Kitchen,0.8167,1
+MSE00842,SNP024,Maharashtra,Food & Beverage,0.7645,1
+MSE00843,SNP007,Karnataka,Fashion,0.6595,1
+MSE00845,SNP007,Karnataka,Home & Kitchen,0.8226,1
+MSE00847,SNP007,Kerala,Home & Kitchen,0.828,1
+MSE00848,SNP020,Rajasthan,Services,0.8963,1
+MSE00849,SNP017,Tamil Nadu,Food & Beverage,0.6409,1
+MSE00850,SNP008,Madhya Pradesh,Services,0.8846,1
+MSE00853,SNP017,Tamil Nadu,Food & Beverage,0.8282,1
+MSE00855,SNP007,Kerala,Home & Kitchen,0.8361,1
+MSE00857,SNP017,Karnataka,Food & Beverage,0.9014,1
+MSE00858,SNP008,West Bengal,Services,0.7672,1
+MSE00859,SNP012,Uttar Pradesh,Agriculture,0.9213,1
+MSE00860,SNP017,Kerala,Food & Beverage,0.8942,1
+MSE00863,SNP006,Kerala,Handicrafts & Handloom,0.7108,1
+MSE00865,SNP007,Maharashtra,Fashion,0.7751,1
+MSE00867,SNP007,Kerala,Home & Kitchen,0.9055,1
+MSE00868,SNP007,Kerala,Fashion,0.8603,1
+MSE00869,SNP007,Tamil Nadu,Home & Kitchen,0.646,1
+MSE00870,SNP007,Gujarat,Home & Kitchen,0.8943,1
+MSE00871,SNP007,Tamil Nadu,Beauty & Personal Care,0.6711,1
+MSE00873,SNP007,Kerala,Home & Kitchen,0.8154,1
+MSE00874,SNP007,Madhya Pradesh,Fashion,0.7589,1
+MSE00875,SNP007,Haryana,Home & Kitchen,0.7761,1
+MSE00876,SNP007,Uttar Pradesh,Beauty & Personal Care,0.7777,1
+MSE00878,SNP007,West Bengal,Beauty & Personal Care,0.8608,1
+MSE00879,SNP020,Gujarat,Services,0.7689,1
+MSE00881,SNP007,Maharashtra,Beauty & Personal Care,0.8766,1
+MSE00885,SNP007,Kerala,Home & Kitchen,0.7515,1
+MSE00888,SNP007,Karnataka,Beauty & Personal Care,0.6953,1
+MSE00889,SNP024,Rajasthan,Food & Beverage,0.7704,1
+MSE00890,SNP024,Uttar Pradesh,Food & Beverage,0.6465,1
+MSE00894,SNP024,Maharashtra,Food & Beverage,0.882,1
+MSE00895,SNP007,Rajasthan,Fashion,0.8283,1
+MSE00896,SNP007,Tamil Nadu,Home & Kitchen,0.7556,1
+MSE00899,SNP024,Maharashtra,Food & Beverage,0.9113,1
+MSE00902,SNP024,Maharashtra,Food & Beverage,0.8574,1
+MSE00904,SNP007,Maharashtra,Home & Kitchen,0.869,1
+MSE00910,SNP008,Madhya Pradesh,Services,0.7885,1
+MSE00912,SNP024,Uttar Pradesh,Food & Beverage,0.8481,1
+MSE00916,SNP024,Gujarat,Food & Beverage,0.9266,1
+MSE00918,SNP007,Kerala,Home & Kitchen,0.744,1
+MSE00925,SNP007,Kerala,Fashion,0.7928,1
+MSE00926,SNP008,Madhya Pradesh,Services,0.799,1
+MSE00927,SNP007,Tamil Nadu,Fashion,0.8756,1
+MSE00932,SNP024,Maharashtra,Food & Beverage,0.6955,1
+MSE00933,SNP007,Tamil Nadu,Fashion,0.7774,1
+MSE00934,SNP006,Kerala,Handicrafts & Handloom,0.7997,1
+MSE00938,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.9126,1
+MSE00943,SNP007,Karnataka,Fashion,0.8897,1
+MSE00949,SNP024,Madhya Pradesh,Food & Beverage,0.7984,1
+MSE00951,SNP024,Gujarat,Food & Beverage,0.6884,1
+MSE00955,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.8202,1
+MSE00956,SNP020,Rajasthan,Services,0.7554,1
+MSE00960,SNP011,Rajasthan,Agriculture,0.7685,1
+MSE00963,SNP017,Karnataka,Food & Beverage,0.8511,1
+MSE00966,SNP007,Haryana,Fashion,0.6942,1
+MSE00970,SNP007,Kerala,Home & Kitchen,0.6424,1
+MSE00973,SNP007,West Bengal,Beauty & Personal Care,0.8834,1
+MSE00976,SNP020,Gujarat,Services,0.7285,1
+MSE00978,SNP006,Karnataka,Handicrafts & Handloom,0.7277,1
+MSE00979,SNP017,Karnataka,Food & Beverage,0.8322,1
+MSE00982,SNP011,Rajasthan,Agriculture,0.7793,1
+MSE00984,SNP012,Haryana,Agriculture,0.6468,1
+MSE00987,SNP002,Tamil Nadu,Electronics,0.6762,1
+MSE00988,SNP007,Maharashtra,Fashion,0.8087,1
+MSE00989,SNP017,Tamil Nadu,Food & Beverage,0.7845,1
+MSE00990,SNP017,Tamil Nadu,Food & Beverage,0.6345,1
+MSE00991,SNP002,Gujarat,Electronics,0.7942,1
+MSE00993,SNP006,Rajasthan,Handicrafts & Handloom,0.7768,1
+MSE00994,SNP007,Rajasthan,Fashion,0.9037,1
+MSE00996,SNP006,Kerala,Handicrafts & Handloom,0.7855,1
+MSE00997,SNP007,Madhya Pradesh,Home & Kitchen,0.7415,1
+MSE01002,SNP024,Maharashtra,Food & Beverage,0.7906,1
+MSE01005,SNP024,Maharashtra,Food & Beverage,0.7381,1
+MSE01007,SNP007,Uttar Pradesh,Home & Kitchen,0.8075,1
+MSE01011,SNP007,Madhya Pradesh,Home & Kitchen,0.6383,1
+MSE01013,SNP007,Uttar Pradesh,Fashion,0.6721,1
+MSE01014,SNP017,Karnataka,Food & Beverage,0.8981,1
+MSE01015,SNP007,Madhya Pradesh,Home & Kitchen,0.8067,1
+MSE01017,SNP008,Haryana,Services,0.8754,1
+MSE01020,SNP007,Kerala,Fashion,0.9041,1
+MSE01021,SNP024,West Bengal,Food & Beverage,0.6557,1
+MSE01022,SNP007,Madhya Pradesh,Beauty & Personal Care,0.6681,1
+MSE01023,SNP007,Maharashtra,Beauty & Personal Care,0.7727,1
+MSE01026,SNP011,Madhya Pradesh,Agriculture,0.8245,1
+MSE01027,SNP024,West Bengal,Food & Beverage,0.9274,1
+MSE01032,SNP007,Madhya Pradesh,Fashion,0.6213,1
+MSE01036,SNP006,Kerala,Handicrafts & Handloom,0.916,1
+MSE01040,SNP007,Uttar Pradesh,Home & Kitchen,0.6537,1
+MSE01042,SNP007,Rajasthan,Home & Kitchen,0.8523,1
+MSE01043,SNP007,Gujarat,Home & Kitchen,0.7704,1
+MSE01044,SNP008,Tamil Nadu,Services,0.8727,1
+MSE01046,SNP023,Karnataka,Services,0.6667,1
+MSE01050,SNP007,Kerala,Fashion,0.9366,1
+MSE01052,SNP024,Haryana,Food & Beverage,0.7748,1
+MSE01053,SNP017,Kerala,Food & Beverage,0.8994,1
+MSE01054,SNP017,Karnataka,Food & Beverage,0.7675,1
+MSE01056,SNP008,West Bengal,Services,0.7747,1
+MSE01057,SNP007,Gujarat,Fashion,0.6625,1
+MSE01061,SNP007,Gujarat,Fashion,0.7895,1
+MSE01063,SNP017,Karnataka,Food & Beverage,0.9014,1
+MSE01065,SNP024,Uttar Pradesh,Food & Beverage,0.8368,1
+MSE01066,SNP024,Madhya Pradesh,Food & Beverage,0.7227,1
+MSE01071,SNP024,Haryana,Food & Beverage,0.7637,1
+MSE01073,SNP007,West Bengal,Fashion,0.6239,1
+MSE01076,SNP008,Tamil Nadu,Services,0.7632,1
+MSE01078,SNP025,Maharashtra,Electronics,0.6861,1
+MSE01079,SNP006,Tamil Nadu,Handicrafts & Handloom,0.7341,1
+MSE01081,SNP017,Tamil Nadu,Food & Beverage,0.9083,1
+MSE01083,SNP008,Uttar Pradesh,Services,0.6666,1
+MSE01085,SNP008,Haryana,Services,0.9066,1
+MSE01086,SNP017,Karnataka,Food & Beverage,0.8398,1
+MSE01089,SNP007,Madhya Pradesh,Home & Kitchen,0.658,1
+MSE01090,SNP007,Haryana,Beauty & Personal Care,0.7536,1
+MSE01092,SNP006,Kerala,Handicrafts & Handloom,0.8969,1
+MSE01093,SNP007,Kerala,Fashion,0.7289,1
+MSE01094,SNP006,Rajasthan,Handicrafts & Handloom,0.7023,1
+MSE01095,SNP007,Rajasthan,Fashion,0.7575,1
+MSE01097,SNP024,Rajasthan,Food & Beverage,0.7317,1
+MSE01100,SNP007,Gujarat,Home & Kitchen,0.6915,1
+MSE01101,SNP007,Kerala,Home & Kitchen,0.6951,1
+MSE01102,SNP007,Madhya Pradesh,Home & Kitchen,0.8337,1
+MSE01104,SNP007,Uttar Pradesh,Home & Kitchen,0.7693,1
+MSE01106,SNP007,Maharashtra,Fashion,0.777,1
+MSE01108,SNP024,West Bengal,Food & Beverage,0.7973,1
+MSE01109,SNP004,Karnataka,Agriculture,0.725,1
+MSE01110,SNP007,Tamil Nadu,Fashion,0.9334,1
+MSE01111,SNP007,West Bengal,Fashion,0.8721,1
+MSE01112,SNP007,Haryana,Fashion,0.93,1
+MSE01113,SNP007,Maharashtra,Home & Kitchen,0.7567,1
+MSE01114,SNP007,Karnataka,Beauty & Personal Care,0.7435,1
+MSE01125,SNP007,West Bengal,Beauty & Personal Care,0.7914,1
+MSE01127,SNP017,Karnataka,Food & Beverage,0.7924,1
+MSE01130,SNP006,Tamil Nadu,Handicrafts & Handloom,0.6821,1
+MSE01131,SNP024,Rajasthan,Food & Beverage,0.9015,1
+MSE01134,SNP011,Madhya Pradesh,Agriculture,0.8848,1
+MSE01137,SNP020,Rajasthan,Services,0.8071,1
+MSE01141,SNP007,Kerala,Home & Kitchen,0.7583,1
+MSE01142,SNP007,West Bengal,Fashion,0.8603,1
+MSE01145,SNP017,Karnataka,Food & Beverage,0.7232,1
+MSE01147,SNP024,West Bengal,Food & Beverage,0.7151,1
+MSE01149,SNP007,Madhya Pradesh,Home & Kitchen,0.9051,1
+MSE01152,SNP011,Madhya Pradesh,Agriculture,0.9287,1
+MSE01154,SNP007,Rajasthan,Home & Kitchen,0.8119,1
+MSE01155,SNP024,Madhya Pradesh,Food & Beverage,0.7415,1
+MSE01156,SNP024,Haryana,Food & Beverage,0.8362,1
+MSE01158,SNP007,Uttar Pradesh,Fashion,0.8887,1
+MSE01164,SNP007,Rajasthan,Beauty & Personal Care,0.7667,1
+MSE01166,SNP002,Kerala,Electronics,0.7203,1
+MSE01168,SNP007,West Bengal,Beauty & Personal Care,0.6677,1
+MSE01173,SNP024,Rajasthan,Food & Beverage,0.718,1
+MSE01174,SNP017,Karnataka,Food & Beverage,0.8208,1
+MSE01176,SNP024,Uttar Pradesh,Food & Beverage,0.6819,1
+MSE01180,SNP011,Rajasthan,Agriculture,0.7121,1
+MSE01181,SNP007,West Bengal,Fashion,0.8444,1
+MSE01182,SNP007,Haryana,Home & Kitchen,0.8221,1
+MSE01183,SNP024,Gujarat,Food & Beverage,0.9365,1
+MSE01186,SNP020,Rajasthan,Services,0.7757,1
+MSE01188,SNP017,Tamil Nadu,Food & Beverage,0.7093,1
+MSE01189,SNP007,Karnataka,Fashion,0.8553,1
+MSE01190,SNP023,Karnataka,Services,0.8756,1
+MSE01191,SNP017,Karnataka,Food & Beverage,0.6818,1
+MSE01193,SNP007,Rajasthan,Home & Kitchen,0.7636,1
+MSE01195,SNP004,West Bengal,Agriculture,0.8048,1
+MSE01199,SNP007,Haryana,Fashion,0.6628,1
+MSE01201,SNP007,Kerala,Fashion,0.6839,1
+MSE01203,SNP024,Madhya Pradesh,Food & Beverage,0.6877,1
+MSE01204,SNP017,Kerala,Food & Beverage,0.7757,1
+MSE01206,SNP007,Maharashtra,Home & Kitchen,0.688,1
+MSE01209,SNP007,Kerala,Fashion,0.8123,1
+MSE01210,SNP007,Gujarat,Home & Kitchen,0.848,1
+MSE01212,SNP006,Karnataka,Handicrafts & Handloom,0.7516,1
+MSE01214,SNP007,Uttar Pradesh,Home & Kitchen,0.7907,1
+MSE01216,SNP002,Gujarat,Electronics,0.6219,1
+MSE01217,SNP024,West Bengal,Food & Beverage,0.7946,1
+MSE01218,SNP007,Madhya Pradesh,Fashion,0.6414,1
+MSE01220,SNP020,Rajasthan,Services,0.7382,1
+MSE01224,SNP008,Uttar Pradesh,Services,0.6961,1
+MSE01226,SNP008,Tamil Nadu,Services,0.8457,1
+MSE01228,SNP007,Karnataka,Fashion,0.6644,1
+MSE01229,SNP020,Rajasthan,Services,0.9384,1
+MSE01231,SNP008,Haryana,Services,0.7492,1
+MSE01233,SNP002,Gujarat,Electronics,0.7547,1
+MSE01234,SNP006,Tamil Nadu,Handicrafts & Handloom,0.6827,1
+MSE01235,SNP024,Rajasthan,Food & Beverage,0.7727,1
+MSE01237,SNP002,Haryana,Electronics,0.7812,1
+MSE01241,SNP017,Kerala,Food & Beverage,0.9237,1
+MSE01244,SNP017,Tamil Nadu,Food & Beverage,0.697,1
+MSE01246,SNP008,Haryana,Services,0.8067,1
+MSE01247,SNP024,Gujarat,Food & Beverage,0.7942,1
+MSE01249,SNP007,Karnataka,Beauty & Personal Care,0.9045,1
+MSE01250,SNP024,Gujarat,Food & Beverage,0.8237,1
+MSE01254,SNP020,Gujarat,Agriculture,0.8551,1
+MSE01257,SNP007,West Bengal,Fashion,0.7501,1
+MSE01258,SNP007,Karnataka,Home & Kitchen,0.6433,1
+MSE01259,SNP007,Maharashtra,Beauty & Personal Care,0.8896,1
+MSE01265,SNP017,Tamil Nadu,Food & Beverage,0.6645,1
+MSE01266,SNP007,Uttar Pradesh,Fashion,0.7472,1
+MSE01273,SNP007,Tamil Nadu,Fashion,0.9156,1
+MSE01274,SNP024,Haryana,Food & Beverage,0.8238,1
+MSE01275,SNP008,Haryana,Services,0.9318,1
+MSE01278,SNP012,Uttar Pradesh,Agriculture,0.6592,1
+MSE01282,SNP004,Karnataka,Agriculture,0.835,1
+MSE01286,SNP024,Uttar Pradesh,Food & Beverage,0.8807,1
+MSE01288,SNP007,Tamil Nadu,Beauty & Personal Care,0.8409,1
+MSE01290,SNP007,Madhya Pradesh,Beauty & Personal Care,0.7398,1
+MSE01292,SNP007,Kerala,Home & Kitchen,0.6233,1
+MSE01296,SNP007,Karnataka,Home & Kitchen,0.7421,1
+MSE01298,SNP024,Haryana,Food & Beverage,0.64,1
+MSE01299,SNP024,Madhya Pradesh,Food & Beverage,0.8654,1
+MSE01305,SNP002,Kerala,Electronics,0.6733,1
+MSE01307,SNP007,Kerala,Fashion,0.9317,1
+MSE01308,SNP006,Karnataka,Handicrafts & Handloom,0.6606,1
+MSE01309,SNP008,Haryana,Services,0.7382,1
+MSE01310,SNP025,Maharashtra,Electronics,0.8482,1
+MSE01311,SNP024,Madhya Pradesh,Food & Beverage,0.8319,1
+MSE01312,SNP007,Maharashtra,Home & Kitchen,0.7114,1
+MSE01313,SNP007,Gujarat,Fashion,0.6308,1
+MSE01314,SNP007,Rajasthan,Home & Kitchen,0.9106,1
+MSE01316,SNP008,Uttar Pradesh,Services,0.7466,1
+MSE01325,SNP007,Haryana,Home & Kitchen,0.8835,1
+MSE01326,SNP007,Uttar Pradesh,Fashion,0.8742,1
+MSE01328,SNP007,Gujarat,Home & Kitchen,0.7056,1
+MSE01329,SNP024,Gujarat,Food & Beverage,0.8206,1
+MSE01331,SNP007,Kerala,Home & Kitchen,0.8044,1
+MSE01332,SNP007,Kerala,Fashion,0.6547,1
+MSE01333,SNP007,Haryana,Home & Kitchen,0.7561,1
+MSE01334,SNP024,Haryana,Food & Beverage,0.7225,1
+MSE01335,SNP007,Kerala,Beauty & Personal Care,0.9056,1
+MSE01337,SNP017,Kerala,Food & Beverage,0.8474,1
+MSE01341,SNP007,Haryana,Home & Kitchen,0.6375,1
+MSE01343,SNP007,Madhya Pradesh,Fashion,0.6539,1
+MSE01344,SNP007,West Bengal,Home & Kitchen,0.7707,1
+MSE01347,SNP012,Uttar Pradesh,Agriculture,0.7894,1
+MSE01348,SNP007,Madhya Pradesh,Home & Kitchen,0.8507,1
+MSE01349,SNP007,Rajasthan,Fashion,0.8581,1
+MSE01350,SNP007,Kerala,Home & Kitchen,0.8991,1
+MSE01353,SNP007,Gujarat,Fashion,0.9202,1
+MSE01354,SNP007,Kerala,Beauty & Personal Care,0.7571,1
+MSE01355,SNP007,Madhya Pradesh,Home & Kitchen,0.832,1
+MSE01356,SNP007,Madhya Pradesh,Fashion,0.7162,1
+MSE01357,SNP012,Haryana,Agriculture,0.6957,1
+MSE01358,SNP002,Madhya Pradesh,Electronics,0.6253,1
+MSE01362,SNP024,West Bengal,Food & Beverage,0.6367,1
+MSE01363,SNP024,Haryana,Food & Beverage,0.7753,1
+MSE01364,SNP008,Kerala,Services,0.7955,1
+MSE01366,SNP024,Rajasthan,Food & Beverage,0.912,1
+MSE01368,SNP024,Gujarat,Food & Beverage,0.9083,1
+MSE01371,SNP004,Karnataka,Agriculture,0.6458,1
+MSE01379,SNP020,Gujarat,Agriculture,0.9034,1
+MSE01382,SNP023,Karnataka,Services,0.9216,1
+MSE01383,SNP007,West Bengal,Beauty & Personal Care,0.9394,1
+MSE01387,SNP024,Rajasthan,Food & Beverage,0.6882,1
+MSE01390,SNP007,Kerala,Home & Kitchen,0.8505,1
+MSE01392,SNP007,Kerala,Home & Kitchen,0.6685,1
+MSE01394,SNP008,Uttar Pradesh,Services,0.6279,1
+MSE01396,SNP007,Gujarat,Fashion,0.8796,1
+MSE01399,SNP024,Uttar Pradesh,Food & Beverage,0.8444,1
+MSE01400,SNP008,Tamil Nadu,Services,0.6211,1
+MSE01401,SNP007,Haryana,Fashion,0.8951,1
+MSE01407,SNP017,Karnataka,Food & Beverage,0.7411,1
+MSE01408,SNP020,Rajasthan,Services,0.9322,1
+MSE01410,SNP011,Rajasthan,Agriculture,0.7283,1
+MSE01411,SNP024,Maharashtra,Food & Beverage,0.8773,1
+MSE01412,SNP017,Tamil Nadu,Food & Beverage,0.6278,1
+MSE01416,SNP008,Uttar Pradesh,Services,0.9227,1
+MSE01419,SNP007,Kerala,Beauty & Personal Care,0.6358,1
+MSE01421,SNP007,West Bengal,Fashion,0.6722,1
+MSE01422,SNP024,West Bengal,Food & Beverage,0.9364,1
+MSE01423,SNP008,Madhya Pradesh,Services,0.9377,1
+MSE01424,SNP002,West Bengal,Electronics,0.8014,1
+MSE01426,SNP008,West Bengal,Services,0.7503,1
+MSE01427,SNP002,Rajasthan,Electronics,0.7526,1
+MSE01429,SNP007,Gujarat,Fashion,0.9071,1
+MSE01430,SNP024,Haryana,Food & Beverage,0.8869,1
+MSE01431,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.621,1
+MSE01432,SNP007,Uttar Pradesh,Fashion,0.791,1
+MSE01436,SNP007,Tamil Nadu,Home & Kitchen,0.8879,1
+MSE01438,SNP007,Maharashtra,Fashion,0.7776,1
+MSE01439,SNP006,West Bengal,Handicrafts & Handloom,0.9331,1
+MSE01443,SNP017,Kerala,Food & Beverage,0.8169,1
+MSE01445,SNP007,Maharashtra,Beauty & Personal Care,0.8649,1
+MSE01450,SNP007,Uttar Pradesh,Fashion,0.7684,1
+MSE01451,SNP007,Gujarat,Beauty & Personal Care,0.698,1
+MSE01453,SNP024,West Bengal,Food & Beverage,0.7446,1
+MSE01454,SNP007,Karnataka,Fashion,0.6901,1
+MSE01455,SNP024,Uttar Pradesh,Food & Beverage,0.8501,1
+MSE01457,SNP024,West Bengal,Food & Beverage,0.7138,1
+MSE01458,SNP020,Rajasthan,Services,0.9067,1
+MSE01461,SNP008,Kerala,Services,0.6992,1
+MSE01462,SNP024,Uttar Pradesh,Food & Beverage,0.7764,1
+MSE01465,SNP007,Karnataka,Home & Kitchen,0.826,1
+MSE01466,SNP006,Tamil Nadu,Handicrafts & Handloom,0.6816,1
+MSE01467,SNP007,West Bengal,Home & Kitchen,0.723,1
+MSE01468,SNP007,Rajasthan,Beauty & Personal Care,0.8087,1
+MSE01469,SNP007,Karnataka,Home & Kitchen,0.73,1
+MSE01470,SNP002,Rajasthan,Electronics,0.8262,1
+MSE01472,SNP007,Madhya Pradesh,Fashion,0.7077,1
+MSE01473,SNP024,Madhya Pradesh,Food & Beverage,0.773,1
+MSE01480,SNP024,Madhya Pradesh,Food & Beverage,0.8215,1
+MSE01481,SNP024,Gujarat,Food & Beverage,0.7405,1
+MSE01482,SNP007,Uttar Pradesh,Fashion,0.6394,1
+MSE01484,SNP008,West Bengal,Services,0.9056,1
+MSE01488,SNP007,Maharashtra,Fashion,0.7146,1
+MSE01492,SNP007,Gujarat,Home & Kitchen,0.8615,1
+MSE01494,SNP007,Madhya Pradesh,Home & Kitchen,0.7162,1
+MSE01496,SNP006,Kerala,Handicrafts & Handloom,0.8554,1
+MSE01498,SNP007,Maharashtra,Home & Kitchen,0.7792,1
+MSE01500,SNP007,Karnataka,Beauty & Personal Care,0.9019,1
+MSE01509,SNP007,Tamil Nadu,Home & Kitchen,0.7181,1
+MSE01510,SNP020,Gujarat,Agriculture,0.7162,1
+MSE01511,SNP007,West Bengal,Fashion,0.8787,1
+MSE01512,SNP006,Kerala,Handicrafts & Handloom,0.7252,1
+MSE01515,SNP007,Kerala,Fashion,0.7602,1
+MSE01518,SNP007,Tamil Nadu,Fashion,0.7215,1
+MSE01523,SNP017,Kerala,Food & Beverage,0.651,1
+MSE01524,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.6958,1
+MSE01527,SNP011,Rajasthan,Agriculture,0.8976,1
+MSE01528,SNP024,Uttar Pradesh,Food & Beverage,0.658,1
+MSE01530,SNP004,Tamil Nadu,Agriculture,0.6403,1
+MSE01535,SNP007,Gujarat,Fashion,0.6265,1
+MSE01536,SNP007,Tamil Nadu,Fashion,0.8584,1
+MSE01538,SNP024,West Bengal,Food & Beverage,0.8959,1
+MSE01542,SNP008,Kerala,Services,0.6764,1
+MSE01543,SNP007,Kerala,Home & Kitchen,0.7475,1
+MSE01544,SNP007,Kerala,Home & Kitchen,0.8452,1
+MSE01545,SNP024,Haryana,Food & Beverage,0.6832,1
+MSE01546,SNP007,Kerala,Fashion,0.6384,1
+MSE01547,SNP007,Kerala,Home & Kitchen,0.7502,1
+MSE01554,SNP007,Kerala,Home & Kitchen,0.9081,1
+MSE01555,SNP024,Madhya Pradesh,Food & Beverage,0.8104,1
+MSE01558,SNP017,Tamil Nadu,Food & Beverage,0.6829,1
+MSE01560,SNP024,Rajasthan,Food & Beverage,0.7865,1
+MSE01565,SNP008,Kerala,Services,0.8446,1
+MSE01569,SNP024,Uttar Pradesh,Food & Beverage,0.8481,1
+MSE01570,SNP007,Madhya Pradesh,Fashion,0.763,1
+MSE01571,SNP024,Gujarat,Food & Beverage,0.7017,1
+MSE01575,SNP007,Gujarat,Fashion,0.7977,1
+MSE01576,SNP008,Madhya Pradesh,Services,0.6302,1
+MSE01577,SNP020,Gujarat,Agriculture,0.8639,1
+MSE01579,SNP002,Gujarat,Electronics,0.6467,1
+MSE01580,SNP017,Karnataka,Food & Beverage,0.8178,1
+MSE01584,SNP004,Karnataka,Agriculture,0.8969,1
+MSE01586,SNP002,Kerala,Electronics,0.7465,1
+MSE01587,SNP008,Haryana,Services,0.8324,1
+MSE01588,SNP008,Haryana,Services,0.757,1
+MSE01589,SNP025,Maharashtra,Electronics,0.9193,1
+MSE01594,SNP024,Haryana,Food & Beverage,0.8039,1
+MSE01595,SNP024,Maharashtra,Food & Beverage,0.6394,1
+MSE01596,SNP006,Gujarat,Handicrafts & Handloom,0.8647,1
+MSE01598,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.6221,1
+MSE01599,SNP024,Uttar Pradesh,Food & Beverage,0.7037,1
+MSE01602,SNP004,West Bengal,Agriculture,0.8607,1
+MSE01603,SNP007,Gujarat,Fashion,0.6673,1
+MSE01604,SNP007,Kerala,Fashion,0.7977,1
+MSE01605,SNP007,Haryana,Home & Kitchen,0.69,1
+MSE01606,SNP007,Haryana,Home & Kitchen,0.8421,1
+MSE01609,SNP006,West Bengal,Handicrafts & Handloom,0.7026,1
+MSE01612,SNP008,Maharashtra,Services,0.725,1
+MSE01613,SNP007,Haryana,Home & Kitchen,0.8774,1
+MSE01616,SNP024,Gujarat,Food & Beverage,0.9294,1
+MSE01617,SNP024,Haryana,Food & Beverage,0.6619,1
+MSE01619,SNP024,Madhya Pradesh,Food & Beverage,0.6276,1
+MSE01621,SNP007,Karnataka,Fashion,0.7004,1
+MSE01623,SNP008,West Bengal,Services,0.8098,1
+MSE01625,SNP004,West Bengal,Agriculture,0.8549,1
+MSE01631,SNP017,Karnataka,Food & Beverage,0.9096,1
+MSE01635,SNP024,West Bengal,Food & Beverage,0.8231,1
+MSE01638,SNP006,Maharashtra,Handicrafts & Handloom,0.8159,1
+MSE01639,SNP007,West Bengal,Fashion,0.8412,1
+MSE01640,SNP012,Uttar Pradesh,Agriculture,0.9097,1
+MSE01641,SNP012,Uttar Pradesh,Agriculture,0.6395,1
+MSE01643,SNP024,Madhya Pradesh,Food & Beverage,0.8977,1
+MSE01644,SNP007,Rajasthan,Home & Kitchen,0.9225,1
+MSE01645,SNP023,Karnataka,Services,0.9004,1
+MSE01646,SNP024,Gujarat,Food & Beverage,0.6317,1
+MSE01648,SNP024,Uttar Pradesh,Food & Beverage,0.7792,1
+MSE01650,SNP007,West Bengal,Home & Kitchen,0.6919,1
+MSE01652,SNP008,Haryana,Services,0.7882,1
+MSE01658,SNP024,Madhya Pradesh,Food & Beverage,0.8751,1
+MSE01660,SNP008,West Bengal,Services,0.8536,1
+MSE01661,SNP007,Kerala,Fashion,0.7209,1
+MSE01662,SNP004,West Bengal,Agriculture,0.7635,1
+MSE01664,SNP024,West Bengal,Food & Beverage,0.6423,1
+MSE01669,SNP007,Uttar Pradesh,Home & Kitchen,0.771,1
+MSE01670,SNP024,Maharashtra,Food & Beverage,0.7212,1
+MSE01672,SNP024,Uttar Pradesh,Food & Beverage,0.8281,1
+MSE01674,SNP024,West Bengal,Food & Beverage,0.8098,1
+MSE01676,SNP024,Haryana,Food & Beverage,0.7519,1
+MSE01678,SNP007,Karnataka,Home & Kitchen,0.7788,1
+MSE01680,SNP017,Kerala,Food & Beverage,0.641,1
+MSE01682,SNP007,Kerala,Home & Kitchen,0.7417,1
+MSE01684,SNP008,Maharashtra,Services,0.7066,1
+MSE01685,SNP007,Uttar Pradesh,Home & Kitchen,0.7682,1
+MSE01690,SNP007,Madhya Pradesh,Home & Kitchen,0.9318,1
+MSE01692,SNP007,Rajasthan,Beauty & Personal Care,0.6328,1
+MSE01699,SNP007,Gujarat,Home & Kitchen,0.7596,1
+MSE01703,SNP007,Gujarat,Home & Kitchen,0.8885,1
+MSE01704,SNP007,Tamil Nadu,Home & Kitchen,0.7739,1
+MSE01706,SNP017,Karnataka,Food & Beverage,0.7834,1
+MSE01709,SNP024,West Bengal,Food & Beverage,0.7343,1
+MSE01711,SNP007,Haryana,Beauty & Personal Care,0.6463,1
+MSE01714,SNP024,Gujarat,Food & Beverage,0.8964,1
+MSE01715,SNP024,Uttar Pradesh,Food & Beverage,0.6487,1
+MSE01716,SNP007,Rajasthan,Fashion,0.764,1
+MSE01718,SNP025,Karnataka,Electronics,0.9252,1
+MSE01719,SNP017,Karnataka,Food & Beverage,0.8504,1
+MSE01720,SNP006,Kerala,Handicrafts & Handloom,0.8517,1
+MSE01723,SNP017,Kerala,Food & Beverage,0.6311,1
+MSE01724,SNP024,Uttar Pradesh,Food & Beverage,0.7389,1
+MSE01727,SNP017,Kerala,Food & Beverage,0.7211,1
+MSE01734,SNP007,Rajasthan,Beauty & Personal Care,0.9083,1
+MSE01737,SNP007,Tamil Nadu,Beauty & Personal Care,0.6359,1
+MSE01740,SNP012,Haryana,Agriculture,0.6878,1
+MSE01741,SNP024,Maharashtra,Food & Beverage,0.8133,1
+MSE01742,SNP007,Tamil Nadu,Home & Kitchen,0.8082,1
+MSE01749,SNP017,Kerala,Food & Beverage,0.7112,1
+MSE01750,SNP017,Karnataka,Food & Beverage,0.8784,1
+MSE01751,SNP024,Rajasthan,Food & Beverage,0.7036,1
+MSE01752,SNP024,Uttar Pradesh,Food & Beverage,0.6412,1
+MSE01755,SNP024,Uttar Pradesh,Food & Beverage,0.8995,1
+MSE01762,SNP017,Tamil Nadu,Food & Beverage,0.7201,1
+MSE01764,SNP004,West Bengal,Agriculture,0.8427,1
+MSE01765,SNP024,Rajasthan,Food & Beverage,0.7684,1
+MSE01766,SNP020,Gujarat,Services,0.6849,1
+MSE01768,SNP020,Gujarat,Agriculture,0.7699,1
+MSE01769,SNP012,Haryana,Agriculture,0.7141,1
+MSE01771,SNP007,Maharashtra,Fashion,0.9218,1
+MSE01774,SNP006,Tamil Nadu,Handicrafts & Handloom,0.8247,1
+MSE01780,SNP024,Uttar Pradesh,Food & Beverage,0.7079,1
+MSE01781,SNP007,Uttar Pradesh,Home & Kitchen,0.7505,1
+MSE01783,SNP017,Kerala,Food & Beverage,0.7496,1
+MSE01786,SNP007,West Bengal,Home & Kitchen,0.7914,1
+MSE01788,SNP024,Madhya Pradesh,Food & Beverage,0.8589,1
+MSE01791,SNP007,Tamil Nadu,Beauty & Personal Care,0.7188,1
+MSE01793,SNP006,Haryana,Handicrafts & Handloom,0.7832,1
+MSE01794,SNP007,Haryana,Fashion,0.8743,1
+MSE01797,SNP007,Uttar Pradesh,Fashion,0.9268,1
+MSE01799,SNP007,Haryana,Home & Kitchen,0.8183,1
+MSE01800,SNP007,Gujarat,Home & Kitchen,0.7952,1
+MSE01801,SNP017,Kerala,Food & Beverage,0.6944,1
+MSE01803,SNP006,Kerala,Handicrafts & Handloom,0.8981,1
+MSE01804,SNP007,Uttar Pradesh,Fashion,0.7888,1
+MSE01805,SNP007,Maharashtra,Fashion,0.8942,1
+MSE01808,SNP007,Haryana,Fashion,0.8318,1
+MSE01810,SNP007,West Bengal,Home & Kitchen,0.8676,1
+MSE01812,SNP017,Kerala,Food & Beverage,0.6845,1
+MSE01816,SNP007,Madhya Pradesh,Home & Kitchen,0.8467,1
+MSE01818,SNP017,Tamil Nadu,Food & Beverage,0.8111,1
+MSE01819,SNP007,Madhya Pradesh,Home & Kitchen,0.6879,1
+MSE01822,SNP007,Haryana,Home & Kitchen,0.6256,1
+MSE01823,SNP007,Karnataka,Home & Kitchen,0.7498,1
+MSE01824,SNP024,Rajasthan,Food & Beverage,0.8846,1
+MSE01826,SNP020,Rajasthan,Services,0.6328,1
+MSE01827,SNP008,Tamil Nadu,Services,0.9306,1
+MSE01829,SNP017,Karnataka,Food & Beverage,0.7423,1
+MSE01832,SNP007,Tamil Nadu,Home & Kitchen,0.7487,1
+MSE01835,SNP006,Tamil Nadu,Handicrafts & Handloom,0.7985,1
+MSE01837,SNP002,West Bengal,Electronics,0.6643,1
+MSE01842,SNP017,Karnataka,Food & Beverage,0.936,1
+MSE01844,SNP024,Uttar Pradesh,Food & Beverage,0.7146,1
+MSE01845,SNP017,Tamil Nadu,Food & Beverage,0.7452,1
+MSE01846,SNP024,Madhya Pradesh,Food & Beverage,0.7691,1
+MSE01848,SNP024,Madhya Pradesh,Food & Beverage,0.9054,1
+MSE01852,SNP024,Rajasthan,Food & Beverage,0.7071,1
+MSE01855,SNP025,Karnataka,Electronics,0.633,1
+MSE01858,SNP006,Karnataka,Handicrafts & Handloom,0.8929,1
+MSE01860,SNP004,Tamil Nadu,Agriculture,0.9049,1
+MSE01862,SNP007,Uttar Pradesh,Home & Kitchen,0.7015,1
+MSE01865,SNP007,Tamil Nadu,Fashion,0.8412,1
+MSE01866,SNP008,Uttar Pradesh,Services,0.8902,1
+MSE01867,SNP007,Karnataka,Beauty & Personal Care,0.7524,1
+MSE01868,SNP007,Maharashtra,Fashion,0.9188,1
+MSE01872,SNP004,Tamil Nadu,Agriculture,0.7198,1
+MSE01873,SNP002,West Bengal,Electronics,0.7523,1
+MSE01878,SNP007,Maharashtra,Fashion,0.6908,1
+MSE01882,SNP017,Karnataka,Food & Beverage,0.8175,1
+MSE01884,SNP007,Tamil Nadu,Home & Kitchen,0.7888,1
+MSE01887,SNP007,Maharashtra,Fashion,0.7618,1
+MSE01888,SNP007,Tamil Nadu,Fashion,0.8238,1
+MSE01889,SNP024,West Bengal,Food & Beverage,0.8649,1
+MSE01894,SNP006,Karnataka,Handicrafts & Handloom,0.7502,1
+MSE01897,SNP007,Kerala,Home & Kitchen,0.7983,1
+MSE01900,SNP007,Uttar Pradesh,Beauty & Personal Care,0.7636,1
+MSE01905,SNP012,Uttar Pradesh,Agriculture,0.9129,1
+MSE01906,SNP007,Haryana,Beauty & Personal Care,0.8339,1
+MSE01907,SNP024,Madhya Pradesh,Food & Beverage,0.6665,1
+MSE01908,SNP002,Haryana,Electronics,0.9098,1
+MSE01912,SNP007,Gujarat,Fashion,0.6267,1
+MSE01916,SNP007,Gujarat,Home & Kitchen,0.8986,1
+MSE01919,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.904,1
+MSE01920,SNP024,Uttar Pradesh,Food & Beverage,0.736,1
+MSE01922,SNP008,West Bengal,Services,0.7972,1
+MSE01924,SNP004,Kerala,Agriculture,0.8696,1
+MSE01928,SNP002,Madhya Pradesh,Electronics,0.7081,1
+MSE01932,SNP024,Rajasthan,Food & Beverage,0.8842,1
+MSE01936,SNP007,West Bengal,Beauty & Personal Care,0.9163,1
+MSE01938,SNP024,Gujarat,Food & Beverage,0.7899,1
+MSE01940,SNP020,Rajasthan,Services,0.7969,1
+MSE01945,SNP024,West Bengal,Food & Beverage,0.8089,1
+MSE01947,SNP017,Karnataka,Food & Beverage,0.8538,1
+MSE01951,SNP007,Uttar Pradesh,Home & Kitchen,0.8169,1
+MSE01954,SNP017,Kerala,Food & Beverage,0.8644,1
+MSE01955,SNP007,Karnataka,Home & Kitchen,0.6539,1
+MSE01961,SNP002,West Bengal,Electronics,0.6753,1
+MSE01963,SNP007,Tamil Nadu,Home & Kitchen,0.6999,1
+MSE01964,SNP007,West Bengal,Fashion,0.8009,1
+MSE01967,SNP007,Maharashtra,Beauty & Personal Care,0.6622,1
+MSE01969,SNP007,Kerala,Fashion,0.7883,1
+MSE01975,SNP007,Tamil Nadu,Home & Kitchen,0.8072,1
+MSE01977,SNP006,Gujarat,Handicrafts & Handloom,0.8955,1
+MSE01979,SNP007,Madhya Pradesh,Home & Kitchen,0.8775,1
+MSE01982,SNP007,Haryana,Fashion,0.9365,1
+MSE01985,SNP020,Rajasthan,Services,0.649,1
+MSE01989,SNP006,Tamil Nadu,Handicrafts & Handloom,0.6809,1
+MSE01992,SNP024,Gujarat,Food & Beverage,0.718,1
+MSE01998,SNP006,Haryana,Handicrafts & Handloom,0.8455,1
+MSE02003,SNP008,Kerala,Services,0.706,1
+MSE02004,SNP024,Haryana,Food & Beverage,0.78,1
+MSE02006,SNP007,Kerala,Beauty & Personal Care,0.6456,1
+MSE02007,SNP006,Karnataka,Handicrafts & Handloom,0.672,1
+MSE02011,SNP017,Tamil Nadu,Food & Beverage,0.811,1
+MSE02014,SNP007,Tamil Nadu,Fashion,0.6733,1
+MSE02015,SNP007,Tamil Nadu,Fashion,0.6506,1
+MSE02018,SNP024,Gujarat,Food & Beverage,0.6443,1
+MSE02020,SNP020,Maharashtra,Agriculture,0.7002,1
+MSE02022,SNP017,Tamil Nadu,Food & Beverage,0.8638,1
+MSE02024,SNP011,Madhya Pradesh,Agriculture,0.6468,1
+MSE02025,SNP002,Kerala,Electronics,0.7951,1
+MSE02026,SNP024,West Bengal,Food & Beverage,0.7244,1
+MSE02027,SNP017,Tamil Nadu,Food & Beverage,0.6369,1
+MSE02035,SNP024,Madhya Pradesh,Food & Beverage,0.801,1
+MSE02037,SNP024,Haryana,Food & Beverage,0.6207,1
+MSE02041,SNP007,Karnataka,Home & Kitchen,0.6609,1
+MSE02044,SNP007,Haryana,Home & Kitchen,0.6213,1
+MSE02046,SNP007,Tamil Nadu,Beauty & Personal Care,0.7201,1
+MSE02048,SNP006,Gujarat,Handicrafts & Handloom,0.6883,1
+MSE02049,SNP007,Kerala,Home & Kitchen,0.6375,1
+MSE02050,SNP006,Karnataka,Handicrafts & Handloom,0.896,1
+MSE02053,SNP006,West Bengal,Handicrafts & Handloom,0.9192,1
+MSE02055,SNP007,Karnataka,Fashion,0.6666,1
+MSE02056,SNP024,Maharashtra,Food & Beverage,0.7964,1
+MSE02060,SNP007,Rajasthan,Beauty & Personal Care,0.7326,1
+MSE02061,SNP024,Gujarat,Food & Beverage,0.8307,1
+MSE02062,SNP020,Rajasthan,Services,0.6625,1
+MSE02067,SNP012,Uttar Pradesh,Agriculture,0.9244,1
+MSE02073,SNP012,Uttar Pradesh,Agriculture,0.8838,1
+MSE02076,SNP002,Kerala,Electronics,0.8227,1
+MSE02082,SNP008,Tamil Nadu,Services,0.8704,1
+MSE02089,SNP007,Uttar Pradesh,Fashion,0.7929,1
+MSE02090,SNP007,Maharashtra,Beauty & Personal Care,0.7362,1
+MSE02100,SNP020,Gujarat,Agriculture,0.8107,1
+MSE02102,SNP007,Haryana,Home & Kitchen,0.627,1
+MSE02103,SNP007,Kerala,Home & Kitchen,0.8007,1
+MSE02104,SNP007,Madhya Pradesh,Fashion,0.7609,1
+MSE02106,SNP024,West Bengal,Food & Beverage,0.8266,1
+MSE02107,SNP024,Uttar Pradesh,Food & Beverage,0.9202,1
+MSE02112,SNP024,Maharashtra,Food & Beverage,0.6591,1
+MSE02113,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.7825,1
+MSE02114,SNP004,Tamil Nadu,Agriculture,0.6941,1
+MSE02115,SNP024,Rajasthan,Food & Beverage,0.7077,1
+MSE02117,SNP017,Karnataka,Food & Beverage,0.7845,1
+MSE02119,SNP020,Gujarat,Agriculture,0.6238,1
+MSE02121,SNP025,Uttar Pradesh,Electronics,0.8079,1
+MSE02122,SNP006,Haryana,Handicrafts & Handloom,0.85,1
+MSE02124,SNP024,Uttar Pradesh,Food & Beverage,0.9252,1
+MSE02127,SNP007,Uttar Pradesh,Fashion,0.892,1
+MSE02131,SNP017,Tamil Nadu,Food & Beverage,0.8866,1
+MSE02132,SNP007,Gujarat,Home & Kitchen,0.8117,1
+MSE02133,SNP002,Rajasthan,Electronics,0.7249,1
+MSE02134,SNP004,West Bengal,Agriculture,0.6216,1
+MSE02136,SNP020,Gujarat,Services,0.7725,1
+MSE02138,SNP004,Kerala,Agriculture,0.7583,1
+MSE02140,SNP007,Uttar Pradesh,Fashion,0.7509,1
+MSE02141,SNP007,Maharashtra,Fashion,0.7928,1
+MSE02144,SNP004,Tamil Nadu,Agriculture,0.7358,1
+MSE02147,SNP007,West Bengal,Beauty & Personal Care,0.9286,1
+MSE02148,SNP017,Karnataka,Food & Beverage,0.7717,1
+MSE02152,SNP017,Tamil Nadu,Food & Beverage,0.6823,1
+MSE02154,SNP006,Gujarat,Handicrafts & Handloom,0.7674,1
+MSE02155,SNP024,Haryana,Food & Beverage,0.7769,1
+MSE02157,SNP008,Kerala,Services,0.9287,1
+MSE02158,SNP024,West Bengal,Food & Beverage,0.7589,1
+MSE02159,SNP004,Kerala,Agriculture,0.6432,1
+MSE02161,SNP012,Uttar Pradesh,Agriculture,0.7685,1
+MSE02166,SNP017,Karnataka,Food & Beverage,0.8926,1
+MSE02167,SNP002,West Bengal,Electronics,0.6281,1
+MSE02170,SNP024,Madhya Pradesh,Food & Beverage,0.6543,1
+MSE02171,SNP007,Uttar Pradesh,Home & Kitchen,0.7541,1
+MSE02173,SNP007,Rajasthan,Home & Kitchen,0.6454,1
+MSE02178,SNP008,Madhya Pradesh,Services,0.6242,1
+MSE02179,SNP012,Haryana,Agriculture,0.7851,1
+MSE02181,SNP024,Madhya Pradesh,Food & Beverage,0.6799,1
+MSE02192,SNP007,Karnataka,Fashion,0.7902,1
+MSE02193,SNP024,Rajasthan,Food & Beverage,0.7643,1
+MSE02194,SNP024,Uttar Pradesh,Food & Beverage,0.6393,1
+MSE02196,SNP007,Tamil Nadu,Fashion,0.7476,1
+MSE02198,SNP007,Gujarat,Fashion,0.9397,1
+MSE02199,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.9159,1
+MSE02200,SNP004,Karnataka,Agriculture,0.7889,1
+MSE02202,SNP024,Madhya Pradesh,Food & Beverage,0.8554,1
+MSE02205,SNP007,Maharashtra,Fashion,0.659,1
+MSE02208,SNP007,West Bengal,Home & Kitchen,0.9318,1
+MSE02209,SNP024,Gujarat,Food & Beverage,0.713,1
+MSE02211,SNP025,Karnataka,Electronics,0.8187,1
+MSE02214,SNP007,Maharashtra,Home & Kitchen,0.6616,1
+MSE02215,SNP007,Tamil Nadu,Beauty & Personal Care,0.7668,1
+MSE02216,SNP024,Maharashtra,Food & Beverage,0.9231,1
+MSE02217,SNP007,Rajasthan,Fashion,0.8686,1
+MSE02221,SNP007,Gujarat,Home & Kitchen,0.7321,1
+MSE02222,SNP007,Maharashtra,Fashion,0.9153,1
+MSE02223,SNP023,Karnataka,Services,0.9171,1
+MSE02225,SNP007,Maharashtra,Home & Kitchen,0.7472,1
+MSE02226,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.8923,1
+MSE02227,SNP008,Tamil Nadu,Services,0.7756,1
+MSE02228,SNP007,Madhya Pradesh,Home & Kitchen,0.6883,1
+MSE02229,SNP007,West Bengal,Home & Kitchen,0.7209,1
+MSE02230,SNP004,Karnataka,Agriculture,0.8558,1
+MSE02231,SNP017,Karnataka,Food & Beverage,0.9389,1
+MSE02232,SNP017,Kerala,Food & Beverage,0.6839,1
+MSE02236,SNP007,Uttar Pradesh,Fashion,0.6477,1
+MSE02241,SNP007,Rajasthan,Fashion,0.8326,1
+MSE02246,SNP007,Karnataka,Fashion,0.7219,1
+MSE02247,SNP007,Madhya Pradesh,Home & Kitchen,0.886,1
+MSE02249,SNP020,Gujarat,Agriculture,0.6974,1
+MSE02252,SNP007,West Bengal,Home & Kitchen,0.7597,1
+MSE02253,SNP007,West Bengal,Fashion,0.7243,1
+MSE02256,SNP011,Rajasthan,Agriculture,0.8623,1
+MSE02257,SNP007,Tamil Nadu,Home & Kitchen,0.6483,1
+MSE02258,SNP024,Haryana,Food & Beverage,0.6602,1
+MSE02259,SNP017,Kerala,Food & Beverage,0.6873,1
+MSE02260,SNP007,Gujarat,Beauty & Personal Care,0.7064,1
+MSE02261,SNP007,Gujarat,Home & Kitchen,0.8241,1
+MSE02262,SNP007,Kerala,Beauty & Personal Care,0.927,1
+MSE02272,SNP006,Tamil Nadu,Handicrafts & Handloom,0.8714,1
+MSE02273,SNP017,Kerala,Food & Beverage,0.8437,1
+MSE02274,SNP024,Maharashtra,Food & Beverage,0.7723,1
+MSE02275,SNP008,Kerala,Services,0.8501,1
+MSE02276,SNP004,Kerala,Agriculture,0.6375,1
+MSE02277,SNP024,Madhya Pradesh,Food & Beverage,0.9117,1
+MSE02283,SNP024,Maharashtra,Food & Beverage,0.9072,1
+MSE02285,SNP007,Karnataka,Fashion,0.7378,1
+MSE02286,SNP024,Gujarat,Food & Beverage,0.7639,1
+MSE02289,SNP007,Haryana,Fashion,0.8815,1
+MSE02292,SNP002,Kerala,Electronics,0.6898,1
+MSE02293,SNP006,Gujarat,Handicrafts & Handloom,0.6283,1
+MSE02296,SNP024,Gujarat,Food & Beverage,0.7514,1
+MSE02299,SNP007,Gujarat,Home & Kitchen,0.6797,1
+MSE02301,SNP007,Madhya Pradesh,Fashion,0.8857,1
+MSE02303,SNP008,Maharashtra,Services,0.6933,1
+MSE02304,SNP011,Rajasthan,Agriculture,0.9392,1
+MSE02305,SNP007,Karnataka,Fashion,0.6614,1
+MSE02307,SNP024,Madhya Pradesh,Food & Beverage,0.6328,1
+MSE02308,SNP006,Rajasthan,Handicrafts & Handloom,0.6826,1
+MSE02310,SNP024,Gujarat,Food & Beverage,0.8458,1
+MSE02313,SNP020,Maharashtra,Agriculture,0.6218,1
+MSE02315,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.8512,1
+MSE02316,SNP007,Karnataka,Home & Kitchen,0.7544,1
+MSE02317,SNP017,Kerala,Food & Beverage,0.7044,1
+MSE02321,SNP007,Karnataka,Home & Kitchen,0.6434,1
+MSE02322,SNP008,Madhya Pradesh,Services,0.6588,1
+MSE02325,SNP024,Maharashtra,Food & Beverage,0.7767,1
+MSE02327,SNP023,Karnataka,Services,0.7922,1
+MSE02331,SNP007,Gujarat,Fashion,0.8093,1
+MSE02333,SNP012,Uttar Pradesh,Agriculture,0.7625,1
+MSE02337,SNP007,West Bengal,Fashion,0.8791,1
+MSE02341,SNP006,Maharashtra,Handicrafts & Handloom,0.7437,1
+MSE02342,SNP007,Uttar Pradesh,Home & Kitchen,0.8403,1
+MSE02343,SNP006,Haryana,Handicrafts & Handloom,0.8323,1
+MSE02344,SNP024,Gujarat,Food & Beverage,0.6999,1
+MSE02349,SNP007,Maharashtra,Fashion,0.6674,1
+MSE02351,SNP024,Haryana,Food & Beverage,0.6686,1
+MSE02352,SNP008,West Bengal,Services,0.6506,1
+MSE02355,SNP007,West Bengal,Fashion,0.7215,1
+MSE02356,SNP007,Rajasthan,Fashion,0.84,1
+MSE02359,SNP020,Rajasthan,Services,0.7013,1
+MSE02360,SNP024,Maharashtra,Food & Beverage,0.645,1
+MSE02363,SNP004,Kerala,Agriculture,0.8967,1
+MSE02364,SNP007,Haryana,Fashion,0.7119,1
+MSE02365,SNP007,Madhya Pradesh,Home & Kitchen,0.6844,1
+MSE02369,SNP006,Rajasthan,Handicrafts & Handloom,0.9121,1
+MSE02370,SNP024,Maharashtra,Food & Beverage,0.8386,1
+MSE02371,SNP007,Haryana,Home & Kitchen,0.7858,1
+MSE02373,SNP024,Haryana,Food & Beverage,0.738,1
+MSE02375,SNP007,Tamil Nadu,Home & Kitchen,0.8148,1
+MSE02379,SNP007,Karnataka,Fashion,0.6691,1
+MSE02380,SNP007,Rajasthan,Home & Kitchen,0.6292,1
+MSE02381,SNP008,Maharashtra,Services,0.9256,1
+MSE02382,SNP023,Karnataka,Services,0.7998,1
+MSE02383,SNP024,Gujarat,Food & Beverage,0.6285,1
+MSE02389,SNP007,Haryana,Beauty & Personal Care,0.7068,1
+MSE02393,SNP024,Gujarat,Food & Beverage,0.7016,1
+MSE02394,SNP020,Rajasthan,Services,0.7019,1
+MSE02397,SNP007,Madhya Pradesh,Fashion,0.7434,1
+MSE02398,SNP006,Kerala,Handicrafts & Handloom,0.7218,1
+MSE02400,SNP024,West Bengal,Food & Beverage,0.8061,1
+MSE02401,SNP024,Maharashtra,Food & Beverage,0.6972,1
+MSE02403,SNP024,Gujarat,Food & Beverage,0.7541,1
+MSE02406,SNP024,Maharashtra,Food & Beverage,0.7822,1
+MSE02408,SNP024,Rajasthan,Food & Beverage,0.6213,1
+MSE02409,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.8216,1
+MSE02410,SNP007,West Bengal,Beauty & Personal Care,0.6305,1
+MSE02411,SNP008,Tamil Nadu,Services,0.8511,1
+MSE02412,SNP020,Gujarat,Services,0.6944,1
+MSE02414,SNP024,Maharashtra,Food & Beverage,0.805,1
+MSE02416,SNP007,Madhya Pradesh,Home & Kitchen,0.6814,1
+MSE02417,SNP020,Gujarat,Agriculture,0.8919,1
+MSE02419,SNP020,Gujarat,Services,0.7343,1
+MSE02420,SNP006,Kerala,Handicrafts & Handloom,0.8858,1
+MSE02421,SNP024,West Bengal,Food & Beverage,0.9233,1
+MSE02422,SNP024,West Bengal,Food & Beverage,0.6291,1
+MSE02423,SNP017,Kerala,Food & Beverage,0.7399,1
+MSE02430,SNP008,Haryana,Services,0.9152,1
+MSE02433,SNP006,Karnataka,Handicrafts & Handloom,0.822,1
+MSE02438,SNP024,West Bengal,Food & Beverage,0.6956,1
+MSE02439,SNP024,Rajasthan,Food & Beverage,0.6612,1
+MSE02440,SNP007,Uttar Pradesh,Fashion,0.8107,1
+MSE02443,SNP017,Tamil Nadu,Food & Beverage,0.7873,1
+MSE02445,SNP024,Gujarat,Food & Beverage,0.785,1
+MSE02447,SNP024,Maharashtra,Food & Beverage,0.7707,1
+MSE02450,SNP007,Kerala,Fashion,0.7406,1
+MSE02451,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.8066,1
+MSE02452,SNP007,Haryana,Home & Kitchen,0.8369,1
+MSE02457,SNP002,Madhya Pradesh,Electronics,0.8585,1
+MSE02458,SNP024,Maharashtra,Food & Beverage,0.7338,1
+MSE02460,SNP024,West Bengal,Food & Beverage,0.7475,1
+MSE02466,SNP006,Maharashtra,Handicrafts & Handloom,0.7693,1
+MSE02469,SNP007,Haryana,Home & Kitchen,0.6346,1
+MSE02470,SNP008,Haryana,Services,0.8618,1
+MSE02471,SNP024,Uttar Pradesh,Food & Beverage,0.8903,1
+MSE02472,SNP020,Rajasthan,Services,0.9372,1
+MSE02474,SNP017,Kerala,Food & Beverage,0.7232,1
+MSE02476,SNP006,Karnataka,Handicrafts & Handloom,0.8723,1
+MSE02480,SNP024,Maharashtra,Food & Beverage,0.7435,1
+MSE02484,SNP007,Karnataka,Home & Kitchen,0.6849,1
+MSE02485,SNP008,Maharashtra,Services,0.7637,1
+MSE02489,SNP024,West Bengal,Food & Beverage,0.6457,1
+MSE02490,SNP017,Tamil Nadu,Food & Beverage,0.9203,1
+MSE02491,SNP007,Haryana,Home & Kitchen,0.7111,1
+MSE02492,SNP020,Rajasthan,Services,0.6284,1
+MSE02494,SNP006,Gujarat,Handicrafts & Handloom,0.7221,1
+MSE02495,SNP007,Karnataka,Fashion,0.6402,1
+MSE02497,SNP007,Tamil Nadu,Home & Kitchen,0.7339,1
+MSE02505,SNP024,Uttar Pradesh,Food & Beverage,0.7336,1
+MSE02507,SNP007,Haryana,Fashion,0.7245,1
+MSE02510,SNP008,Madhya Pradesh,Services,0.6335,1
+MSE02511,SNP024,Madhya Pradesh,Food & Beverage,0.8297,1
+MSE02513,SNP024,Madhya Pradesh,Food & Beverage,0.8159,1
+MSE02514,SNP004,Kerala,Agriculture,0.77,1
+MSE02515,SNP007,Maharashtra,Fashion,0.6438,1
+MSE02516,SNP007,Haryana,Home & Kitchen,0.919,1
+MSE02517,SNP017,Karnataka,Food & Beverage,0.7728,1
+MSE02518,SNP011,Rajasthan,Agriculture,0.7306,1
+MSE02524,SNP002,Gujarat,Electronics,0.7437,1
+MSE02527,SNP002,Kerala,Electronics,0.8059,1
+MSE02528,SNP024,Gujarat,Food & Beverage,0.862,1
+MSE02534,SNP017,Kerala,Food & Beverage,0.6634,1
+MSE02535,SNP024,Madhya Pradesh,Food & Beverage,0.6775,1
+MSE02540,SNP007,Uttar Pradesh,Beauty & Personal Care,0.9321,1
+MSE02541,SNP017,Tamil Nadu,Food & Beverage,0.8846,1
+MSE02542,SNP008,Kerala,Services,0.912,1
+MSE02543,SNP007,Gujarat,Home & Kitchen,0.6864,1
+MSE02544,SNP024,West Bengal,Food & Beverage,0.7166,1
+MSE02549,SNP007,Uttar Pradesh,Home & Kitchen,0.8399,1
+MSE02554,SNP017,Tamil Nadu,Food & Beverage,0.7659,1
+MSE02559,SNP012,Haryana,Agriculture,0.7097,1
+MSE02567,SNP007,Uttar Pradesh,Beauty & Personal Care,0.7259,1
+MSE02568,SNP007,Kerala,Fashion,0.6994,1
+MSE02572,SNP024,Rajasthan,Food & Beverage,0.6687,1
+MSE02574,SNP012,Haryana,Agriculture,0.7446,1
+MSE02575,SNP007,Madhya Pradesh,Home & Kitchen,0.7095,1
+MSE02579,SNP008,Haryana,Services,0.8902,1
+MSE02582,SNP017,Kerala,Food & Beverage,0.7901,1
+MSE02583,SNP024,Haryana,Food & Beverage,0.8911,1
+MSE02586,SNP007,Tamil Nadu,Beauty & Personal Care,0.7781,1
+MSE02587,SNP007,Karnataka,Home & Kitchen,0.9313,1
+MSE02588,SNP007,Maharashtra,Fashion,0.8251,1
+MSE02589,SNP007,Tamil Nadu,Home & Kitchen,0.9322,1
+MSE02591,SNP007,Kerala,Home & Kitchen,0.6649,1
+MSE02593,SNP006,Maharashtra,Handicrafts & Handloom,0.8594,1
+MSE02598,SNP004,Kerala,Agriculture,0.678,1
+MSE02607,SNP024,Maharashtra,Food & Beverage,0.8974,1
+MSE02616,SNP023,Karnataka,Services,0.6747,1
+MSE02620,SNP012,Uttar Pradesh,Agriculture,0.7391,1
+MSE02623,SNP007,Kerala,Beauty & Personal Care,0.7722,1
+MSE02624,SNP007,Kerala,Home & Kitchen,0.6554,1
+MSE02625,SNP017,Karnataka,Food & Beverage,0.8635,1
+MSE02629,SNP024,Uttar Pradesh,Food & Beverage,0.7286,1
+MSE02630,SNP012,Haryana,Agriculture,0.8205,1
+MSE02638,SNP007,Kerala,Fashion,0.6426,1
+MSE02642,SNP007,Uttar Pradesh,Home & Kitchen,0.8551,1
+MSE02645,SNP007,Karnataka,Home & Kitchen,0.7492,1
+MSE02650,SNP020,Maharashtra,Agriculture,0.8115,1
+MSE02651,SNP007,Kerala,Fashion,0.656,1
+MSE02653,SNP007,Karnataka,Home & Kitchen,0.6575,1
+MSE02654,SNP007,West Bengal,Beauty & Personal Care,0.7832,1
+MSE02656,SNP011,Rajasthan,Agriculture,0.8463,1
+MSE02657,SNP020,Gujarat,Services,0.9106,1
+MSE02658,SNP007,Uttar Pradesh,Home & Kitchen,0.8258,1
+MSE02659,SNP006,Haryana,Handicrafts & Handloom,0.8054,1
+MSE02664,SNP024,Haryana,Food & Beverage,0.6254,1
+MSE02668,SNP011,Madhya Pradesh,Agriculture,0.8014,1
+MSE02669,SNP007,Rajasthan,Beauty & Personal Care,0.8717,1
+MSE02670,SNP024,Gujarat,Food & Beverage,0.9143,1
+MSE02675,SNP008,Kerala,Services,0.7661,1
+MSE02676,SNP007,West Bengal,Fashion,0.9281,1
+MSE02680,SNP007,Rajasthan,Home & Kitchen,0.6702,1
+MSE02682,SNP007,Tamil Nadu,Fashion,0.8524,1
+MSE02685,SNP008,Maharashtra,Services,0.8189,1
+MSE02686,SNP004,West Bengal,Agriculture,0.8217,1
+MSE02689,SNP007,Kerala,Home & Kitchen,0.8156,1
+MSE02691,SNP006,Rajasthan,Handicrafts & Handloom,0.7249,1
+MSE02692,SNP002,Haryana,Electronics,0.6451,1
+MSE02699,SNP024,Haryana,Food & Beverage,0.834,1
+MSE02701,SNP007,West Bengal,Home & Kitchen,0.7805,1
+MSE02704,SNP007,Haryana,Home & Kitchen,0.8987,1
+MSE02705,SNP008,Haryana,Services,0.7344,1
+MSE02708,SNP007,Madhya Pradesh,Home & Kitchen,0.6758,1
+MSE02710,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.6872,1
+MSE02712,SNP007,Haryana,Fashion,0.7833,1
+MSE02714,SNP006,Gujarat,Handicrafts & Handloom,0.7285,1
+MSE02721,SNP007,Madhya Pradesh,Home & Kitchen,0.7618,1
+MSE02722,SNP017,Tamil Nadu,Food & Beverage,0.7706,1
+MSE02723,SNP007,Rajasthan,Fashion,0.8039,1
+MSE02724,SNP008,Tamil Nadu,Services,0.7663,1
+MSE02725,SNP017,Kerala,Food & Beverage,0.7892,1
+MSE02726,SNP024,Gujarat,Food & Beverage,0.6873,1
+MSE02727,SNP024,West Bengal,Food & Beverage,0.702,1
+MSE02729,SNP017,Karnataka,Food & Beverage,0.798,1
+MSE02733,SNP002,Tamil Nadu,Electronics,0.8137,1
+MSE02734,SNP024,Madhya Pradesh,Food & Beverage,0.6647,1
+MSE02737,SNP007,Haryana,Fashion,0.6575,1
+MSE02745,SNP007,Karnataka,Home & Kitchen,0.8166,1
+MSE02747,SNP006,Haryana,Handicrafts & Handloom,0.8179,1
+MSE02749,SNP020,Maharashtra,Agriculture,0.9325,1
+MSE02751,SNP007,Madhya Pradesh,Beauty & Personal Care,0.7428,1
+MSE02758,SNP024,Rajasthan,Food & Beverage,0.8777,1
+MSE02759,SNP008,Madhya Pradesh,Services,0.9248,1
+MSE02760,SNP007,Madhya Pradesh,Beauty & Personal Care,0.8207,1
+MSE02761,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.8719,1
+MSE02764,SNP007,Haryana,Home & Kitchen,0.6343,1
+MSE02766,SNP006,Maharashtra,Handicrafts & Handloom,0.8736,1
+MSE02767,SNP011,Madhya Pradesh,Agriculture,0.756,1
+MSE02769,SNP024,West Bengal,Food & Beverage,0.6875,1
+MSE02770,SNP017,Kerala,Food & Beverage,0.7753,1
+MSE02774,SNP007,Maharashtra,Fashion,0.9277,1
+MSE02775,SNP007,Tamil Nadu,Home & Kitchen,0.9208,1
+MSE02776,SNP024,Uttar Pradesh,Food & Beverage,0.7503,1
+MSE02777,SNP008,Tamil Nadu,Services,0.8833,1
+MSE02779,SNP017,Kerala,Food & Beverage,0.6939,1
+MSE02780,SNP024,Gujarat,Food & Beverage,0.6295,1
+MSE02781,SNP007,Rajasthan,Beauty & Personal Care,0.891,1
+MSE02791,SNP024,West Bengal,Food & Beverage,0.7235,1
+MSE02793,SNP024,Uttar Pradesh,Food & Beverage,0.7148,1
+MSE02797,SNP007,Rajasthan,Home & Kitchen,0.9026,1
+MSE02800,SNP017,Kerala,Food & Beverage,0.8093,1
+MSE02801,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.7598,1
+MSE02802,SNP006,Karnataka,Handicrafts & Handloom,0.9208,1
+MSE02804,SNP007,West Bengal,Fashion,0.9113,1
+MSE02805,SNP017,Kerala,Food & Beverage,0.7918,1
+MSE02809,SNP024,Haryana,Food & Beverage,0.7565,1
+MSE02810,SNP020,Maharashtra,Agriculture,0.7759,1
+MSE02812,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.7395,1
+MSE02813,SNP007,West Bengal,Home & Kitchen,0.7715,1
+MSE02817,SNP006,West Bengal,Handicrafts & Handloom,0.8541,1
+MSE02819,SNP007,Gujarat,Home & Kitchen,0.7286,1
+MSE02821,SNP020,Gujarat,Agriculture,0.8092,1
+MSE02824,SNP008,Tamil Nadu,Services,0.6383,1
+MSE02825,SNP007,Rajasthan,Fashion,0.6901,1
+MSE02827,SNP007,Haryana,Home & Kitchen,0.6636,1
+MSE02835,SNP008,Uttar Pradesh,Services,0.8873,1
+MSE02836,SNP017,Tamil Nadu,Food & Beverage,0.6467,1
+MSE02837,SNP023,Karnataka,Services,0.9079,1
+MSE02840,SNP007,Tamil Nadu,Home & Kitchen,0.8875,1
+MSE02842,SNP007,Karnataka,Home & Kitchen,0.6245,1
+MSE02845,SNP007,Maharashtra,Home & Kitchen,0.9133,1
+MSE02848,SNP024,Rajasthan,Food & Beverage,0.6268,1
+MSE02852,SNP007,Madhya Pradesh,Home & Kitchen,0.8552,1
+MSE02853,SNP007,Uttar Pradesh,Fashion,0.637,1
+MSE02854,SNP006,Kerala,Handicrafts & Handloom,0.8358,1
+MSE02856,SNP007,Uttar Pradesh,Beauty & Personal Care,0.6977,1
+MSE02858,SNP007,Tamil Nadu,Home & Kitchen,0.6717,1
+MSE02859,SNP007,Tamil Nadu,Fashion,0.8642,1
+MSE02862,SNP007,Uttar Pradesh,Home & Kitchen,0.9015,1
+MSE02866,SNP006,Haryana,Handicrafts & Handloom,0.8929,1
+MSE02869,SNP017,Karnataka,Food & Beverage,0.8548,1
+MSE02872,SNP007,Haryana,Fashion,0.6718,1
+MSE02873,SNP008,Kerala,Services,0.8031,1
+MSE02874,SNP007,Maharashtra,Beauty & Personal Care,0.8001,1
+MSE02875,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.7184,1
+MSE02876,SNP006,West Bengal,Handicrafts & Handloom,0.8495,1
+MSE02877,SNP024,West Bengal,Food & Beverage,0.8427,1
+MSE02878,SNP025,Maharashtra,Electronics,0.7711,1
+MSE02881,SNP007,Madhya Pradesh,Fashion,0.6991,1
+MSE02882,SNP006,Haryana,Handicrafts & Handloom,0.9174,1
+MSE02884,SNP024,Madhya Pradesh,Food & Beverage,0.7788,1
+MSE02887,SNP024,Uttar Pradesh,Food & Beverage,0.7531,1
+MSE02892,SNP007,Karnataka,Fashion,0.7183,1
+MSE02893,SNP007,Tamil Nadu,Home & Kitchen,0.7875,1
+MSE02896,SNP008,Haryana,Services,0.7376,1
+MSE02897,SNP024,West Bengal,Food & Beverage,0.6581,1
+MSE02899,SNP020,Gujarat,Agriculture,0.7035,1
+MSE02901,SNP007,Haryana,Home & Kitchen,0.6972,1
+MSE02902,SNP004,Tamil Nadu,Agriculture,0.8563,1
+MSE02903,SNP017,Tamil Nadu,Food & Beverage,0.6813,1
+MSE02904,SNP024,Rajasthan,Food & Beverage,0.8375,1
+MSE02910,SNP006,Karnataka,Handicrafts & Handloom,0.643,1
+MSE02914,SNP008,Maharashtra,Services,0.8022,1
+MSE02916,SNP017,Kerala,Food & Beverage,0.8935,1
+MSE02919,SNP012,Haryana,Agriculture,0.6675,1
+MSE02923,SNP024,Uttar Pradesh,Food & Beverage,0.6588,1
+MSE02926,SNP017,Kerala,Food & Beverage,0.7375,1
+MSE02928,SNP024,West Bengal,Food & Beverage,0.9369,1
+MSE02929,SNP002,Kerala,Electronics,0.9008,1
+MSE02934,SNP020,Gujarat,Agriculture,0.9227,1
+MSE02936,SNP024,Rajasthan,Food & Beverage,0.6722,1
+MSE02939,SNP007,Madhya Pradesh,Fashion,0.7514,1
+MSE02942,SNP024,Rajasthan,Food & Beverage,0.6772,1
+MSE02943,SNP020,Gujarat,Agriculture,0.7279,1
+MSE02944,SNP017,Tamil Nadu,Food & Beverage,0.7755,1
+MSE02946,SNP007,Maharashtra,Home & Kitchen,0.7772,1
+MSE02948,SNP024,Uttar Pradesh,Food & Beverage,0.7929,1
+MSE02950,SNP006,West Bengal,Handicrafts & Handloom,0.6602,1
+MSE02954,SNP007,Haryana,Home & Kitchen,0.8767,1
+MSE02955,SNP007,West Bengal,Home & Kitchen,0.8274,1
+MSE02956,SNP011,Madhya Pradesh,Agriculture,0.6327,1
+MSE02958,SNP007,Maharashtra,Home & Kitchen,0.7655,1
+MSE02959,SNP006,Maharashtra,Handicrafts & Handloom,0.8065,1
+MSE02961,SNP007,Haryana,Home & Kitchen,0.7185,1
+MSE02963,SNP007,Karnataka,Fashion,0.82,1
+MSE02964,SNP007,Kerala,Fashion,0.8521,1
+MSE02968,SNP007,Kerala,Home & Kitchen,0.7865,1
+MSE02973,SNP007,Tamil Nadu,Beauty & Personal Care,0.7478,1
+MSE02976,SNP007,Kerala,Home & Kitchen,0.9136,1
+MSE02978,SNP011,Rajasthan,Agriculture,0.9045,1
+MSE02979,SNP024,Madhya Pradesh,Food & Beverage,0.725,1
+MSE02981,SNP007,Maharashtra,Home & Kitchen,0.7065,1
+MSE02985,SNP007,Haryana,Fashion,0.8551,1
+MSE02986,SNP020,Gujarat,Agriculture,0.7632,1
+MSE02988,SNP024,Haryana,Food & Beverage,0.7726,1
+MSE02989,SNP007,Madhya Pradesh,Home & Kitchen,0.6274,1
+MSE02990,SNP024,Maharashtra,Food & Beverage,0.7524,1
+MSE02991,SNP002,Haryana,Electronics,0.6254,1
+MSE02996,SNP017,Kerala,Food & Beverage,0.7636,1
+MSE02997,SNP017,Kerala,Food & Beverage,0.8512,1
+MSE02999,SNP008,Uttar Pradesh,Services,0.6459,1
+MSE03000,SNP007,Maharashtra,Home & Kitchen,0.7106,1
+MSE03001,SNP024,Rajasthan,Food & Beverage,0.6421,1
+MSE03003,SNP024,Gujarat,Food & Beverage,0.815,1
+MSE03005,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.6523,1
+MSE03007,SNP008,Kerala,Services,0.8634,1
+MSE03008,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.7801,1
+MSE03009,SNP007,Madhya Pradesh,Beauty & Personal Care,0.767,1
+MSE03010,SNP025,Maharashtra,Electronics,0.7811,1
+MSE03011,SNP024,Madhya Pradesh,Food & Beverage,0.634,1
+MSE03014,SNP024,Madhya Pradesh,Food & Beverage,0.8069,1
+MSE03018,SNP024,Uttar Pradesh,Food & Beverage,0.7775,1
+MSE03020,SNP024,Rajasthan,Food & Beverage,0.9107,1
+MSE03024,SNP017,Karnataka,Food & Beverage,0.9312,1
+MSE03030,SNP007,Maharashtra,Fashion,0.6652,1
+MSE03031,SNP020,Maharashtra,Agriculture,0.8086,1
+MSE03032,SNP002,Kerala,Electronics,0.9128,1
+MSE03033,SNP025,Maharashtra,Electronics,0.8318,1
+MSE03038,SNP007,Maharashtra,Home & Kitchen,0.8477,1
+MSE03039,SNP007,West Bengal,Beauty & Personal Care,0.6938,1
+MSE03045,SNP024,West Bengal,Food & Beverage,0.7902,1
+MSE03047,SNP007,Karnataka,Fashion,0.8655,1
+MSE03048,SNP024,Maharashtra,Food & Beverage,0.6292,1
+MSE03049,SNP007,Gujarat,Home & Kitchen,0.8601,1
+MSE03052,SNP024,Rajasthan,Food & Beverage,0.7456,1
+MSE03053,SNP024,Gujarat,Food & Beverage,0.624,1
+MSE03054,SNP024,Gujarat,Food & Beverage,0.7043,1
+MSE03056,SNP007,Kerala,Fashion,0.6278,1
+MSE03057,SNP024,Gujarat,Food & Beverage,0.867,1
+MSE03059,SNP024,Uttar Pradesh,Food & Beverage,0.8232,1
+MSE03066,SNP007,Karnataka,Beauty & Personal Care,0.8865,1
+MSE03067,SNP007,Maharashtra,Fashion,0.8568,1
+MSE03068,SNP012,Uttar Pradesh,Agriculture,0.7901,1
+MSE03070,SNP008,Maharashtra,Services,0.6382,1
+MSE03074,SNP025,Uttar Pradesh,Electronics,0.8472,1
+MSE03076,SNP007,Rajasthan,Fashion,0.7263,1
+MSE03077,SNP007,Kerala,Fashion,0.6322,1
+MSE03081,SNP017,Tamil Nadu,Food & Beverage,0.8391,1
+MSE03082,SNP007,Maharashtra,Home & Kitchen,0.9019,1
+MSE03083,SNP002,Haryana,Electronics,0.8121,1
+MSE03086,SNP007,Karnataka,Fashion,0.8252,1
+MSE03087,SNP007,Gujarat,Fashion,0.6761,1
+MSE03088,SNP024,Gujarat,Food & Beverage,0.6873,1
+MSE03090,SNP017,Kerala,Food & Beverage,0.7719,1
+MSE03091,SNP020,Gujarat,Services,0.8688,1
+MSE03092,SNP007,Kerala,Fashion,0.8872,1
+MSE03094,SNP017,Karnataka,Food & Beverage,0.9149,1
+MSE03095,SNP008,Maharashtra,Services,0.8732,1
+MSE03099,SNP007,Tamil Nadu,Fashion,0.7258,1
+MSE03103,SNP002,Haryana,Electronics,0.7175,1
+MSE03105,SNP017,Tamil Nadu,Food & Beverage,0.905,1
+MSE03106,SNP024,Maharashtra,Food & Beverage,0.7226,1
+MSE03108,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.6981,1
+MSE03112,SNP008,Uttar Pradesh,Services,0.9356,1
+MSE03113,SNP024,Madhya Pradesh,Food & Beverage,0.6534,1
+MSE03114,SNP024,West Bengal,Food & Beverage,0.7512,1
+MSE03115,SNP007,Maharashtra,Home & Kitchen,0.9136,1
+MSE03116,SNP007,Uttar Pradesh,Beauty & Personal Care,0.7547,1
+MSE03120,SNP007,West Bengal,Fashion,0.6468,1
+MSE03123,SNP007,Madhya Pradesh,Home & Kitchen,0.9121,1
+MSE03124,SNP020,Gujarat,Services,0.827,1
+MSE03130,SNP024,Uttar Pradesh,Food & Beverage,0.815,1
+MSE03134,SNP024,West Bengal,Food & Beverage,0.772,1
+MSE03135,SNP007,Haryana,Beauty & Personal Care,0.8168,1
+MSE03136,SNP007,Uttar Pradesh,Fashion,0.7069,1
+MSE03137,SNP007,Karnataka,Fashion,0.7195,1
+MSE03138,SNP006,West Bengal,Handicrafts & Handloom,0.7765,1
+MSE03145,SNP017,Karnataka,Food & Beverage,0.8131,1
+MSE03149,SNP006,Maharashtra,Handicrafts & Handloom,0.7861,1
+MSE03150,SNP024,Rajasthan,Food & Beverage,0.9374,1
+MSE03155,SNP017,Kerala,Food & Beverage,0.7677,1
+MSE03156,SNP007,Rajasthan,Home & Kitchen,0.8365,1
+MSE03158,SNP007,Maharashtra,Fashion,0.9361,1
+MSE03159,SNP024,Gujarat,Food & Beverage,0.6502,1
+MSE03160,SNP004,Kerala,Agriculture,0.8828,1
+MSE03161,SNP007,West Bengal,Home & Kitchen,0.6687,1
+MSE03164,SNP007,Kerala,Home & Kitchen,0.6825,1
+MSE03165,SNP007,Rajasthan,Fashion,0.6975,1
+MSE03168,SNP017,Karnataka,Food & Beverage,0.7754,1
+MSE03169,SNP007,Madhya Pradesh,Fashion,0.6766,1
+MSE03171,SNP024,West Bengal,Food & Beverage,0.8177,1
+MSE03175,SNP007,Kerala,Home & Kitchen,0.7238,1
+MSE03178,SNP002,Gujarat,Electronics,0.8191,1
+MSE03179,SNP007,Haryana,Beauty & Personal Care,0.6852,1
+MSE03180,SNP004,Tamil Nadu,Agriculture,0.9124,1
+MSE03184,SNP007,Madhya Pradesh,Fashion,0.9163,1
+MSE03188,SNP006,Gujarat,Handicrafts & Handloom,0.6607,1
+MSE03189,SNP007,Madhya Pradesh,Fashion,0.6403,1
+MSE03191,SNP007,Kerala,Home & Kitchen,0.9214,1
+MSE03192,SNP007,Tamil Nadu,Home & Kitchen,0.7768,1
+MSE03193,SNP024,Uttar Pradesh,Food & Beverage,0.6736,1
+MSE03195,SNP017,Karnataka,Food & Beverage,0.8511,1
+MSE03196,SNP007,Uttar Pradesh,Fashion,0.7419,1
+MSE03197,SNP004,Tamil Nadu,Agriculture,0.6359,1
+MSE03201,SNP007,Rajasthan,Home & Kitchen,0.7676,1
+MSE03202,SNP007,West Bengal,Fashion,0.8568,1
+MSE03208,SNP007,Maharashtra,Home & Kitchen,0.7028,1
+MSE03209,SNP008,Tamil Nadu,Services,0.7334,1
+MSE03211,SNP024,Haryana,Food & Beverage,0.6962,1
+MSE03215,SNP007,Kerala,Home & Kitchen,0.8371,1
+MSE03216,SNP007,Maharashtra,Home & Kitchen,0.6222,1
+MSE03220,SNP007,Maharashtra,Home & Kitchen,0.6853,1
+MSE03222,SNP006,Gujarat,Handicrafts & Handloom,0.7931,1
+MSE03224,SNP007,Maharashtra,Home & Kitchen,0.7294,1
+MSE03227,SNP017,Karnataka,Food & Beverage,0.869,1
+MSE03232,SNP024,Uttar Pradesh,Food & Beverage,0.6729,1
+MSE03233,SNP024,West Bengal,Food & Beverage,0.6636,1
+MSE03234,SNP006,West Bengal,Handicrafts & Handloom,0.8283,1
+MSE03236,SNP007,Gujarat,Home & Kitchen,0.9247,1
+MSE03237,SNP007,Tamil Nadu,Fashion,0.6944,1
+MSE03238,SNP024,Gujarat,Food & Beverage,0.9343,1
+MSE03239,SNP007,Tamil Nadu,Home & Kitchen,0.7065,1
+MSE03241,SNP007,Maharashtra,Home & Kitchen,0.8697,1
+MSE03243,SNP024,Haryana,Food & Beverage,0.6953,1
+MSE03245,SNP007,Tamil Nadu,Fashion,0.8042,1
+MSE03248,SNP024,Rajasthan,Food & Beverage,0.8855,1
+MSE03249,SNP011,Madhya Pradesh,Agriculture,0.6771,1
+MSE03250,SNP007,Karnataka,Fashion,0.6967,1
+MSE03252,SNP007,Tamil Nadu,Beauty & Personal Care,0.6258,1
+MSE03256,SNP007,Uttar Pradesh,Fashion,0.8015,1
+MSE03257,SNP007,Kerala,Beauty & Personal Care,0.7712,1
+MSE03260,SNP024,Gujarat,Food & Beverage,0.802,1
+MSE03261,SNP007,Gujarat,Home & Kitchen,0.7877,1
+MSE03262,SNP002,Haryana,Electronics,0.8983,1
+MSE03263,SNP006,Maharashtra,Handicrafts & Handloom,0.9159,1
+MSE03267,SNP002,West Bengal,Electronics,0.9196,1
+MSE03268,SNP007,Madhya Pradesh,Home & Kitchen,0.7991,1
+MSE03269,SNP004,West Bengal,Agriculture,0.6917,1
+MSE03270,SNP011,Madhya Pradesh,Agriculture,0.8441,1
+MSE03272,SNP004,West Bengal,Agriculture,0.9275,1
+MSE03273,SNP024,Maharashtra,Food & Beverage,0.724,1
+MSE03274,SNP004,West Bengal,Agriculture,0.8536,1
+MSE03278,SNP017,Kerala,Food & Beverage,0.7311,1
+MSE03279,SNP024,Uttar Pradesh,Food & Beverage,0.8894,1
+MSE03281,SNP024,Haryana,Food & Beverage,0.7268,1
+MSE03282,SNP002,Tamil Nadu,Electronics,0.8205,1
+MSE03286,SNP012,Uttar Pradesh,Agriculture,0.8303,1
+MSE03287,SNP017,Kerala,Food & Beverage,0.8811,1
+MSE03288,SNP024,Madhya Pradesh,Food & Beverage,0.6551,1
+MSE03293,SNP007,Tamil Nadu,Home & Kitchen,0.705,1
+MSE03294,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.8094,1
+MSE03296,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.6509,1
+MSE03297,SNP007,Gujarat,Fashion,0.9367,1
+MSE03299,SNP007,West Bengal,Home & Kitchen,0.6491,1
+MSE03302,SNP007,Rajasthan,Home & Kitchen,0.8736,1
+MSE03306,SNP007,Rajasthan,Home & Kitchen,0.7668,1
+MSE03307,SNP024,Haryana,Food & Beverage,0.8615,1
+MSE03308,SNP007,Gujarat,Home & Kitchen,0.9055,1
+MSE03315,SNP024,Haryana,Food & Beverage,0.8729,1
+MSE03318,SNP006,Tamil Nadu,Handicrafts & Handloom,0.9181,1
+MSE03321,SNP006,Tamil Nadu,Handicrafts & Handloom,0.6666,1
+MSE03322,SNP017,Kerala,Food & Beverage,0.7607,1
+MSE03326,SNP006,Gujarat,Handicrafts & Handloom,0.7235,1
+MSE03327,SNP007,Gujarat,Fashion,0.746,1
+MSE03329,SNP024,Haryana,Food & Beverage,0.7797,1
+MSE03331,SNP006,Haryana,Handicrafts & Handloom,0.6328,1
+MSE03332,SNP004,Kerala,Agriculture,0.7256,1
+MSE03333,SNP006,Kerala,Handicrafts & Handloom,0.7515,1
+MSE03334,SNP007,Gujarat,Fashion,0.8844,1
+MSE03337,SNP007,West Bengal,Fashion,0.7365,1
+MSE03338,SNP007,Rajasthan,Home & Kitchen,0.8867,1
+MSE03341,SNP017,Karnataka,Food & Beverage,0.6444,1
+MSE03343,SNP007,Karnataka,Home & Kitchen,0.6723,1
+MSE03344,SNP007,Madhya Pradesh,Fashion,0.7816,1
+MSE03349,SNP008,Kerala,Services,0.6872,1
+MSE03352,SNP024,Madhya Pradesh,Food & Beverage,0.9156,1
+MSE03353,SNP017,Tamil Nadu,Food & Beverage,0.8803,1
+MSE03355,SNP007,Kerala,Home & Kitchen,0.8732,1
+MSE03356,SNP007,West Bengal,Home & Kitchen,0.792,1
+MSE03358,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.8131,1
+MSE03360,SNP020,Gujarat,Agriculture,0.8639,1
+MSE03362,SNP017,Kerala,Food & Beverage,0.9338,1
+MSE03364,SNP017,Karnataka,Food & Beverage,0.764,1
+MSE03365,SNP007,Haryana,Fashion,0.7866,1
+MSE03367,SNP006,Rajasthan,Handicrafts & Handloom,0.7191,1
+MSE03368,SNP024,Uttar Pradesh,Food & Beverage,0.8847,1
+MSE03370,SNP008,Kerala,Services,0.8922,1
+MSE03372,SNP006,Kerala,Handicrafts & Handloom,0.7375,1
+MSE03374,SNP007,Haryana,Fashion,0.6375,1
+MSE03379,SNP007,Haryana,Fashion,0.7054,1
+MSE03380,SNP002,Haryana,Electronics,0.9303,1
+MSE03382,SNP024,Rajasthan,Food & Beverage,0.6808,1
+MSE03383,SNP024,Gujarat,Food & Beverage,0.7114,1
+MSE03385,SNP004,West Bengal,Agriculture,0.8443,1
+MSE03388,SNP011,Rajasthan,Agriculture,0.6676,1
+MSE03391,SNP024,Gujarat,Food & Beverage,0.813,1
+MSE03392,SNP007,Kerala,Fashion,0.6598,1
+MSE03394,SNP006,Rajasthan,Handicrafts & Handloom,0.9201,1
+MSE03399,SNP006,Rajasthan,Handicrafts & Handloom,0.6973,1
+MSE03401,SNP024,Rajasthan,Food & Beverage,0.8875,1
+MSE03404,SNP024,Maharashtra,Food & Beverage,0.9381,1
+MSE03405,SNP024,Haryana,Food & Beverage,0.6285,1
+MSE03406,SNP024,Uttar Pradesh,Food & Beverage,0.6878,1
+MSE03410,SNP006,Gujarat,Handicrafts & Handloom,0.7333,1
+MSE03411,SNP017,Kerala,Food & Beverage,0.8057,1
+MSE03412,SNP008,Kerala,Services,0.812,1
+MSE03415,SNP024,Rajasthan,Food & Beverage,0.843,1
+MSE03416,SNP007,Rajasthan,Beauty & Personal Care,0.6834,1
+MSE03421,SNP007,Kerala,Home & Kitchen,0.7655,1
+MSE03423,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.7997,1
+MSE03424,SNP008,Kerala,Services,0.7789,1
+MSE03425,SNP024,Maharashtra,Food & Beverage,0.8977,1
+MSE03428,SNP007,Karnataka,Fashion,0.6572,1
+MSE03429,SNP006,Karnataka,Handicrafts & Handloom,0.9104,1
+MSE03430,SNP007,Tamil Nadu,Home & Kitchen,0.6451,1
+MSE03432,SNP024,Rajasthan,Food & Beverage,0.8918,1
+MSE03433,SNP007,Rajasthan,Home & Kitchen,0.8473,1
+MSE03434,SNP024,Maharashtra,Food & Beverage,0.871,1
+MSE03436,SNP024,Maharashtra,Food & Beverage,0.6343,1
+MSE03437,SNP024,Rajasthan,Food & Beverage,0.6613,1
+MSE03443,SNP007,Uttar Pradesh,Fashion,0.8827,1
+MSE03444,SNP024,Uttar Pradesh,Food & Beverage,0.7042,1
+MSE03447,SNP006,Karnataka,Handicrafts & Handloom,0.6532,1
+MSE03449,SNP007,Kerala,Fashion,0.8708,1
+MSE03456,SNP006,Kerala,Handicrafts & Handloom,0.6479,1
+MSE03457,SNP017,Kerala,Food & Beverage,0.7473,1
+MSE03458,SNP008,Maharashtra,Services,0.8717,1
+MSE03459,SNP007,Karnataka,Fashion,0.7436,1
+MSE03462,SNP017,Karnataka,Food & Beverage,0.9218,1
+MSE03463,SNP024,Uttar Pradesh,Food & Beverage,0.726,1
+MSE03468,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.6932,1
+MSE03472,SNP007,Karnataka,Home & Kitchen,0.7725,1
+MSE03478,SNP007,Kerala,Beauty & Personal Care,0.6319,1
+MSE03484,SNP008,Kerala,Services,0.694,1
+MSE03485,SNP024,Rajasthan,Food & Beverage,0.7806,1
+MSE03487,SNP007,Madhya Pradesh,Fashion,0.9039,1
+MSE03489,SNP007,Rajasthan,Home & Kitchen,0.8713,1
+MSE03497,SNP025,Karnataka,Electronics,0.8838,1
+MSE03502,SNP024,West Bengal,Food & Beverage,0.772,1
+MSE03504,SNP017,Karnataka,Food & Beverage,0.8517,1
+MSE03506,SNP007,Kerala,Fashion,0.8781,1
+MSE03507,SNP006,Rajasthan,Handicrafts & Handloom,0.8573,1
+MSE03509,SNP004,Karnataka,Agriculture,0.9011,1
+MSE03512,SNP024,Uttar Pradesh,Food & Beverage,0.6232,1
+MSE03514,SNP012,Haryana,Agriculture,0.678,1
+MSE03517,SNP007,Maharashtra,Fashion,0.879,1
+MSE03520,SNP008,Haryana,Services,0.8889,1
+MSE03525,SNP006,Haryana,Handicrafts & Handloom,0.7757,1
+MSE03526,SNP007,Maharashtra,Home & Kitchen,0.6811,1
+MSE03528,SNP020,Maharashtra,Agriculture,0.6265,1
+MSE03529,SNP007,Karnataka,Home & Kitchen,0.9125,1
+MSE03530,SNP008,West Bengal,Services,0.8265,1
+MSE03532,SNP007,Uttar Pradesh,Home & Kitchen,0.7473,1
+MSE03534,SNP008,Kerala,Services,0.9147,1
+MSE03538,SNP025,Maharashtra,Electronics,0.7223,1
+MSE03539,SNP007,Uttar Pradesh,Beauty & Personal Care,0.7709,1
+MSE03540,SNP004,Tamil Nadu,Agriculture,0.8727,1
+MSE03545,SNP017,Karnataka,Food & Beverage,0.7653,1
+MSE03550,SNP007,West Bengal,Fashion,0.7204,1
+MSE03551,SNP024,Gujarat,Food & Beverage,0.8496,1
+MSE03555,SNP007,Madhya Pradesh,Home & Kitchen,0.8904,1
+MSE03556,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.7691,1
+MSE03557,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.8963,1
+MSE03565,SNP007,Tamil Nadu,Home & Kitchen,0.6201,1
+MSE03567,SNP024,Haryana,Food & Beverage,0.7432,1
+MSE03568,SNP024,Uttar Pradesh,Food & Beverage,0.7005,1
+MSE03570,SNP007,West Bengal,Home & Kitchen,0.7163,1
+MSE03571,SNP007,Madhya Pradesh,Fashion,0.8295,1
+MSE03572,SNP004,West Bengal,Agriculture,0.834,1
+MSE03573,SNP024,Rajasthan,Food & Beverage,0.7788,1
+MSE03576,SNP011,Rajasthan,Agriculture,0.7692,1
+MSE03581,SNP024,Gujarat,Food & Beverage,0.9159,1
+MSE03582,SNP017,Tamil Nadu,Food & Beverage,0.782,1
+MSE03583,SNP008,Haryana,Services,0.7563,1
+MSE03584,SNP017,Tamil Nadu,Food & Beverage,0.8247,1
+MSE03585,SNP007,Tamil Nadu,Home & Kitchen,0.9162,1
+MSE03592,SNP020,Gujarat,Agriculture,0.6838,1
+MSE03593,SNP020,Gujarat,Agriculture,0.792,1
+MSE03594,SNP012,Uttar Pradesh,Agriculture,0.8201,1
+MSE03596,SNP007,Karnataka,Home & Kitchen,0.6869,1
+MSE03601,SNP017,Karnataka,Food & Beverage,0.9179,1
+MSE03603,SNP006,Rajasthan,Handicrafts & Handloom,0.7662,1
+MSE03604,SNP007,Rajasthan,Home & Kitchen,0.7017,1
+MSE03605,SNP008,Haryana,Services,0.8386,1
+MSE03607,SNP008,Uttar Pradesh,Services,0.7929,1
+MSE03608,SNP007,Haryana,Fashion,0.8025,1
+MSE03609,SNP007,West Bengal,Home & Kitchen,0.6745,1
+MSE03610,SNP024,Rajasthan,Food & Beverage,0.7586,1
+MSE03621,SNP017,Tamil Nadu,Food & Beverage,0.7419,1
+MSE03622,SNP007,Kerala,Home & Kitchen,0.7663,1
+MSE03623,SNP004,Kerala,Agriculture,0.8863,1
+MSE03626,SNP004,West Bengal,Agriculture,0.7888,1
+MSE03628,SNP007,Haryana,Fashion,0.9237,1
+MSE03630,SNP024,Maharashtra,Food & Beverage,0.6889,1
+MSE03633,SNP024,Uttar Pradesh,Food & Beverage,0.8347,1
+MSE03635,SNP024,Gujarat,Food & Beverage,0.8483,1
+MSE03636,SNP007,Rajasthan,Beauty & Personal Care,0.7862,1
+MSE03637,SNP007,Gujarat,Fashion,0.7264,1
+MSE03639,SNP007,Uttar Pradesh,Beauty & Personal Care,0.7337,1
+MSE03640,SNP006,West Bengal,Handicrafts & Handloom,0.865,1
+MSE03641,SNP008,Haryana,Services,0.6731,1
+MSE03642,SNP006,Gujarat,Handicrafts & Handloom,0.9054,1
+MSE03643,SNP004,Karnataka,Agriculture,0.6613,1
+MSE03649,SNP024,Madhya Pradesh,Food & Beverage,0.6891,1
+MSE03652,SNP008,Tamil Nadu,Services,0.7919,1
+MSE03655,SNP024,Madhya Pradesh,Food & Beverage,0.7605,1
+MSE03657,SNP007,Gujarat,Home & Kitchen,0.8389,1
+MSE03658,SNP007,Kerala,Beauty & Personal Care,0.7671,1
+MSE03662,SNP017,Tamil Nadu,Food & Beverage,0.825,1
+MSE03666,SNP002,Kerala,Electronics,0.7173,1
+MSE03667,SNP017,Kerala,Food & Beverage,0.9129,1
+MSE03668,SNP024,Maharashtra,Food & Beverage,0.8336,1
+MSE03670,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.6912,1
+MSE03671,SNP002,Tamil Nadu,Electronics,0.6809,1
+MSE03672,SNP006,Maharashtra,Handicrafts & Handloom,0.7331,1
+MSE03673,SNP007,Tamil Nadu,Fashion,0.904,1
+MSE03676,SNP024,Gujarat,Food & Beverage,0.6272,1
+MSE03678,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.8736,1
+MSE03679,SNP002,Kerala,Electronics,0.8262,1
+MSE03680,SNP007,Gujarat,Fashion,0.9373,1
+MSE03681,SNP007,Kerala,Home & Kitchen,0.8412,1
+MSE03683,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.6634,1
+MSE03686,SNP024,Haryana,Food & Beverage,0.8147,1
+MSE03687,SNP004,Tamil Nadu,Agriculture,0.8457,1
+MSE03688,SNP008,Tamil Nadu,Services,0.6328,1
+MSE03690,SNP024,Haryana,Food & Beverage,0.7263,1
+MSE03692,SNP007,Uttar Pradesh,Fashion,0.8646,1
+MSE03693,SNP002,Gujarat,Electronics,0.7195,1
+MSE03694,SNP002,Kerala,Electronics,0.7526,1
+MSE03696,SNP024,Madhya Pradesh,Food & Beverage,0.8202,1
+MSE03697,SNP007,Uttar Pradesh,Home & Kitchen,0.8799,1
+MSE03699,SNP006,West Bengal,Handicrafts & Handloom,0.7455,1
+MSE03700,SNP002,Tamil Nadu,Electronics,0.6292,1
+MSE03701,SNP007,Madhya Pradesh,Home & Kitchen,0.8737,1
+MSE03703,SNP004,Kerala,Agriculture,0.8349,1
+MSE03704,SNP008,Haryana,Services,0.6254,1
+MSE03705,SNP024,Madhya Pradesh,Food & Beverage,0.8773,1
+MSE03708,SNP007,Maharashtra,Home & Kitchen,0.6904,1
+MSE03709,SNP024,Gujarat,Food & Beverage,0.8456,1
+MSE03710,SNP007,Rajasthan,Fashion,0.6753,1
+MSE03713,SNP017,Tamil Nadu,Food & Beverage,0.7178,1
+MSE03715,SNP007,Rajasthan,Fashion,0.7813,1
+MSE03718,SNP004,Kerala,Agriculture,0.6563,1
+MSE03719,SNP006,Rajasthan,Handicrafts & Handloom,0.8528,1
+MSE03720,SNP007,Kerala,Home & Kitchen,0.7384,1
+MSE03722,SNP007,Maharashtra,Home & Kitchen,0.9152,1
+MSE03734,SNP006,Maharashtra,Handicrafts & Handloom,0.6947,1
+MSE03736,SNP007,Maharashtra,Beauty & Personal Care,0.658,1
+MSE03738,SNP007,Maharashtra,Home & Kitchen,0.6684,1
+MSE03740,SNP007,Tamil Nadu,Home & Kitchen,0.8478,1
+MSE03742,SNP008,Tamil Nadu,Services,0.8412,1
+MSE03743,SNP024,Maharashtra,Food & Beverage,0.6616,1
+MSE03746,SNP007,Karnataka,Fashion,0.6232,1
+MSE03747,SNP007,West Bengal,Beauty & Personal Care,0.756,1
+MSE03750,SNP024,Madhya Pradesh,Food & Beverage,0.7564,1
+MSE03751,SNP002,Kerala,Electronics,0.9197,1
+MSE03752,SNP007,Kerala,Fashion,0.8217,1
+MSE03753,SNP007,Rajasthan,Fashion,0.7059,1
+MSE03759,SNP011,Madhya Pradesh,Agriculture,0.6413,1
+MSE03763,SNP007,Madhya Pradesh,Home & Kitchen,0.708,1
+MSE03764,SNP002,Madhya Pradesh,Electronics,0.8673,1
+MSE03765,SNP007,Haryana,Home & Kitchen,0.7507,1
+MSE03766,SNP004,Tamil Nadu,Agriculture,0.728,1
+MSE03767,SNP017,Karnataka,Food & Beverage,0.8535,1
+MSE03770,SNP006,Maharashtra,Handicrafts & Handloom,0.8024,1
+MSE03771,SNP007,Gujarat,Home & Kitchen,0.7604,1
+MSE03772,SNP007,Kerala,Home & Kitchen,0.7074,1
+MSE03776,SNP004,West Bengal,Agriculture,0.9016,1
+MSE03777,SNP006,Gujarat,Handicrafts & Handloom,0.9074,1
+MSE03779,SNP024,Madhya Pradesh,Food & Beverage,0.9251,1
+MSE03784,SNP024,Haryana,Food & Beverage,0.8298,1
+MSE03786,SNP017,Tamil Nadu,Food & Beverage,0.7048,1
+MSE03791,SNP007,Gujarat,Fashion,0.6466,1
+MSE03792,SNP024,Maharashtra,Food & Beverage,0.8502,1
+MSE03793,SNP011,Madhya Pradesh,Agriculture,0.7483,1
+MSE03795,SNP006,Maharashtra,Handicrafts & Handloom,0.7471,1
+MSE03800,SNP007,Madhya Pradesh,Fashion,0.7368,1
+MSE03801,SNP025,Uttar Pradesh,Electronics,0.6848,1
+MSE03803,SNP020,Rajasthan,Services,0.6878,1
+MSE03804,SNP007,Tamil Nadu,Home & Kitchen,0.9031,1
+MSE03806,SNP006,Haryana,Handicrafts & Handloom,0.8117,1
+MSE03808,SNP006,Kerala,Handicrafts & Handloom,0.8062,1
+MSE03809,SNP007,Madhya Pradesh,Home & Kitchen,0.8684,1
+MSE03812,SNP007,Tamil Nadu,Home & Kitchen,0.8785,1
+MSE03814,SNP007,Rajasthan,Home & Kitchen,0.7248,1
+MSE03816,SNP007,Haryana,Fashion,0.8063,1
+MSE03817,SNP004,Karnataka,Agriculture,0.6986,1
+MSE03819,SNP007,Tamil Nadu,Home & Kitchen,0.7748,1
+MSE03824,SNP007,Gujarat,Home & Kitchen,0.9335,1
+MSE03827,SNP007,Uttar Pradesh,Beauty & Personal Care,0.6557,1
+MSE03833,SNP017,Kerala,Food & Beverage,0.8279,1
+MSE03835,SNP024,Uttar Pradesh,Food & Beverage,0.8509,1
+MSE03836,SNP024,West Bengal,Food & Beverage,0.7635,1
+MSE03837,SNP024,Maharashtra,Food & Beverage,0.7577,1
+MSE03838,SNP007,Rajasthan,Fashion,0.8742,1
+MSE03839,SNP007,Karnataka,Home & Kitchen,0.8312,1
+MSE03841,SNP004,Karnataka,Agriculture,0.6959,1
+MSE03844,SNP025,Karnataka,Electronics,0.7233,1
+MSE03845,SNP017,Karnataka,Food & Beverage,0.6368,1
+MSE03846,SNP007,Kerala,Fashion,0.6228,1
+MSE03850,SNP008,Uttar Pradesh,Services,0.8657,1
+MSE03851,SNP007,Haryana,Home & Kitchen,0.8983,1
+MSE03852,SNP024,Madhya Pradesh,Food & Beverage,0.6733,1
+MSE03853,SNP007,Rajasthan,Fashion,0.7919,1
+MSE03854,SNP024,Rajasthan,Food & Beverage,0.6706,1
+MSE03855,SNP017,Karnataka,Food & Beverage,0.6393,1
+MSE03856,SNP007,Madhya Pradesh,Fashion,0.6879,1
+MSE03857,SNP006,West Bengal,Handicrafts & Handloom,0.7106,1
+MSE03858,SNP004,Karnataka,Agriculture,0.9069,1
+MSE03859,SNP024,West Bengal,Food & Beverage,0.6864,1
+MSE03861,SNP007,West Bengal,Fashion,0.6878,1
+MSE03863,SNP017,Karnataka,Food & Beverage,0.797,1
+MSE03866,SNP007,Madhya Pradesh,Fashion,0.7352,1
+MSE03867,SNP006,Karnataka,Handicrafts & Handloom,0.8351,1
+MSE03868,SNP007,Karnataka,Home & Kitchen,0.7153,1
+MSE03872,SNP024,West Bengal,Food & Beverage,0.7448,1
+MSE03873,SNP007,Tamil Nadu,Home & Kitchen,0.636,1
+MSE03874,SNP024,West Bengal,Food & Beverage,0.8651,1
+MSE03875,SNP024,Uttar Pradesh,Food & Beverage,0.7016,1
+MSE03876,SNP006,Rajasthan,Handicrafts & Handloom,0.7245,1
+MSE03877,SNP002,Kerala,Electronics,0.8751,1
+MSE03878,SNP007,Karnataka,Home & Kitchen,0.755,1
+MSE03880,SNP024,Haryana,Food & Beverage,0.6706,1
+MSE03881,SNP007,Madhya Pradesh,Beauty & Personal Care,0.9306,1
+MSE03882,SNP007,Tamil Nadu,Home & Kitchen,0.6629,1
+MSE03889,SNP007,Karnataka,Beauty & Personal Care,0.8684,1
+MSE03891,SNP007,Tamil Nadu,Fashion,0.7189,1
+MSE03895,SNP007,Haryana,Beauty & Personal Care,0.6617,1
+MSE03898,SNP007,Rajasthan,Fashion,0.7086,1
+MSE03899,SNP007,Maharashtra,Beauty & Personal Care,0.8998,1
+MSE03901,SNP017,Kerala,Food & Beverage,0.9278,1
+MSE03907,SNP007,Madhya Pradesh,Fashion,0.8467,1
+MSE03909,SNP007,Uttar Pradesh,Fashion,0.8345,1
+MSE03910,SNP007,Kerala,Home & Kitchen,0.7303,1
+MSE03912,SNP002,West Bengal,Electronics,0.8373,1
+MSE03919,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.7185,1
+MSE03921,SNP008,Maharashtra,Services,0.7179,1
+MSE03922,SNP006,Kerala,Handicrafts & Handloom,0.7044,1
+MSE03924,SNP008,Haryana,Services,0.8247,1
+MSE03925,SNP006,Karnataka,Handicrafts & Handloom,0.9095,1
+MSE03926,SNP007,Rajasthan,Fashion,0.8008,1
+MSE03930,SNP006,Kerala,Handicrafts & Handloom,0.8794,1
+MSE03931,SNP024,West Bengal,Food & Beverage,0.9201,1
+MSE03932,SNP020,Gujarat,Services,0.652,1
+MSE03933,SNP024,Uttar Pradesh,Food & Beverage,0.7712,1
+MSE03938,SNP020,Gujarat,Services,0.7301,1
+MSE03940,SNP017,Karnataka,Food & Beverage,0.9239,1
+MSE03941,SNP006,Karnataka,Handicrafts & Handloom,0.6958,1
+MSE03943,SNP007,Karnataka,Fashion,0.8324,1
+MSE03945,SNP008,West Bengal,Services,0.9349,1
+MSE03946,SNP007,Tamil Nadu,Home & Kitchen,0.8253,1
+MSE03947,SNP020,Gujarat,Agriculture,0.6759,1
+MSE03948,SNP006,Rajasthan,Handicrafts & Handloom,0.7065,1
+MSE03952,SNP007,Rajasthan,Home & Kitchen,0.821,1
+MSE03953,SNP023,Karnataka,Services,0.6268,1
+MSE03954,SNP007,Kerala,Fashion,0.8791,1
+MSE03955,SNP007,Tamil Nadu,Home & Kitchen,0.9301,1
+MSE03957,SNP011,Rajasthan,Agriculture,0.8808,1
+MSE03961,SNP024,Uttar Pradesh,Food & Beverage,0.7886,1
+MSE03964,SNP007,Rajasthan,Beauty & Personal Care,0.8924,1
+MSE03967,SNP024,West Bengal,Food & Beverage,0.7007,1
+MSE03971,SNP007,Uttar Pradesh,Beauty & Personal Care,0.6728,1
+MSE03972,SNP004,Karnataka,Agriculture,0.6721,1
+MSE03974,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.7785,1
+MSE03975,SNP012,Uttar Pradesh,Agriculture,0.6394,1
+MSE03978,SNP007,Karnataka,Fashion,0.77,1
+MSE03981,SNP023,Karnataka,Services,0.7273,1
+MSE03982,SNP024,Uttar Pradesh,Food & Beverage,0.7041,1
+MSE03984,SNP007,Gujarat,Home & Kitchen,0.8089,1
+MSE03986,SNP002,Madhya Pradesh,Electronics,0.6888,1
+MSE03990,SNP006,West Bengal,Handicrafts & Handloom,0.9381,1
+MSE03992,SNP020,Maharashtra,Agriculture,0.8968,1
+MSE03995,SNP007,Madhya Pradesh,Home & Kitchen,0.6281,1
+MSE03997,SNP008,Kerala,Services,0.8552,1
+MSE03998,SNP007,Karnataka,Home & Kitchen,0.7854,1
+MSE03999,SNP007,Gujarat,Fashion,0.7836,1
+MSE04002,SNP007,West Bengal,Beauty & Personal Care,0.7915,1
+MSE04006,SNP007,Madhya Pradesh,Fashion,0.7289,1
+MSE04008,SNP002,West Bengal,Electronics,0.7862,1
+MSE04010,SNP006,Gujarat,Handicrafts & Handloom,0.8782,1
+MSE04012,SNP007,Kerala,Fashion,0.7259,1
+MSE04014,SNP002,Kerala,Electronics,0.6982,1
+MSE04016,SNP007,Gujarat,Home & Kitchen,0.8023,1
+MSE04017,SNP017,Karnataka,Food & Beverage,0.7843,1
+MSE04022,SNP024,Haryana,Food & Beverage,0.868,1
+MSE04023,SNP024,Uttar Pradesh,Food & Beverage,0.91,1
+MSE04027,SNP024,Madhya Pradesh,Food & Beverage,0.8366,1
+MSE04032,SNP008,Maharashtra,Services,0.7068,1
+MSE04034,SNP004,West Bengal,Agriculture,0.9103,1
+MSE04037,SNP007,Maharashtra,Home & Kitchen,0.8966,1
+MSE04039,SNP007,Karnataka,Home & Kitchen,0.7031,1
+MSE04040,SNP006,West Bengal,Handicrafts & Handloom,0.6772,1
+MSE04042,SNP006,Karnataka,Handicrafts & Handloom,0.8163,1
+MSE04045,SNP004,Karnataka,Agriculture,0.8637,1
+MSE04046,SNP007,Tamil Nadu,Home & Kitchen,0.7385,1
+MSE04048,SNP023,Karnataka,Services,0.9345,1
+MSE04049,SNP007,Karnataka,Fashion,0.9188,1
+MSE04052,SNP002,Rajasthan,Electronics,0.6867,1
+MSE04053,SNP007,Madhya Pradesh,Beauty & Personal Care,0.6544,1
+MSE04054,SNP012,Uttar Pradesh,Agriculture,0.8112,1
+MSE04057,SNP006,Kerala,Handicrafts & Handloom,0.8551,1
+MSE04060,SNP023,Karnataka,Services,0.8473,1
+MSE04061,SNP007,Madhya Pradesh,Fashion,0.8155,1
+MSE04064,SNP006,Maharashtra,Handicrafts & Handloom,0.8219,1
+MSE04065,SNP002,Gujarat,Electronics,0.8153,1
+MSE04066,SNP008,Tamil Nadu,Services,0.7097,1
+MSE04067,SNP017,Tamil Nadu,Food & Beverage,0.8522,1
+MSE04069,SNP007,Uttar Pradesh,Fashion,0.7311,1
+MSE04072,SNP017,Karnataka,Food & Beverage,0.6813,1
+MSE04076,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.834,1
+MSE04078,SNP007,Haryana,Fashion,0.7184,1
+MSE04079,SNP007,Maharashtra,Beauty & Personal Care,0.8687,1
+MSE04080,SNP024,Haryana,Food & Beverage,0.8668,1
+MSE04081,SNP007,West Bengal,Home & Kitchen,0.7175,1
+MSE04082,SNP007,Karnataka,Fashion,0.7463,1
+MSE04085,SNP017,Tamil Nadu,Food & Beverage,0.6455,1
+MSE04086,SNP007,Rajasthan,Fashion,0.784,1
+MSE04090,SNP007,Maharashtra,Beauty & Personal Care,0.7014,1
+MSE04094,SNP007,Karnataka,Fashion,0.8557,1
+MSE04095,SNP006,West Bengal,Handicrafts & Handloom,0.7617,1
+MSE04097,SNP007,Madhya Pradesh,Home & Kitchen,0.8434,1
+MSE04099,SNP017,Karnataka,Food & Beverage,0.9011,1
+MSE04100,SNP007,Uttar Pradesh,Beauty & Personal Care,0.6408,1
+MSE04104,SNP020,Gujarat,Agriculture,0.6289,1
+MSE04106,SNP004,Karnataka,Agriculture,0.6603,1
+MSE04108,SNP004,Tamil Nadu,Agriculture,0.8702,1
+MSE04110,SNP017,Karnataka,Food & Beverage,0.6465,1
+MSE04111,SNP007,Madhya Pradesh,Fashion,0.8715,1
+MSE04112,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.7436,1
+MSE04115,SNP024,Maharashtra,Food & Beverage,0.8517,1
+MSE04116,SNP017,Tamil Nadu,Food & Beverage,0.8385,1
+MSE04118,SNP007,Rajasthan,Fashion,0.6691,1
+MSE04122,SNP007,Maharashtra,Home & Kitchen,0.9259,1
+MSE04123,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.7948,1
+MSE04124,SNP024,Madhya Pradesh,Food & Beverage,0.8375,1
+MSE04125,SNP017,Kerala,Food & Beverage,0.7925,1
+MSE04128,SNP008,Kerala,Services,0.6624,1
+MSE04129,SNP007,Haryana,Home & Kitchen,0.7193,1
+MSE04131,SNP007,Madhya Pradesh,Home & Kitchen,0.6716,1
+MSE04137,SNP017,Karnataka,Food & Beverage,0.6863,1
+MSE04138,SNP017,Kerala,Food & Beverage,0.8262,1
+MSE04139,SNP017,Kerala,Food & Beverage,0.6849,1
+MSE04142,SNP007,Haryana,Fashion,0.7037,1
+MSE04145,SNP007,Kerala,Fashion,0.7432,1
+MSE04147,SNP024,West Bengal,Food & Beverage,0.6247,1
+MSE04152,SNP017,Karnataka,Food & Beverage,0.9282,1
+MSE04153,SNP017,Kerala,Food & Beverage,0.6689,1
+MSE04155,SNP007,Uttar Pradesh,Home & Kitchen,0.6324,1
+MSE04159,SNP006,Haryana,Handicrafts & Handloom,0.7785,1
+MSE04160,SNP017,Tamil Nadu,Food & Beverage,0.8441,1
+MSE04163,SNP007,Karnataka,Home & Kitchen,0.9078,1
+MSE04166,SNP025,Karnataka,Electronics,0.6849,1
+MSE04170,SNP007,Madhya Pradesh,Home & Kitchen,0.8056,1
+MSE04172,SNP007,West Bengal,Fashion,0.6765,1
+MSE04173,SNP024,Haryana,Food & Beverage,0.8192,1
+MSE04176,SNP024,West Bengal,Food & Beverage,0.8763,1
+MSE04178,SNP007,Haryana,Home & Kitchen,0.8294,1
+MSE04179,SNP017,Kerala,Food & Beverage,0.7547,1
+MSE04185,SNP017,Karnataka,Food & Beverage,0.6464,1
+MSE04186,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.7042,1
+MSE04187,SNP017,Karnataka,Food & Beverage,0.7013,1
+MSE04193,SNP007,Madhya Pradesh,Fashion,0.7994,1
+MSE04196,SNP011,Madhya Pradesh,Agriculture,0.6794,1
+MSE04197,SNP024,Madhya Pradesh,Food & Beverage,0.6746,1
+MSE04198,SNP007,Maharashtra,Home & Kitchen,0.82,1
+MSE04199,SNP007,Kerala,Home & Kitchen,0.6786,1
+MSE04200,SNP007,West Bengal,Beauty & Personal Care,0.8304,1
+MSE04201,SNP024,Madhya Pradesh,Food & Beverage,0.6498,1
+MSE04203,SNP006,Karnataka,Handicrafts & Handloom,0.8618,1
+MSE04207,SNP007,Kerala,Home & Kitchen,0.7606,1
+MSE04208,SNP024,Uttar Pradesh,Food & Beverage,0.7298,1
+MSE04210,SNP024,Maharashtra,Food & Beverage,0.8076,1
+MSE04213,SNP007,Karnataka,Home & Kitchen,0.8259,1
+MSE04215,SNP002,Kerala,Electronics,0.7925,1
+MSE04216,SNP017,Kerala,Food & Beverage,0.7156,1
+MSE04219,SNP006,Tamil Nadu,Handicrafts & Handloom,0.6889,1
+MSE04220,SNP007,Uttar Pradesh,Home & Kitchen,0.8773,1
+MSE04221,SNP007,Madhya Pradesh,Beauty & Personal Care,0.9103,1
+MSE04224,SNP007,Haryana,Fashion,0.8798,1
+MSE04226,SNP007,Madhya Pradesh,Fashion,0.7386,1
+MSE04230,SNP017,Karnataka,Food & Beverage,0.6736,1
+MSE04231,SNP007,Haryana,Fashion,0.6779,1
+MSE04234,SNP007,Karnataka,Home & Kitchen,0.8714,1
+MSE04235,SNP024,Uttar Pradesh,Food & Beverage,0.7706,1
+MSE04236,SNP007,Karnataka,Home & Kitchen,0.6823,1
+MSE04237,SNP007,Kerala,Home & Kitchen,0.852,1
+MSE04238,SNP008,Madhya Pradesh,Services,0.6734,1
+MSE04239,SNP008,Haryana,Services,0.6587,1
+MSE04240,SNP008,Madhya Pradesh,Services,0.9013,1
+MSE04244,SNP024,Haryana,Food & Beverage,0.6329,1
+MSE04246,SNP007,Kerala,Fashion,0.6816,1
+MSE04247,SNP024,Rajasthan,Food & Beverage,0.8718,1
+MSE04252,SNP007,Maharashtra,Fashion,0.7012,1
+MSE04255,SNP007,Haryana,Home & Kitchen,0.7032,1
+MSE04257,SNP025,Karnataka,Electronics,0.7591,1
+MSE04272,SNP024,Gujarat,Food & Beverage,0.6511,1
+MSE04273,SNP006,Gujarat,Handicrafts & Handloom,0.7775,1
+MSE04274,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.7837,1
+MSE04281,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.7467,1
+MSE04283,SNP007,Karnataka,Fashion,0.8002,1
+MSE04284,SNP008,Tamil Nadu,Services,0.6459,1
+MSE04292,SNP007,Tamil Nadu,Home & Kitchen,0.8501,1
+MSE04294,SNP024,Maharashtra,Food & Beverage,0.7635,1
+MSE04295,SNP006,Haryana,Handicrafts & Handloom,0.6385,1
+MSE04301,SNP007,Haryana,Home & Kitchen,0.7793,1
+MSE04303,SNP007,Haryana,Fashion,0.756,1
+MSE04304,SNP007,Kerala,Beauty & Personal Care,0.7378,1
+MSE04305,SNP007,Maharashtra,Fashion,0.7647,1
+MSE04306,SNP020,Gujarat,Services,0.7039,1
+MSE04309,SNP008,Maharashtra,Services,0.8073,1
+MSE04317,SNP004,Tamil Nadu,Agriculture,0.8826,1
+MSE04320,SNP017,Tamil Nadu,Food & Beverage,0.8409,1
+MSE04321,SNP007,Tamil Nadu,Home & Kitchen,0.9283,1
+MSE04322,SNP004,Kerala,Agriculture,0.661,1
+MSE04328,SNP006,Haryana,Handicrafts & Handloom,0.631,1
+MSE04332,SNP007,Kerala,Home & Kitchen,0.8004,1
+MSE04333,SNP007,Gujarat,Home & Kitchen,0.6934,1
+MSE04337,SNP017,Karnataka,Food & Beverage,0.7097,1
+MSE04340,SNP007,Rajasthan,Home & Kitchen,0.7839,1
+MSE04341,SNP008,Madhya Pradesh,Services,0.7789,1
+MSE04343,SNP025,Karnataka,Electronics,0.86,1
+MSE04344,SNP004,Tamil Nadu,Agriculture,0.7799,1
+MSE04345,SNP017,Tamil Nadu,Food & Beverage,0.9286,1
+MSE04347,SNP020,Rajasthan,Services,0.8849,1
+MSE04350,SNP008,Haryana,Services,0.8854,1
+MSE04356,SNP007,West Bengal,Beauty & Personal Care,0.8099,1
+MSE04357,SNP008,Kerala,Services,0.6874,1
+MSE04359,SNP008,Madhya Pradesh,Services,0.6681,1
+MSE04362,SNP017,Tamil Nadu,Food & Beverage,0.9109,1
+MSE04363,SNP006,Maharashtra,Handicrafts & Handloom,0.7787,1
+MSE04365,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.6837,1
+MSE04367,SNP024,Rajasthan,Food & Beverage,0.8226,1
+MSE04371,SNP020,Gujarat,Agriculture,0.6686,1
+MSE04374,SNP024,Haryana,Food & Beverage,0.7783,1
+MSE04379,SNP006,Gujarat,Handicrafts & Handloom,0.8021,1
+MSE04380,SNP007,Madhya Pradesh,Home & Kitchen,0.9014,1
+MSE04381,SNP020,Gujarat,Agriculture,0.8234,1
+MSE04382,SNP017,Karnataka,Food & Beverage,0.6501,1
+MSE04384,SNP007,Rajasthan,Fashion,0.777,1
+MSE04389,SNP007,West Bengal,Fashion,0.8699,1
+MSE04392,SNP007,Maharashtra,Home & Kitchen,0.8729,1
+MSE04394,SNP007,Tamil Nadu,Fashion,0.7055,1
+MSE04395,SNP008,Uttar Pradesh,Services,0.8358,1
+MSE04398,SNP007,Gujarat,Home & Kitchen,0.8218,1
+MSE04399,SNP007,Gujarat,Fashion,0.9373,1
+MSE04403,SNP024,Uttar Pradesh,Food & Beverage,0.64,1
+MSE04405,SNP002,Madhya Pradesh,Electronics,0.6526,1
+MSE04407,SNP007,Karnataka,Fashion,0.7687,1
+MSE04408,SNP024,Gujarat,Food & Beverage,0.7112,1
+MSE04409,SNP017,Karnataka,Food & Beverage,0.8383,1
+MSE04413,SNP007,Tamil Nadu,Home & Kitchen,0.7598,1
+MSE04417,SNP007,West Bengal,Home & Kitchen,0.9184,1
+MSE04418,SNP024,West Bengal,Food & Beverage,0.6564,1
+MSE04419,SNP017,Tamil Nadu,Food & Beverage,0.927,1
+MSE04420,SNP007,Gujarat,Fashion,0.6947,1
+MSE04422,SNP007,Karnataka,Beauty & Personal Care,0.6875,1
+MSE04425,SNP007,Karnataka,Home & Kitchen,0.7995,1
+MSE04426,SNP006,Gujarat,Handicrafts & Handloom,0.7252,1
+MSE04429,SNP007,Tamil Nadu,Fashion,0.6922,1
+MSE04431,SNP007,Kerala,Home & Kitchen,0.741,1
+MSE04432,SNP007,Kerala,Home & Kitchen,0.6236,1
+MSE04433,SNP024,West Bengal,Food & Beverage,0.8751,1
+MSE04435,SNP007,Kerala,Fashion,0.7075,1
+MSE04445,SNP017,Tamil Nadu,Food & Beverage,0.9193,1
+MSE04449,SNP025,Karnataka,Electronics,0.77,1
+MSE04454,SNP024,Gujarat,Food & Beverage,0.8571,1
+MSE04457,SNP017,Kerala,Food & Beverage,0.8501,1
+MSE04458,SNP020,Gujarat,Services,0.787,1
+MSE04459,SNP025,Uttar Pradesh,Electronics,0.6648,1
+MSE04460,SNP002,Kerala,Electronics,0.8143,1
+MSE04469,SNP007,Tamil Nadu,Home & Kitchen,0.7559,1
+MSE04471,SNP017,Kerala,Food & Beverage,0.8648,1
+MSE04475,SNP024,Madhya Pradesh,Food & Beverage,0.7251,1
+MSE04477,SNP007,Uttar Pradesh,Home & Kitchen,0.6661,1
+MSE04481,SNP017,Kerala,Food & Beverage,0.9183,1
+MSE04482,SNP008,West Bengal,Services,0.8615,1
+MSE04487,SNP024,Madhya Pradesh,Food & Beverage,0.8773,1
+MSE04489,SNP025,Uttar Pradesh,Electronics,0.8629,1
+MSE04492,SNP006,Haryana,Handicrafts & Handloom,0.886,1
+MSE04494,SNP017,Tamil Nadu,Food & Beverage,0.7822,1
+MSE04496,SNP020,Maharashtra,Agriculture,0.7998,1
+MSE04497,SNP007,Kerala,Home & Kitchen,0.6679,1
+MSE04498,SNP007,West Bengal,Beauty & Personal Care,0.8047,1
+MSE04499,SNP004,West Bengal,Agriculture,0.682,1
+MSE04501,SNP007,Haryana,Home & Kitchen,0.9086,1
+MSE04502,SNP004,Kerala,Agriculture,0.8811,1
+MSE04503,SNP002,Tamil Nadu,Electronics,0.8509,1
+MSE04505,SNP007,Rajasthan,Fashion,0.6351,1
+MSE04512,SNP024,Maharashtra,Food & Beverage,0.7903,1
+MSE04515,SNP020,Maharashtra,Agriculture,0.7113,1
+MSE04516,SNP007,Gujarat,Beauty & Personal Care,0.7151,1
+MSE04517,SNP007,Maharashtra,Fashion,0.8877,1
+MSE04518,SNP017,Tamil Nadu,Food & Beverage,0.9289,1
+MSE04519,SNP017,Karnataka,Food & Beverage,0.9373,1
+MSE04523,SNP008,Uttar Pradesh,Services,0.8723,1
+MSE04525,SNP024,Madhya Pradesh,Food & Beverage,0.6335,1
+MSE04528,SNP008,West Bengal,Services,0.7703,1
+MSE04533,SNP008,Kerala,Services,0.8021,1
+MSE04535,SNP007,Haryana,Fashion,0.9122,1
+MSE04537,SNP024,Rajasthan,Food & Beverage,0.8909,1
+MSE04540,SNP024,Rajasthan,Food & Beverage,0.7926,1
+MSE04544,SNP017,Kerala,Food & Beverage,0.8512,1
+MSE04546,SNP007,Uttar Pradesh,Fashion,0.8271,1
+MSE04548,SNP017,Kerala,Food & Beverage,0.9006,1
+MSE04549,SNP023,Karnataka,Services,0.6728,1
+MSE04550,SNP007,Haryana,Fashion,0.8207,1
+MSE04552,SNP008,Uttar Pradesh,Services,0.8899,1
+MSE04555,SNP018,Uttar Pradesh,Handicrafts & Handloom,0.8937,1
+MSE04557,SNP024,Haryana,Food & Beverage,0.8893,1
+MSE04558,SNP008,Tamil Nadu,Services,0.6494,1
+MSE04561,SNP017,Kerala,Food & Beverage,0.9011,1
+MSE04562,SNP007,Karnataka,Home & Kitchen,0.6944,1
+MSE04563,SNP008,Tamil Nadu,Services,0.7126,1
+MSE04564,SNP024,Rajasthan,Food & Beverage,0.6624,1
+MSE04568,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.8838,1
+MSE04569,SNP023,Karnataka,Services,0.7384,1
+MSE04570,SNP008,Kerala,Services,0.6712,1
+MSE04576,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.8711,1
+MSE04577,SNP006,Karnataka,Handicrafts & Handloom,0.9331,1
+MSE04583,SNP024,Gujarat,Food & Beverage,0.923,1
+MSE04584,SNP007,Uttar Pradesh,Beauty & Personal Care,0.7482,1
+MSE04585,SNP012,Haryana,Agriculture,0.8405,1
+MSE04592,SNP006,West Bengal,Handicrafts & Handloom,0.7693,1
+MSE04596,SNP007,Kerala,Home & Kitchen,0.8002,1
+MSE04599,SNP007,Uttar Pradesh,Fashion,0.8376,1
+MSE04600,SNP007,Maharashtra,Home & Kitchen,0.7242,1
+MSE04602,SNP007,Gujarat,Home & Kitchen,0.7689,1
+MSE04604,SNP007,Madhya Pradesh,Home & Kitchen,0.6575,1
+MSE04606,SNP008,Maharashtra,Services,0.7913,1
+MSE04607,SNP007,Uttar Pradesh,Fashion,0.8123,1
+MSE04610,SNP008,Haryana,Services,0.7868,1
+MSE04613,SNP007,Rajasthan,Fashion,0.9374,1
+MSE04614,SNP024,Madhya Pradesh,Food & Beverage,0.9388,1
+MSE04618,SNP017,Karnataka,Food & Beverage,0.864,1
+MSE04619,SNP007,Tamil Nadu,Fashion,0.8187,1
+MSE04622,SNP024,Gujarat,Food & Beverage,0.9219,1
+MSE04626,SNP007,Maharashtra,Fashion,0.9108,1
+MSE04627,SNP006,Maharashtra,Handicrafts & Handloom,0.8726,1
+MSE04629,SNP006,Gujarat,Handicrafts & Handloom,0.871,1
+MSE04630,SNP024,Maharashtra,Food & Beverage,0.638,1
+MSE04631,SNP006,Maharashtra,Handicrafts & Handloom,0.9342,1
+MSE04632,SNP007,Kerala,Home & Kitchen,0.6872,1
+MSE04634,SNP024,Gujarat,Food & Beverage,0.8228,1
+MSE04636,SNP007,Kerala,Fashion,0.8375,1
+MSE04637,SNP007,Madhya Pradesh,Beauty & Personal Care,0.8652,1
+MSE04639,SNP017,Karnataka,Food & Beverage,0.7194,1
+MSE04640,SNP007,Kerala,Home & Kitchen,0.762,1
+MSE04643,SNP024,Gujarat,Food & Beverage,0.8396,1
+MSE04644,SNP007,Karnataka,Fashion,0.6333,1
+MSE04646,SNP024,Haryana,Food & Beverage,0.7606,1
+MSE04647,SNP017,Kerala,Food & Beverage,0.9111,1
+MSE04650,SNP017,Tamil Nadu,Food & Beverage,0.6371,1
+MSE04653,SNP006,Karnataka,Handicrafts & Handloom,0.7569,1
+MSE04654,SNP017,Kerala,Food & Beverage,0.8935,1
+MSE04656,SNP007,Uttar Pradesh,Fashion,0.6487,1
+MSE04657,SNP007,Maharashtra,Fashion,0.9214,1
+MSE04658,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.7813,1
+MSE04660,SNP008,Haryana,Services,0.6677,1
+MSE04666,SNP025,Uttar Pradesh,Electronics,0.9251,1
+MSE04670,SNP017,Tamil Nadu,Food & Beverage,0.7675,1
+MSE04673,SNP002,Tamil Nadu,Electronics,0.7525,1
+MSE04675,SNP007,Karnataka,Home & Kitchen,0.8845,1
+MSE04678,SNP024,Uttar Pradesh,Food & Beverage,0.914,1
+MSE04681,SNP008,Kerala,Services,0.8709,1
+MSE04682,SNP007,Kerala,Beauty & Personal Care,0.937,1
+MSE04683,SNP017,Kerala,Food & Beverage,0.91,1
+MSE04687,SNP007,Gujarat,Fashion,0.6345,1
+MSE04694,SNP008,Tamil Nadu,Services,0.7122,1
+MSE04696,SNP006,Tamil Nadu,Handicrafts & Handloom,0.7859,1
+MSE04703,SNP002,Madhya Pradesh,Electronics,0.6345,1
+MSE04706,SNP007,Madhya Pradesh,Fashion,0.7826,1
+MSE04708,SNP007,Gujarat,Fashion,0.6891,1
+MSE04709,SNP017,Kerala,Food & Beverage,0.648,1
+MSE04710,SNP017,Tamil Nadu,Food & Beverage,0.8716,1
+MSE04713,SNP024,Uttar Pradesh,Food & Beverage,0.6433,1
+MSE04714,SNP023,Karnataka,Services,0.8624,1
+MSE04716,SNP008,Tamil Nadu,Services,0.7581,1
+MSE04720,SNP007,Uttar Pradesh,Fashion,0.9076,1
+MSE04722,SNP024,Madhya Pradesh,Food & Beverage,0.7069,1
+MSE04723,SNP007,Uttar Pradesh,Beauty & Personal Care,0.666,1
+MSE04726,SNP008,Haryana,Services,0.7186,1
+MSE04728,SNP020,Gujarat,Services,0.7365,1
+MSE04730,SNP020,Maharashtra,Agriculture,0.8992,1
+MSE04731,SNP008,Haryana,Services,0.7416,1
+MSE04733,SNP011,Madhya Pradesh,Agriculture,0.7736,1
+MSE04735,SNP007,Uttar Pradesh,Home & Kitchen,0.7369,1
+MSE04736,SNP008,Madhya Pradesh,Services,0.8959,1
+MSE04738,SNP017,Kerala,Food & Beverage,0.7814,1
+MSE04741,SNP008,Tamil Nadu,Services,0.7799,1
+MSE04742,SNP007,West Bengal,Fashion,0.8264,1
+MSE04746,SNP007,Tamil Nadu,Home & Kitchen,0.6218,1
+MSE04747,SNP017,Tamil Nadu,Food & Beverage,0.6483,1
+MSE04748,SNP008,Tamil Nadu,Services,0.8213,1
+MSE04751,SNP024,West Bengal,Food & Beverage,0.8238,1
+MSE04752,SNP008,Uttar Pradesh,Services,0.9014,1
+MSE04753,SNP007,Maharashtra,Fashion,0.8876,1
+MSE04756,SNP024,Gujarat,Food & Beverage,0.8237,1
+MSE04757,SNP017,Kerala,Food & Beverage,0.8575,1
+MSE04759,SNP007,Uttar Pradesh,Fashion,0.7426,1
+MSE04760,SNP007,Madhya Pradesh,Fashion,0.6489,1
+MSE04762,SNP006,Gujarat,Handicrafts & Handloom,0.6394,1
+MSE04763,SNP007,Uttar Pradesh,Fashion,0.8316,1
+MSE04764,SNP004,Tamil Nadu,Agriculture,0.8148,1
+MSE04765,SNP006,West Bengal,Handicrafts & Handloom,0.7183,1
+MSE04768,SNP024,Maharashtra,Food & Beverage,0.832,1
+MSE04770,SNP007,Madhya Pradesh,Fashion,0.8942,1
+MSE04772,SNP024,West Bengal,Food & Beverage,0.7554,1
+MSE04774,SNP017,Karnataka,Food & Beverage,0.7996,1
+MSE04775,SNP002,Gujarat,Electronics,0.9058,1
+MSE04779,SNP024,Uttar Pradesh,Food & Beverage,0.6348,1
+MSE04785,SNP024,Uttar Pradesh,Food & Beverage,0.7281,1
+MSE04787,SNP024,West Bengal,Food & Beverage,0.6769,1
+MSE04788,SNP008,Madhya Pradesh,Services,0.8832,1
+MSE04789,SNP002,West Bengal,Electronics,0.8062,1
+MSE04792,SNP007,Madhya Pradesh,Home & Kitchen,0.9027,1
+MSE04793,SNP007,Karnataka,Home & Kitchen,0.7857,1
+MSE04794,SNP024,Gujarat,Food & Beverage,0.8877,1
+MSE04795,SNP024,West Bengal,Food & Beverage,0.8383,1
+MSE04799,SNP004,Kerala,Agriculture,0.8277,1
+MSE04801,SNP008,Madhya Pradesh,Services,0.7146,1
+MSE04805,SNP006,Madhya Pradesh,Handicrafts & Handloom,0.8212,1
+MSE04812,SNP008,Haryana,Services,0.6717,1
+MSE04813,SNP007,Tamil Nadu,Fashion,0.7386,1
+MSE04815,SNP007,Uttar Pradesh,Home & Kitchen,0.6516,1
+MSE04818,SNP017,Karnataka,Food & Beverage,0.923,1
+MSE04820,SNP007,Madhya Pradesh,Home & Kitchen,0.808,1
+MSE04821,SNP006,Maharashtra,Handicrafts & Handloom,0.7818,1
+MSE04823,SNP007,Tamil Nadu,Home & Kitchen,0.6847,1
+MSE04826,SNP007,Karnataka,Home & Kitchen,0.7544,1
+MSE04827,SNP006,Maharashtra,Handicrafts & Handloom,0.7243,1
+MSE04829,SNP002,Gujarat,Electronics,0.8709,1
+MSE04832,SNP024,Haryana,Food & Beverage,0.8053,1
+MSE04833,SNP007,Kerala,Home & Kitchen,0.8307,1
+MSE04835,SNP024,West Bengal,Food & Beverage,0.8783,1
+MSE04836,SNP017,Karnataka,Food & Beverage,0.8265,1
+MSE04837,SNP017,Karnataka,Food & Beverage,0.7294,1
+MSE04838,SNP023,Karnataka,Services,0.7303,1
+MSE04842,SNP007,Karnataka,Home & Kitchen,0.7934,1
+MSE04843,SNP007,Kerala,Fashion,0.899,1
+MSE04846,SNP020,Gujarat,Services,0.8935,1
+MSE04849,SNP007,Tamil Nadu,Home & Kitchen,0.6652,1
+MSE04852,SNP020,Rajasthan,Services,0.7428,1
+MSE04853,SNP017,Karnataka,Food & Beverage,0.891,1
+MSE04854,SNP007,Tamil Nadu,Fashion,0.8795,1
+MSE04855,SNP007,Gujarat,Home & Kitchen,0.8524,1
+MSE04856,SNP017,Karnataka,Food & Beverage,0.6542,1
+MSE04857,SNP007,Haryana,Home & Kitchen,0.6279,1
+MSE04859,SNP007,Haryana,Fashion,0.7981,1
+MSE04862,SNP017,Kerala,Food & Beverage,0.6503,1
+MSE04863,SNP017,Karnataka,Food & Beverage,0.7878,1
+MSE04864,SNP017,Kerala,Food & Beverage,0.7845,1
+MSE04867,SNP007,Uttar Pradesh,Home & Kitchen,0.7479,1
+MSE04868,SNP007,Gujarat,Home & Kitchen,0.9147,1
+MSE04869,SNP007,Maharashtra,Home & Kitchen,0.656,1
+MSE04871,SNP017,Tamil Nadu,Food & Beverage,0.666,1
+MSE04873,SNP007,Kerala,Home & Kitchen,0.8459,1
+MSE04875,SNP007,Uttar Pradesh,Beauty & Personal Care,0.9349,1
+MSE04877,SNP007,Tamil Nadu,Fashion,0.6694,1
+MSE04880,SNP017,Kerala,Food & Beverage,0.6209,1
+MSE04882,SNP002,Rajasthan,Electronics,0.9038,1
+MSE04883,SNP007,West Bengal,Home & Kitchen,0.8996,1
+MSE04886,SNP007,Tamil Nadu,Fashion,0.9124,1
+MSE04888,SNP008,Madhya Pradesh,Services,0.9282,1
+MSE04890,SNP007,Uttar Pradesh,Fashion,0.7599,1
+MSE04891,SNP008,Uttar Pradesh,Services,0.7433,1
+MSE04896,SNP007,Gujarat,Beauty & Personal Care,0.7788,1
+MSE04898,SNP007,Kerala,Beauty & Personal Care,0.6801,1
+MSE04899,SNP017,Karnataka,Food & Beverage,0.7671,1
+MSE04900,SNP024,Madhya Pradesh,Food & Beverage,0.6996,1
+MSE04902,SNP017,Kerala,Food & Beverage,0.6714,1
+MSE04903,SNP024,Maharashtra,Food & Beverage,0.7315,1
+MSE04904,SNP024,Gujarat,Food & Beverage,0.7617,1
+MSE04906,SNP008,Madhya Pradesh,Services,0.8669,1
+MSE04909,SNP024,Maharashtra,Food & Beverage,0.6357,1
+MSE04911,SNP007,Uttar Pradesh,Home & Kitchen,0.7071,1
+MSE04912,SNP007,Gujarat,Fashion,0.8209,1
+MSE04914,SNP017,Kerala,Food & Beverage,0.8319,1
+MSE04916,SNP004,Kerala,Agriculture,0.9069,1
+MSE04927,SNP006,Maharashtra,Handicrafts & Handloom,0.9032,1
+MSE04933,SNP007,Haryana,Fashion,0.7163,1
+MSE04935,SNP007,Rajasthan,Fashion,0.9062,1
+MSE04938,SNP024,Maharashtra,Food & Beverage,0.8781,1
+MSE04940,SNP007,Haryana,Home & Kitchen,0.8346,1
+MSE04941,SNP007,Rajasthan,Fashion,0.8653,1
+MSE04943,SNP024,West Bengal,Food & Beverage,0.7913,1
+MSE04944,SNP007,Haryana,Fashion,0.7124,1
+MSE04948,SNP011,Madhya Pradesh,Agriculture,0.841,1
+MSE04949,SNP007,Madhya Pradesh,Home & Kitchen,0.6231,1
+MSE04953,SNP006,Haryana,Handicrafts & Handloom,0.8446,1
+MSE04954,SNP024,West Bengal,Food & Beverage,0.6499,1
+MSE04957,SNP024,Uttar Pradesh,Food & Beverage,0.7862,1
+MSE04958,SNP007,Tamil Nadu,Home & Kitchen,0.8808,1
+MSE04963,SNP007,Tamil Nadu,Home & Kitchen,0.6862,1
+MSE04966,SNP008,Madhya Pradesh,Services,0.7257,1
+MSE04971,SNP020,Gujarat,Services,0.7047,1
+MSE04972,SNP017,Karnataka,Food & Beverage,0.759,1
+MSE04974,SNP007,Haryana,Fashion,0.7757,1
+MSE04978,SNP008,Haryana,Services,0.7693,1
+MSE04981,SNP007,Uttar Pradesh,Home & Kitchen,0.6279,1
+MSE04985,SNP008,Madhya Pradesh,Services,0.6858,1
+MSE04987,SNP024,Madhya Pradesh,Food & Beverage,0.7537,1
+MSE04988,SNP007,Madhya Pradesh,Home & Kitchen,0.625,1
+MSE04989,SNP007,Madhya Pradesh,Fashion,0.7973,1
+MSE04995,SNP011,Madhya Pradesh,Agriculture,0.6933,1
+MSE04998,SNP017,Karnataka,Food & Beverage,0.6521,1
+MSE04999,SNP006,Kerala,Handicrafts & Handloom,0.634,1
+MSE05000,SNP024,Uttar Pradesh,Food & Beverage,0.864,1

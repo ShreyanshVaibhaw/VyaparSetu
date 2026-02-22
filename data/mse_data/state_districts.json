@@ -1,0 +1,616 @@
+{
+  "states": [
+    {
+      "state": "Andhra Pradesh",
+      "districts": [
+        {
+          "district": "Visakhapatnam",
+          "lat": 17.6868,
+          "lon": 83.2185,
+          "tier": 1
+        },
+        {
+          "district": "Visakhapatnam Industrial Cluster",
+          "lat": 17.8668,
+          "lon": 83.4285,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "districts": [
+        {
+          "district": "Itanagar",
+          "lat": 27.0844,
+          "lon": 93.6053,
+          "tier": 2
+        },
+        {
+          "district": "Itanagar Industrial Cluster",
+          "lat": 27.2644,
+          "lon": 93.8153,
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "state": "Assam",
+      "districts": [
+        {
+          "district": "Guwahati",
+          "lat": 26.1445,
+          "lon": 91.7362,
+          "tier": 1
+        },
+        {
+          "district": "Guwahati Industrial Cluster",
+          "lat": 26.3245,
+          "lon": 91.9462,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "Bihar",
+      "districts": [
+        {
+          "district": "Patna",
+          "lat": 25.5941,
+          "lon": 85.1376,
+          "tier": 1
+        },
+        {
+          "district": "Patna Industrial Cluster",
+          "lat": 25.7741,
+          "lon": 85.3476,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "Chhattisgarh",
+      "districts": [
+        {
+          "district": "Raipur",
+          "lat": 21.2514,
+          "lon": 81.6296,
+          "tier": 1
+        },
+        {
+          "district": "Raipur Industrial Cluster",
+          "lat": 21.4314,
+          "lon": 81.8396,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "Goa",
+      "districts": [
+        {
+          "district": "Panaji",
+          "lat": 15.4909,
+          "lon": 73.8278,
+          "tier": 2
+        },
+        {
+          "district": "Panaji Industrial Cluster",
+          "lat": 15.6709,
+          "lon": 74.0378,
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "state": "Gujarat",
+      "districts": [
+        {
+          "district": "Ahmedabad",
+          "lat": 23.0225,
+          "lon": 72.5714,
+          "tier": 1
+        },
+        {
+          "district": "Ahmedabad Industrial Cluster",
+          "lat": 23.2025,
+          "lon": 72.7814,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "Haryana",
+      "districts": [
+        {
+          "district": "Gurugram",
+          "lat": 28.4595,
+          "lon": 77.0266,
+          "tier": 1
+        },
+        {
+          "district": "Gurugram Industrial Cluster",
+          "lat": 28.6395,
+          "lon": 77.2366,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "Himachal Pradesh",
+      "districts": [
+        {
+          "district": "Shimla",
+          "lat": 31.1048,
+          "lon": 77.1734,
+          "tier": 2
+        },
+        {
+          "district": "Shimla Industrial Cluster",
+          "lat": 31.2848,
+          "lon": 77.3834,
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "state": "Jharkhand",
+      "districts": [
+        {
+          "district": "Ranchi",
+          "lat": 23.3441,
+          "lon": 85.3096,
+          "tier": 1
+        },
+        {
+          "district": "Ranchi Industrial Cluster",
+          "lat": 23.5241,
+          "lon": 85.5196,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "Karnataka",
+      "districts": [
+        {
+          "district": "Bengaluru Urban",
+          "lat": 12.9716,
+          "lon": 77.5946,
+          "tier": 1
+        },
+        {
+          "district": "Bengaluru Urban Industrial Cluster",
+          "lat": 13.1516,
+          "lon": 77.8046,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "Kerala",
+      "districts": [
+        {
+          "district": "Ernakulam",
+          "lat": 9.9816,
+          "lon": 76.2999,
+          "tier": 1
+        },
+        {
+          "district": "Ernakulam Industrial Cluster",
+          "lat": 10.1616,
+          "lon": 76.5099,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "Madhya Pradesh",
+      "districts": [
+        {
+          "district": "Indore",
+          "lat": 22.7196,
+          "lon": 75.8577,
+          "tier": 1
+        },
+        {
+          "district": "Indore Industrial Cluster",
+          "lat": 22.8996,
+          "lon": 76.0677,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "Maharashtra",
+      "districts": [
+        {
+          "district": "Mumbai",
+          "lat": 19.076,
+          "lon": 72.8777,
+          "tier": 1
+        },
+        {
+          "district": "Mumbai Industrial Cluster",
+          "lat": 19.256,
+          "lon": 73.0877,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "Manipur",
+      "districts": [
+        {
+          "district": "Imphal West",
+          "lat": 24.817,
+          "lon": 93.9368,
+          "tier": 2
+        },
+        {
+          "district": "Imphal West Industrial Cluster",
+          "lat": 24.997,
+          "lon": 94.1468,
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "state": "Meghalaya",
+      "districts": [
+        {
+          "district": "East Khasi Hills",
+          "lat": 25.5788,
+          "lon": 91.8933,
+          "tier": 2
+        },
+        {
+          "district": "East Khasi Hills Industrial Cluster",
+          "lat": 25.7588,
+          "lon": 92.1033,
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "state": "Mizoram",
+      "districts": [
+        {
+          "district": "Aizawl",
+          "lat": 23.7271,
+          "lon": 92.7176,
+          "tier": 2
+        },
+        {
+          "district": "Aizawl Industrial Cluster",
+          "lat": 23.9071,
+          "lon": 92.9276,
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "state": "Nagaland",
+      "districts": [
+        {
+          "district": "Kohima",
+          "lat": 25.6751,
+          "lon": 94.1086,
+          "tier": 2
+        },
+        {
+          "district": "Kohima Industrial Cluster",
+          "lat": 25.8551,
+          "lon": 94.3186,
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "state": "Odisha",
+      "districts": [
+        {
+          "district": "Khordha",
+          "lat": 20.1734,
+          "lon": 85.6745,
+          "tier": 1
+        },
+        {
+          "district": "Khordha Industrial Cluster",
+          "lat": 20.3534,
+          "lon": 85.8845,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "Punjab",
+      "districts": [
+        {
+          "district": "Ludhiana",
+          "lat": 30.9009,
+          "lon": 75.8573,
+          "tier": 1
+        },
+        {
+          "district": "Ludhiana Industrial Cluster",
+          "lat": 31.0809,
+          "lon": 76.0673,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "Rajasthan",
+      "districts": [
+        {
+          "district": "Jaipur",
+          "lat": 26.9124,
+          "lon": 75.7873,
+          "tier": 1
+        },
+        {
+          "district": "Jaipur Industrial Cluster",
+          "lat": 27.0924,
+          "lon": 75.9973,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "Sikkim",
+      "districts": [
+        {
+          "district": "East Sikkim",
+          "lat": 27.3389,
+          "lon": 88.6065,
+          "tier": 2
+        },
+        {
+          "district": "East Sikkim Industrial Cluster",
+          "lat": 27.5189,
+          "lon": 88.8165,
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "state": "Tamil Nadu",
+      "districts": [
+        {
+          "district": "Chennai",
+          "lat": 13.0827,
+          "lon": 80.2707,
+          "tier": 1
+        },
+        {
+          "district": "Chennai Industrial Cluster",
+          "lat": 13.2627,
+          "lon": 80.4807,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "Telangana",
+      "districts": [
+        {
+          "district": "Hyderabad",
+          "lat": 17.385,
+          "lon": 78.4867,
+          "tier": 1
+        },
+        {
+          "district": "Hyderabad Industrial Cluster",
+          "lat": 17.565,
+          "lon": 78.6967,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "Tripura",
+      "districts": [
+        {
+          "district": "West Tripura",
+          "lat": 23.9408,
+          "lon": 91.9882,
+          "tier": 2
+        },
+        {
+          "district": "West Tripura Industrial Cluster",
+          "lat": 24.1208,
+          "lon": 92.1982,
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "state": "Uttar Pradesh",
+      "districts": [
+        {
+          "district": "Lucknow",
+          "lat": 26.8467,
+          "lon": 80.9462,
+          "tier": 1
+        },
+        {
+          "district": "Lucknow Industrial Cluster",
+          "lat": 27.0267,
+          "lon": 81.1562,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "Uttarakhand",
+      "districts": [
+        {
+          "district": "Dehradun",
+          "lat": 30.3165,
+          "lon": 78.0322,
+          "tier": 1
+        },
+        {
+          "district": "Dehradun Industrial Cluster",
+          "lat": 30.4965,
+          "lon": 78.2422,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "West Bengal",
+      "districts": [
+        {
+          "district": "Kolkata",
+          "lat": 22.5726,
+          "lon": 88.3639,
+          "tier": 1
+        },
+        {
+          "district": "Kolkata Industrial Cluster",
+          "lat": 22.7526,
+          "lon": 88.5739,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "Andaman and Nicobar Islands",
+      "districts": [
+        {
+          "district": "South Andaman",
+          "lat": 11.7401,
+          "lon": 92.6586,
+          "tier": 3
+        },
+        {
+          "district": "South Andaman Industrial Cluster",
+          "lat": 11.9201,
+          "lon": 92.8686,
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "state": "Chandigarh",
+      "districts": [
+        {
+          "district": "Chandigarh",
+          "lat": 30.7333,
+          "lon": 76.7794,
+          "tier": 1
+        },
+        {
+          "district": "Chandigarh Industrial Cluster",
+          "lat": 30.9133,
+          "lon": 76.9894,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "districts": [
+        {
+          "district": "Daman",
+          "lat": 20.3974,
+          "lon": 72.8328,
+          "tier": 2
+        },
+        {
+          "district": "Daman Industrial Cluster",
+          "lat": 20.5774,
+          "lon": 73.0428,
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "state": "Delhi",
+      "districts": [
+        {
+          "district": "New Delhi",
+          "lat": 28.6139,
+          "lon": 77.209,
+          "tier": 1
+        },
+        {
+          "district": "New Delhi Industrial Cluster",
+          "lat": 28.7939,
+          "lon": 77.419,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "state": "Jammu and Kashmir",
+      "districts": [
+        {
+          "district": "Srinagar",
+          "lat": 34.0837,
+          "lon": 74.7973,
+          "tier": 2
+        },
+        {
+          "district": "Srinagar Industrial Cluster",
+          "lat": 34.2637,
+          "lon": 75.0073,
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "state": "Ladakh",
+      "districts": [
+        {
+          "district": "Leh",
+          "lat": 34.1526,
+          "lon": 77.5771,
+          "tier": 3
+        },
+        {
+          "district": "Leh Industrial Cluster",
+          "lat": 34.3326,
+          "lon": 77.7871,
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "state": "Lakshadweep",
+      "districts": [
+        {
+          "district": "Kavaratti",
+          "lat": 10.5667,
+          "lon": 72.6417,
+          "tier": 3
+        },
+        {
+          "district": "Kavaratti Industrial Cluster",
+          "lat": 10.7467,
+          "lon": 72.8517,
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "state": "Puducherry",
+      "districts": [
+        {
+          "district": "Puducherry",
+          "lat": 11.9416,
+          "lon": 79.8083,
+          "tier": 2
+        },
+        {
+          "district": "Puducherry Industrial Cluster",
+          "lat": 12.1216,
+          "lon": 80.0183,
+          "tier": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "mse_classification": [
+    {
+      "match_tokens": ["Maru Mahila Foods", "pickle", "achaar"],
+      "response": {
+        "primary_category_l1": "Food & Beverage",
+        "primary_category_l2": "Packaged Foods",
+        "secondary_categories": ["Grocery"],
+        "suggested_product_types": ["Pickles & Chutneys"],
+        "confidence": 0.89,
+        "reasoning": "Cached demo response for Rajasthan pickle maker."
+      }
+    },
+    {
+      "match_tokens": ["Kanchi Loom Collective", "saree", "kanchipuram"],
+      "response": {
+        "primary_category_l1": "Fashion",
+        "primary_category_l2": "Women's Apparel",
+        "secondary_categories": ["Handicrafts & Handloom"],
+        "suggested_product_types": ["Saree", "Handloom Apparel"],
+        "confidence": 0.86,
+        "reasoning": "Cached demo response for Tamil Nadu textile seller."
+      }
+    },
+    {
+      "match_tokens": ["Kolkata Leather Line", "leather", "bag"],
+      "response": {
+        "primary_category_l1": "Fashion",
+        "primary_category_l2": "Accessories",
+        "secondary_categories": [],
+        "suggested_product_types": ["Bags & Wallets"],
+        "confidence": 0.84,
+        "reasoning": "Cached demo response for Bengal leather category."
+      }
+    },
+    {
+      "match_tokens": ["Bengaluru Byte Services", "service", "repair"],
+      "response": {
+        "primary_category_l1": "Services",
+        "primary_category_l2": "Digital Services",
+        "secondary_categories": ["Electronics"],
+        "suggested_product_types": ["Repair Services"],
+        "confidence": 0.81,
+        "reasoning": "Cached demo response for Karnataka digital service provider."
+      }
+    },
+    {
+      "match_tokens": ["Shree Athaana Gruh"],
+      "response": {
+        "primary_category_l1": "Food & Beverage",
+        "primary_category_l2": "Packaged Foods",
+        "secondary_categories": ["Grocery"],
+        "suggested_product_types": ["Snacks", "Spices & Masala"],
+        "confidence": 0.87,
+        "reasoning": "Cached demo response for Gujarat food household brand."
+      }
+    }
+  ],
+  "catalog_responses": [
+    {
+      "match_tokens": ["aam ka achaar"],
+      "response": {
+        "product_name_en": "Homemade Mango Pickle (500g)",
+        "product_name_regional": "घर का बना आम का अचार (500 ग्राम)",
+        "short_description": "Traditional mango pickle made in small batches with desi ghee.",
+        "long_description": "Authentic homemade mango pickle prepared using regional spices and desi ghee. Crafted in small batches for consistent flavor and quality.",
+        "attributes": {"ingredients": "mango, spices, desi ghee"},
+        "tags": {"handmade": "yes"}
+      }
+    },
+    {
+      "match_tokens": ["nimbu ka", "lemon pickle"],
+      "response": {
+        "product_name_en": "Homemade Lemon Pickle (250g)",
+        "product_name_regional": "घर का बना नींबू का अचार (250 ग्राम)",
+        "short_description": "Spicy lemon pickle made in small batches.",
+        "long_description": "Traditional lemon pickle made with hand-selected lemons and balanced Indian spice blend for daily meals.",
+        "attributes": {"ingredients": "lemon, spices, oil"},
+        "tags": {"handmade": "yes"}
+      }
+    },
+    {
+      "match_tokens": ["kanchipuram", "silk saree"],
+      "response": {
+        "product_name_en": "Pure Silk Kanchipuram Saree",
+        "product_name_regional": "காஞ்சிபுரம் பட்டு சேலை",
+        "short_description": "Traditional silk saree with zari border.",
+        "long_description": "Authentic Kanchipuram silk saree featuring classic motifs, durable weave, and ceremonial zari details.",
+        "attributes": {"material": "silk", "length": "6.5 meter"},
+        "tags": {"handmade": "yes"}
+      }
+    },
+    {
+      "match_tokens": ["leather laptop bag"],
+      "response": {
+        "product_name_en": "Genuine Leather Laptop Bag",
+        "product_name_regional": "চামড়ার ল্যাপটপ ব্যাগ",
+        "short_description": "Handstitched leather laptop bag for 15-inch devices.",
+        "long_description": "Durable genuine leather laptop bag with professional finish, padded section, and practical storage pockets.",
+        "attributes": {"material": "genuine leather", "size": "15 inch"},
+        "tags": {"handmade": "yes"}
+      }
+    },
+    {
+      "match_tokens": ["papad", "masala mix"],
+      "response": {
+        "product_name_en": "Home-style Papad & Masala Mix Combo",
+        "product_name_regional": "ઘરેલું પાપડ અને મસાલા મિક્સ",
+        "short_description": "Traditional papad and spice mix bundle.",
+        "long_description": "Combo pack of handmade papad and aromatic masala blend, suitable for daily meals and household retail orders.",
+        "attributes": {"combo": "papad + masala mix", "net_quantity": "250 gram"},
+        "tags": {"handmade": "yes"}
+      }
+    }
+  ],
+  "snp_explanation": {
+    "explanation": "Cached demo recommendation based on category fit, geography, and language support.",
+    "explanation_regional": "कैश्ड डेमो सिफारिश: कैटेगरी, क्षेत्र और भाषा सपोर्ट के आधार पर।",
+    "pros": ["Category-specialized", "Strong regional support", "Language fit"],
+    "cons": ["Activation may take a few days"],
+    "tip": "Complete catalog attributes for faster onboarding."
+  }
+}

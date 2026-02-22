@@ -1,0 +1,1529 @@
+[
+  {
+    "snp_id": "SNP001",
+    "name": "Mystore",
+    "website": "https://mystore.in",
+    "supported_categories": [
+      "Food & Beverage",
+      "Grocery",
+      "Fashion",
+      "Home & Kitchen"
+    ],
+    "geographic_coverage": [
+      "All India"
+    ],
+    "pincode_coverage": null,
+    "languages_supported": [
+      "en",
+      "hi",
+      "ta",
+      "mr",
+      "bn",
+      "te",
+      "kn",
+      "gu"
+    ],
+    "commission_rate": 6.5,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 499.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "both",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv",
+      "api"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 5,
+    "active_sellers": 8500,
+    "seller_success_rate": 0.75,
+    "rating": 4.1,
+    "team_initiative_partner": false,
+    "specialization_tags": [
+      "general",
+      "pan_india"
+    ]
+  },
+  {
+    "snp_id": "SNP002",
+    "name": "SellerSetu",
+    "website": "https://sellersetu.com",
+    "supported_categories": [
+      "Food & Beverage",
+      "Grocery",
+      "Fashion",
+      "Electronics"
+    ],
+    "geographic_coverage": [
+      "All India"
+    ],
+    "pincode_coverage": null,
+    "languages_supported": [
+      "en",
+      "hi"
+    ],
+    "commission_rate": 7.0,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 999.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "web",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv",
+      "api"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 6,
+    "active_sellers": 11000,
+    "seller_success_rate": 0.76,
+    "rating": 4.2,
+    "team_initiative_partner": true,
+    "specialization_tags": [
+      "tech_focused",
+      "api"
+    ]
+  },
+  {
+    "snp_id": "SNP003",
+    "name": "Kiko Live",
+    "website": "https://kikolive.com",
+    "supported_categories": [
+      "Fashion",
+      "Beauty & Personal Care",
+      "Handicrafts & Handloom"
+    ],
+    "geographic_coverage": [
+      "Maharashtra",
+      "Gujarat",
+      "Delhi"
+    ],
+    "pincode_coverage": [
+      "110001",
+      "400001",
+      "560001"
+    ],
+    "languages_supported": [
+      "en",
+      "hi",
+      "mr",
+      "gu"
+    ],
+    "commission_rate": 8.5,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 1499.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "mobile",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 7,
+    "active_sellers": 13500,
+    "seller_success_rate": 0.77,
+    "rating": 4.3,
+    "team_initiative_partner": false,
+    "specialization_tags": [
+      "fashion",
+      "video_commerce"
+    ]
+  },
+  {
+    "snp_id": "SNP004",
+    "name": "Digiit",
+    "website": "https://digiit.io",
+    "supported_categories": [
+      "Food & Beverage",
+      "Grocery",
+      "Agriculture"
+    ],
+    "geographic_coverage": [
+      "Tamil Nadu",
+      "Karnataka",
+      "Kerala",
+      "Telangana"
+    ],
+    "pincode_coverage": [
+      "110001",
+      "400001",
+      "560001"
+    ],
+    "languages_supported": [
+      "en",
+      "ta",
+      "kn",
+      "te",
+      "hi"
+    ],
+    "commission_rate": 6.9,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 699.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "both",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv",
+      "api"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 8,
+    "active_sellers": 16000,
+    "seller_success_rate": 0.78,
+    "rating": 4.4,
+    "team_initiative_partner": true,
+    "specialization_tags": [
+      "food",
+      "south_india"
+    ]
+  },
+  {
+    "snp_id": "SNP005",
+    "name": "GoCoop",
+    "website": "https://gocoop.com",
+    "supported_categories": [
+      "Handicrafts & Handloom",
+      "Fashion"
+    ],
+    "geographic_coverage": [
+      "Karnataka",
+      "Tamil Nadu",
+      "Rajasthan"
+    ],
+    "pincode_coverage": [
+      "110001",
+      "400001",
+      "560001"
+    ],
+    "languages_supported": [
+      "en",
+      "hi",
+      "ta",
+      "kn"
+    ],
+    "commission_rate": 9.0,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 499.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "web",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 9,
+    "active_sellers": 18500,
+    "seller_success_rate": 0.79,
+    "rating": 4.5,
+    "team_initiative_partner": false,
+    "specialization_tags": [
+      "artisan",
+      "handloom"
+    ]
+  },
+  {
+    "snp_id": "SNP006",
+    "name": "Craftsvilla",
+    "website": "https://craftsvilla.com",
+    "supported_categories": [
+      "Handicrafts & Handloom",
+      "Fashion",
+      "Home & Kitchen"
+    ],
+    "geographic_coverage": [
+      "All India"
+    ],
+    "pincode_coverage": null,
+    "languages_supported": [
+      "en",
+      "hi",
+      "gu",
+      "mr"
+    ],
+    "commission_rate": 9.5,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 799.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "both",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv",
+      "api"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 4,
+    "active_sellers": 21000,
+    "seller_success_rate": 0.8,
+    "rating": 4.0,
+    "team_initiative_partner": true,
+    "specialization_tags": [
+      "artisan",
+      "ethnic"
+    ]
+  },
+  {
+    "snp_id": "SNP007",
+    "name": "MeeshoConnect",
+    "website": "https://example.com/meesho",
+    "supported_categories": [
+      "Fashion",
+      "Beauty & Personal Care",
+      "Home & Kitchen"
+    ],
+    "geographic_coverage": [
+      "All India"
+    ],
+    "pincode_coverage": null,
+    "languages_supported": [
+      "en",
+      "hi",
+      "bn",
+      "mr",
+      "ta"
+    ],
+    "commission_rate": 5.8,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 299.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "mobile",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 5,
+    "active_sellers": 23500,
+    "seller_success_rate": 0.81,
+    "rating": 4.1,
+    "team_initiative_partner": false,
+    "specialization_tags": [
+      "women_sellers",
+      "social_commerce"
+    ]
+  },
+  {
+    "snp_id": "SNP008",
+    "name": "Bindass Laundry",
+    "website": "https://example.com/bindass",
+    "supported_categories": [
+      "Services"
+    ],
+    "geographic_coverage": [
+      "Delhi",
+      "Haryana",
+      "Maharashtra"
+    ],
+    "pincode_coverage": [
+      "110001",
+      "400001",
+      "560001"
+    ],
+    "languages_supported": [
+      "en",
+      "hi"
+    ],
+    "commission_rate": 12.0,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 999.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "mobile",
+    "catalog_upload_method": [
+      "manual",
+      "api"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 6,
+    "active_sellers": 26000,
+    "seller_success_rate": 0.82,
+    "rating": 4.2,
+    "team_initiative_partner": true,
+    "specialization_tags": [
+      "services",
+      "laundry"
+    ]
+  },
+  {
+    "snp_id": "SNP009",
+    "name": "Magicpin Local",
+    "website": "https://magicpin.in",
+    "supported_categories": [
+      "Food & Beverage",
+      "Grocery",
+      "Services"
+    ],
+    "geographic_coverage": [
+      "Delhi",
+      "Maharashtra",
+      "Karnataka"
+    ],
+    "pincode_coverage": [
+      "110001",
+      "400001",
+      "560001"
+    ],
+    "languages_supported": [
+      "en",
+      "hi",
+      "mr",
+      "kn"
+    ],
+    "commission_rate": 8.2,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 899.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "both",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv",
+      "api"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 7,
+    "active_sellers": 28500,
+    "seller_success_rate": 0.74,
+    "rating": 4.3,
+    "team_initiative_partner": false,
+    "specialization_tags": [
+      "hyperlocal",
+      "food"
+    ]
+  },
+  {
+    "snp_id": "SNP010",
+    "name": "ONDC Bazaar",
+    "website": "https://example.com/ondcbazaar",
+    "supported_categories": [
+      "Food & Beverage",
+      "Grocery",
+      "Fashion"
+    ],
+    "geographic_coverage": [
+      "All India"
+    ],
+    "pincode_coverage": null,
+    "languages_supported": [
+      "en",
+      "hi",
+      "ta",
+      "mr",
+      "bn",
+      "te",
+      "kn",
+      "gu"
+    ],
+    "commission_rate": 6.7,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 299.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "both",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv",
+      "api"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 7,
+    "active_sellers": 21500,
+    "seller_success_rate": 0.72,
+    "rating": 4.1,
+    "team_initiative_partner": true,
+    "specialization_tags": [
+      "food_beverage"
+    ]
+  },
+  {
+    "snp_id": "SNP011",
+    "name": "RuralCart",
+    "website": "https://example.com/ruralcart",
+    "supported_categories": [
+      "Agriculture",
+      "Food & Beverage"
+    ],
+    "geographic_coverage": [
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Uttar Pradesh"
+    ],
+    "pincode_coverage": [
+      "110001",
+      "400001",
+      "560001"
+    ],
+    "languages_supported": [
+      "en",
+      "hi",
+      "ta",
+      "mr",
+      "bn",
+      "te",
+      "kn",
+      "gu"
+    ],
+    "commission_rate": 7.3,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 499.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "mobile",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 8,
+    "active_sellers": 23200,
+    "seller_success_rate": 0.73,
+    "rating": 4.2,
+    "team_initiative_partner": false,
+    "specialization_tags": [
+      "agriculture"
+    ]
+  },
+  {
+    "snp_id": "SNP012",
+    "name": "Farm2Market",
+    "website": "https://example.com/farm2market",
+    "supported_categories": [
+      "Agriculture",
+      "Food & Beverage"
+    ],
+    "geographic_coverage": [
+      "Punjab",
+      "Haryana",
+      "Uttar Pradesh"
+    ],
+    "pincode_coverage": [
+      "110001",
+      "400001",
+      "560001"
+    ],
+    "languages_supported": [
+      "en",
+      "hi",
+      "ta",
+      "mr",
+      "bn",
+      "te",
+      "kn",
+      "gu"
+    ],
+    "commission_rate": 7.9,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 699.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "both",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv",
+      "api"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 9,
+    "active_sellers": 24900,
+    "seller_success_rate": 0.74,
+    "rating": 4.3,
+    "team_initiative_partner": true,
+    "specialization_tags": [
+      "agriculture"
+    ]
+  },
+  {
+    "snp_id": "SNP013",
+    "name": "Swasthya Mart",
+    "website": "https://example.com/swasthyamart",
+    "supported_categories": [
+      "Health & Wellness",
+      "Beauty & Personal Care"
+    ],
+    "geographic_coverage": [
+      "All India"
+    ],
+    "pincode_coverage": null,
+    "languages_supported": [
+      "en",
+      "hi",
+      "ta",
+      "mr",
+      "bn",
+      "te",
+      "kn",
+      "gu"
+    ],
+    "commission_rate": 8.5,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 899.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "mobile",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 10,
+    "active_sellers": 26600,
+    "seller_success_rate": 0.75,
+    "rating": 4.4,
+    "team_initiative_partner": false,
+    "specialization_tags": [
+      "health_wellness"
+    ]
+  },
+  {
+    "snp_id": "SNP014",
+    "name": "ElectroHub",
+    "website": "https://example.com/electrohub",
+    "supported_categories": [
+      "Electronics"
+    ],
+    "geographic_coverage": [
+      "Delhi",
+      "Maharashtra",
+      "Karnataka",
+      "Tamil Nadu"
+    ],
+    "pincode_coverage": [
+      "110001",
+      "400001",
+      "560001"
+    ],
+    "languages_supported": [
+      "en",
+      "hi",
+      "ta",
+      "mr",
+      "bn",
+      "te",
+      "kn",
+      "gu"
+    ],
+    "commission_rate": 9.1,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 1099.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "both",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv",
+      "api"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 4,
+    "active_sellers": 28300,
+    "seller_success_rate": 0.76,
+    "rating": 4.5,
+    "team_initiative_partner": true,
+    "specialization_tags": [
+      "electronics"
+    ]
+  },
+  {
+    "snp_id": "SNP015",
+    "name": "KhadiLink",
+    "website": "https://example.com/khadilink",
+    "supported_categories": [
+      "Handicrafts & Handloom",
+      "Fashion"
+    ],
+    "geographic_coverage": [
+      "Gujarat",
+      "Rajasthan",
+      "Uttar Pradesh"
+    ],
+    "pincode_coverage": [
+      "110001",
+      "400001",
+      "560001"
+    ],
+    "languages_supported": [
+      "en",
+      "hi",
+      "ta",
+      "mr",
+      "bn",
+      "te",
+      "kn",
+      "gu"
+    ],
+    "commission_rate": 9.7,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 299.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "mobile",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 5,
+    "active_sellers": 30000,
+    "seller_success_rate": 0.77,
+    "rating": 4.6,
+    "team_initiative_partner": false,
+    "specialization_tags": [
+      "handicrafts_handloom"
+    ]
+  },
+  {
+    "snp_id": "SNP016",
+    "name": "BookNook",
+    "website": "https://example.com/booknook",
+    "supported_categories": [
+      "Stationery & Books"
+    ],
+    "geographic_coverage": [
+      "All India"
+    ],
+    "pincode_coverage": null,
+    "languages_supported": [
+      "en",
+      "hi",
+      "ta",
+      "mr",
+      "bn",
+      "te",
+      "kn",
+      "gu"
+    ],
+    "commission_rate": 5.5,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 499.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "both",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv",
+      "api"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 6,
+    "active_sellers": 31700,
+    "seller_success_rate": 0.78,
+    "rating": 3.9,
+    "team_initiative_partner": true,
+    "specialization_tags": [
+      "stationery_books"
+    ]
+  },
+  {
+    "snp_id": "SNP017",
+    "name": "SouthSpice",
+    "website": "https://example.com/southspice",
+    "supported_categories": [
+      "Food & Beverage",
+      "Grocery"
+    ],
+    "geographic_coverage": [
+      "Kerala",
+      "Tamil Nadu",
+      "Karnataka"
+    ],
+    "pincode_coverage": [
+      "110001",
+      "400001",
+      "560001"
+    ],
+    "languages_supported": [
+      "en",
+      "hi",
+      "ta",
+      "mr",
+      "bn",
+      "te",
+      "kn",
+      "gu"
+    ],
+    "commission_rate": 6.1,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 699.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "mobile",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 7,
+    "active_sellers": 33400,
+    "seller_success_rate": 0.79,
+    "rating": 4.0,
+    "team_initiative_partner": false,
+    "specialization_tags": [
+      "food_beverage"
+    ]
+  },
+  {
+    "snp_id": "SNP018",
+    "name": "NorthCraft",
+    "website": "https://example.com/northcraft",
+    "supported_categories": [
+      "Handicrafts & Handloom",
+      "Home & Kitchen"
+    ],
+    "geographic_coverage": [
+      "Uttar Pradesh",
+      "Delhi",
+      "Jammu and Kashmir"
+    ],
+    "pincode_coverage": [
+      "110001",
+      "400001",
+      "560001"
+    ],
+    "languages_supported": [
+      "en",
+      "hi",
+      "ta",
+      "mr",
+      "bn",
+      "te",
+      "kn",
+      "gu"
+    ],
+    "commission_rate": 6.7,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 899.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "both",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv",
+      "api"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 8,
+    "active_sellers": 35100,
+    "seller_success_rate": 0.8,
+    "rating": 4.1,
+    "team_initiative_partner": true,
+    "specialization_tags": [
+      "handicrafts_handloom"
+    ]
+  },
+  {
+    "snp_id": "SNP019",
+    "name": "WomenSeller Network",
+    "website": "https://example.com/womensellernetwork",
+    "supported_categories": [
+      "Fashion",
+      "Beauty & Personal Care"
+    ],
+    "geographic_coverage": [
+      "All India"
+    ],
+    "pincode_coverage": null,
+    "languages_supported": [
+      "en",
+      "hi",
+      "ta",
+      "mr",
+      "bn",
+      "te",
+      "kn",
+      "gu"
+    ],
+    "commission_rate": 7.3,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 1099.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "mobile",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 9,
+    "active_sellers": 36800,
+    "seller_success_rate": 0.81,
+    "rating": 4.2,
+    "team_initiative_partner": false,
+    "specialization_tags": [
+      "fashion"
+    ]
+  },
+  {
+    "snp_id": "SNP020",
+    "name": "AgriSahayak",
+    "website": "https://example.com/agrisahayak",
+    "supported_categories": [
+      "Agriculture",
+      "Services"
+    ],
+    "geographic_coverage": [
+      "Maharashtra",
+      "Rajasthan",
+      "Gujarat"
+    ],
+    "pincode_coverage": [
+      "110001",
+      "400001",
+      "560001"
+    ],
+    "languages_supported": [
+      "en",
+      "hi",
+      "ta",
+      "mr",
+      "bn",
+      "te",
+      "kn",
+      "gu"
+    ],
+    "commission_rate": 7.9,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 299.0,
+    "logistics_integrated": false,
+    "logistics_partners": [],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "both",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv",
+      "api"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 10,
+    "active_sellers": 38500,
+    "seller_success_rate": 0.72,
+    "rating": 4.3,
+    "team_initiative_partner": true,
+    "specialization_tags": [
+      "agriculture"
+    ]
+  },
+  {
+    "snp_id": "SNP021",
+    "name": "TamilTrade",
+    "website": "https://example.com/tamiltrade",
+    "supported_categories": [
+      "Fashion",
+      "Home & Kitchen",
+      "Food & Beverage"
+    ],
+    "geographic_coverage": [
+      "Tamil Nadu",
+      "Puducherry"
+    ],
+    "pincode_coverage": [
+      "110001",
+      "400001",
+      "560001"
+    ],
+    "languages_supported": [
+      "en",
+      "hi",
+      "ta",
+      "mr",
+      "bn",
+      "te",
+      "kn",
+      "gu"
+    ],
+    "commission_rate": 8.5,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 499.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "mobile",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 4,
+    "active_sellers": 40200,
+    "seller_success_rate": 0.73,
+    "rating": 4.4,
+    "team_initiative_partner": false,
+    "specialization_tags": [
+      "fashion"
+    ]
+  },
+  {
+    "snp_id": "SNP022",
+    "name": "Northeast Basket",
+    "website": "https://example.com/northeastbasket",
+    "supported_categories": [
+      "Food & Beverage",
+      "Handicrafts & Handloom"
+    ],
+    "geographic_coverage": [
+      "Assam",
+      "Meghalaya",
+      "Manipur",
+      "Mizoram",
+      "Nagaland",
+      "Tripura",
+      "Arunachal Pradesh",
+      "Sikkim"
+    ],
+    "pincode_coverage": [
+      "110001",
+      "400001",
+      "560001"
+    ],
+    "languages_supported": [
+      "en",
+      "hi",
+      "ta",
+      "mr",
+      "bn",
+      "te",
+      "kn",
+      "gu"
+    ],
+    "commission_rate": 9.1,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 699.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "both",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv",
+      "api"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 5,
+    "active_sellers": 41900,
+    "seller_success_rate": 0.74,
+    "rating": 4.5,
+    "team_initiative_partner": true,
+    "specialization_tags": [
+      "food_beverage"
+    ]
+  },
+  {
+    "snp_id": "SNP023",
+    "name": "UrbanServices",
+    "website": "https://example.com/urbanservices",
+    "supported_categories": [
+      "Services",
+      "Home & Kitchen"
+    ],
+    "geographic_coverage": [
+      "Delhi",
+      "Maharashtra",
+      "Karnataka",
+      "Telangana"
+    ],
+    "pincode_coverage": [
+      "110001",
+      "400001",
+      "560001"
+    ],
+    "languages_supported": [
+      "en",
+      "hi",
+      "ta",
+      "mr",
+      "bn",
+      "te",
+      "kn",
+      "gu"
+    ],
+    "commission_rate": 9.7,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 899.0,
+    "logistics_integrated": false,
+    "logistics_partners": [],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "mobile",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 6,
+    "active_sellers": 43600,
+    "seller_success_rate": 0.75,
+    "rating": 4.6,
+    "team_initiative_partner": false,
+    "specialization_tags": [
+      "services"
+    ]
+  },
+  {
+    "snp_id": "SNP024",
+    "name": "ValueMart",
+    "website": "https://example.com/valuemart",
+    "supported_categories": [
+      "Grocery",
+      "Food & Beverage",
+      "Beauty & Personal Care"
+    ],
+    "geographic_coverage": [
+      "All India"
+    ],
+    "pincode_coverage": null,
+    "languages_supported": [
+      "en",
+      "hi",
+      "ta",
+      "mr",
+      "bn",
+      "te",
+      "kn",
+      "gu"
+    ],
+    "commission_rate": 5.5,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 1099.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "both",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv",
+      "api"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 7,
+    "active_sellers": 45300,
+    "seller_success_rate": 0.76,
+    "rating": 3.9,
+    "team_initiative_partner": true,
+    "specialization_tags": [
+      "grocery"
+    ]
+  },
+  {
+    "snp_id": "SNP025",
+    "name": "QuickElectro",
+    "website": "https://example.com/quickelectro",
+    "supported_categories": [
+      "Electronics",
+      "Home & Kitchen"
+    ],
+    "geographic_coverage": [
+      "Delhi",
+      "Uttar Pradesh",
+      "Maharashtra",
+      "Karnataka"
+    ],
+    "pincode_coverage": [
+      "110001",
+      "400001",
+      "560001"
+    ],
+    "languages_supported": [
+      "en",
+      "hi",
+      "ta",
+      "mr",
+      "bn",
+      "te",
+      "kn",
+      "gu"
+    ],
+    "commission_rate": 6.1,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 299.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "mobile",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 8,
+    "active_sellers": 47000,
+    "seller_success_rate": 0.77,
+    "rating": 4.0,
+    "team_initiative_partner": false,
+    "specialization_tags": [
+      "electronics"
+    ]
+  },
+  {
+    "snp_id": "SNP026",
+    "name": "Bharat Handloom",
+    "website": "https://example.com/bharathandloom",
+    "supported_categories": [
+      "Handicrafts & Handloom",
+      "Fashion",
+      "Stationery & Books"
+    ],
+    "geographic_coverage": [
+      "All India"
+    ],
+    "pincode_coverage": null,
+    "languages_supported": [
+      "en",
+      "hi",
+      "ta",
+      "mr",
+      "bn",
+      "te",
+      "kn",
+      "gu"
+    ],
+    "commission_rate": 6.7,
+    "onboarding_fee": 0.0,
+    "monthly_fee": 499.0,
+    "logistics_integrated": true,
+    "logistics_partners": [
+      "Delhivery",
+      "India Post"
+    ],
+    "payment_methods": [
+      "UPI",
+      "COD",
+      "Card"
+    ],
+    "platform_type": "both",
+    "catalog_upload_method": [
+      "manual",
+      "bulk_csv",
+      "api"
+    ],
+    "seller_support": [
+      "chat",
+      "phone",
+      "email",
+      "whatsapp"
+    ],
+    "avg_activation_days": 9,
+    "active_sellers": 48700,
+    "seller_success_rate": 0.78,
+    "rating": 4.1,
+    "team_initiative_partner": true,
+    "specialization_tags": [
+      "handicrafts_handloom"
+    ]
+  }
+]

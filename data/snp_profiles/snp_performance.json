@@ -1,0 +1,184 @@
+[
+  {
+    "snp_id": "SNP001",
+    "seller_success_rate": 0.75,
+    "avg_activation_days": 5,
+    "rating": 4.1,
+    "active_sellers": 8500
+  },
+  {
+    "snp_id": "SNP002",
+    "seller_success_rate": 0.76,
+    "avg_activation_days": 6,
+    "rating": 4.2,
+    "active_sellers": 11000
+  },
+  {
+    "snp_id": "SNP003",
+    "seller_success_rate": 0.77,
+    "avg_activation_days": 7,
+    "rating": 4.3,
+    "active_sellers": 13500
+  },
+  {
+    "snp_id": "SNP004",
+    "seller_success_rate": 0.78,
+    "avg_activation_days": 8,
+    "rating": 4.4,
+    "active_sellers": 16000
+  },
+  {
+    "snp_id": "SNP005",
+    "seller_success_rate": 0.79,
+    "avg_activation_days": 9,
+    "rating": 4.5,
+    "active_sellers": 18500
+  },
+  {
+    "snp_id": "SNP006",
+    "seller_success_rate": 0.8,
+    "avg_activation_days": 4,
+    "rating": 4.0,
+    "active_sellers": 21000
+  },
+  {
+    "snp_id": "SNP007",
+    "seller_success_rate": 0.81,
+    "avg_activation_days": 5,
+    "rating": 4.1,
+    "active_sellers": 23500
+  },
+  {
+    "snp_id": "SNP008",
+    "seller_success_rate": 0.82,
+    "avg_activation_days": 6,
+    "rating": 4.2,
+    "active_sellers": 26000
+  },
+  {
+    "snp_id": "SNP009",
+    "seller_success_rate": 0.74,
+    "avg_activation_days": 7,
+    "rating": 4.3,
+    "active_sellers": 28500
+  },
+  {
+    "snp_id": "SNP010",
+    "seller_success_rate": 0.72,
+    "avg_activation_days": 7,
+    "rating": 4.1,
+    "active_sellers": 21500
+  },
+  {
+    "snp_id": "SNP011",
+    "seller_success_rate": 0.73,
+    "avg_activation_days": 8,
+    "rating": 4.2,
+    "active_sellers": 23200
+  },
+  {
+    "snp_id": "SNP012",
+    "seller_success_rate": 0.74,
+    "avg_activation_days": 9,
+    "rating": 4.3,
+    "active_sellers": 24900
+  },
+  {
+    "snp_id": "SNP013",
+    "seller_success_rate": 0.75,
+    "avg_activation_days": 10,
+    "rating": 4.4,
+    "active_sellers": 26600
+  },
+  {
+    "snp_id": "SNP014",
+    "seller_success_rate": 0.76,
+    "avg_activation_days": 4,
+    "rating": 4.5,
+    "active_sellers": 28300
+  },
+  {
+    "snp_id": "SNP015",
+    "seller_success_rate": 0.77,
+    "avg_activation_days": 5,
+    "rating": 4.6,
+    "active_sellers": 30000
+  },
+  {
+    "snp_id": "SNP016",
+    "seller_success_rate": 0.78,
+    "avg_activation_days": 6,
+    "rating": 3.9,
+    "active_sellers": 31700
+  },
+  {
+    "snp_id": "SNP017",
+    "seller_success_rate": 0.79,
+    "avg_activation_days": 7,
+    "rating": 4.0,
+    "active_sellers": 33400
+  },
+  {
+    "snp_id": "SNP018",
+    "seller_success_rate": 0.8,
+    "avg_activation_days": 8,
+    "rating": 4.1,
+    "active_sellers": 35100
+  },
+  {
+    "snp_id": "SNP019",
+    "seller_success_rate": 0.81,
+    "avg_activation_days": 9,
+    "rating": 4.2,
+    "active_sellers": 36800
+  },
+  {
+    "snp_id": "SNP020",
+    "seller_success_rate": 0.72,
+    "avg_activation_days": 10,
+    "rating": 4.3,
+    "active_sellers": 38500
+  },
+  {
+    "snp_id": "SNP021",
+    "seller_success_rate": 0.73,
+    "avg_activation_days": 4,
+    "rating": 4.4,
+    "active_sellers": 40200
+  },
+  {
+    "snp_id": "SNP022",
+    "seller_success_rate": 0.74,
+    "avg_activation_days": 5,
+    "rating": 4.5,
+    "active_sellers": 41900
+  },
+  {
+    "snp_id": "SNP023",
+    "seller_success_rate": 0.75,
+    "avg_activation_days": 6,
+    "rating": 4.6,
+    "active_sellers": 43600
+  },
+  {
+    "snp_id": "SNP024",
+    "seller_success_rate": 0.76,
+    "avg_activation_days": 7,
+    "rating": 3.9,
+    "active_sellers": 45300
+  },
+  {
+    "snp_id": "SNP025",
+    "seller_success_rate": 0.77,
+    "avg_activation_days": 8,
+    "rating": 4.0,
+    "active_sellers": 47000
+  },
+  {
+    "snp_id": "SNP026",
+    "seller_success_rate": 0.78,
+    "avg_activation_days": 9,
+    "rating": 4.1,
+    "active_sellers": 48700
+  }
+]

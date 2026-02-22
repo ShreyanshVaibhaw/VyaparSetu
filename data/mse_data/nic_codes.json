@@ -1,0 +1,547 @@
+{
+  "nic_2digit_divisions": [
+    {
+      "nic_2digit": "01",
+      "description": "Crop and animal production, hunting and related service activities"
+    },
+    {
+      "nic_2digit": "02",
+      "description": "Forestry and logging"
+    },
+    {
+      "nic_2digit": "03",
+      "description": "Fishing and aquaculture"
+    },
+    {
+      "nic_2digit": "04",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "05",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "06",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "07",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "08",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "09",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "10",
+      "description": "Manufacture of food products"
+    },
+    {
+      "nic_2digit": "11",
+      "description": "Manufacture of beverages"
+    },
+    {
+      "nic_2digit": "12",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "13",
+      "description": "Manufacture of textiles"
+    },
+    {
+      "nic_2digit": "14",
+      "description": "Manufacture of wearing apparel"
+    },
+    {
+      "nic_2digit": "15",
+      "description": "Manufacture of leather and related products"
+    },
+    {
+      "nic_2digit": "16",
+      "description": "Manufacture of wood and of products of wood and cork, except furniture"
+    },
+    {
+      "nic_2digit": "17",
+      "description": "Manufacture of paper and paper products"
+    },
+    {
+      "nic_2digit": "18",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "19",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "20",
+      "description": "Manufacture of chemicals and chemical products"
+    },
+    {
+      "nic_2digit": "21",
+      "description": "Manufacture of pharmaceuticals, medicinal chemical and botanical products"
+    },
+    {
+      "nic_2digit": "22",
+      "description": "Manufacture of rubber and plastics products"
+    },
+    {
+      "nic_2digit": "23",
+      "description": "Manufacture of other non-metallic mineral products"
+    },
+    {
+      "nic_2digit": "24",
+      "description": "Manufacture of basic metals"
+    },
+    {
+      "nic_2digit": "25",
+      "description": "Manufacture of fabricated metal products, except machinery and equipment"
+    },
+    {
+      "nic_2digit": "26",
+      "description": "Manufacture of computer, electronic and optical products"
+    },
+    {
+      "nic_2digit": "27",
+      "description": "Manufacture of electrical equipment"
+    },
+    {
+      "nic_2digit": "28",
+      "description": "Manufacture of machinery and equipment n.e.c."
+    },
+    {
+      "nic_2digit": "29",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "30",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "31",
+      "description": "Manufacture of furniture"
+    },
+    {
+      "nic_2digit": "32",
+      "description": "Other manufacturing"
+    },
+    {
+      "nic_2digit": "33",
+      "description": "Repair and installation of machinery and equipment"
+    },
+    {
+      "nic_2digit": "34",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "35",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "36",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "37",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "38",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "39",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "40",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "41",
+      "description": "Construction of buildings"
+    },
+    {
+      "nic_2digit": "42",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "43",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "44",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "45",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "46",
+      "description": "Wholesale trade, except of motor vehicles and motorcycles"
+    },
+    {
+      "nic_2digit": "47",
+      "description": "Retail trade, except of motor vehicles and motorcycles"
+    },
+    {
+      "nic_2digit": "48",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "49",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "50",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "51",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "52",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "53",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "54",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "55",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "56",
+      "description": "Food and beverage service activities"
+    },
+    {
+      "nic_2digit": "57",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "58",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "59",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "60",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "61",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "62",
+      "description": "Computer programming, consultancy and related activities"
+    },
+    {
+      "nic_2digit": "63",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "64",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "65",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "66",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "67",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "68",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "69",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "70",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "71",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "72",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "73",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "74",
+      "description": "Other professional, scientific and technical activities"
+    },
+    {
+      "nic_2digit": "75",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "76",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "77",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "78",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "79",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "80",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "81",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "82",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "83",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "84",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "85",
+      "description": "Education"
+    },
+    {
+      "nic_2digit": "86",
+      "description": "Human health activities"
+    },
+    {
+      "nic_2digit": "87",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "88",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "89",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "90",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "91",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "92",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "93",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "94",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "95",
+      "description": "Repair of computers and personal and household goods"
+    },
+    {
+      "nic_2digit": "96",
+      "description": "Other personal service activities"
+    },
+    {
+      "nic_2digit": "97",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "98",
+      "description": "Division not used in NIC-2008 or less common division"
+    },
+    {
+      "nic_2digit": "99",
+      "description": "Division not used in NIC-2008 or less common division"
+    }
+  ],
+  "common_5digit_details": [
+    {
+      "nic_5digit": "10792",
+      "description": "Manufacture of spices and condiments",
+      "parent_2digit": "10"
+    },
+    {
+      "nic_5digit": "10795",
+      "description": "Manufacture of papads, appalam and similar foods",
+      "parent_2digit": "10"
+    },
+    {
+      "nic_5digit": "11041",
+      "description": "Manufacture of soft drinks",
+      "parent_2digit": "11"
+    },
+    {
+      "nic_5digit": "13121",
+      "description": "Weaving, manufacture of cotton textiles",
+      "parent_2digit": "13"
+    },
+    {
+      "nic_5digit": "13921",
+      "description": "Manufacture of made-up textile articles",
+      "parent_2digit": "13"
+    },
+    {
+      "nic_5digit": "14101",
+      "description": "Manufacture of wearing apparel except fur apparel",
+      "parent_2digit": "14"
+    },
+    {
+      "nic_5digit": "15121",
+      "description": "Manufacture of luggage, handbags and similar articles",
+      "parent_2digit": "15"
+    },
+    {
+      "nic_5digit": "16221",
+      "description": "Manufacture of wooden containers",
+      "parent_2digit": "16"
+    },
+    {
+      "nic_5digit": "17022",
+      "description": "Manufacture of corrugated paper and paperboard containers",
+      "parent_2digit": "17"
+    },
+    {
+      "nic_5digit": "20231",
+      "description": "Manufacture of soap and detergents",
+      "parent_2digit": "20"
+    },
+    {
+      "nic_5digit": "20232",
+      "description": "Manufacture of perfumes and toilet preparations",
+      "parent_2digit": "20"
+    },
+    {
+      "nic_5digit": "21001",
+      "description": "Manufacture of pharmaceutical products",
+      "parent_2digit": "21"
+    },
+    {
+      "nic_5digit": "23931",
+      "description": "Manufacture of clay building materials",
+      "parent_2digit": "23"
+    },
+    {
+      "nic_5digit": "25931",
+      "description": "Manufacture of metal utensils",
+      "parent_2digit": "25"
+    },
+    {
+      "nic_5digit": "25993",
+      "description": "Manufacture of metal ornaments",
+      "parent_2digit": "25"
+    },
+    {
+      "nic_5digit": "26101",
+      "description": "Manufacture of electronic components",
+      "parent_2digit": "26"
+    },
+    {
+      "nic_5digit": "27101",
+      "description": "Manufacture of electric motors and transformers",
+      "parent_2digit": "27"
+    },
+    {
+      "nic_5digit": "27501",
+      "description": "Manufacture of electric domestic appliances",
+      "parent_2digit": "27"
+    },
+    {
+      "nic_5digit": "31001",
+      "description": "Manufacture of furniture",
+      "parent_2digit": "31"
+    },
+    {
+      "nic_5digit": "32111",
+      "description": "Manufacture of jewellery and related articles",
+      "parent_2digit": "32"
+    },
+    {
+      "nic_5digit": "32904",
+      "description": "Manufacture of candles",
+      "parent_2digit": "32"
+    },
+    {
+      "nic_5digit": "46301",
+      "description": "Wholesale of food, beverages and tobacco",
+      "parent_2digit": "46"
+    },
+    {
+      "nic_5digit": "47211",
+      "description": "Retail sale of food in specialized stores",
+      "parent_2digit": "47"
+    },
+    {
+      "nic_5digit": "47711",
+      "description": "Retail sale of readymade garments",
+      "parent_2digit": "47"
+    },
+    {
+      "nic_5digit": "56101",
+      "description": "Restaurants without bar",
+      "parent_2digit": "56"
+    },
+    {
+      "nic_5digit": "62011",
+      "description": "Writing, modifying, testing of computer programs",
+      "parent_2digit": "62"
+    },
+    {
+      "nic_5digit": "74101",
+      "description": "Fashion design related activities",
+      "parent_2digit": "74"
+    },
+    {
+      "nic_5digit": "95210",
+      "description": "Repair of consumer electronics",
+      "parent_2digit": "95"
+    },
+    {
+      "nic_5digit": "96021",
+      "description": "Hairdressing and other beauty treatment",
+      "parent_2digit": "96"
+    }
+  ]
+}

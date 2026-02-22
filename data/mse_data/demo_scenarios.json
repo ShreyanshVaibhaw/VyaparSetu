@@ -1,0 +1,63 @@
+[
+  {
+    "scenario_id": "SCN01",
+    "udyam_number": "UDYAM-RJ-08-0001543",
+    "enterprise_name": "Maru Mahila Foods",
+    "state": "Rajasthan",
+    "district": "Jodhpur",
+    "language": "hi",
+    "category_l1": "Food & Beverage",
+    "category_l2": "Packaged Foods",
+    "product_input": "aam ka achaar, ghar ka bana hua, 500 gram, desi ghee mein",
+    "snp_reason": "Food-specialized SNP with Rajasthan coverage and Hindi support."
+  },
+  {
+    "scenario_id": "SCN02",
+    "udyam_number": "UDYAM-TN-33-0012451",
+    "enterprise_name": "Kanchi Loom Collective",
+    "state": "Tamil Nadu",
+    "district": "Kanchipuram",
+    "language": "ta",
+    "category_l1": "Fashion",
+    "category_l2": "Women's Apparel",
+    "product_input": "Pure silk Kanchipuram saree, 6.5 meter, with gold zari border",
+    "snp_reason": "Textile-aware SNP with South India operations and Tamil support."
+  },
+  {
+    "scenario_id": "SCN03",
+    "udyam_number": "UDYAM-WB-19-0041122",
+    "enterprise_name": "Kolkata Leather Line",
+    "state": "West Bengal",
+    "district": "Kolkata",
+    "language": "bn",
+    "category_l1": "Fashion",
+    "category_l2": "Accessories",
+    "product_input": "Genuine leather laptop bag, fits 15 inch laptop, handstitched",
+    "snp_reason": "Accessory-focused SNP with Bengal-ready language and logistics support."
+  },
+  {
+    "scenario_id": "SCN04",
+    "udyam_number": "UDYAM-KA-29-0019988",
+    "enterprise_name": "Bengaluru Byte Services",
+    "state": "Karnataka",
+    "district": "Bengaluru Urban",
+    "language": "kn",
+    "category_l1": "Services",
+    "category_l2": "Digital Services",
+    "product_input": "Electronics repair and mobile accessory setup service",
+    "snp_reason": "Tech-capable SNP with Karnataka reach and fast onboarding APIs."
+  },
+  {
+    "scenario_id": "SCN05",
+    "udyam_number": "UDYAM-GJ-24-0023432",
+    "enterprise_name": "Shree Athaana Gruh",
+    "state": "Gujarat",
+    "district": "Ahmedabad",
+    "language": "gu",
+    "category_l1": "Food & Beverage",
+    "category_l2": "Packaged Foods",
+    "product_input": "papad and masala mix, home-made, 250 gram pack",
+    "snp_reason": "Low-commission SNP with Gujarati language and food network support."
+  }
+]
+

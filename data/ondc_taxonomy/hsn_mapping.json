@@ -1,0 +1,1612 @@
+[
+  {
+    "hsn": "0901",
+    "description": "Coffee",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Beverages",
+    "ondc_l3": "Tea & Coffee"
+  },
+  {
+    "hsn": "0902",
+    "description": "Tea",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Beverages",
+    "ondc_l3": "Tea & Coffee"
+  },
+  {
+    "hsn": "0904",
+    "description": "Pepper",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Packaged Foods",
+    "ondc_l3": "Spices & Masala"
+  },
+  {
+    "hsn": "1006",
+    "description": "Rice",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Basics",
+    "ondc_l3": "Rice"
+  },
+  {
+    "hsn": "2001",
+    "description": "Pickles",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Packaged Foods",
+    "ondc_l3": "Pickles & Chutneys"
+  },
+  {
+    "hsn": "0101",
+    "description": "Snacks & Namkeen products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Packaged Foods",
+    "ondc_l3": "Snacks & Namkeen"
+  },
+  {
+    "hsn": "0102",
+    "description": "Pickles & Chutneys products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Packaged Foods",
+    "ondc_l3": "Pickles & Chutneys"
+  },
+  {
+    "hsn": "0103",
+    "description": "Spices & Masala products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Packaged Foods",
+    "ondc_l3": "Spices & Masala"
+  },
+  {
+    "hsn": "0104",
+    "description": "Sweets & Mithai products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Packaged Foods",
+    "ondc_l3": "Sweets & Mithai"
+  },
+  {
+    "hsn": "0105",
+    "description": "Ready-to-Eat products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Packaged Foods",
+    "ondc_l3": "Ready-to-Eat"
+  },
+  {
+    "hsn": "0106",
+    "description": "Fruits products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Fresh Foods",
+    "ondc_l3": "Fruits"
+  },
+  {
+    "hsn": "0107",
+    "description": "Vegetables products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Fresh Foods",
+    "ondc_l3": "Vegetables"
+  },
+  {
+    "hsn": "0108",
+    "description": "Dairy & Eggs products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Fresh Foods",
+    "ondc_l3": "Dairy & Eggs"
+  },
+  {
+    "hsn": "0109",
+    "description": "Meat & Poultry products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Fresh Foods",
+    "ondc_l3": "Meat & Poultry"
+  },
+  {
+    "hsn": "0110",
+    "description": "Seafood products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Fresh Foods",
+    "ondc_l3": "Seafood"
+  },
+  {
+    "hsn": "0111",
+    "description": "Tea & Coffee products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Beverages",
+    "ondc_l3": "Tea & Coffee"
+  },
+  {
+    "hsn": "0112",
+    "description": "Juices products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Beverages",
+    "ondc_l3": "Juices"
+  },
+  {
+    "hsn": "0113",
+    "description": "Health Drinks products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Beverages",
+    "ondc_l3": "Health Drinks"
+  },
+  {
+    "hsn": "0114",
+    "description": "Soft Drinks products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Beverages",
+    "ondc_l3": "Soft Drinks"
+  },
+  {
+    "hsn": "0115",
+    "description": "Water products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Beverages",
+    "ondc_l3": "Water"
+  },
+  {
+    "hsn": "0116",
+    "description": "Bread products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Bakery & Confectionery",
+    "ondc_l3": "Bread"
+  },
+  {
+    "hsn": "0117",
+    "description": "Cookies products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Bakery & Confectionery",
+    "ondc_l3": "Cookies"
+  },
+  {
+    "hsn": "0118",
+    "description": "Cakes products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Bakery & Confectionery",
+    "ondc_l3": "Cakes"
+  },
+  {
+    "hsn": "0119",
+    "description": "Chocolate products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Bakery & Confectionery",
+    "ondc_l3": "Chocolate"
+  },
+  {
+    "hsn": "0120",
+    "description": "Candies products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Bakery & Confectionery",
+    "ondc_l3": "Candies"
+  },
+  {
+    "hsn": "0121",
+    "description": "Regional Specialties Item 1 products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Regional Specialties",
+    "ondc_l3": "Regional Specialties Item 1"
+  },
+  {
+    "hsn": "0122",
+    "description": "Regional Specialties Item 2 products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Regional Specialties",
+    "ondc_l3": "Regional Specialties Item 2"
+  },
+  {
+    "hsn": "0123",
+    "description": "Regional Specialties Item 3 products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Regional Specialties",
+    "ondc_l3": "Regional Specialties Item 3"
+  },
+  {
+    "hsn": "0124",
+    "description": "Regional Specialties Item 4 products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Regional Specialties",
+    "ondc_l3": "Regional Specialties Item 4"
+  },
+  {
+    "hsn": "0125",
+    "description": "Regional Specialties Item 5 products",
+    "ondc_l1": "Food & Beverage",
+    "ondc_l2": "Regional Specialties",
+    "ondc_l3": "Regional Specialties Item 5"
+  },
+  {
+    "hsn": "0126",
+    "description": "Rice products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Basics",
+    "ondc_l3": "Rice"
+  },
+  {
+    "hsn": "0127",
+    "description": "Dal & Pulses products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Basics",
+    "ondc_l3": "Dal & Pulses"
+  },
+  {
+    "hsn": "0128",
+    "description": "Flour & Atta products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Basics",
+    "ondc_l3": "Flour & Atta"
+  },
+  {
+    "hsn": "0129",
+    "description": "Oil & Ghee products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Basics",
+    "ondc_l3": "Oil & Ghee"
+  },
+  {
+    "hsn": "0130",
+    "description": "Sugar & Jaggery products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Basics",
+    "ondc_l3": "Sugar & Jaggery"
+  },
+  {
+    "hsn": "0131",
+    "description": "Personal Care products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "FMCG",
+    "ondc_l3": "Personal Care"
+  },
+  {
+    "hsn": "0132",
+    "description": "Hair Care products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "FMCG",
+    "ondc_l3": "Hair Care"
+  },
+  {
+    "hsn": "0133",
+    "description": "Oral Care products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "FMCG",
+    "ondc_l3": "Oral Care"
+  },
+  {
+    "hsn": "0134",
+    "description": "Household Cleaning products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "FMCG",
+    "ondc_l3": "Household Cleaning"
+  },
+  {
+    "hsn": "0135",
+    "description": "Laundry products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "FMCG",
+    "ondc_l3": "Laundry"
+  },
+  {
+    "hsn": "0136",
+    "description": "Agarbatti & Dhoop products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Puja Needs",
+    "ondc_l3": "Agarbatti & Dhoop"
+  },
+  {
+    "hsn": "0137",
+    "description": "Diyas & Candles products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Puja Needs",
+    "ondc_l3": "Diyas & Candles"
+  },
+  {
+    "hsn": "0138",
+    "description": "Camphor products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Puja Needs",
+    "ondc_l3": "Camphor"
+  },
+  {
+    "hsn": "0139",
+    "description": "Pooja Oils products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Puja Needs",
+    "ondc_l3": "Pooja Oils"
+  },
+  {
+    "hsn": "0140",
+    "description": "Cotton Wicks products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Puja Needs",
+    "ondc_l3": "Cotton Wicks"
+  },
+  {
+    "hsn": "0141",
+    "description": "Tissues products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Daily Essentials",
+    "ondc_l3": "Tissues"
+  },
+  {
+    "hsn": "0142",
+    "description": "Garbage Bags products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Daily Essentials",
+    "ondc_l3": "Garbage Bags"
+  },
+  {
+    "hsn": "0143",
+    "description": "Matches products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Daily Essentials",
+    "ondc_l3": "Matches"
+  },
+  {
+    "hsn": "0144",
+    "description": "Repellents products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Daily Essentials",
+    "ondc_l3": "Repellents"
+  },
+  {
+    "hsn": "0145",
+    "description": "Foil & Wrap products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Daily Essentials",
+    "ondc_l3": "Foil & Wrap"
+  },
+  {
+    "hsn": "0146",
+    "description": "Bulk Supplies Item 1 products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Bulk Supplies",
+    "ondc_l3": "Bulk Supplies Item 1"
+  },
+  {
+    "hsn": "0147",
+    "description": "Bulk Supplies Item 2 products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Bulk Supplies",
+    "ondc_l3": "Bulk Supplies Item 2"
+  },
+  {
+    "hsn": "0148",
+    "description": "Bulk Supplies Item 3 products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Bulk Supplies",
+    "ondc_l3": "Bulk Supplies Item 3"
+  },
+  {
+    "hsn": "0149",
+    "description": "Bulk Supplies Item 4 products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Bulk Supplies",
+    "ondc_l3": "Bulk Supplies Item 4"
+  },
+  {
+    "hsn": "0150",
+    "description": "Bulk Supplies Item 5 products",
+    "ondc_l1": "Grocery",
+    "ondc_l2": "Bulk Supplies",
+    "ondc_l3": "Bulk Supplies Item 5"
+  },
+  {
+    "hsn": "0151",
+    "description": "Shirts products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Men's Apparel",
+    "ondc_l3": "Shirts"
+  },
+  {
+    "hsn": "0152",
+    "description": "T-Shirts products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Men's Apparel",
+    "ondc_l3": "T-Shirts"
+  },
+  {
+    "hsn": "0153",
+    "description": "Trousers products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Men's Apparel",
+    "ondc_l3": "Trousers"
+  },
+  {
+    "hsn": "0154",
+    "description": "Kurta & Ethnic products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Men's Apparel",
+    "ondc_l3": "Kurta & Ethnic"
+  },
+  {
+    "hsn": "0155",
+    "description": "Jeans products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Men's Apparel",
+    "ondc_l3": "Jeans"
+  },
+  {
+    "hsn": "0156",
+    "description": "Saree products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Women's Apparel",
+    "ondc_l3": "Saree"
+  },
+  {
+    "hsn": "0157",
+    "description": "Salwar & Kurta products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Women's Apparel",
+    "ondc_l3": "Salwar & Kurta"
+  },
+  {
+    "hsn": "0158",
+    "description": "Dress products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Women's Apparel",
+    "ondc_l3": "Dress"
+  },
+  {
+    "hsn": "0159",
+    "description": "Lehenga products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Women's Apparel",
+    "ondc_l3": "Lehenga"
+  },
+  {
+    "hsn": "0160",
+    "description": "Western Wear products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Women's Apparel",
+    "ondc_l3": "Western Wear"
+  },
+  {
+    "hsn": "0161",
+    "description": "Boys products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Kids Apparel",
+    "ondc_l3": "Boys"
+  },
+  {
+    "hsn": "0162",
+    "description": "Girls products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Kids Apparel",
+    "ondc_l3": "Girls"
+  },
+  {
+    "hsn": "0163",
+    "description": "Infant products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Kids Apparel",
+    "ondc_l3": "Infant"
+  },
+  {
+    "hsn": "0164",
+    "description": "Uniforms products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Kids Apparel",
+    "ondc_l3": "Uniforms"
+  },
+  {
+    "hsn": "0165",
+    "description": "Kids Winterwear products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Kids Apparel",
+    "ondc_l3": "Kids Winterwear"
+  },
+  {
+    "hsn": "0166",
+    "description": "Jewellery products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Accessories",
+    "ondc_l3": "Jewellery"
+  },
+  {
+    "hsn": "0167",
+    "description": "Bags & Wallets products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Accessories",
+    "ondc_l3": "Bags & Wallets"
+  },
+  {
+    "hsn": "0168",
+    "description": "Belts products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Accessories",
+    "ondc_l3": "Belts"
+  },
+  {
+    "hsn": "0169",
+    "description": "Scarves & Stoles products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Accessories",
+    "ondc_l3": "Scarves & Stoles"
+  },
+  {
+    "hsn": "0170",
+    "description": "Watches products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Accessories",
+    "ondc_l3": "Watches"
+  },
+  {
+    "hsn": "0171",
+    "description": "Footwear Item 1 products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Footwear",
+    "ondc_l3": "Footwear Item 1"
+  },
+  {
+    "hsn": "0172",
+    "description": "Footwear Item 2 products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Footwear",
+    "ondc_l3": "Footwear Item 2"
+  },
+  {
+    "hsn": "0173",
+    "description": "Footwear Item 3 products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Footwear",
+    "ondc_l3": "Footwear Item 3"
+  },
+  {
+    "hsn": "0174",
+    "description": "Footwear Item 4 products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Footwear",
+    "ondc_l3": "Footwear Item 4"
+  },
+  {
+    "hsn": "0175",
+    "description": "Footwear Item 5 products",
+    "ondc_l1": "Fashion",
+    "ondc_l2": "Footwear",
+    "ondc_l3": "Footwear Item 5"
+  },
+  {
+    "hsn": "0176",
+    "description": "Cookware products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Kitchen",
+    "ondc_l3": "Cookware"
+  },
+  {
+    "hsn": "0177",
+    "description": "Utensils products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Kitchen",
+    "ondc_l3": "Utensils"
+  },
+  {
+    "hsn": "0178",
+    "description": "Storage products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Kitchen",
+    "ondc_l3": "Storage"
+  },
+  {
+    "hsn": "0179",
+    "description": "Kitchen Tools products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Kitchen",
+    "ondc_l3": "Kitchen Tools"
+  },
+  {
+    "hsn": "0180",
+    "description": "Tableware products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Kitchen",
+    "ondc_l3": "Tableware"
+  },
+  {
+    "hsn": "0181",
+    "description": "Handicrafts products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Home Decor",
+    "ondc_l3": "Handicrafts"
+  },
+  {
+    "hsn": "0182",
+    "description": "Wall Art products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Home Decor",
+    "ondc_l3": "Wall Art"
+  },
+  {
+    "hsn": "0183",
+    "description": "Paintings products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Home Decor",
+    "ondc_l3": "Paintings"
+  },
+  {
+    "hsn": "0184",
+    "description": "Pottery & Ceramics products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Home Decor",
+    "ondc_l3": "Pottery & Ceramics"
+  },
+  {
+    "hsn": "0185",
+    "description": "Photo Frames products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Home Decor",
+    "ondc_l3": "Photo Frames"
+  },
+  {
+    "hsn": "0186",
+    "description": "Bedsheets products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Furnishing",
+    "ondc_l3": "Bedsheets"
+  },
+  {
+    "hsn": "0187",
+    "description": "Curtains products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Furnishing",
+    "ondc_l3": "Curtains"
+  },
+  {
+    "hsn": "0188",
+    "description": "Cushions & Pillows products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Furnishing",
+    "ondc_l3": "Cushions & Pillows"
+  },
+  {
+    "hsn": "0189",
+    "description": "Carpets & Rugs products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Furnishing",
+    "ondc_l3": "Carpets & Rugs"
+  },
+  {
+    "hsn": "0190",
+    "description": "Towels products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Furnishing",
+    "ondc_l3": "Towels"
+  },
+  {
+    "hsn": "0191",
+    "description": "Chairs products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Furniture",
+    "ondc_l3": "Chairs"
+  },
+  {
+    "hsn": "0192",
+    "description": "Tables products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Furniture",
+    "ondc_l3": "Tables"
+  },
+  {
+    "hsn": "0193",
+    "description": "Storage Units products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Furniture",
+    "ondc_l3": "Storage Units"
+  },
+  {
+    "hsn": "0194",
+    "description": "Sofas products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Furniture",
+    "ondc_l3": "Sofas"
+  },
+  {
+    "hsn": "0195",
+    "description": "Bookshelves products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Furniture",
+    "ondc_l3": "Bookshelves"
+  },
+  {
+    "hsn": "0196",
+    "description": "Garden Item 1 products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Garden",
+    "ondc_l3": "Garden Item 1"
+  },
+  {
+    "hsn": "0197",
+    "description": "Garden Item 2 products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Garden",
+    "ondc_l3": "Garden Item 2"
+  },
+  {
+    "hsn": "0198",
+    "description": "Garden Item 3 products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Garden",
+    "ondc_l3": "Garden Item 3"
+  },
+  {
+    "hsn": "0199",
+    "description": "Garden Item 4 products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Garden",
+    "ondc_l3": "Garden Item 4"
+  },
+  {
+    "hsn": "0200",
+    "description": "Garden Item 5 products",
+    "ondc_l1": "Home & Kitchen",
+    "ondc_l2": "Garden",
+    "ondc_l3": "Garden Item 5"
+  },
+  {
+    "hsn": "0201",
+    "description": "Mobile Phones products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Mobile & Accessories",
+    "ondc_l3": "Mobile Phones"
+  },
+  {
+    "hsn": "0202",
+    "description": "Cases & Covers products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Mobile & Accessories",
+    "ondc_l3": "Cases & Covers"
+  },
+  {
+    "hsn": "0203",
+    "description": "Chargers products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Mobile & Accessories",
+    "ondc_l3": "Chargers"
+  },
+  {
+    "hsn": "0204",
+    "description": "Earphones products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Mobile & Accessories",
+    "ondc_l3": "Earphones"
+  },
+  {
+    "hsn": "0205",
+    "description": "Power Banks products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Mobile & Accessories",
+    "ondc_l3": "Power Banks"
+  },
+  {
+    "hsn": "0206",
+    "description": "Laptops products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Computer & Peripherals",
+    "ondc_l3": "Laptops"
+  },
+  {
+    "hsn": "0207",
+    "description": "Keyboards products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Computer & Peripherals",
+    "ondc_l3": "Keyboards"
+  },
+  {
+    "hsn": "0208",
+    "description": "Mouse products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Computer & Peripherals",
+    "ondc_l3": "Mouse"
+  },
+  {
+    "hsn": "0209",
+    "description": "USB Drives products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Computer & Peripherals",
+    "ondc_l3": "USB Drives"
+  },
+  {
+    "hsn": "0210",
+    "description": "Monitors products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Computer & Peripherals",
+    "ondc_l3": "Monitors"
+  },
+  {
+    "hsn": "0211",
+    "description": "Fans products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Home Appliances",
+    "ondc_l3": "Fans"
+  },
+  {
+    "hsn": "0212",
+    "description": "Heaters products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Home Appliances",
+    "ondc_l3": "Heaters"
+  },
+  {
+    "hsn": "0213",
+    "description": "Mixers & Grinders products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Home Appliances",
+    "ondc_l3": "Mixers & Grinders"
+  },
+  {
+    "hsn": "0214",
+    "description": "Iron products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Home Appliances",
+    "ondc_l3": "Iron"
+  },
+  {
+    "hsn": "0215",
+    "description": "Water Purifiers products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Home Appliances",
+    "ondc_l3": "Water Purifiers"
+  },
+  {
+    "hsn": "0216",
+    "description": "LED Bulbs products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Electricals",
+    "ondc_l3": "LED Bulbs"
+  },
+  {
+    "hsn": "0217",
+    "description": "Switches products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Electricals",
+    "ondc_l3": "Switches"
+  },
+  {
+    "hsn": "0218",
+    "description": "Wires products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Electricals",
+    "ondc_l3": "Wires"
+  },
+  {
+    "hsn": "0219",
+    "description": "Inverters products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Electricals",
+    "ondc_l3": "Inverters"
+  },
+  {
+    "hsn": "0220",
+    "description": "Emergency Lights products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Electricals",
+    "ondc_l3": "Emergency Lights"
+  },
+  {
+    "hsn": "0221",
+    "description": "Audio & Video Item 1 products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Audio & Video",
+    "ondc_l3": "Audio & Video Item 1"
+  },
+  {
+    "hsn": "0222",
+    "description": "Audio & Video Item 2 products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Audio & Video",
+    "ondc_l3": "Audio & Video Item 2"
+  },
+  {
+    "hsn": "0223",
+    "description": "Audio & Video Item 3 products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Audio & Video",
+    "ondc_l3": "Audio & Video Item 3"
+  },
+  {
+    "hsn": "0224",
+    "description": "Audio & Video Item 4 products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Audio & Video",
+    "ondc_l3": "Audio & Video Item 4"
+  },
+  {
+    "hsn": "0225",
+    "description": "Audio & Video Item 5 products",
+    "ondc_l1": "Electronics",
+    "ondc_l2": "Audio & Video",
+    "ondc_l3": "Audio & Video Item 5"
+  },
+  {
+    "hsn": "0226",
+    "description": "Herbal Supplements products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Ayurveda & Herbal",
+    "ondc_l3": "Herbal Supplements"
+  },
+  {
+    "hsn": "0227",
+    "description": "Essential Oils products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Ayurveda & Herbal",
+    "ondc_l3": "Essential Oils"
+  },
+  {
+    "hsn": "0228",
+    "description": "Herbal Teas products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Ayurveda & Herbal",
+    "ondc_l3": "Herbal Teas"
+  },
+  {
+    "hsn": "0229",
+    "description": "Ayurvedic Products products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Ayurveda & Herbal",
+    "ondc_l3": "Ayurvedic Products"
+  },
+  {
+    "hsn": "0230",
+    "description": "Immunity Boosters products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Ayurveda & Herbal",
+    "ondc_l3": "Immunity Boosters"
+  },
+  {
+    "hsn": "0231",
+    "description": "Yoga Mats products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Fitness",
+    "ondc_l3": "Yoga Mats"
+  },
+  {
+    "hsn": "0232",
+    "description": "Exercise Equipment products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Fitness",
+    "ondc_l3": "Exercise Equipment"
+  },
+  {
+    "hsn": "0233",
+    "description": "Protein & Nutrition products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Fitness",
+    "ondc_l3": "Protein & Nutrition"
+  },
+  {
+    "hsn": "0234",
+    "description": "Resistance Bands products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Fitness",
+    "ondc_l3": "Resistance Bands"
+  },
+  {
+    "hsn": "0235",
+    "description": "Dumbbells products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Fitness",
+    "ondc_l3": "Dumbbells"
+  },
+  {
+    "hsn": "0236",
+    "description": "Skincare products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Personal Care",
+    "ondc_l3": "Skincare"
+  },
+  {
+    "hsn": "0237",
+    "description": "Haircare products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Personal Care",
+    "ondc_l3": "Haircare"
+  },
+  {
+    "hsn": "0238",
+    "description": "Body Care products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Personal Care",
+    "ondc_l3": "Body Care"
+  },
+  {
+    "hsn": "0239",
+    "description": "Oral Hygiene products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Personal Care",
+    "ondc_l3": "Oral Hygiene"
+  },
+  {
+    "hsn": "0240",
+    "description": "Sanitary Products products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Personal Care",
+    "ondc_l3": "Sanitary Products"
+  },
+  {
+    "hsn": "0241",
+    "description": "First Aid products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Medical Essentials",
+    "ondc_l3": "First Aid"
+  },
+  {
+    "hsn": "0242",
+    "description": "Thermometers products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Medical Essentials",
+    "ondc_l3": "Thermometers"
+  },
+  {
+    "hsn": "0243",
+    "description": "Masks products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Medical Essentials",
+    "ondc_l3": "Masks"
+  },
+  {
+    "hsn": "0244",
+    "description": "Gloves products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Medical Essentials",
+    "ondc_l3": "Gloves"
+  },
+  {
+    "hsn": "0245",
+    "description": "Health Monitors products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Medical Essentials",
+    "ondc_l3": "Health Monitors"
+  },
+  {
+    "hsn": "0246",
+    "description": "Wellness Devices Item 1 products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Wellness Devices",
+    "ondc_l3": "Wellness Devices Item 1"
+  },
+  {
+    "hsn": "0247",
+    "description": "Wellness Devices Item 2 products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Wellness Devices",
+    "ondc_l3": "Wellness Devices Item 2"
+  },
+  {
+    "hsn": "0248",
+    "description": "Wellness Devices Item 3 products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Wellness Devices",
+    "ondc_l3": "Wellness Devices Item 3"
+  },
+  {
+    "hsn": "0249",
+    "description": "Wellness Devices Item 4 products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Wellness Devices",
+    "ondc_l3": "Wellness Devices Item 4"
+  },
+  {
+    "hsn": "0250",
+    "description": "Wellness Devices Item 5 products",
+    "ondc_l1": "Health & Wellness",
+    "ondc_l2": "Wellness Devices",
+    "ondc_l3": "Wellness Devices Item 5"
+  },
+  {
+    "hsn": "0251",
+    "description": "Face Care products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Skincare",
+    "ondc_l3": "Face Care"
+  },
+  {
+    "hsn": "0252",
+    "description": "Body Care products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Skincare",
+    "ondc_l3": "Body Care"
+  },
+  {
+    "hsn": "0253",
+    "description": "Lip Care products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Skincare",
+    "ondc_l3": "Lip Care"
+  },
+  {
+    "hsn": "0254",
+    "description": "Sun Care products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Skincare",
+    "ondc_l3": "Sun Care"
+  },
+  {
+    "hsn": "0255",
+    "description": "Moisturizers products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Skincare",
+    "ondc_l3": "Moisturizers"
+  },
+  {
+    "hsn": "0256",
+    "description": "Face products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Makeup",
+    "ondc_l3": "Face"
+  },
+  {
+    "hsn": "0257",
+    "description": "Eyes products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Makeup",
+    "ondc_l3": "Eyes"
+  },
+  {
+    "hsn": "0258",
+    "description": "Lips products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Makeup",
+    "ondc_l3": "Lips"
+  },
+  {
+    "hsn": "0259",
+    "description": "Nails products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Makeup",
+    "ondc_l3": "Nails"
+  },
+  {
+    "hsn": "0260",
+    "description": "Brush Sets products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Makeup",
+    "ondc_l3": "Brush Sets"
+  },
+  {
+    "hsn": "0261",
+    "description": "Perfumes products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Fragrances",
+    "ondc_l3": "Perfumes"
+  },
+  {
+    "hsn": "0262",
+    "description": "Deodorants products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Fragrances",
+    "ondc_l3": "Deodorants"
+  },
+  {
+    "hsn": "0263",
+    "description": "Attars products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Fragrances",
+    "ondc_l3": "Attars"
+  },
+  {
+    "hsn": "0264",
+    "description": "Body Mists products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Fragrances",
+    "ondc_l3": "Body Mists"
+  },
+  {
+    "hsn": "0265",
+    "description": "Gift Sets products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Fragrances",
+    "ondc_l3": "Gift Sets"
+  },
+  {
+    "hsn": "0266",
+    "description": "Hair Oils products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Hair Styling",
+    "ondc_l3": "Hair Oils"
+  },
+  {
+    "hsn": "0267",
+    "description": "Shampoo products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Hair Styling",
+    "ondc_l3": "Shampoo"
+  },
+  {
+    "hsn": "0268",
+    "description": "Conditioner products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Hair Styling",
+    "ondc_l3": "Conditioner"
+  },
+  {
+    "hsn": "0269",
+    "description": "Hair Color products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Hair Styling",
+    "ondc_l3": "Hair Color"
+  },
+  {
+    "hsn": "0270",
+    "description": "Hair Serum products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Hair Styling",
+    "ondc_l3": "Hair Serum"
+  },
+  {
+    "hsn": "0271",
+    "description": "Bath & Body Item 1 products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Bath & Body",
+    "ondc_l3": "Bath & Body Item 1"
+  },
+  {
+    "hsn": "0272",
+    "description": "Bath & Body Item 2 products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Bath & Body",
+    "ondc_l3": "Bath & Body Item 2"
+  },
+  {
+    "hsn": "0273",
+    "description": "Bath & Body Item 3 products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Bath & Body",
+    "ondc_l3": "Bath & Body Item 3"
+  },
+  {
+    "hsn": "0274",
+    "description": "Bath & Body Item 4 products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Bath & Body",
+    "ondc_l3": "Bath & Body Item 4"
+  },
+  {
+    "hsn": "0275",
+    "description": "Bath & Body Item 5 products",
+    "ondc_l1": "Beauty & Personal Care",
+    "ondc_l2": "Bath & Body",
+    "ondc_l3": "Bath & Body Item 5"
+  },
+  {
+    "hsn": "0276",
+    "description": "Vegetable Seeds products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Seeds",
+    "ondc_l3": "Vegetable Seeds"
+  },
+  {
+    "hsn": "0277",
+    "description": "Flower Seeds products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Seeds",
+    "ondc_l3": "Flower Seeds"
+  },
+  {
+    "hsn": "0278",
+    "description": "Fruit Seeds products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Seeds",
+    "ondc_l3": "Fruit Seeds"
+  },
+  {
+    "hsn": "0279",
+    "description": "Herb Seeds products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Seeds",
+    "ondc_l3": "Herb Seeds"
+  },
+  {
+    "hsn": "0280",
+    "description": "Hybrid Seeds products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Seeds",
+    "ondc_l3": "Hybrid Seeds"
+  },
+  {
+    "hsn": "0281",
+    "description": "Organic Fertilizers products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Fertilizers & Pesticides",
+    "ondc_l3": "Organic Fertilizers"
+  },
+  {
+    "hsn": "0282",
+    "description": "Chemical Fertilizers products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Fertilizers & Pesticides",
+    "ondc_l3": "Chemical Fertilizers"
+  },
+  {
+    "hsn": "0283",
+    "description": "Bio-pesticides products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Fertilizers & Pesticides",
+    "ondc_l3": "Bio-pesticides"
+  },
+  {
+    "hsn": "0284",
+    "description": "Fungicides products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Fertilizers & Pesticides",
+    "ondc_l3": "Fungicides"
+  },
+  {
+    "hsn": "0285",
+    "description": "Insecticides products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Fertilizers & Pesticides",
+    "ondc_l3": "Insecticides"
+  },
+  {
+    "hsn": "0286",
+    "description": "Hand Tools products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Tools & Equipment",
+    "ondc_l3": "Hand Tools"
+  },
+  {
+    "hsn": "0287",
+    "description": "Sprayers products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Tools & Equipment",
+    "ondc_l3": "Sprayers"
+  },
+  {
+    "hsn": "0288",
+    "description": "Irrigation products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Tools & Equipment",
+    "ondc_l3": "Irrigation"
+  },
+  {
+    "hsn": "0289",
+    "description": "Pumps products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Tools & Equipment",
+    "ondc_l3": "Pumps"
+  },
+  {
+    "hsn": "0290",
+    "description": "Tillers products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Tools & Equipment",
+    "ondc_l3": "Tillers"
+  },
+  {
+    "hsn": "0291",
+    "description": "Mulch Film products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Farm Inputs",
+    "ondc_l3": "Mulch Film"
+  },
+  {
+    "hsn": "0292",
+    "description": "Shade Nets products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Farm Inputs",
+    "ondc_l3": "Shade Nets"
+  },
+  {
+    "hsn": "0293",
+    "description": "Cocopeat products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Farm Inputs",
+    "ondc_l3": "Cocopeat"
+  },
+  {
+    "hsn": "0294",
+    "description": "Compost products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Farm Inputs",
+    "ondc_l3": "Compost"
+  },
+  {
+    "hsn": "0295",
+    "description": "Animal Feed products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Farm Inputs",
+    "ondc_l3": "Animal Feed"
+  },
+  {
+    "hsn": "0296",
+    "description": "Irrigation Systems Item 1 products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Irrigation Systems",
+    "ondc_l3": "Irrigation Systems Item 1"
+  },
+  {
+    "hsn": "0297",
+    "description": "Irrigation Systems Item 2 products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Irrigation Systems",
+    "ondc_l3": "Irrigation Systems Item 2"
+  },
+  {
+    "hsn": "0298",
+    "description": "Irrigation Systems Item 3 products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Irrigation Systems",
+    "ondc_l3": "Irrigation Systems Item 3"
+  },
+  {
+    "hsn": "0299",
+    "description": "Irrigation Systems Item 4 products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Irrigation Systems",
+    "ondc_l3": "Irrigation Systems Item 4"
+  },
+  {
+    "hsn": "0300",
+    "description": "Irrigation Systems Item 5 products",
+    "ondc_l1": "Agriculture",
+    "ondc_l2": "Irrigation Systems",
+    "ondc_l3": "Irrigation Systems Item 5"
+  },
+  {
+    "hsn": "0301",
+    "description": "Handloom Sarees products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Textiles",
+    "ondc_l3": "Handloom Sarees"
+  },
+  {
+    "hsn": "0302",
+    "description": "Block Print products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Textiles",
+    "ondc_l3": "Block Print"
+  },
+  {
+    "hsn": "0303",
+    "description": "Embroidery products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Textiles",
+    "ondc_l3": "Embroidery"
+  },
+  {
+    "hsn": "0304",
+    "description": "Khadi Products products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Textiles",
+    "ondc_l3": "Khadi Products"
+  },
+  {
+    "hsn": "0305",
+    "description": "Silk Products products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Textiles",
+    "ondc_l3": "Silk Products"
+  },
+  {
+    "hsn": "0306",
+    "description": "Wooden Crafts products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Crafts",
+    "ondc_l3": "Wooden Crafts"
+  },
+  {
+    "hsn": "0307",
+    "description": "Metal Crafts products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Crafts",
+    "ondc_l3": "Metal Crafts"
+  },
+  {
+    "hsn": "0308",
+    "description": "Stone Crafts products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Crafts",
+    "ondc_l3": "Stone Crafts"
+  },
+  {
+    "hsn": "0309",
+    "description": "Paper Crafts products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Crafts",
+    "ondc_l3": "Paper Crafts"
+  },
+  {
+    "hsn": "0310",
+    "description": "Bamboo & Cane products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Crafts",
+    "ondc_l3": "Bamboo & Cane"
+  },
+  {
+    "hsn": "0311",
+    "description": "Decorative Items products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Home Accents",
+    "ondc_l3": "Decorative Items"
+  },
+  {
+    "hsn": "0312",
+    "description": "Traditional Art products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Home Accents",
+    "ondc_l3": "Traditional Art"
+  },
+  {
+    "hsn": "0313",
+    "description": "Wall Hangings products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Home Accents",
+    "ondc_l3": "Wall Hangings"
+  },
+  {
+    "hsn": "0314",
+    "description": "Lamps & Lanterns products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Home Accents",
+    "ondc_l3": "Lamps & Lanterns"
+  },
+  {
+    "hsn": "0315",
+    "description": "Brassware products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Home Accents",
+    "ondc_l3": "Brassware"
+  },
+  {
+    "hsn": "0316",
+    "description": "Corporate Gifts products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Gift Articles",
+    "ondc_l3": "Corporate Gifts"
+  },
+  {
+    "hsn": "0317",
+    "description": "Festival Hampers products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Gift Articles",
+    "ondc_l3": "Festival Hampers"
+  },
+  {
+    "hsn": "0318",
+    "description": "Souvenirs products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Gift Articles",
+    "ondc_l3": "Souvenirs"
+  },
+  {
+    "hsn": "0319",
+    "description": "Miniatures products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Gift Articles",
+    "ondc_l3": "Miniatures"
+  },
+  {
+    "hsn": "0320",
+    "description": "Eco Gifts products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Gift Articles",
+    "ondc_l3": "Eco Gifts"
+  },
+  {
+    "hsn": "0321",
+    "description": "Artisanal Decor Item 1 products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Artisanal Decor",
+    "ondc_l3": "Artisanal Decor Item 1"
+  },
+  {
+    "hsn": "0322",
+    "description": "Artisanal Decor Item 2 products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Artisanal Decor",
+    "ondc_l3": "Artisanal Decor Item 2"
+  },
+  {
+    "hsn": "0323",
+    "description": "Artisanal Decor Item 3 products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Artisanal Decor",
+    "ondc_l3": "Artisanal Decor Item 3"
+  },
+  {
+    "hsn": "0324",
+    "description": "Artisanal Decor Item 4 products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Artisanal Decor",
+    "ondc_l3": "Artisanal Decor Item 4"
+  },
+  {
+    "hsn": "0325",
+    "description": "Artisanal Decor Item 5 products",
+    "ondc_l1": "Handicrafts & Handloom",
+    "ondc_l2": "Artisanal Decor",
+    "ondc_l3": "Artisanal Decor Item 5"
+  }
+]

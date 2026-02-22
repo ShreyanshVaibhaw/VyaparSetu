@@ -1,0 +1,61 @@
+month,state,registered,catalog_created,snp_matched,live,first_order,women_registered,women_catalog_created
+1,Rajasthan,112,65,46,22,10,56,29
+1,Tamil Nadu,80,52,35,21,8,40,23
+1,Maharashtra,96,60,42,24,10,48,27
+1,Uttar Pradesh,96,60,42,24,10,48,27
+1,West Bengal,72,45,32,18,7,36,20
+1,Karnataka,80,52,35,21,8,40,23
+1,Gujarat,80,50,35,20,8,40,22
+1,Kerala,64,42,28,16,6,32,18
+1,Madhya Pradesh,64,40,28,16,6,32,18
+1,Haryana,64,40,28,16,6,32,18
+2,Rajasthan,126,78,55,31,17,63,35
+2,Tamil Nadu,90,63,42,29,13,45,28
+2,Maharashtra,108,72,50,34,16,54,32
+2,Uttar Pradesh,108,72,50,34,16,54,32
+2,West Bengal,81,54,38,25,12,40,24
+2,Karnataka,90,63,42,29,13,45,28
+2,Gujarat,90,60,42,28,13,45,27
+2,Kerala,72,50,34,23,10,36,22
+2,Madhya Pradesh,72,48,34,22,10,36,21
+2,Haryana,72,48,34,22,10,36,21
+3,Rajasthan,140,94,70,44,27,70,42
+3,Tamil Nadu,100,75,54,41,21,50,33
+3,Maharashtra,120,86,65,47,25,60,38
+3,Uttar Pradesh,120,86,65,47,25,60,38
+3,West Bengal,90,65,49,35,19,45,29
+3,Karnataka,100,75,54,41,21,50,33
+3,Gujarat,100,72,54,39,21,50,32
+3,Kerala,80,60,43,32,17,40,27
+3,Madhya Pradesh,80,58,43,31,17,40,26
+3,Haryana,80,58,43,31,17,40,26
+4,Rajasthan,151,105,82,53,35,75,47
+4,Tamil Nadu,108,85,63,49,27,54,38
+4,Maharashtra,130,97,76,56,32,65,43
+4,Uttar Pradesh,130,97,76,56,32,65,43
+4,West Bengal,97,73,57,42,24,48,32
+4,Karnataka,108,85,63,49,27,54,38
+4,Gujarat,108,81,63,47,27,54,36
+4,Kerala,86,68,50,40,22,43,30
+4,Madhya Pradesh,86,65,50,38,22,43,29
+4,Haryana,86,65,50,38,22,43,29
+5,Rajasthan,157,114,92,61,43,78,51
+5,Tamil Nadu,112,92,71,57,33,56,41
+5,Maharashtra,134,106,85,65,40,67,47
+5,Uttar Pradesh,134,106,85,65,40,67,47
+5,West Bengal,101,79,64,49,30,50,35
+5,Karnataka,112,92,71,57,33,56,41
+5,Gujarat,112,88,71,54,33,56,39
+5,Kerala,90,73,57,45,26,45,32
+5,Madhya Pradesh,90,70,57,43,26,45,31
+5,Haryana,90,70,57,43,26,45,31
+6,Rajasthan,168,124,101,68,49,84,55
+6,Tamil Nadu,120,99,78,63,38,60,44
+6,Maharashtra,144,114,94,72,46,72,51
+6,Uttar Pradesh,144,114,94,72,46,72,51
+6,West Bengal,108,86,70,54,34,54,38
+6,Karnataka,120,99,78,63,38,60,44
+6,Gujarat,120,95,78,60,38,60,42
+6,Kerala,96,79,62,50,30,48,35
+6,Madhya Pradesh,96,76,62,48,30,48,34
+6,Haryana,96,76,62,48,30,48,34

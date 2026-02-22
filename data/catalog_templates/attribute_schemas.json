@@ -1,0 +1,162 @@
+{
+  "Food & Beverage": {
+    "required": [
+      "brand",
+      "net_quantity",
+      "fssai_license",
+      "shelf_life",
+      "nutritional_info"
+    ],
+    "optional": [
+      "ingredients",
+      "allergens",
+      "storage_instructions",
+      "veg_nonveg",
+      "organic_certification"
+    ]
+  },
+  "Grocery": {
+    "required": [
+      "brand",
+      "net_quantity",
+      "pack_type",
+      "expiry_date",
+      "country_of_origin"
+    ],
+    "optional": [
+      "ingredients",
+      "batch_no",
+      "mrp",
+      "usage_instructions",
+      "organic_certification"
+    ]
+  },
+  "Fashion": {
+    "required": [
+      "brand",
+      "size",
+      "color",
+      "material",
+      "wash_care"
+    ],
+    "optional": [
+      "pattern",
+      "occasion",
+      "fit_type",
+      "sleeve_length",
+      "neck_type"
+    ]
+  },
+  "Home & Kitchen": {
+    "required": [
+      "brand",
+      "material",
+      "dimensions",
+      "weight",
+      "care_instructions"
+    ],
+    "optional": [
+      "color",
+      "capacity",
+      "finish",
+      "microwave_safe",
+      "dishwasher_safe"
+    ]
+  },
+  "Electronics": {
+    "required": [
+      "brand",
+      "model_number",
+      "warranty",
+      "power_requirement",
+      "country_of_origin"
+    ],
+    "optional": [
+      "compatibility",
+      "connector_type",
+      "battery_included",
+      "return_window",
+      "installation_support"
+    ]
+  },
+  "Health & Wellness": {
+    "required": [
+      "brand",
+      "net_quantity",
+      "usage_instructions",
+      "manufacturing_date",
+      "expiry_date"
+    ],
+    "optional": [
+      "dosage",
+      "ingredients",
+      "storage_instructions",
+      "certifications",
+      "safety_warnings"
+    ]
+  },
+  "Beauty & Personal Care": {
+    "required": [
+      "brand",
+      "net_quantity",
+      "skin_or_hair_type",
+      "expiry_date",
+      "country_of_origin"
+    ],
+    "optional": [
+      "ingredients",
+      "fragrance",
+      "usage_instructions",
+      "safety_warnings",
+      "organic_certification"
+    ]
+  },
+  "Agriculture": {
+    "required": [
+      "brand",
+      "net_quantity",
+      "application_method",
+      "crop_type",
+      "composition"
+    ],
+    "optional": [
+      "dosage",
+      "soil_suitability",
+      "shelf_life",
+      "safety_gear",
+      "certification"
+    ]
+  },
+  "Handicrafts & Handloom": {
+    "required": [
+      "artisan_cluster",
+      "material",
+      "craft_type",
+      "dimensions",
+      "care_instructions"
+    ],
+    "optional": [
+      "weave_type",
+      "region_of_origin",
+      "color",
+      "customization",
+      "handmade_certification"
+    ]
+  },
+  "Stationery & Books": {
+    "required": [
+      "brand_or_author",
+      "language",
+      "format",
+      "pages_or_quantity",
+      "publisher_or_manufacturer"
+    ],
+    "optional": [
+      "isbn",
+      "edition",
+      "binding",
+      "theme",
+      "age_group"
+    ]
+  }
+}
