@@ -70,7 +70,32 @@ except Exception:
 logger = get_logger(__name__)
 
 
-PAGES = ["Home", "Register & Onboard", "Admin Dashboard", "Prakriti Assessment", "Competition Readiness", "About"]
+PAGE_KEYS = [
+    "home",
+    "register",
+    "admin",
+    "prakriti",
+    "competition",
+    "about",
+]
+PAGE_LABELS = {
+    "en": {
+        "home": "Home",
+        "register": "Register & Onboard",
+        "admin": "Admin Dashboard",
+        "prakriti": "Prakriti Assessment",
+        "competition": "Competition Readiness",
+        "about": "About",
+    },
+    "hi": {
+        "home": "होम",
+        "register": "पंजीकरण और ऑनबोर्डिंग",
+        "admin": "एडमिन डैशबोर्ड",
+        "prakriti": "प्रकृति असेसमेंट",
+        "competition": "प्रतियोगिता तैयारी",
+        "about": "परिचय",
+    },
+}
 DEMO_PRODUCTS = [
     "aam ka achaar, ghar ka bana hua, 500 gram, desi ghee mein",
     "Pure silk Kanchipuram saree, 6.5 meter, with zari border",
@@ -78,6 +103,16 @@ DEMO_PRODUCTS = [
     "Organic turmeric powder, 200g pack",
     "Genuine leather laptop bag, 15 inch",
 ]
+
+
+def _nav_lang() -> str:
+    return "hi" if st.session_state.get("language") == "hi" else "en"
+
+
+def _page_label(page_key: str, lang: str | None = None) -> str:
+    current_lang = lang or _nav_lang()
+    labels = PAGE_LABELS.get(current_lang, PAGE_LABELS["en"])
+    return labels.get(page_key, page_key)
 
 
 def _env_int(name: str, default: int) -> int:
@@ -422,7 +457,14 @@ def sidebar() -> str:
         st.markdown(f"**{PROJECT_SANSKRIT}**")
         st.caption("ONDC onboarding suite")
         st.markdown("---")
-        page = st.radio("Page", PAGES, label_visibility="collapsed")
+        nav_lang = _nav_lang()
+        st.caption("नेविगेशन" if nav_lang == "hi" else "Navigation")
+        page = st.radio(
+            "Page",
+            PAGE_KEYS,
+            format_func=lambda key: _page_label(key, nav_lang),
+            label_visibility="collapsed",
+        )
 
         ollama, postgres = system_status()
         dot_g = "<span style='display:inline-block;width:10px;height:10px;border-radius:50%;background:#138808;margin-right:8px;'></span>"
@@ -434,8 +476,9 @@ def sidebar() -> str:
         mode_color = "#138808" if mode == "FULL" else "#CA8A04" if mode == "PARTIAL" else "#EA580C"
         st.markdown(f"**Runtime Mode:** <span style='color:{mode_color}'>{mode}</span>", unsafe_allow_html=True)
 
+        lang_label = "भाषा" if nav_lang == "hi" else "Language"
         lang = st.selectbox(
-            "Language",
+            lang_label,
             list(SUPPORTED_LANGUAGES.keys()),
             index=list(SUPPORTED_LANGUAGES.keys()).index(st.session_state["language"]),
             format_func=lambda x: f"{SUPPORTED_LANGUAGES[x]} ({x})",
@@ -1599,17 +1642,17 @@ def main() -> None:
 
     page = sidebar()
     try:
-        if page == "Home":
+        if page == "home":
             page_home()
-        elif page == "Register & Onboard":
+        elif page == "register":
             page_register()
-        elif page == "Admin Dashboard":
+        elif page == "admin":
             page_admin()
-        elif page == "Prakriti Assessment":
+        elif page == "prakriti":
             page_prakriti()
-        elif page == "Competition Readiness":
+        elif page == "competition":
             page_competition()
-        elif page == "About":
+        elif page == "about":
             page_about()
     except Exception as exc:
         logger.exception("Unhandled app error")
