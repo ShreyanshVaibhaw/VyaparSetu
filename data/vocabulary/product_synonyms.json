@@ -1,1122 +1,456 @@
 {
-  "pickle": {
-    "en": "pickle",
-    "hi": "अचार",
-    "ta": "ஊறுகாய்",
-    "mr": "लोणचे",
-    "bn": "আচার",
-    "te": "ఊరగాయ",
-    "kn": "ಉಪ್ಪಿನಕಾಯಿ",
-    "gu": "અથાણું"
-  },
-  "saree": {
-    "en": "saree",
-    "hi": "साड़ी",
-    "ta": "சேலை",
-    "mr": "साडी",
-    "bn": "শাড়ি",
-    "te": "చీర",
-    "kn": "ಸೀರೆ",
-    "gu": "સાડી"
-  },
-  "spices": {
-    "en": "spices",
-    "hi": "मसाले",
-    "ta": "மசாலா",
-    "mr": "मसाले",
-    "bn": "মশলা",
-    "te": "మసాలా",
-    "kn": "ಮಸಾಲೆ",
-    "gu": "મસાલા"
-  },
-  "turmeric": {
-    "en": "turmeric",
-    "hi": "हल्दी",
-    "ta": "மஞ்சள்",
-    "mr": "हळद",
-    "bn": "হলুদ",
-    "te": "పసుపు",
-    "kn": "ಅರಿಶಿನ",
-    "gu": "હળદર"
-  },
-  "chilli powder": {
-    "en": "chilli powder",
-    "hi": "chilli powder",
-    "ta": "chilli powder",
-    "mr": "chilli powder",
-    "bn": "chilli powder",
-    "te": "chilli powder",
-    "kn": "chilli powder",
-    "gu": "chilli powder"
-  },
-  "tea": {
-    "en": "tea",
-    "hi": "चाय",
-    "ta": "தேநீர்",
-    "mr": "चहा",
-    "bn": "চা",
-    "te": "టీ",
-    "kn": "ಚಹಾ",
-    "gu": "ચા"
-  },
-  "coffee": {
-    "en": "coffee",
-    "hi": "कॉफी",
-    "ta": "காப்பி",
-    "mr": "कॉफी",
-    "bn": "কফি",
-    "te": "కాఫీ",
-    "kn": "ಕಾಫಿ",
-    "gu": "કોફી"
-  },
-  "rice": {
-    "en": "rice",
-    "hi": "चावल",
-    "ta": "அரிசி",
-    "mr": "तांदूळ",
-    "bn": "চাল",
-    "te": "బియ్యం",
-    "kn": "ಅಕ್ಕಿ",
-    "gu": "ચોખા"
-  },
-  "wheat flour": {
-    "en": "wheat flour",
-    "hi": "wheat flour",
-    "ta": "wheat flour",
-    "mr": "wheat flour",
-    "bn": "wheat flour",
-    "te": "wheat flour",
-    "kn": "wheat flour",
-    "gu": "wheat flour"
-  },
-  "millet": {
-    "en": "millet",
-    "hi": "millet",
-    "ta": "millet",
-    "mr": "millet",
-    "bn": "millet",
-    "te": "millet",
-    "kn": "millet",
-    "gu": "millet"
-  },
-  "papad": {
-    "en": "papad",
-    "hi": "पापड़",
-    "ta": "அப்பளம்",
-    "mr": "पापड",
-    "bn": "পাপড়",
-    "te": "పప్పడం",
-    "kn": "ಹಪ್ಪಳ",
-    "gu": "પાપડ"
-  },
-  "honey": {
-    "en": "honey",
-    "hi": "honey",
-    "ta": "honey",
-    "mr": "honey",
-    "bn": "honey",
-    "te": "honey",
-    "kn": "honey",
-    "gu": "honey"
-  },
-  "jaggery": {
-    "en": "jaggery",
-    "hi": "jaggery",
-    "ta": "jaggery",
-    "mr": "jaggery",
-    "bn": "jaggery",
-    "te": "jaggery",
-    "kn": "jaggery",
-    "gu": "jaggery"
-  },
-  "ghee": {
-    "en": "ghee",
-    "hi": "ghee",
-    "ta": "ghee",
-    "mr": "ghee",
-    "bn": "ghee",
-    "te": "ghee",
-    "kn": "ghee",
-    "gu": "ghee"
-  },
-  "lentils": {
-    "en": "lentils",
-    "hi": "lentils",
-    "ta": "lentils",
-    "mr": "lentils",
-    "bn": "lentils",
-    "te": "lentils",
-    "kn": "lentils",
-    "gu": "lentils"
-  },
-  "mustard oil": {
-    "en": "mustard oil",
-    "hi": "mustard oil",
-    "ta": "mustard oil",
-    "mr": "mustard oil",
-    "bn": "mustard oil",
-    "te": "mustard oil",
-    "kn": "mustard oil",
-    "gu": "mustard oil"
-  },
-  "soap": {
-    "en": "soap",
-    "hi": "soap",
-    "ta": "soap",
-    "mr": "soap",
-    "bn": "soap",
-    "te": "soap",
-    "kn": "soap",
-    "gu": "soap"
-  },
-  "shampoo": {
-    "en": "shampoo",
-    "hi": "shampoo",
-    "ta": "shampoo",
-    "mr": "shampoo",
-    "bn": "shampoo",
-    "te": "shampoo",
-    "kn": "shampoo",
-    "gu": "shampoo"
-  },
-  "hair oil": {
-    "en": "hair oil",
-    "hi": "hair oil",
-    "ta": "hair oil",
-    "mr": "hair oil",
-    "bn": "hair oil",
-    "te": "hair oil",
-    "kn": "hair oil",
-    "gu": "hair oil"
-  },
-  "face cream": {
-    "en": "face cream",
-    "hi": "face cream",
-    "ta": "face cream",
-    "mr": "face cream",
-    "bn": "face cream",
-    "te": "face cream",
-    "kn": "face cream",
-    "gu": "face cream"
-  },
-  "agarbatti": {
-    "en": "agarbatti",
-    "hi": "अगरबत्ती",
-    "ta": "அகர்பத்தி",
-    "mr": "अगरबत्ती",
-    "bn": "আগরবাতি",
-    "te": "అగరబత్తి",
-    "kn": "ಅಗರಬತ್ತಿ",
-    "gu": "અગરબત્તી"
-  },
-  "dhoop": {
-    "en": "dhoop",
-    "hi": "dhoop",
-    "ta": "dhoop",
-    "mr": "dhoop",
-    "bn": "dhoop",
-    "te": "dhoop",
-    "kn": "dhoop",
-    "gu": "dhoop"
-  },
-  "diya": {
-    "en": "diya",
-    "hi": "diya",
-    "ta": "diya",
-    "mr": "diya",
-    "bn": "diya",
-    "te": "diya",
-    "kn": "diya",
-    "gu": "diya"
-  },
-  "candle": {
-    "en": "candle",
-    "hi": "candle",
-    "ta": "candle",
-    "mr": "candle",
-    "bn": "candle",
-    "te": "candle",
-    "kn": "candle",
-    "gu": "candle"
-  },
-  "kurta": {
-    "en": "kurta",
-    "hi": "kurta",
-    "ta": "kurta",
-    "mr": "kurta",
-    "bn": "kurta",
-    "te": "kurta",
-    "kn": "kurta",
-    "gu": "kurta"
-  },
-  "shirt": {
-    "en": "shirt",
-    "hi": "shirt",
-    "ta": "shirt",
-    "mr": "shirt",
-    "bn": "shirt",
-    "te": "shirt",
-    "kn": "shirt",
-    "gu": "shirt"
-  },
-  "t-shirt": {
-    "en": "t-shirt",
-    "hi": "t-shirt",
-    "ta": "t-shirt",
-    "mr": "t-shirt",
-    "bn": "t-shirt",
-    "te": "t-shirt",
-    "kn": "t-shirt",
-    "gu": "t-shirt"
-  },
-  "jeans": {
-    "en": "jeans",
-    "hi": "jeans",
-    "ta": "jeans",
-    "mr": "jeans",
-    "bn": "jeans",
-    "te": "jeans",
-    "kn": "jeans",
-    "gu": "jeans"
-  },
-  "lehenga": {
-    "en": "lehenga",
-    "hi": "lehenga",
-    "ta": "lehenga",
-    "mr": "lehenga",
-    "bn": "lehenga",
-    "te": "lehenga",
-    "kn": "lehenga",
-    "gu": "lehenga"
-  },
-  "dupatta": {
-    "en": "dupatta",
-    "hi": "dupatta",
-    "ta": "dupatta",
-    "mr": "dupatta",
-    "bn": "dupatta",
-    "te": "dupatta",
-    "kn": "dupatta",
-    "gu": "dupatta"
-  },
-  "blouse": {
-    "en": "blouse",
-    "hi": "blouse",
-    "ta": "blouse",
-    "mr": "blouse",
-    "bn": "blouse",
-    "te": "blouse",
-    "kn": "blouse",
-    "gu": "blouse"
-  },
-  "sandals": {
-    "en": "sandals",
-    "hi": "sandals",
-    "ta": "sandals",
-    "mr": "sandals",
-    "bn": "sandals",
-    "te": "sandals",
-    "kn": "sandals",
-    "gu": "sandals"
-  },
-  "sports shoes": {
-    "en": "sports shoes",
-    "hi": "sports shoes",
-    "ta": "sports shoes",
-    "mr": "sports shoes",
-    "bn": "sports shoes",
-    "te": "sports shoes",
-    "kn": "sports shoes",
-    "gu": "sports shoes"
-  },
-  "handbag": {
-    "en": "handbag",
-    "hi": "handbag",
-    "ta": "handbag",
-    "mr": "handbag",
-    "bn": "handbag",
-    "te": "handbag",
-    "kn": "handbag",
-    "gu": "handbag"
-  },
-  "wallet": {
-    "en": "wallet",
-    "hi": "wallet",
-    "ta": "wallet",
-    "mr": "wallet",
-    "bn": "wallet",
-    "te": "wallet",
-    "kn": "wallet",
-    "gu": "wallet"
-  },
-  "belt": {
-    "en": "belt",
-    "hi": "belt",
-    "ta": "belt",
-    "mr": "belt",
-    "bn": "belt",
-    "te": "belt",
-    "kn": "belt",
-    "gu": "belt"
-  },
-  "scarf": {
-    "en": "scarf",
-    "hi": "scarf",
-    "ta": "scarf",
-    "mr": "scarf",
-    "bn": "scarf",
-    "te": "scarf",
-    "kn": "scarf",
-    "gu": "scarf"
-  },
-  "stole": {
-    "en": "stole",
-    "hi": "stole",
-    "ta": "stole",
-    "mr": "stole",
-    "bn": "stole",
-    "te": "stole",
-    "kn": "stole",
-    "gu": "stole"
-  },
-  "bangle": {
-    "en": "bangle",
-    "hi": "bangle",
-    "ta": "bangle",
-    "mr": "bangle",
-    "bn": "bangle",
-    "te": "bangle",
-    "kn": "bangle",
-    "gu": "bangle"
-  },
-  "necklace": {
-    "en": "necklace",
-    "hi": "necklace",
-    "ta": "necklace",
-    "mr": "necklace",
-    "bn": "necklace",
-    "te": "necklace",
-    "kn": "necklace",
-    "gu": "necklace"
-  },
-  "earrings": {
-    "en": "earrings",
-    "hi": "earrings",
-    "ta": "earrings",
-    "mr": "earrings",
-    "bn": "earrings",
-    "te": "earrings",
-    "kn": "earrings",
-    "gu": "earrings"
-  },
-  "bedsheet": {
-    "en": "bedsheet",
-    "hi": "bedsheet",
-    "ta": "bedsheet",
-    "mr": "bedsheet",
-    "bn": "bedsheet",
-    "te": "bedsheet",
-    "kn": "bedsheet",
-    "gu": "bedsheet"
-  },
-  "curtain": {
-    "en": "curtain",
-    "hi": "curtain",
-    "ta": "curtain",
-    "mr": "curtain",
-    "bn": "curtain",
-    "te": "curtain",
-    "kn": "curtain",
-    "gu": "curtain"
-  },
-  "pillow cover": {
-    "en": "pillow cover",
-    "hi": "pillow cover",
-    "ta": "pillow cover",
-    "mr": "pillow cover",
-    "bn": "pillow cover",
-    "te": "pillow cover",
-    "kn": "pillow cover",
-    "gu": "pillow cover"
-  },
-  "carpet": {
-    "en": "carpet",
-    "hi": "carpet",
-    "ta": "carpet",
-    "mr": "carpet",
-    "bn": "carpet",
-    "te": "carpet",
-    "kn": "carpet",
-    "gu": "carpet"
-  },
-  "rug": {
-    "en": "rug",
-    "hi": "rug",
-    "ta": "rug",
-    "mr": "rug",
-    "bn": "rug",
-    "te": "rug",
-    "kn": "rug",
-    "gu": "rug"
-  },
-  "towel": {
-    "en": "towel",
-    "hi": "towel",
-    "ta": "towel",
-    "mr": "towel",
-    "bn": "towel",
-    "te": "towel",
-    "kn": "towel",
-    "gu": "towel"
-  },
-  "blanket": {
-    "en": "blanket",
-    "hi": "blanket",
-    "ta": "blanket",
-    "mr": "blanket",
-    "bn": "blanket",
-    "te": "blanket",
-    "kn": "blanket",
-    "gu": "blanket"
-  },
-  "utensils": {
-    "en": "utensils",
-    "hi": "utensils",
-    "ta": "utensils",
-    "mr": "utensils",
-    "bn": "utensils",
-    "te": "utensils",
-    "kn": "utensils",
-    "gu": "utensils"
-  },
-  "pressure cooker": {
-    "en": "pressure cooker",
-    "hi": "pressure cooker",
-    "ta": "pressure cooker",
-    "mr": "pressure cooker",
-    "bn": "pressure cooker",
-    "te": "pressure cooker",
-    "kn": "pressure cooker",
-    "gu": "pressure cooker"
-  },
-  "water bottle": {
-    "en": "water bottle",
-    "hi": "water bottle",
-    "ta": "water bottle",
-    "mr": "water bottle",
-    "bn": "water bottle",
-    "te": "water bottle",
-    "kn": "water bottle",
-    "gu": "water bottle"
-  },
-  "storage box": {
-    "en": "storage box",
-    "hi": "storage box",
-    "ta": "storage box",
-    "mr": "storage box",
-    "bn": "storage box",
-    "te": "storage box",
-    "kn": "storage box",
-    "gu": "storage box"
-  },
-  "planter": {
-    "en": "planter",
-    "hi": "planter",
-    "ta": "planter",
-    "mr": "planter",
-    "bn": "planter",
-    "te": "planter",
-    "kn": "planter",
-    "gu": "planter"
-  },
-  "wall art": {
-    "en": "wall art",
-    "hi": "wall art",
-    "ta": "wall art",
-    "mr": "wall art",
-    "bn": "wall art",
-    "te": "wall art",
-    "kn": "wall art",
-    "gu": "wall art"
-  },
-  "painting": {
-    "en": "painting",
-    "hi": "painting",
-    "ta": "painting",
-    "mr": "painting",
-    "bn": "painting",
-    "te": "painting",
-    "kn": "painting",
-    "gu": "painting"
-  },
-  "pottery": {
-    "en": "pottery",
-    "hi": "pottery",
-    "ta": "pottery",
-    "mr": "pottery",
-    "bn": "pottery",
-    "te": "pottery",
-    "kn": "pottery",
-    "gu": "pottery"
-  },
-  "lantern": {
-    "en": "lantern",
-    "hi": "lantern",
-    "ta": "lantern",
-    "mr": "lantern",
-    "bn": "lantern",
-    "te": "lantern",
-    "kn": "lantern",
-    "gu": "lantern"
-  },
-  "photo frame": {
-    "en": "photo frame",
-    "hi": "photo frame",
-    "ta": "photo frame",
-    "mr": "photo frame",
-    "bn": "photo frame",
-    "te": "photo frame",
-    "kn": "photo frame",
-    "gu": "photo frame"
-  },
-  "wooden chair": {
-    "en": "wooden chair",
-    "hi": "wooden chair",
-    "ta": "wooden chair",
-    "mr": "wooden chair",
-    "bn": "wooden chair",
-    "te": "wooden chair",
-    "kn": "wooden chair",
-    "gu": "wooden chair"
-  },
-  "table": {
-    "en": "table",
-    "hi": "table",
-    "ta": "table",
-    "mr": "table",
-    "bn": "table",
-    "te": "table",
-    "kn": "table",
-    "gu": "table"
-  },
-  "bookshelf": {
-    "en": "bookshelf",
-    "hi": "bookshelf",
-    "ta": "bookshelf",
-    "mr": "bookshelf",
-    "bn": "bookshelf",
-    "te": "bookshelf",
-    "kn": "bookshelf",
-    "gu": "bookshelf"
-  },
-  "mobile phone": {
-    "en": "mobile phone",
-    "hi": "mobile phone",
-    "ta": "mobile phone",
-    "mr": "mobile phone",
-    "bn": "mobile phone",
-    "te": "mobile phone",
-    "kn": "mobile phone",
-    "gu": "mobile phone"
-  },
-  "charger": {
-    "en": "charger",
-    "hi": "charger",
-    "ta": "charger",
-    "mr": "charger",
-    "bn": "charger",
-    "te": "charger",
-    "kn": "charger",
-    "gu": "charger"
-  },
-  "earphones": {
-    "en": "earphones",
-    "hi": "earphones",
-    "ta": "earphones",
-    "mr": "earphones",
-    "bn": "earphones",
-    "te": "earphones",
-    "kn": "earphones",
-    "gu": "earphones"
-  },
-  "power bank": {
-    "en": "power bank",
-    "hi": "power bank",
-    "ta": "power bank",
-    "mr": "power bank",
-    "bn": "power bank",
-    "te": "power bank",
-    "kn": "power bank",
-    "gu": "power bank"
-  },
-  "keyboard": {
-    "en": "keyboard",
-    "hi": "keyboard",
-    "ta": "keyboard",
-    "mr": "keyboard",
-    "bn": "keyboard",
-    "te": "keyboard",
-    "kn": "keyboard",
-    "gu": "keyboard"
-  },
-  "mouse": {
-    "en": "mouse",
-    "hi": "mouse",
-    "ta": "mouse",
-    "mr": "mouse",
-    "bn": "mouse",
-    "te": "mouse",
-    "kn": "mouse",
-    "gu": "mouse"
-  },
-  "usb drive": {
-    "en": "usb drive",
-    "hi": "usb drive",
-    "ta": "usb drive",
-    "mr": "usb drive",
-    "bn": "usb drive",
-    "te": "usb drive",
-    "kn": "usb drive",
-    "gu": "usb drive"
-  },
-  "led bulb": {
-    "en": "led bulb",
-    "hi": "led bulb",
-    "ta": "led bulb",
-    "mr": "led bulb",
-    "bn": "led bulb",
-    "te": "led bulb",
-    "kn": "led bulb",
-    "gu": "led bulb"
-  },
-  "fan": {
-    "en": "fan",
-    "hi": "fan",
-    "ta": "fan",
-    "mr": "fan",
-    "bn": "fan",
-    "te": "fan",
-    "kn": "fan",
-    "gu": "fan"
-  },
-  "mixer grinder": {
-    "en": "mixer grinder",
-    "hi": "mixer grinder",
-    "ta": "mixer grinder",
-    "mr": "mixer grinder",
-    "bn": "mixer grinder",
-    "te": "mixer grinder",
-    "kn": "mixer grinder",
-    "gu": "mixer grinder"
-  },
-  "iron": {
-    "en": "iron",
-    "hi": "iron",
-    "ta": "iron",
-    "mr": "iron",
-    "bn": "iron",
-    "te": "iron",
-    "kn": "iron",
-    "gu": "iron"
-  },
-  "water purifier": {
-    "en": "water purifier",
-    "hi": "water purifier",
-    "ta": "water purifier",
-    "mr": "water purifier",
-    "bn": "water purifier",
-    "te": "water purifier",
-    "kn": "water purifier",
-    "gu": "water purifier"
-  },
-  "yoga mat": {
-    "en": "yoga mat",
-    "hi": "yoga mat",
-    "ta": "yoga mat",
-    "mr": "yoga mat",
-    "bn": "yoga mat",
-    "te": "yoga mat",
-    "kn": "yoga mat",
-    "gu": "yoga mat"
-  },
-  "protein powder": {
-    "en": "protein powder",
-    "hi": "protein powder",
-    "ta": "protein powder",
-    "mr": "protein powder",
-    "bn": "protein powder",
-    "te": "protein powder",
-    "kn": "protein powder",
-    "gu": "protein powder"
-  },
-  "herbal tea": {
-    "en": "herbal tea",
-    "hi": "herbal tea",
-    "ta": "herbal tea",
-    "mr": "herbal tea",
-    "bn": "herbal tea",
-    "te": "herbal tea",
-    "kn": "herbal tea",
-    "gu": "herbal tea"
-  },
-  "essential oil": {
-    "en": "essential oil",
-    "hi": "essential oil",
-    "ta": "essential oil",
-    "mr": "essential oil",
-    "bn": "essential oil",
-    "te": "essential oil",
-    "kn": "essential oil",
-    "gu": "essential oil"
-  },
-  "sanitizer": {
-    "en": "sanitizer",
-    "hi": "sanitizer",
-    "ta": "sanitizer",
-    "mr": "sanitizer",
-    "bn": "sanitizer",
-    "te": "sanitizer",
-    "kn": "sanitizer",
-    "gu": "sanitizer"
-  },
-  "first aid kit": {
-    "en": "first aid kit",
-    "hi": "first aid kit",
-    "ta": "first aid kit",
-    "mr": "first aid kit",
-    "bn": "first aid kit",
-    "te": "first aid kit",
-    "kn": "first aid kit",
-    "gu": "first aid kit"
-  },
-  "thermometer": {
-    "en": "thermometer",
-    "hi": "thermometer",
-    "ta": "thermometer",
-    "mr": "thermometer",
-    "bn": "thermometer",
-    "te": "thermometer",
-    "kn": "thermometer",
-    "gu": "thermometer"
-  },
-  "face wash": {
-    "en": "face wash",
-    "hi": "face wash",
-    "ta": "face wash",
-    "mr": "face wash",
-    "bn": "face wash",
-    "te": "face wash",
-    "kn": "face wash",
-    "gu": "face wash"
-  },
-  "perfume": {
-    "en": "perfume",
-    "hi": "perfume",
-    "ta": "perfume",
-    "mr": "perfume",
-    "bn": "perfume",
-    "te": "perfume",
-    "kn": "perfume",
-    "gu": "perfume"
-  },
-  "deodorant": {
-    "en": "deodorant",
-    "hi": "deodorant",
-    "ta": "deodorant",
-    "mr": "deodorant",
-    "bn": "deodorant",
-    "te": "deodorant",
-    "kn": "deodorant",
-    "gu": "deodorant"
-  },
-  "nail polish": {
-    "en": "nail polish",
-    "hi": "nail polish",
-    "ta": "nail polish",
-    "mr": "nail polish",
-    "bn": "nail polish",
-    "te": "nail polish",
-    "kn": "nail polish",
-    "gu": "nail polish"
-  },
-  "foundation": {
-    "en": "foundation",
-    "hi": "foundation",
-    "ta": "foundation",
-    "mr": "foundation",
-    "bn": "foundation",
-    "te": "foundation",
-    "kn": "foundation",
-    "gu": "foundation"
-  },
-  "lipstick": {
-    "en": "lipstick",
-    "hi": "lipstick",
-    "ta": "lipstick",
-    "mr": "lipstick",
-    "bn": "lipstick",
-    "te": "lipstick",
-    "kn": "lipstick",
-    "gu": "lipstick"
-  },
-  "eyeliner": {
-    "en": "eyeliner",
-    "hi": "eyeliner",
-    "ta": "eyeliner",
-    "mr": "eyeliner",
-    "bn": "eyeliner",
-    "te": "eyeliner",
-    "kn": "eyeliner",
-    "gu": "eyeliner"
-  },
-  "hair serum": {
-    "en": "hair serum",
-    "hi": "hair serum",
-    "ta": "hair serum",
-    "mr": "hair serum",
-    "bn": "hair serum",
-    "te": "hair serum",
-    "kn": "hair serum",
-    "gu": "hair serum"
-  },
-  "vegetable seeds": {
-    "en": "vegetable seeds",
-    "hi": "vegetable seeds",
-    "ta": "vegetable seeds",
-    "mr": "vegetable seeds",
-    "bn": "vegetable seeds",
-    "te": "vegetable seeds",
-    "kn": "vegetable seeds",
-    "gu": "vegetable seeds"
-  },
-  "flower seeds": {
-    "en": "flower seeds",
-    "hi": "flower seeds",
-    "ta": "flower seeds",
-    "mr": "flower seeds",
-    "bn": "flower seeds",
-    "te": "flower seeds",
-    "kn": "flower seeds",
-    "gu": "flower seeds"
-  },
-  "fertilizer": {
-    "en": "fertilizer",
-    "hi": "fertilizer",
-    "ta": "fertilizer",
-    "mr": "fertilizer",
-    "bn": "fertilizer",
-    "te": "fertilizer",
-    "kn": "fertilizer",
-    "gu": "fertilizer"
-  },
-  "bio pesticide": {
-    "en": "bio pesticide",
-    "hi": "bio pesticide",
-    "ta": "bio pesticide",
-    "mr": "bio pesticide",
-    "bn": "bio pesticide",
-    "te": "bio pesticide",
-    "kn": "bio pesticide",
-    "gu": "bio pesticide"
-  },
-  "sprayer": {
-    "en": "sprayer",
-    "hi": "sprayer",
-    "ta": "sprayer",
-    "mr": "sprayer",
-    "bn": "sprayer",
-    "te": "sprayer",
-    "kn": "sprayer",
-    "gu": "sprayer"
-  },
-  "compost": {
-    "en": "compost",
-    "hi": "compost",
-    "ta": "compost",
-    "mr": "compost",
-    "bn": "compost",
-    "te": "compost",
-    "kn": "compost",
-    "gu": "compost"
-  },
-  "coir mat": {
-    "en": "coir mat",
-    "hi": "coir mat",
-    "ta": "coir mat",
-    "mr": "coir mat",
-    "bn": "coir mat",
-    "te": "coir mat",
-    "kn": "coir mat",
-    "gu": "coir mat"
-  },
-  "jute bag": {
-    "en": "jute bag",
-    "hi": "jute bag",
-    "ta": "jute bag",
-    "mr": "jute bag",
-    "bn": "jute bag",
-    "te": "jute bag",
-    "kn": "jute bag",
-    "gu": "jute bag"
-  },
-  "handloom saree": {
-    "en": "handloom saree",
-    "hi": "handloom saree",
-    "ta": "handloom saree",
-    "mr": "handloom saree",
-    "bn": "handloom saree",
-    "te": "handloom saree",
-    "kn": "handloom saree",
-    "gu": "handloom saree"
-  },
-  "khadi kurta": {
-    "en": "khadi kurta",
-    "hi": "khadi kurta",
-    "ta": "khadi kurta",
-    "mr": "khadi kurta",
-    "bn": "khadi kurta",
-    "te": "khadi kurta",
-    "kn": "khadi kurta",
-    "gu": "khadi kurta"
-  },
-  "notebook": {
-    "en": "notebook",
-    "hi": "notebook",
-    "ta": "notebook",
-    "mr": "notebook",
-    "bn": "notebook",
-    "te": "notebook",
-    "kn": "notebook",
-    "gu": "notebook"
-  },
-  "pen": {
-    "en": "pen",
-    "hi": "pen",
-    "ta": "pen",
-    "mr": "pen",
-    "bn": "pen",
-    "te": "pen",
-    "kn": "pen",
-    "gu": "pen"
-  },
-  "marker": {
-    "en": "marker",
-    "hi": "marker",
-    "ta": "marker",
-    "mr": "marker",
-    "bn": "marker",
-    "te": "marker",
-    "kn": "marker",
-    "gu": "marker"
-  },
-  "adhesive": {
-    "en": "adhesive",
-    "hi": "adhesive",
-    "ta": "adhesive",
-    "mr": "adhesive",
-    "bn": "adhesive",
-    "te": "adhesive",
-    "kn": "adhesive",
-    "gu": "adhesive"
-  },
-  "calculator": {
-    "en": "calculator",
-    "hi": "calculator",
-    "ta": "calculator",
-    "mr": "calculator",
-    "bn": "calculator",
-    "te": "calculator",
-    "kn": "calculator",
-    "gu": "calculator"
-  },
-  "children book": {
-    "en": "children book",
-    "hi": "children book",
-    "ta": "children book",
-    "mr": "children book",
-    "bn": "children book",
-    "te": "children book",
-    "kn": "children book",
-    "gu": "children book"
-  },
-  "exam guide": {
-    "en": "exam guide",
-    "hi": "exam guide",
-    "ta": "exam guide",
-    "mr": "exam guide",
-    "bn": "exam guide",
-    "te": "exam guide",
-    "kn": "exam guide",
-    "gu": "exam guide"
-  },
-  "sketchbook": {
-    "en": "sketchbook",
-    "hi": "sketchbook",
-    "ta": "sketchbook",
-    "mr": "sketchbook",
-    "bn": "sketchbook",
-    "te": "sketchbook",
-    "kn": "sketchbook",
-    "gu": "sketchbook"
-  },
-  "paint brush": {
-    "en": "paint brush",
-    "hi": "paint brush",
-    "ta": "paint brush",
-    "mr": "paint brush",
-    "bn": "paint brush",
-    "te": "paint brush",
-    "kn": "paint brush",
-    "gu": "paint brush"
-  },
-  "craft paper": {
-    "en": "craft paper",
-    "hi": "craft paper",
-    "ta": "craft paper",
-    "mr": "craft paper",
-    "bn": "craft paper",
-    "te": "craft paper",
-    "kn": "craft paper",
-    "gu": "craft paper"
-  },
-  "gift hamper": {
-    "en": "gift hamper",
-    "hi": "gift hamper",
-    "ta": "gift hamper",
-    "mr": "gift hamper",
-    "bn": "gift hamper",
-    "te": "gift hamper",
-    "kn": "gift hamper",
-    "gu": "gift hamper"
-  },
-  "souvenir": {
-    "en": "souvenir",
-    "hi": "souvenir",
-    "ta": "souvenir",
-    "mr": "souvenir",
-    "bn": "souvenir",
-    "te": "souvenir",
-    "kn": "souvenir",
-    "gu": "souvenir"
-  },
-  "brassware": {
-    "en": "brassware",
-    "hi": "पीतल के बर्तन",
-    "ta": "பித்தளை பொருட்கள்",
-    "mr": "पितळी भांडी",
-    "bn": "পিতলের জিনিস",
-    "te": "పిత్తల వస్తువులు",
-    "kn": "ಪಿತ್ತಳ ವಸ್ತುಗಳು",
-    "gu": "પીતળ વાસણ"
-  },
-  "paper mache": {
-    "en": "paper mache",
-    "hi": "paper mache",
-    "ta": "paper mache",
-    "mr": "paper mache",
-    "bn": "paper mache",
-    "te": "paper mache",
-    "kn": "paper mache",
-    "gu": "paper mache"
+  "metadata": {
+    "version": "2026.03",
+    "description": "Canonical product terms and multilingual/phonetic synonyms"
+  },
+  "product_synonyms": {
+    "mango pickle": [
+      "aam ka achaar",
+      "aam ka achar",
+      "aam achaar",
+      "आम का अचार",
+      "mango achar"
+    ],
+    "lemon pickle": [
+      "nimbu achar",
+      "नींबू अचार",
+      "lemon achar"
+    ],
+    "mixed pickle": [
+      "mix achar",
+      "मिक्स अचार"
+    ],
+    "turmeric": [
+      "haldi",
+      "हल्दी",
+      "manjal",
+      "pasupu"
+    ],
+    "red chilli powder": [
+      "lal mirch powder",
+      "लाल मिर्च पाउडर"
+    ],
+    "coriander powder": [
+      "dhaniya powder",
+      "धनिया पाउडर"
+    ],
+    "cumin powder": [
+      "jeera powder",
+      "जीरा पाउडर"
+    ],
+    "garam masala": [
+      "गरम मसाला",
+      "hot spice mix"
+    ],
+    "tea": [
+      "chai",
+      "चाय",
+      "cha"
+    ],
+    "coffee": [
+      "filter coffee",
+      "कॉफी",
+      "kapi"
+    ],
+    "papad": [
+      "pappad",
+      "पापड़"
+    ],
+    "namkeen": [
+      "savory snacks",
+      "नमकीन"
+    ],
+    "cookies": [
+      "biscuits",
+      "कुकीज़"
+    ],
+    "mithai": [
+      "sweets",
+      "मिठाई"
+    ],
+    "ready to eat": [
+      "instant meal",
+      "तुरंत भोजन"
+    ],
+    "rice": [
+      "chawal",
+      "चावल"
+    ],
+    "wheat flour": [
+      "atta",
+      "आटा"
+    ],
+    "lentils": [
+      "dal",
+      "दाल"
+    ],
+    "mustard oil": [
+      "sarson tel",
+      "सरसों तेल"
+    ],
+    "jaggery": [
+      "gur",
+      "गुड़"
+    ],
+    "ghee": [
+      "घी",
+      "clarified butter"
+    ],
+    "honey": [
+      "शहद",
+      "madhu"
+    ],
+    "saree": [
+      "sari",
+      "साड़ी",
+      "saadi",
+      "pudava"
+    ],
+    "handloom saree": [
+      "karigar saree",
+      "हैंडलूम साड़ी"
+    ],
+    "silk saree": [
+      "resham saree",
+      "रेशम साड़ी",
+      "pattu saree"
+    ],
+    "dupatta": [
+      "दुपट्टा",
+      "stole cloth"
+    ],
+    "kurta": [
+      "kurti",
+      "कुर्ती"
+    ],
+    "lehenga": [
+      "घाघरा",
+      "ghagra"
+    ],
+    "blouse": [
+      "चोली",
+      "choli"
+    ],
+    "leather bag": [
+      "chamde ka bag",
+      "चमड़े का बैग",
+      "leather purse"
+    ],
+    "jute bag": [
+      "jute ka thela",
+      "joot bag",
+      "जूट बैग"
+    ],
+    "wallet": [
+      "batua",
+      "बटुआ"
+    ],
+    "belt": [
+      "kamar belt",
+      "कमर बेल्ट"
+    ],
+    "cotton bedsheet": [
+      "sooti chadar",
+      "सूती चादर",
+      "cotton chadar"
+    ],
+    "curtain": [
+      "पर्दा",
+      "parda"
+    ],
+    "pillow cover": [
+      "तकिया कवर",
+      "cushion cover"
+    ],
+    "blanket": [
+      "कंबल",
+      "kambal"
+    ],
+    "towel": [
+      "तौलिया",
+      "gamcha"
+    ],
+    "carpet": [
+      "कालीन",
+      "kaleen"
+    ],
+    "rug": [
+      "दरी",
+      "floor rug"
+    ],
+    "brass utensil": [
+      "peetal ka bartan",
+      "पीतल का बर्तन",
+      "pital bartan"
+    ],
+    "steel utensil": [
+      "steel bartan",
+      "स्टील बर्तन"
+    ],
+    "copper bottle": [
+      "tambe ki bottle",
+      "तांबे की बोतल"
+    ],
+    "pressure cooker": [
+      "प्रेशर कुकर",
+      "cooker"
+    ],
+    "tawa": [
+      "flat pan",
+      "तवा"
+    ],
+    "kadhai": [
+      "कड़ाही",
+      "karahi"
+    ],
+    "storage container": [
+      "dabba",
+      "डिब्बा",
+      "container box"
+    ],
+    "incense sticks": [
+      "agarbatti",
+      "अगरबत्ती",
+      "dhoop"
+    ],
+    "camphor": [
+      "kapoor",
+      "कपूर"
+    ],
+    "cotton wick": [
+      "batti",
+      "रुई बत्ती"
+    ],
+    "diya": [
+      "दीया",
+      "lamp diya"
+    ],
+    "candle": [
+      "मोमबत्ती",
+      "mombatti"
+    ],
+    "handmade soap": [
+      "haath ka sabun",
+      "हाथ का साबुन"
+    ],
+    "face wash": [
+      "muh dhone ka gel",
+      "फेस वॉश"
+    ],
+    "shampoo": [
+      "बाल धोने का शैम्पू",
+      "hair shampoo"
+    ],
+    "hair oil": [
+      "tel",
+      "तेल",
+      "kesh tel"
+    ],
+    "face cream": [
+      "mukh cream",
+      "चेहरा क्रीम"
+    ],
+    "lipstick": [
+      "lip stick",
+      "लिपस्टिक"
+    ],
+    "eyeliner": [
+      "काजल लाइनर",
+      "eye liner"
+    ],
+    "perfume": [
+      "itr",
+      "इत्र",
+      "attar"
+    ],
+    "deodorant": [
+      "deo",
+      "डियो"
+    ],
+    "led bulb": [
+      "एलईडी बल्ब",
+      "bulb led"
+    ],
+    "mobile charger": [
+      "charger",
+      "मोबाइल चार्जर"
+    ],
+    "earphones": [
+      "ear phone",
+      "इयरफोन"
+    ],
+    "power bank": [
+      "पावर बैंक",
+      "battery bank"
+    ],
+    "usb drive": [
+      "pen drive",
+      "पेन ड्राइव"
+    ],
+    "laptop": [
+      "notebook computer",
+      "लैपटॉप"
+    ],
+    "keyboard": [
+      "कीबोर्ड",
+      "key board"
+    ],
+    "mouse": [
+      "माउस",
+      "mouse device"
+    ],
+    "water purifier": [
+      "RO purifier",
+      "पानी शुद्धिकरण"
+    ],
+    "mixer grinder": [
+      "मिक्सर ग्राइंडर",
+      "mixie"
+    ],
+    "electric iron": [
+      "press",
+      "इलेक्ट्रिक प्रेस"
+    ],
+    "fan": [
+      "ceiling fan",
+      "पंखा"
+    ],
+    "furniture": [
+      "furnishing item",
+      "फर्नीचर"
+    ],
+    "wooden chair": [
+      "लकड़ी की कुर्सी",
+      "wood chair"
+    ],
+    "table": [
+      "टेबल",
+      "desk"
+    ],
+    "bookshelf": [
+      "book shelf",
+      "बुकशेल्फ"
+    ],
+    "wall art": [
+      "दीवार सजावट",
+      "wall decor"
+    ],
+    "painting": [
+      "चित्र",
+      "art painting"
+    ],
+    "photo frame": [
+      "फोटो फ्रेम",
+      "frame"
+    ],
+    "pottery": [
+      "मिट्टी बर्तन",
+      "ceramic pottery"
+    ],
+    "lantern": [
+      "लालटेन",
+      "lamp lantern"
+    ],
+    "notebook": [
+      "copy",
+      "कॉपी",
+      "notepad"
+    ],
+    "pen": [
+      "कलम",
+      "ball pen"
+    ],
+    "pencil": [
+      "पेन्सिल",
+      "pencil stick"
+    ],
+    "marker": [
+      "sketch pen",
+      "मार्कर"
+    ],
+    "adhesive": [
+      "glue",
+      "गोंद"
+    ],
+    "craft paper": [
+      "रंगीन कागज",
+      "art paper"
+    ],
+    "children book": [
+      "bachchon ki kitab",
+      "बच्चों की किताब"
+    ],
+    "exam guide": [
+      "guide book",
+      "तैयारी गाइड"
+    ],
+    "vegetable seeds": [
+      "sabzi beej",
+      "सब्जी बीज"
+    ],
+    "flower seeds": [
+      "phool beej",
+      "फूल बीज"
+    ],
+    "fertilizer": [
+      "khad",
+      "खाद"
+    ],
+    "organic fertilizer": [
+      "jaivik khad",
+      "जैविक खाद"
+    ],
+    "bio pesticide": [
+      "jeevanu nashak",
+      "बायो पेस्टिसाइड"
+    ],
+    "sprayer": [
+      "spray pump",
+      "स्प्रेयर"
+    ],
+    "compost": [
+      "compost khad",
+      "कम्पोस्ट"
+    ],
+    "cocopeat": [
+      "coco peat",
+      "कोकोपीट"
+    ],
+    "mulch film": [
+      "mulching sheet",
+      "मल्च फिल्म"
+    ],
+    "shade net": [
+      "green net",
+      "शेड नेट"
+    ],
+    "animal feed": [
+      "pashu aahar",
+      "पशु आहार"
+    ],
+    "coir mat": [
+      "narial coir mat",
+      "कॉयर मैट"
+    ],
+    "brass idol": [
+      "पीतल मूर्ति",
+      "brass murti"
+    ],
+    "wooden craft": [
+      "लकड़ी शिल्प",
+      "wood craft"
+    ],
+    "bamboo basket": [
+      "बांस टोकरी",
+      "cane basket"
+    ],
+    "gift hamper": [
+      "उपहार पैक",
+      "gift pack"
+    ],
+    "souvenir": [
+      "yaadgaar",
+      "यादगार"
+    ]
   }
 }

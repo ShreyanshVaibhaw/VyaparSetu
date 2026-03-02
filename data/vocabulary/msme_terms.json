@@ -1,3 +1,313 @@
 {
-  "terms": ["udyam", "gstin", "snp", "ondc", "hsn"]
+  "metadata": {
+    "version": "2026.03",
+    "description": "Structured MSME business and operational vocabulary for transcript normalization"
+  },
+  "business_terms": {
+    "enterprise": [
+      "udyam",
+      "udyog",
+      "उद्यम",
+      "karobar",
+      "व्यापार"
+    ],
+    "registration": [
+      "panjikaran",
+      "पंजीकरण",
+      "registration number"
+    ],
+    "turnover": [
+      "annual sales",
+      "bikri",
+      "बिक्री"
+    ],
+    "manufacturing": [
+      "nirman",
+      "निर्माण",
+      "utpadan",
+      "उत्पादन"
+    ],
+    "wholesale": [
+      "thok",
+      "थोक",
+      "bulk selling"
+    ],
+    "retail": [
+      "khudra",
+      "खुदरा",
+      "chhota dukaan"
+    ],
+    "catalog": [
+      "listing",
+      "product list",
+      "सूची"
+    ],
+    "category": [
+      "varg",
+      "श्रेणी"
+    ],
+    "classification": [
+      "mapping",
+      "वर्गीकरण"
+    ],
+    "onboarding": [
+      "registration flow",
+      "ऑनबोर्डिंग"
+    ],
+    "seller": [
+      "vikreta",
+      "विक्रेता"
+    ],
+    "buyer": [
+      "grahak",
+      "ग्राहक"
+    ],
+    "invoice": [
+      "bill",
+      "चालान"
+    ],
+    "payment": [
+      "bhugtan",
+      "भुगतान"
+    ],
+    "delivery": [
+      "supurdagi",
+      "डिलीवरी"
+    ],
+    "logistics": [
+      "transport",
+      "लॉजिस्टिक्स"
+    ],
+    "inventory": [
+      "stock",
+      "भंडार"
+    ],
+    "warehouse": [
+      "godown",
+      "गोदाम"
+    ],
+    "brand": [
+      "marka",
+      "ब्रांड"
+    ],
+    "quality": [
+      "gunvatta",
+      "गुणवत्ता"
+    ],
+    "compliance": [
+      "anupalan",
+      "अनुपालन"
+    ],
+    "audit": [
+      "inspection",
+      "लेखा जांच"
+    ],
+    "consent": [
+      "sahmati",
+      "सहमति"
+    ],
+    "policy": [
+      "rule",
+      "नीति"
+    ],
+    "analytics": [
+      "vishleshan",
+      "विश्लेषण"
+    ],
+    "dashboard": [
+      "control panel",
+      "प्रदर्श पटल"
+    ],
+    "marketplace": [
+      "bazaar",
+      "मार्केटप्लेस"
+    ],
+    "commission": [
+      "dalali",
+      "कमीशन"
+    ],
+    "subsidy": [
+      "grant",
+      "अनुदान"
+    ],
+    "loan": [
+      "rin",
+      "ऋण"
+    ],
+    "credit": [
+      "udhaar",
+      "उधार"
+    ],
+    "profit": [
+      "munafa",
+      "मुनाफा"
+    ],
+    "loss": [
+      "nuksan",
+      "नुकसान"
+    ],
+    "export": [
+      "niryaat",
+      "निर्यात"
+    ],
+    "import": [
+      "aayaat",
+      "आयात"
+    ],
+    "state": [
+      "rajya",
+      "राज्य"
+    ],
+    "district": [
+      "zilla",
+      "ज़िला"
+    ],
+    "pincode": [
+      "postal code",
+      "pin code"
+    ],
+    "certificate": [
+      "praman patra",
+      "प्रमाण पत्र"
+    ],
+    "verification": [
+      "satyaapan",
+      "सत्यापन"
+    ],
+    "application": [
+      "aavedan",
+      "आवेदन"
+    ],
+    "approval": [
+      "manzoori",
+      "मंजूरी"
+    ]
+  },
+  "measurement_units": {
+    "kilogram": [
+      "kg",
+      "kilo",
+      "किलो",
+      "किलोग्राम"
+    ],
+    "gram": [
+      "g",
+      "gm",
+      "ग्राम"
+    ],
+    "milligram": [
+      "mg",
+      "मिलीग्राम"
+    ],
+    "quintal": [
+      "qtl",
+      "क्विंटल"
+    ],
+    "ton": [
+      "tonne",
+      "टन"
+    ],
+    "piece": [
+      "pcs",
+      "nag",
+      "नग",
+      "adad",
+      "अदद"
+    ],
+    "dozen": [
+      "darjan",
+      "दर्जन",
+      "drz"
+    ],
+    "liter": [
+      "litre",
+      "ltr",
+      "लीटर"
+    ],
+    "milliliter": [
+      "ml",
+      "मिलीलीटर"
+    ],
+    "meter": [
+      "mtr",
+      "मीटर",
+      "m"
+    ],
+    "centimeter": [
+      "cm",
+      "सेमी"
+    ],
+    "millimeter": [
+      "mm",
+      "मिमी"
+    ],
+    "feet": [
+      "ft",
+      "फीट"
+    ],
+    "inch": [
+      "in",
+      "इंच"
+    ],
+    "pair": [
+      "pr",
+      "जोड़"
+    ],
+    "pack": [
+      "pkt",
+      "पैक"
+    ],
+    "box": [
+      "bx",
+      "डिब्बा"
+    ],
+    "set": [
+      "combo",
+      "सेट"
+    ],
+    "bundle": [
+      "lot",
+      "गट्ठा"
+    ],
+    "unit": [
+      "nos",
+      "number",
+      "इकाई"
+    ]
+  },
+  "common_errors": {
+    "pickle": [
+      "pikul",
+      "pikal",
+      "pikle"
+    ],
+    "business": [
+      "bijness",
+      "biznes"
+    ],
+    "category": [
+      "catagory",
+      "categry"
+    ],
+    "organic": [
+      "orgenik",
+      "arganik"
+    ],
+    "registration": [
+      "rejistration",
+      "ragistration"
+    ],
+    "inventory": [
+      "inwentry",
+      "invantory"
+    ],
+    "quantity": [
+      "quantitty",
+      "kwantity"
+    ],
+    "commission": [
+      "komission",
+      "commision"
+    ]
+  }
 }

@@ -57,6 +57,13 @@ class HSNMapper:
                 "confidence": 0.95,
                 "alternatives": [{"hsn_code": "2103", "description": "Sauces and preparations"}],
             }
+        if "cotton" in description:
+            return {
+                "hsn_code": "5208",
+                "description": "Woven fabrics of cotton",
+                "confidence": 0.9,
+                "alternatives": [{"hsn_code": "5209", "description": "Cotton fabrics, heavier weight"}],
+            }
 
         candidates: list[dict[str, Any]] = []
 

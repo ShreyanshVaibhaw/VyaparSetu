@@ -29,3 +29,4 @@ paddleocr>=2.7.0
 fuzzywuzzy>=0.18.0
 python-Levenshtein>=0.25.0
 joblib>=1.4.0
+qrcode[pil]>=7.4.2

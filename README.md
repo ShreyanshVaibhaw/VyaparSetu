@@ -16,6 +16,18 @@ Local (Windows PowerShell):
 Demo only:
 `python scripts/demo_flow.py`
 
+## Project Structure
+```text
+app.py                  # Streamlit entrypoint
+config.py               # Environment-driven configuration
+src/                    # Core application modules
+scripts/                # Data generation, evaluation, packaging utilities
+tests/                  # Automated test suite
+data/                   # Taxonomy, SNP, vocabulary, and synthetic datasets
+docs/competition/       # Competition prompts, guidelines, pitch deck, storyboard
+outputs/                # Generated runtime artifacts (gitignored)
+```
+
 ## Architecture
 ```text
 MSE -> Phone/Web -> VyaparSetu

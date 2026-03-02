@@ -89,7 +89,7 @@ def test_prompt6_synthetic_data_generation(synthetic_paths: dict[str, Path]) -> 
 
     assert mse_rows == 5000
     assert product_rows == 2000
-    assert funnel_rows == 60
+    assert funnel_rows == 216
     assert assignment_rows > 0
 
 

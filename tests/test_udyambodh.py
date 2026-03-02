@@ -136,12 +136,28 @@ def test_mock_data_generation_for_different_state_codes() -> None:
 def test_gst_validation_format_checking() -> None:
     """GST validator should parse valid IDs and reject malformed values."""
     validator = GSTValidator()
-    valid = validator.validate_gstin("08ABCDE1234F1Z5")
+    valid = validator.validate_gstin("29AABCU9603R1ZN")
     invalid = validator.validate_gstin("08ABCDE1234F1")
     assert valid["valid"] is True
-    assert valid["state_code"] == "08"
-    assert valid["state_name"] == "Rajasthan"
+    assert valid["state_code"] == "29"
+    assert valid["state_name"] == "Karnataka"
     assert invalid["valid"] is False
+
+
+def test_gstin_checksum_valid() -> None:
+    """Known valid GSTIN should pass checksum verification."""
+    validator = GSTValidator()
+    result = validator.validate_gstin("29AABCU9603R1ZN")
+    assert result["valid"] is True
+    assert result["error"] == ""
+
+
+def test_gstin_checksum_invalid() -> None:
+    """Tampered GSTIN checksum should be rejected explicitly."""
+    validator = GSTValidator()
+    result = validator.validate_gstin("29AABCU9603R1ZM")
+    assert result["valid"] is False
+    assert result["error"] == "GSTIN checksum mismatch"
 
 
 def test_auto_registration_pipeline_end_to_end() -> None:

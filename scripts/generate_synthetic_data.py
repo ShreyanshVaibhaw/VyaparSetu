@@ -17,16 +17,81 @@ random.seed(SEED)
 np.random.seed(SEED)
 
 STATE_DISTRICTS: dict[str, list[str]] = {
-    "Rajasthan": ["Jaipur", "Jodhpur", "Udaipur", "Kota", "Bikaner"],
-    "Tamil Nadu": ["Chennai", "Coimbatore", "Madurai", "Tiruppur", "Salem"],
-    "Maharashtra": ["Mumbai", "Pune", "Nashik", "Nagpur", "Aurangabad"],
-    "Uttar Pradesh": ["Lucknow", "Kanpur Nagar", "Varanasi", "Moradabad", "Agra"],
-    "West Bengal": ["Kolkata", "Howrah", "Siliguri", "Durgapur", "Asansol"],
-    "Karnataka": ["Bengaluru Urban", "Mysuru", "Hubballi", "Belagavi", "Mangaluru"],
-    "Gujarat": ["Ahmedabad", "Surat", "Rajkot", "Vadodara", "Bhavnagar"],
-    "Kerala": ["Ernakulam", "Kozhikode", "Thiruvananthapuram", "Thrissur", "Kottayam"],
-    "Madhya Pradesh": ["Indore", "Bhopal", "Gwalior", "Jabalpur", "Ujjain"],
-    "Haryana": ["Gurugram", "Faridabad", "Panipat", "Ambala", "Hisar"],
+    "Uttar Pradesh": ["Lucknow", "Kanpur Nagar", "Varanasi"],
+    "Maharashtra": ["Mumbai", "Pune", "Nagpur"],
+    "Bihar": ["Patna", "Gaya", "Muzaffarpur"],
+    "West Bengal": ["Kolkata", "Howrah", "Siliguri"],
+    "Madhya Pradesh": ["Indore", "Bhopal", "Jabalpur"],
+    "Tamil Nadu": ["Chennai", "Coimbatore", "Madurai"],
+    "Rajasthan": ["Jaipur", "Jodhpur", "Udaipur"],
+    "Karnataka": ["Bengaluru Urban", "Mysuru", "Belagavi"],
+    "Gujarat": ["Ahmedabad", "Surat", "Rajkot"],
+    "Andhra Pradesh": ["Visakhapatnam", "Vijayawada", "Tirupati"],
+    "Odisha": ["Khordha", "Cuttack", "Sambalpur"],
+    "Telangana": ["Hyderabad", "Warangal", "Nizamabad"],
+    "Kerala": ["Ernakulam", "Kozhikode", "Thiruvananthapuram"],
+    "Jharkhand": ["Ranchi", "Dhanbad", "Jamshedpur"],
+    "Assam": ["Kamrup Metro", "Dibrugarh", "Silchar"],
+    "Punjab": ["Ludhiana", "Amritsar", "Jalandhar"],
+    "Chhattisgarh": ["Raipur", "Bilaspur", "Durg"],
+    "Haryana": ["Gurugram", "Faridabad", "Panipat"],
+    "Delhi": ["New Delhi", "North West Delhi", "South East Delhi"],
+    "Jammu & Kashmir": ["Srinagar", "Jammu", "Anantnag"],
+    "Uttarakhand": ["Dehradun", "Haridwar", "Nainital"],
+    "Himachal Pradesh": ["Shimla", "Kangra", "Mandi"],
+    "Tripura": ["West Tripura", "Sepahijala", "Dhalai"],
+    "Meghalaya": ["East Khasi Hills", "Ri-Bhoi", "West Garo Hills"],
+    "Manipur": ["Imphal West", "Thoubal", "Churachandpur"],
+    "Nagaland": ["Kohima", "Dimapur", "Mokokchung"],
+    "Mizoram": ["Aizawl", "Lunglei", "Champhai"],
+    "Arunachal Pradesh": ["Itanagar", "Tawang", "Pasighat"],
+    "Goa": ["North Goa", "South Goa", "Mormugao"],
+    "Sikkim": ["East Sikkim", "West Sikkim", "South Sikkim"],
+    "Puducherry": ["Puducherry", "Karaikal", "Yanam"],
+    "Chandigarh": ["Chandigarh", "Industrial Area", "Manimajra"],
+    "Andaman & Nicobar": ["South Andaman", "North and Middle Andaman", "Nicobar"],
+    "Dadra & Nagar Haveli": ["Dadra and Nagar Haveli", "Daman", "Diu"],
+    "Lakshadweep": ["Kavaratti", "Agatti", "Minicoy"],
+    "Ladakh": ["Leh", "Kargil", "Nubra"],
+}
+
+STATE_PROBABILITIES = {
+    "Uttar Pradesh": 0.12,
+    "Maharashtra": 0.10,
+    "Bihar": 0.04,
+    "West Bengal": 0.06,
+    "Madhya Pradesh": 0.05,
+    "Tamil Nadu": 0.07,
+    "Rajasthan": 0.06,
+    "Karnataka": 0.06,
+    "Gujarat": 0.06,
+    "Andhra Pradesh": 0.04,
+    "Odisha": 0.03,
+    "Telangana": 0.03,
+    "Kerala": 0.04,
+    "Jharkhand": 0.02,
+    "Assam": 0.02,
+    "Punjab": 0.02,
+    "Chhattisgarh": 0.02,
+    "Haryana": 0.02,
+    "Delhi": 0.02,
+    "Jammu & Kashmir": 0.01,
+    "Uttarakhand": 0.01,
+    "Himachal Pradesh": 0.01,
+    "Tripura": 0.005,
+    "Meghalaya": 0.005,
+    "Manipur": 0.005,
+    "Nagaland": 0.005,
+    "Mizoram": 0.003,
+    "Arunachal Pradesh": 0.003,
+    "Goa": 0.005,
+    "Sikkim": 0.002,
+    "Puducherry": 0.002,
+    "Chandigarh": 0.002,
+    "Andaman & Nicobar": 0.001,
+    "Dadra & Nagar Haveli": 0.001,
+    "Lakshadweep": 0.001,
+    "Ladakh": 0.001,
 }
 
 STATE_CODES = {
@@ -40,6 +105,32 @@ STATE_CODES = {
     "Kerala": "KL",
     "Madhya Pradesh": "MP",
     "Haryana": "HR",
+    "Bihar": "BR",
+    "Odisha": "OD",
+    "Telangana": "TS",
+    "Andhra Pradesh": "AP",
+    "Assam": "AS",
+    "Punjab": "PB",
+    "Jharkhand": "JH",
+    "Chhattisgarh": "CT",
+    "Delhi": "DL",
+    "Jammu & Kashmir": "JK",
+    "Uttarakhand": "UK",
+    "Himachal Pradesh": "HP",
+    "Tripura": "TR",
+    "Meghalaya": "ML",
+    "Manipur": "MN",
+    "Nagaland": "NL",
+    "Mizoram": "MZ",
+    "Arunachal Pradesh": "AR",
+    "Goa": "GA",
+    "Sikkim": "SK",
+    "Puducherry": "PY",
+    "Chandigarh": "CH",
+    "Andaman & Nicobar": "AN",
+    "Dadra & Nagar Haveli": "DN",
+    "Lakshadweep": "LD",
+    "Ladakh": "LA",
 }
 
 SECTOR_DISTRIBUTION = {
@@ -67,7 +158,7 @@ SECTOR_META = {
     "handicrafts": {
         "nic": ("32", "32909", "Other manufacturing n.e.c.", "Manufacturing"),
         "category_l1": "Handicrafts & Handloom",
-        "products": ["Papier-mâché Decor", "Brass Lamp", "Wooden Craft", "Terracotta Pot"],
+        "products": ["Papier-mache Decor", "Brass Lamp", "Wooden Craft", "Terracotta Pot"],
     },
     "agriculture": {
         "nic": ("01", "01300", "Crop and animal production", "Manufacturing"),
@@ -99,23 +190,63 @@ SECTOR_META = {
 SOCIAL_CATEGORIES = ["General", "OBC", "SC", "ST", "Minority"]
 SOCIAL_PROBS = [0.40, 0.30, 0.15, 0.10, 0.05]
 
-LANG_BY_STATE = {
-    "Rajasthan": ["hi"],
-    "Tamil Nadu": ["ta", "en"],
-    "Maharashtra": ["mr", "hi", "en"],
+LANGUAGE_MAP = {
     "Uttar Pradesh": ["hi"],
+    "Maharashtra": ["mr", "hi", "en"],
+    "Bihar": ["hi"],
     "West Bengal": ["bn", "hi"],
+    "Madhya Pradesh": ["hi"],
+    "Tamil Nadu": ["ta", "en"],
+    "Rajasthan": ["hi"],
     "Karnataka": ["kn", "en"],
     "Gujarat": ["gu", "hi"],
-    "Kerala": ["en", "hi"],
-    "Madhya Pradesh": ["hi"],
+    "Andhra Pradesh": ["te", "en"],
+    "Odisha": ["or", "hi"],
+    "Telangana": ["te", "en"],
+    "Kerala": ["ml", "en"],
+    "Jharkhand": ["hi"],
+    "Assam": ["as", "hi"],
+    "Punjab": ["pa", "hi"],
+    "Chhattisgarh": ["hi"],
     "Haryana": ["hi", "en"],
+    "Delhi": ["hi", "en"],
+    "Jammu & Kashmir": ["hi", "ur", "en"],
+    "Uttarakhand": ["hi"],
+    "Himachal Pradesh": ["hi"],
+    "Tripura": ["bn", "hi"],
+    "Meghalaya": ["en", "hi"],
+    "Manipur": ["en", "hi"],
+    "Nagaland": ["en", "hi"],
+    "Mizoram": ["en", "hi"],
+    "Arunachal Pradesh": ["en", "hi"],
+    "Goa": ["en", "hi"],
+    "Sikkim": ["en", "hi"],
+    "Puducherry": ["ta", "en"],
+    "Chandigarh": ["hi", "en"],
+    "Andaman & Nicobar": ["hi", "en"],
+    "Dadra & Nagar Haveli": ["hi", "gu"],
+    "Lakshadweep": ["ml", "en"],
+    "Ladakh": ["hi", "en"],
 }
 
 
+def _normalized_state_weights(states: list[str]) -> list[float]:
+    raw = np.array([float(STATE_PROBABILITIES.get(state, 0.0)) for state in states], dtype=float)
+    total = float(raw.sum())
+    if total <= 0:
+        return [1.0 / len(states) for _ in states]
+    return (raw / total).tolist()
+
+
 def _district_tier(district: str) -> int:
-    tier1 = {"Jaipur", "Chennai", "Mumbai", "Lucknow", "Kolkata", "Bengaluru Urban", "Ahmedabad", "Ernakulam", "Indore", "Gurugram"}
-    tier2 = {"Jodhpur", "Coimbatore", "Pune", "Kanpur Nagar", "Howrah", "Mysuru", "Surat", "Kozhikode", "Bhopal", "Faridabad"}
+    tier1 = {
+        "Jaipur", "Chennai", "Mumbai", "Lucknow", "Kolkata", "Bengaluru Urban", "Ahmedabad", "Ernakulam",
+        "Indore", "Gurugram", "Patna", "Hyderabad", "Visakhapatnam", "New Delhi", "Pune", "Coimbatore",
+    }
+    tier2 = {
+        "Jodhpur", "Madurai", "Nagpur", "Kanpur Nagar", "Howrah", "Mysuru", "Surat", "Kozhikode", "Bhopal",
+        "Faridabad", "Cuttack", "Warangal", "Ludhiana", "Raipur", "Ranchi", "Srinagar", "Dehradun", "Shimla",
+    }
     if district in tier1:
         return 1
     if district in tier2:
@@ -126,14 +257,14 @@ def _district_tier(district: str) -> int:
 def generate_mse_profiles(n: int = 5000) -> pd.DataFrame:
     """Generate synthetic MSE profiles with realistic demographic and sector distribution."""
     states = list(STATE_DISTRICTS.keys())
-    state_choices = np.random.choice(states, size=n, replace=True)
+    probs = _normalized_state_weights(states)
+    state_choices = np.random.choice(states, size=n, replace=True, p=probs)
     sectors = np.random.choice(
         list(SECTOR_DISTRIBUTION.keys()),
         size=n,
         p=list(SECTOR_DISTRIBUTION.values()),
     )
 
-    # Exactly 50% women-owned.
     women_flags = np.array([True] * (n // 2) + [False] * (n - n // 2))
     np.random.shuffle(women_flags)
 
@@ -154,7 +285,7 @@ def generate_mse_profiles(n: int = 5000) -> pd.DataFrame:
         is_women_owned = bool(women_flags[idx])
         owner_gender = "Female" if is_women_owned else random.choice(["Male", "Male", "Other"])
         social_category = np.random.choice(SOCIAL_CATEGORIES, p=SOCIAL_PROBS)
-        language_preference = random.choice(LANG_BY_STATE[state])
+        language_preference = random.choice(LANGUAGE_MAP[state])
         enterprise_type = random.choice(["Micro", "Micro", "Small"])
 
         turnover = round(
@@ -167,7 +298,6 @@ def generate_mse_profiles(n: int = 5000) -> pd.DataFrame:
         )
 
         month = int(registration_month[idx])
-        # Inject onboarding patterns.
         base_catalog = 0.62 + (month - 1) * 0.05
         base_match = 0.70 + (month - 1) * 0.03
         base_live = 0.62 + (month - 1) * 0.04
@@ -294,18 +424,9 @@ def generate_onboarding_funnel(mse_profiles: pd.DataFrame, months: int = 6) -> p
         6: {"registered": 1200, "catalog_created": 950, "snp_matched": 780, "live": 600, "first_order": 380},
     }
 
-    state_weights = {
-        "Rajasthan": 0.13,
-        "Tamil Nadu": 0.10,
-        "Maharashtra": 0.12,
-        "Uttar Pradesh": 0.12,
-        "West Bengal": 0.09,
-        "Karnataka": 0.10,
-        "Gujarat": 0.10,
-        "Kerala": 0.08,
-        "Madhya Pradesh": 0.08,
-        "Haryana": 0.08,
-    }
+    states = list(STATE_DISTRICTS.keys())
+    weights = _normalized_state_weights(states)
+    state_weights = dict(zip(states, weights))
 
     rows: list[dict[str, Any]] = []
     for month in range(1, months + 1):
@@ -317,8 +438,7 @@ def generate_onboarding_funnel(mse_profiles: pd.DataFrame, months: int = 6) -> p
             live = int(round(target["live"] * weight))
             first = int(round(target["first_order"] * weight))
 
-            # Pattern adjustments.
-            if state in {"Tamil Nadu", "Karnataka", "Kerala"}:
+            if state in {"Tamil Nadu", "Karnataka", "Kerala", "Telangana"}:
                 cat = int(cat * 1.05)
                 live = int(live * 1.06)
             if state == "Rajasthan":
@@ -326,7 +446,7 @@ def generate_onboarding_funnel(mse_profiles: pd.DataFrame, months: int = 6) -> p
                 live = int(live * 0.88)
 
             women_registered = int(reg * 0.50)
-            women_catalog_created = int(cat * 0.45)  # Lower completion for women segment.
+            women_catalog_created = int(cat * 0.45)
 
             rows.append(
                 {

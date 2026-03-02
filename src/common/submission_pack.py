@@ -22,6 +22,10 @@ def _output_dir() -> Path:
     return _project_root() / "outputs" / "submission"
 
 
+def _model_evaluation_path() -> Path:
+    return _project_root() / "outputs" / "model_evaluation_report.json"
+
+
 def _safe_import_reference_validation() -> dict[str, bool]:
     try:
         from scripts.validate_reference_data import validate
@@ -83,10 +87,24 @@ def _runtime_snapshot() -> dict[str, Any]:
     }
 
 
+def _load_model_evaluation() -> dict[str, Any] | None:
+    path = _model_evaluation_path()
+    if not path.exists():
+        return None
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        if isinstance(payload, dict):
+            return payload
+    except Exception:
+        return None
+    return None
+
+
 def _score_readiness(
     reference_checks: dict[str, bool],
     demo_summary: dict[str, Any],
     security: dict[str, Any],
+    model_evaluation: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     ref_score = int(round(100 * (sum(1 for ok in reference_checks.values() if ok) / max(len(reference_checks), 1))))
     demo_ok = str(demo_summary.get("status", "")).lower() == "ok"
@@ -94,6 +112,17 @@ def _score_readiness(
     security_score = 100 if bool(security.get("admin_hash_configured")) else 70
 
     weighted = int(round(ref_score * 0.45 + demo_score * 0.35 + security_score * 0.20))
+    bonus_points = 0
+    if model_evaluation:
+        product = model_evaluation.get("product_classifier", {})
+        try:
+            product_accuracy = float(product.get("accuracy", 0.0))
+        except (TypeError, ValueError):
+            product_accuracy = 0.0
+        if product_accuracy >= 0.70:
+            bonus_points = 5
+
+    weighted = min(100, weighted + bonus_points)
     if weighted >= 90:
         band = "Submission-Ready"
     elif weighted >= 75:
@@ -105,6 +134,7 @@ def _score_readiness(
         "reference_data_score": ref_score,
         "demo_score": demo_score,
         "security_score": security_score,
+        "model_evaluation_bonus": bonus_points,
         "overall_score": weighted,
         "readiness_band": band,
     }
@@ -116,7 +146,14 @@ def _build_markdown(
     demo: dict[str, Any],
     security: dict[str, Any],
     score: dict[str, Any],
+    model_evaluation: dict[str, Any] | None = None,
 ) -> str:
+    def _to_float(value: Any, default: float = 0.0) -> float:
+        try:
+            return float(value)
+        except (TypeError, ValueError):
+            return default
+
     check_lines = "\n".join(
         f"- {'PASS' if ok else 'FAIL'}: `{name}`" for name, ok in checks.items()
     )
@@ -124,6 +161,22 @@ def _build_markdown(
     women_pct = scene4.get("women_percentage", "N/A")
     total_mses = scene4.get("total_mses", "N/A")
     total_products = scene4.get("total_products", "N/A")
+
+    model_perf_section = "## Model Performance\nRun `scripts/evaluate_models.py` to generate model metrics\n"
+    if model_evaluation:
+        product = model_evaluation.get("product_classifier", {})
+        business = model_evaluation.get("business_classifier", {})
+        snp = model_evaluation.get("snp_scorer", {})
+        product_acc_pct = _to_float(product.get("accuracy", 0.0)) * 100.0
+        model_perf_section = (
+            "## Model Performance\n"
+            f"- Product Classifier Accuracy: {product_acc_pct:.2f}%\n"
+            f"- Product Classifier Macro-F1: {_to_float(product.get('macro_f1', 0.0)):.4f}\n"
+            f"- Product Classifier Weighted-F1: {_to_float(product.get('weighted_f1', 0.0)):.4f}\n"
+            f"- Business Classifier Accuracy: {_to_float(business.get('accuracy', 0.0)) * 100.0:.2f}%\n"
+            f"- SNP Matcher Top-3 Accuracy: {_to_float(snp.get('top3_accuracy', 0.0)) * 100.0:.2f}%\n"
+            f"- SNP Matcher MRR: {_to_float(snp.get('mrr', 0.0)):.4f}\n"
+        )
 
     return (
         f"# {runtime['project_name']} Competition Submission Pack\n\n"
@@ -133,6 +186,7 @@ def _build_markdown(
         f"- Reference Data: `{score['reference_data_score']}`\n"
         f"- Demo Reliability: `{score['demo_score']}`\n"
         f"- Security Posture: `{score['security_score']}`\n\n"
+        f"{model_perf_section}\n"
         "## Core Evidence\n"
         f"- LLM Model: `{runtime['llm_model']}`\n"
         f"- Demo Status: `{demo.get('status', 'unknown')}`\n"
@@ -158,9 +212,10 @@ def generate_submission_pack() -> dict[str, Any]:
     reference_checks = _safe_import_reference_validation()
     demo_summary = _safe_import_demo_summary()
     security = _security_snapshot()
-    score = _score_readiness(reference_checks, demo_summary, security)
+    model_evaluation = _load_model_evaluation()
+    score = _score_readiness(reference_checks, demo_summary, security, model_evaluation)
 
-    report_md = _build_markdown(runtime, reference_checks, demo_summary, security, score)
+    report_md = _build_markdown(runtime, reference_checks, demo_summary, security, score, model_evaluation)
 
     overview_path = out_dir / "submission_overview.md"
     runtime_path = out_dir / "runtime_snapshot.json"
@@ -168,6 +223,7 @@ def generate_submission_pack() -> dict[str, Any]:
     demo_path = out_dir / "demo_summary.json"
     security_path = out_dir / "security_snapshot.json"
     score_path = out_dir / "readiness_score.json"
+    model_eval_path = _model_evaluation_path()
     zip_path = out_dir / "vyaparsetu_submission_pack.zip"
 
     overview_path.write_text(report_md, encoding="utf-8")
@@ -178,7 +234,10 @@ def generate_submission_pack() -> dict[str, Any]:
     score_path.write_text(json.dumps(score, indent=2, ensure_ascii=False), encoding="utf-8")
 
     with zipfile.ZipFile(zip_path, "w", compression=zipfile.ZIP_DEFLATED) as bundle:
-        for item in [overview_path, runtime_path, checks_path, demo_path, security_path, score_path]:
+        bundle_items = [overview_path, runtime_path, checks_path, demo_path, security_path, score_path]
+        if model_eval_path.exists():
+            bundle_items.append(model_eval_path)
+        for item in bundle_items:
             bundle.write(item, arcname=item.name)
 
     audit_event(
@@ -200,6 +259,6 @@ def generate_submission_pack() -> dict[str, Any]:
             str(demo_path),
             str(security_path),
             str(score_path),
-        ],
+        ] + ([str(model_eval_path)] if model_eval_path.exists() else []),
         "score": score,
     }

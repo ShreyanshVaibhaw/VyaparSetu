@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import subprocess
 import sys
 from pathlib import Path
 
@@ -15,6 +16,13 @@ from src.common.submission_pack import generate_submission_pack
 
 
 def main() -> int:
+    evaluate_script = Path(__file__).resolve().with_name("evaluate_models.py")
+    if evaluate_script.exists():
+        try:
+            subprocess.run([sys.executable, str(evaluate_script)], check=True)
+        except Exception as exc:
+            print(f"Warning: model evaluation generation failed and will be skipped: {exc}")
+
     result = generate_submission_pack()
     print("Submission Pack Summary")
     print(json.dumps(result, indent=2, ensure_ascii=False))
